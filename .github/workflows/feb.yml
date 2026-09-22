@@ -46,12 +46,18 @@ jobs:
           else
             python feb_scraper.py --comp all --season 2026 --jornada last
           fi
-      - name: Desar resultats al repositori
+            - name: Desar resultats al repositori
         if: always()
         run: |
           git config user.name "feb-bot"
           git config user.email "feb-bot@users.noreply.github.com"
-          git add data data-test 2>/dev/null || true
-          git diff --cached --quiet || git commit -m "Dades FEB $(date -u +%Y-%m-%d)"
-          git push || true
+          for d in data data-test; do
+            if [ -d "$d" ]; then git add "$d"; fi
+          done
+          if git diff --cached --quiet; then
+            echo "No hi ha dades noves per desar"
+          else
+            git commit -m "Dades FEB $(date -u +%Y-%m-%d)"
+            git push
+          fi
  
