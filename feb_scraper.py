@@ -195,11 +195,17 @@ def extract_game(page, gid, tries=2):
             page.goto(f"{BASE}/competiciones/partido/{gid}", wait_until="load", timeout=60000)
             # Esperem que les dues taules estiguin senceres: la fila de totals (200:00, o més amb pròrroga)
             # només apareix quan s'han pintat totes les jugadores.
-            page.wait_for_function(r"""()=>{const t=[...document.querySelectorAll('table')].slice(0,2);
+            box_complete = True
+            try:
+                page.wait_for_function(r"""()=>{const t=[...document.querySelectorAll('table')].slice(0,2);
                 if(t.length<2) return false;
                 return t.every(x=>[...x.querySelectorAll('tr')].some(r=>[...r.querySelectorAll('td')]
                   .some(c=>/^\d{3}:\d{2}$/.test(c.innerText.trim()))));}""", timeout=45000)
-            # i que el nombre de files no canviï durant mig segon
+            except PWTimeout:
+                box_complete = False
+                log(f"  {gid}: no apareix la fila de totals; llegeixo la taula tal com està")
+                page.wait_for_selector("table", timeout=20000)
+            # i esperem que el nombre de files deixi de créixer
             prev = -1
             for _ in range(20):
                 n = page.evaluate("()=>[...document.querySelectorAll('table')].slice(0,2).reduce((a,x)=>a+x.querySelectorAll('tr').length,0)")
@@ -230,7 +236,7 @@ def extract_game(page, gid, tries=2):
                     "checks": {"pbp_ok": pbp_ok, "pbp_points": pp, "pbp_events": len(raw),
                                "shots": len(shots), "fga": fga, "shots_ok": len(shots) == fga,
                                "shot_mismatch": mism, "shot_orphans": orphans,
-                               "rows_skipped": box.get("skipped", [])}}
+                               "rows_skipped": box.get("skipped", []), "box_complete": box_complete}}
             if pbp_ok or attempt == tries:
                 return game
             log(f"  {gid}: play-by-play incomplet, reintent")
