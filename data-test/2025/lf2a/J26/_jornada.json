@@ -1,0 +1,134 @@
+{
+ "comp": "lf2a",
+ "season": 2025,
+ "fase": "Liga Regular \"A\"",
+ "jornada": 26,
+ "jornada_text": "Jornada 26(18/04/2026)",
+ "data": "18/04/2026",
+ "ids": [
+  2479858,
+  2479859,
+  2479860,
+  2479861,
+  2479862,
+  2479863,
+  2479864
+ ],
+ "generated": "2026-09-23T09:40:15.349100+00:00",
+ "games": [
+  {
+   "id": 2479858,
+   "teams": [
+    "C. B. ISLA BONITA",
+    "MAGEC TÍAS LANZAROTE CONTRA LA VIOLENCIA DE GÉNERO"
+   ],
+   "score": [
+    58,
+    67
+   ],
+   "error": null,
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
+  },
+  {
+   "id": 2479859,
+   "teams": [
+    "CB CLARET BENIMACLET",
+    "SPAR GRAN CANARIA"
+   ],
+   "score": [
+    69,
+    45
+   ],
+   "error": null,
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
+  },
+  {
+   "id": 2479860,
+   "teams": [
+    "GEIEG PACISA",
+    "DISHELEC 65 VILADECANS"
+   ],
+   "score": [
+    74,
+    36
+   ],
+   "error": null,
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
+  },
+  {
+   "id": 2479861,
+   "teams": [
+    "ESCO GRUPO FEMENINO ALCORCON",
+    "EL PLANTEL GMASB"
+   ],
+   "score": [
+    71,
+    45
+   ],
+   "error": null,
+   "pbp_ok": false,
+   "shots_ok": false,
+   "shot_mismatch": [],
+   "shot_orphans": [
+    "t1|24:12"
+   ]
+  },
+  {
+   "id": 2479862,
+   "teams": [
+    "CESUR DISTRITO OLIMPICO",
+    "SEGLE XXI"
+   ],
+   "score": [
+    62,
+    71
+   ],
+   "error": null,
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
+  },
+  {
+   "id": 2479863,
+   "teams": [
+    "DPES CB CIUDAD DE MOSTOLES",
+    "BASKET ALMEDA"
+   ],
+   "score": [
+    65,
+    66
+   ],
+   "error": null,
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
+  },
+  {
+   "id": 2479864,
+   "teams": [
+    "HIERROS DÍAZ EXTREMADURA MIRALVALLE",
+    "ELSAMEX CB ANDRATX"
+   ],
+   "score": [
+    55,
+    47
+   ],
+   "error": null,
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
+  }
+ ]
+}
