@@ -193,7 +193,19 @@ def extract_game(page, gid, tries=2):
     for attempt in range(1, tries + 1):
         try:
             page.goto(f"{BASE}/competiciones/partido/{gid}", wait_until="load", timeout=60000)
-            page.wait_for_function("()=>{const t=document.querySelectorAll('table');return t.length>=2&&t[1].querySelectorAll('tr').length>3}", timeout=40000)
+            # Esperem que les dues taules estiguin senceres: la fila de totals (200:00, o més amb pròrroga)
+            # només apareix quan s'han pintat totes les jugadores.
+            page.wait_for_function(r"""()=>{const t=[...document.querySelectorAll('table')].slice(0,2);
+                if(t.length<2) return false;
+                return t.every(x=>[...x.querySelectorAll('tr')].some(r=>[...r.querySelectorAll('td')]
+                  .some(c=>/^\d{3}:\d{2}$/.test(c.innerText.trim()))));}""", timeout=45000)
+            # i que el nombre de files no canviï durant mig segon
+            prev = -1
+            for _ in range(20):
+                n = page.evaluate("()=>[...document.querySelectorAll('table')].slice(0,2).reduce((a,x)=>a+x.querySelectorAll('tr').length,0)")
+                if n == prev: break
+                prev = n
+                time.sleep(0.5)
             box = page.evaluate(JS_BOX)
             players = [parse_player(p) for p in box["players"]]
             teams = [norm_team(t) for t in box["teams"]]
