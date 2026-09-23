@@ -104,28 +104,41 @@ def list_games(page, comp, season, jornada):
             "data": date_txt.group(1) if date_txt else None, "ids": sorted(ids)}
 
 # ---------------------------------------------------------------- extracció d'un partit
-JS_BOX = r"""()=>{
- const tbs=[...document.querySelectorAll('table')].slice(0,2);
+JS_BOX = """()=>{
  const teams=[...document.querySelectorAll('h1,h2,h3,h4')].map(h=>h.innerText.trim())
    .filter(x=>x&&!/loading|cookies|Personalizar|preferencias/i.test(x)).slice(0,2);
+ const WS=[' ',String.fromCharCode(160),String.fromCharCode(9),String.fromCharCode(10),String.fromCharCode(13)];
+ const clean=s=>{s=(s||''); for(const w of WS) s=s.split(w).join(' '); return s.split(' ').filter(Boolean).join(' ');};
  const lab=[...document.querySelectorAll('.label')].find(e=>/Fecha/.test(e.textContent));
- const fecha=lab?lab.parentElement.textContent.replace(/\s+/g,' ').replace('Fecha','').trim():'';
- const q=[...document.querySelectorAll('span.cuarto')].map(e=>e.nextElementSibling?.textContent.trim()).filter(Boolean);
- const players=[]; const skipped=[];
- const isMin=v=>/^\d{1,3}:\d{2}$/.test(v);
- const isDorsal=v=>/^\d{1,3}$/.test(v);
- tbs.forEach((t,ti)=>[...t.querySelectorAll('tr')].forEach(tr=>{
-   const c=[...tr.querySelectorAll('td')].map(x=>x.innerText.replace(/\u00a0/g,' ').trim());
-   if(c.length<21) return;                       // capçaleres i files incompletes
-   // Ancorem a la cel·la de minuts: així no depenem que les columnes de l'esquerra siguin sempre les mateixes
-   const m=c.findIndex((v,i)=>i>=2&&isMin(v));
-   if(m<2||c.length-m<19){ if(c.some(isDorsal)&&c.some(x=>/[A-Za-zÀ-ÿ]{3}/.test(x))) skipped.push(c.slice(0,6)); return; }
-   const dorsal=c[m-2], name=c[m-1];
-   if(!isDorsal(dorsal)||!/[A-Za-zÀ-ÿ]{3}/.test(name)){          // la fila de totals no té dorsal ni nom
-     if(c.some(x=>/[A-Za-zÀ-ÿ]{3}/.test(x))) skipped.push(c.slice(0,6));
-     return; }
-   players.push({team:ti,starter:(c[m-3]||'').includes('*'),dorsal,name,min:c[m],cols:c.slice(m+1,m+19)});}));
- return {teams,fecha,quarters:q.slice(0,q.length/2),players,skipped};}"""
+ const fecha=lab?clean(lab.parentElement.textContent).replace('Fecha','').trim():'';
+ const q=[...document.querySelectorAll('span.cuarto')].map(e=>clean(e.nextElementSibling?.textContent)).filter(Boolean);
+ const isMin=v=>/^[0-9]{1,3}:[0-9]{2}$/.test(v), isDorsal=v=>/^[0-9]{1,3}$/.test(v), hasName=v=>/[A-Za-zÀ-ÿ]{3}/.test(v);
+ // Una acta pot tenir diverses còpies de la mateixa taula (escriptori i versió reduïda) i
+ // alguna pot estar incompleta: llegim totes i ens quedem amb la més completa de cada equip.
+ const parse=tb=>{const rows=[],skipped=[];
+   [...tb.querySelectorAll('tr')].forEach(tr=>{
+     const c=[...tr.querySelectorAll('td')].map(x=>clean(x.innerText));
+     if(c.length<21) return;
+     const m=c.findIndex((v,i)=>i>=2&&isMin(v));      // ancoratge: la cel·la de minuts
+     if(m<2||c.length-m<19) return;
+     const dorsal=c[m-2], name=c[m-1];
+     if(!isDorsal(dorsal)||!hasName(name)){ if(c.some(hasName)) skipped.push(c.slice(0,6)); return; }
+     rows.push({starter:(c[m-3]||'').indexOf('*')>=0,dorsal,name,min:c[m],cols:c.slice(m+1,m+19)});});
+   return {rows,skipped};};
+ const cand=[...document.querySelectorAll('table')].map((tb,i)=>({i,...parse(tb)})).filter(x=>x.rows.length);
+ // Empremta d'una fila: dorsal, minuts i punts (els noms varien entre còpies).
+ const key=r=>r.dorsal+'|'+r.min+'|'+r.cols[0];
+ const chosen=[];
+ [...cand].sort((a,b)=>b.rows.length-a.rows.length).forEach(c=>{
+   if(chosen.length===2) return;
+   const ks=new Set(c.rows.map(key));
+   const same=chosen.some(o=>{const inter=o.rows.filter(r=>ks.has(key(r))).length;
+     return inter>=Math.min(o.rows.length,ks.size)*0.5;});
+   if(!same) chosen.push(c);});
+ chosen.sort((a,b)=>a.i-b.i);
+ const players=[]; let skipped=[];
+ chosen.forEach((c,ti)=>{c.rows.forEach(r=>players.push({team:ti,...r})); skipped=skipped.concat(c.skipped);});
+ return {teams,fecha,quarters:q.slice(0,q.length/2),players,skipped,tables:cand.map(c=>c.rows.length)};}"""
 
 COLS = ["PT","T2","T3","TC","TL","RO","RD","RT","AS","BR","BP","TF","TCo","MT","FC","FR","VAL","PM"]
 
@@ -197,18 +210,17 @@ def extract_game(page, gid, tries=2):
             # només apareix quan s'han pintat totes les jugadores.
             box_complete = True
             try:
-                page.wait_for_function(r"""()=>{const t=[...document.querySelectorAll('table')].slice(0,2);
-                if(t.length<2) return false;
-                return t.every(x=>[...x.querySelectorAll('tr')].some(r=>[...r.querySelectorAll('td')]
-                  .some(c=>/^\d{3}:\d{2}$/.test(c.innerText.trim()))));}""", timeout=45000)
+                page.wait_for_function("""()=>{const t=[...document.querySelectorAll('table')];
+                  const ok=x=>[...x.querySelectorAll('tr')].some(r=>[...r.querySelectorAll('td')]
+                    .some(c=>/^[0-9]{3}:[0-9]{2}$/.test(c.innerText.trim())));
+                  return t.filter(ok).length>=2;}""", timeout=45000)
             except PWTimeout:
                 box_complete = False
                 log(f"  {gid}: no apareix la fila de totals; llegeixo la taula tal com està")
-                page.wait_for_selector("table", timeout=20000)
-            # i esperem que el nombre de files deixi de créixer
+                page.wait_for_selector("table", state="attached", timeout=20000)
             prev = -1
             for _ in range(20):
-                n = page.evaluate("()=>[...document.querySelectorAll('table')].slice(0,2).reduce((a,x)=>a+x.querySelectorAll('tr').length,0)")
+                n = page.evaluate("()=>[...document.querySelectorAll('table')].reduce((a,x)=>a+x.querySelectorAll('tr').length,0)")
                 if n == prev: break
                 prev = n
                 time.sleep(0.5)
@@ -236,7 +248,8 @@ def extract_game(page, gid, tries=2):
                     "checks": {"pbp_ok": pbp_ok, "pbp_points": pp, "pbp_events": len(raw),
                                "shots": len(shots), "fga": fga, "shots_ok": len(shots) == fga,
                                "shot_mismatch": mism, "shot_orphans": orphans,
-                               "rows_skipped": box.get("skipped", []), "box_complete": box_complete}}
+                               "rows_skipped": box.get("skipped", []), "box_complete": box_complete,
+                               "tables": box.get("tables", [])}}
             if pbp_ok or attempt == tries:
                 return game
             log(f"  {gid}: play-by-play incomplet, reintent")
