@@ -1,5 +1,5 @@
 name: Dades FEB setmanals
- 
+
 on:
   schedule:
     - cron: "0 5 * * 1"   # dilluns a les 5:00 UTC (7:00 a l'estiu, 6:00 a l'hivern)
@@ -20,10 +20,10 @@ on:
       jornada:
         description: "Número de jornada o 'last'"
         default: "last"
- 
+
 permissions:
   contents: write
- 
+
 jobs:
   extract:
     runs-on: ubuntu-latest
@@ -46,18 +46,23 @@ jobs:
           else
             python feb_scraper.py --comp all --season 2026 --jornada last
           fi
+      - name: Calcular mètriques i full mestre
+        if: always()
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.mode }}" = "test" ]; then
+            python analitza.py --comp lf2a --season 2025 --jornada 26 --data data-test --out proves
+          elif [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            python analitza.py --comp "${{ inputs.comp }}" --season "${{ inputs.season }}" --jornada "${{ inputs.jornada }}"
+          else
+            python analitza.py --comp all --season 2026 --jornada last
+          fi
+
       - name: Desar resultats al repositori
         if: always()
         run: |
           git config user.name "feb-bot"
           git config user.email "feb-bot@users.noreply.github.com"
-          for d in data data-test; do
-            if [ -d "$d" ]; then git add "$d"; fi
-          done
-          if git diff --cached --quiet; then
-            echo "No hi ha dades noves per desar"
-          else
-            git commit -m "Dades FEB $(date -u +%Y-%m-%d)"
-            git push
-          fi
+          git add data data-test 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "Dades FEB $(date -u +%Y-%m-%d)"
+          git push || true
  
