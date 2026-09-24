@@ -202,9 +202,15 @@ def pbp_points(raw):
         pts[team] = pts.get(team, 0) + p
     return pts
 
-def extract_game(page, gid, tries=2):
+# Algunes actes només publiquen la taula sencera a partir d'una certa amplada de finestra:
+# si el recompte no quadra, ho reintentem amb una finestra més gran.
+VIEWPORTS = [(1680, 1050), (1920, 1200), (1366, 900)]
+
+def extract_game(page, gid, tries=3):
     for attempt in range(1, tries + 1):
         try:
+            vw, vh = VIEWPORTS[min(attempt - 1, len(VIEWPORTS) - 1)]
+            page.set_viewport_size({"width": vw, "height": vh})
             page.goto(f"{BASE}/competiciones/partido/{gid}", wait_until="load", timeout=60000)
             # Esperem que les dues taules estiguin senceres: la fila de totals (200:00, o més amb pròrroga)
             # només apareix quan s'han pintat totes les jugadores.
@@ -250,9 +256,11 @@ def extract_game(page, gid, tries=2):
                                "shot_mismatch": mism, "shot_orphans": orphans,
                                "rows_skipped": box.get("skipped", []), "box_complete": box_complete,
                                "tables": box.get("tables", [])}}
-            if pbp_ok or attempt == tries:
+            game["checks"]["viewport"] = [vw, vh]
+            if (pbp_ok and not orphans) or attempt == tries:
                 return game
-            log(f"  {gid}: play-by-play incomplet, reintent")
+            log(f"  {gid}: l'acta no quadra amb el play-by-play "
+                f"(acta {box_pts}, play-by-play {pp}); reintent amb una finestra més gran")
         except PWTimeout as e:
             log(f"  {gid}: temps d'espera esgotat ({attempt}/{tries}): {e}")
             if attempt == tries:
