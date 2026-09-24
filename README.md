@@ -54,3 +54,19 @@ python feb_scraper.py --test
 ```
 
 i programar-lo amb el Programador de tasques de Windows.
+
+## Què genera
+
+- `data/<temporada>/<competició>/J<nn>/` — un JSON per partit (acta, play-by-play i tirs) i `_jornada.json` amb el control de qualitat.
+- `fulls/full_mestre_<competició>_<temporada>.xlsx` — el full mestre, refet des de zero cada setmana amb totes les jornades: Partits, Equips, Jugadores, Quintets, Parelles, Trios, Tirs i Paràmetres.
+- `resums/<temporada>_<competició>_J<nn>.json` — el destacat de la jornada: desviacions respecte a la mitjana de cada equip, sorpreses, ratxes (10+ punts o 8-9 amb temps mort del rival), actuacions individuals comparades amb la mitjana de cada jugadora, quintets i finals ajustats.
+
+Aquest últim fitxer és el que llegeixo jo per escriure el resum setmanal: ja porta la feina de càlcul feta.
+
+## Executar només els càlculs
+
+Si les dades ja hi són i només vols refer els fulls:
+
+```
+python analitza.py --comp lf2a --season 2026 --jornada last
+```
