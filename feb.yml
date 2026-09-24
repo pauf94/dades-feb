@@ -46,6 +46,17 @@ jobs:
           else
             python feb_scraper.py --comp all --season 2026 --jornada last
           fi
+      - name: Calcular mètriques i full mestre
+        if: always()
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.mode }}" = "test" ]; then
+            python analitza.py --comp lf2a --season 2025 --jornada 26 --data data-test --out proves
+          elif [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            python analitza.py --comp "${{ inputs.comp }}" --season "${{ inputs.season }}" --jornada "${{ inputs.jornada }}"
+          else
+            python analitza.py --comp all --season 2026 --jornada last
+          fi
+
       - name: Desar resultats al repositori
         if: always()
         run: |
