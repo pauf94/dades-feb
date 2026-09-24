@@ -111,7 +111,8 @@ JS_BOX = """()=>{
  const clean=s=>{s=(s||''); for(const w of WS) s=s.split(w).join(' '); return s.split(' ').filter(Boolean).join(' ');};
  const lab=[...document.querySelectorAll('.label')].find(e=>/Fecha/.test(e.textContent));
  const fecha=lab?clean(lab.parentElement.textContent).replace('Fecha','').trim():'';
- const q=[...document.querySelectorAll('span.cuarto')].map(e=>clean(e.nextElementSibling?.textContent)).filter(Boolean);
+ const isScore=v=>{const p=(v||'').split('/'); return p.length===2 && p.every(x=>x.length>0 && /^[0-9]+$/.test(x));};
+ const q=[...document.querySelectorAll('span.cuarto')].map(e=>clean(e.nextElementSibling?.textContent)).filter(isScore);
  const isMin=v=>/^[0-9]{1,3}:[0-9]{2}$/.test(v), isDorsal=v=>/^[0-9]{1,3}$/.test(v), hasName=v=>/[A-Za-zÀ-ÿ]{3}/.test(v);
  // Una acta pot tenir diverses còpies de la mateixa taula (escriptori i versió reduïda) i
  // alguna pot estar incompleta: llegim totes i ens quedem amb la més completa de cada equip.
@@ -214,22 +215,27 @@ def extract_game(page, gid, tries=3):
             page.goto(f"{BASE}/competiciones/partido/{gid}", wait_until="load", timeout=60000)
             # Esperem que les dues taules estiguin senceres: la fila de totals (200:00, o més amb pròrroga)
             # només apareix quan s'han pintat totes les jugadores.
-            box_complete = True
-            try:
-                page.wait_for_function("""()=>{const t=[...document.querySelectorAll('table')];
-                  const ok=x=>[...x.querySelectorAll('tr')].some(r=>[...r.querySelectorAll('td')]
-                    .some(c=>/^[0-9]{3}:[0-9]{2}$/.test(c.innerText.trim())));
-                  return t.filter(ok).length>=2;}""", timeout=45000)
-            except PWTimeout:
-                box_complete = False
-                log(f"  {gid}: no apareix la fila de totals; llegeixo la taula tal com està")
-                page.wait_for_selector("table", state="attached", timeout=20000)
-            prev = -1
-            for _ in range(20):
-                n = page.evaluate("()=>[...document.querySelectorAll('table')].reduce((a,x)=>a+x.querySelectorAll('tr').length,0)")
-                if n == prev: break
-                prev = n
+            # La pàgina pinta primer les taules reduïdes i després hi afegeix les completes.
+            # Esperem que deixin d'aparèixer taules i files noves durant 3 segons seguits.
+            box_complete = False
+            snap, stable = None, 0
+            for _ in range(80):                      # fins a ~40 s
+                cur = page.evaluate("""()=>{const t=[...document.querySelectorAll('table')];
+                  const isMin=v=>/^[0-9]{1,3}:[0-9]{2}$/.test(v);
+                  const pl=x=>[...x.querySelectorAll('tr')].filter(r=>{const c=[...r.querySelectorAll('td')];
+                    return c.length>=21 && c.some((y,i)=>i>=2&&isMin(y.innerText.trim()));}).length;
+                  const counts=t.map(pl).filter(n=>n>0);
+                  return {tables:counts.length, rows:counts.reduce((a,b)=>a+b,0)};}""")
+                if cur == snap:
+                    stable += 1
+                    if stable >= 6 and cur["tables"] >= 2:
+                        box_complete = True
+                        break
+                else:
+                    snap, stable = cur, 0
                 time.sleep(0.5)
+            if not box_complete:
+                log(f"  {gid}: la pàgina no s'acaba d'estabilitzar ({snap}); llegeixo el que hi ha")
             box = page.evaluate(JS_BOX)
             players = [parse_player(p) for p in box["players"]]
             teams = [norm_team(t) for t in box["teams"]]
@@ -248,7 +254,12 @@ def extract_game(page, gid, tries=3):
             fga_p = lambda p: p.get("T2I", 0) + p.get("T3I", 0)
             mism = [f'{p["name"]} {by.get(k,0)}/{fga_p(p)}' for k, p in pl_keys.items() if by.get(k, 0) != fga_p(p)]
             orphans = [f"t{k[0]}|{k[1]}:{n}" for k, n in by.items() if k not in pl_keys]
-            game = {"id": gid, "teams": teams, "teams_raw": box["teams"], "date": box["fecha"],
+            fecha_raw = (box["fecha"] or "").strip()
+            mdate = re.search(r"(\d{1,2})[-/](\d{1,2})[-/](\d{4})", fecha_raw)
+            mtime = re.search(r"(\d{1,2}:\d{2})", fecha_raw)
+            date_txt = f"{int(mdate.group(1)):02d}/{int(mdate.group(2)):02d}/{mdate.group(3)}" if mdate else ""
+            game = {"id": gid, "teams": teams, "teams_raw": box["teams"],
+                    "date": date_txt, "time": mtime.group(1) if mtime else "", "date_raw": fecha_raw,
                     "quarters": box["quarters"], "score": box_pts, "players": players,
                     "pbp": raw, "shots": shots,
                     "checks": {"pbp_ok": pbp_ok, "pbp_points": pp, "pbp_events": len(raw),
