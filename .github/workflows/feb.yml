@@ -50,7 +50,7 @@ jobs:
         if: always()
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.mode }}" = "test" ]; then
-            python analitza.py --comp lf2a --season 2025 --jornada 26 --data data-test --out proves
+            python analitza.py --comp lf2a --season 2025 --jornada 26 --data data-test --out .
           elif [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             python analitza.py --comp "${{ inputs.comp }}" --season "${{ inputs.season }}" --jornada "${{ inputs.jornada }}"
           else
