@@ -1,0 +1,14 @@
+{
+ "competicions": [
+  {
+   "comp": "lf2a",
+   "season": 2025,
+   "nom": "LF-2 grup A",
+   "fitxer": "data/2025_lf2a.json",
+   "jornades": [
+    26
+   ],
+   "generat": "2026-09-27T08:13:23"
+  }
+ ]
+}
