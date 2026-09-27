@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Competicions femenines FEB · tauler</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#EDF0F4;--panel:#fff;--ink:#16202E;--muted:#5B6676;--rule:#D3D9E0;--hot:#C62F3B;--cold:#2B5EA6;--flat:#8A93A0;
+ --chip:#E7ECF2;--accent:#123C69;color-scheme:light dark;
+ box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0E131A;--panel:#161D27;--ink:#E3E9F0;--muted:#98A3B2;--rule:#28313D;--chip:#1E2733;--accent:#8FB6E8}}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 15px/1.5 Barlow,system-ui,sans-serif}
+header{background:var(--panel);border-bottom:1px solid var(--rule);position:sticky;top:0;z-index:5;padding:10px 16px calc(10px + env(safe-area-inset-top,0px))}
+.hrow{max-width:1200px;margin:0 auto;display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center}
+h1{font:700 22px/1 "Barlow Condensed",sans-serif;margin:0 10px 0 0;letter-spacing:.02em}
+select{font:600 15px Barlow,sans-serif;padding:7px 9px;border-radius:8px;border:1px solid var(--rule);background:var(--panel);color:var(--ink)}
+.tabs{display:flex;gap:6px;margin-left:auto}
+.tabs button{all:unset;cursor:pointer;padding:7px 14px;border-radius:999px;font-weight:600;font-size:14px;color:var(--muted)}
+.tabs button[aria-selected="true"]{background:var(--accent);color:#fff}
+main{max-width:1200px;margin:0 auto;padding:18px 16px 60px}
+.card{background:var(--panel);border:1px solid var(--rule);border-radius:12px;padding:16px 18px;margin-bottom:16px}
+h2{font:700 20px/1.2 "Barlow Condensed",sans-serif;margin:0 0 10px;letter-spacing:.02em}
+h3{font:600 15px/1.2 Barlow,sans-serif;margin:16px 0 6px;color:var(--muted)}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{padding:6px 8px;border-bottom:1px solid var(--rule);text-align:right;white-space:nowrap}
+th:first-child,td:first-child,th.l,td.l{text-align:left}
+th{font-size:12.5px;color:var(--muted);font-weight:600;cursor:pointer;user-select:none;position:sticky;top:0;background:var(--panel)}
+th.sorted::after{content:" ↓";color:var(--accent)}
+th.asc::after{content:" ↑"}
+tbody tr:hover{background:var(--chip)}
+.scroll{overflow-x:auto}
+.games{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:12px}
+.game{border:1px solid var(--rule);border-radius:10px;padding:12px 14px}
+.sc{display:flex;justify-content:space-between;align-items:baseline;gap:8px;font:700 17px "Barlow Condensed",sans-serif}
+.sc .w{color:var(--accent)}
+.mini{display:grid;grid-template-columns:repeat(4,1fr);gap:4px;margin-top:8px;font-size:12.5px;color:var(--muted)}
+.mini b{display:block;color:var(--ink);font:600 15px Barlow,sans-serif}
+.tag{display:inline-block;background:var(--chip);border-radius:6px;padding:1px 7px;font-size:12px;margin:2px 4px 0 0}
+.filters{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:10px;font-size:14px;color:var(--muted)}
+input[type=search],input[type=number]{font:400 14px Barlow,sans-serif;padding:6px 9px;border-radius:8px;border:1px solid var(--rule);background:var(--panel);color:var(--ink)}
+.empty{color:var(--muted);font-style:italic}
+.court{display:grid;grid-template-columns:repeat(3,1fr);gap:4px;max-width:320px;margin-top:8px}
+.zone{border-radius:6px;padding:6px 4px;text-align:center;font-size:12px;color:#fff}
+.zone small{display:block;opacity:.85}
+footer{max-width:1200px;margin:0 auto;padding:0 16px 40px;color:var(--muted);font-size:13px}
+@media (max-width:640px){.tabs{width:100%;margin-left:0}.mini{grid-template-columns:repeat(2,1fr)}}
+</style>
+</head>
+<body>
+<header><div class="hrow">
+  <h1>Competicions femenines FEB</h1>
+  <select id="comp" aria-label="Competició"></select>
+  <select id="jor" aria-label="Jornada"></select>
+  <div class="tabs" role="tablist">
+    <button role="tab" data-v="jornada" aria-selected="true">Jornada</button>
+    <button role="tab" data-v="equips" aria-selected="false">Equips</button>
+    <button role="tab" data-v="jugadores" aria-selected="false">Jugadores</button>
+  </div>
+</div></header>
+<main id="main"><p class="empty">Carregant…</p></main>
+<footer id="foot"></footer>
+<script>
+const $=s=>document.querySelector(s), M=$('#main');
+const pct=v=>(100*v).toFixed(1).replace('.',',')+'%';
+const n2=v=>v.toFixed(2).replace('.',','), n1=v=>v.toFixed(1).replace('.',',');
+const nom=t=>t.replace(/HIERROS DÍAZ EXTREMADURA |ESCO GRUPO FEMENINO |DPES CB CIUDAD DE |DISHELEC 65 |ELSAMEX CB |EL PLANTEL |CESUR |C\. B\. |CB /g,'')
+  .replace('MAGEC TÍAS LANZAROTE CONTRA LA VIOLENCIA DE GÉNERO','MAGEC TÍAS')
+  .split(' ').map(w=>w.length>2?w[0]+w.slice(1).toLowerCase():w).join(' ');
+const ZONES=[['T_CE','Cant. esq.'],['T_AE','45° esq.'],['T_F','Triple frontal'],['T_AD','45° dta.'],['T_CD','Cant. dta.'],
+ ['M_BE','Mitja fons esq.'],['M_AE','Mitja 45° esq.'],['M_F','Mitja frontal'],['M_AD','Mitja 45° dta.'],['M_BD','Mitja fons dta.'],
+ ['Z','Zona'],['R',"Sota l'anella"]];
+let DATA=null, IDX=null, view='jornada', jor=null, sortState={};
+
+function colour(v, mu, sd, inv){ if(sd===0||v==null) return 'var(--flat)';
+  let z=(v-mu)/sd; if(inv) z=-z; if(z>=1) return 'var(--hot)'; if(z<=-1) return 'var(--cold)'; return 'var(--flat)';}
+function stats(arr){const m=arr.reduce((a,b)=>a+b,0)/arr.length;
+  const sd=Math.sqrt(arr.reduce((a,b)=>a+(b-m)**2,0)/Math.max(arr.length-1,1)); return [m,sd];}
+
+function table(rows, cols, key, opts={}){
+  const st=sortState[key]||{c:opts.sort||cols[1][0],asc:false};
+  const col=cols.find(c=>c[0]===st.c)||cols[1];
+  rows=[...rows].sort((a,b)=>{const x=a[col[0]],y=b[col[0]];
+    const r=typeof x==='string'?String(x).localeCompare(String(y)):(x-y); return st.asc?r:-r;});
+  const sd={}; cols.forEach(c=>{if(c[2]&&c[2]!=='txt'){const v=rows.map(r=>r[c[0]]).filter(x=>typeof x==='number'); if(v.length>1) sd[c[0]]=stats(v);}});
+  const fmt=(c,v)=>c[2]==='pct'?pct(v):c[2]==='n2'?n2(v):c[2]==='n1'?n1(v):v;
+  const h=`<thead><tr>${cols.map(c=>`<th data-c="${c[0]}" class="${c[3]||''} ${st.c===c[0]?'sorted':''} ${st.c===c[0]&&st.asc?'asc':''}">${c[1]}</th>`).join('')}</tr></thead>`;
+  const b=`<tbody>${rows.map(r=>`<tr>${cols.map(c=>{const v=r[c[0]];
+    const col=(c[4]&&sd[c[0]])?`style="color:${colour(v,sd[c[0]][0],sd[c[0]][1],c[4]==='inv')};font-weight:600"`:'';
+    return `<td class="${c[3]||''}" ${col}>${v==null?'':fmt(c,v)}</td>`;}).join('')}</tr>`).join('')}</tbody>`;
+  const el=document.createElement('div'); el.className='scroll';
+  el.innerHTML=`<table>${h}${b}</table>`;
+  el.querySelectorAll('th').forEach(th=>th.onclick=()=>{const c=th.dataset.c;
+    sortState[key]=(st.c===c)?{c,asc:!st.asc}:{c,asc:false}; render();});
+  return el;
+}
+
+function viewJornada(){
+  const J=DATA.jornades[jor]; if(!J) return '<p class="empty">Aquesta jornada no té dades.</p>';
+  const wrap=document.createElement('div');
+  const gcards=J.partits.map(p=>{const [a,b]=p.equips,[ma,mb]=p.metriques,win=p.marcador[0]>p.marcador[1];
+    return `<div class="game"><div class="sc"><span class="${win?'w':''}">${nom(a)} ${p.marcador[0]}</span>
+      <span class="${win?'':'w'}">${p.marcador[1]} ${nom(b)}</span></div>
+      <div class="mini"><div><b>${n1(ma.ritme)}</b>ritme</div><div><b>${n2(ma.OER)}</b>OER local</div>
+        <div><b>${n2(mb.OER)}</b>OER visit.</div><div><b>${pct(ma.pRO)}</b>%RO local</div></div>
+      <div style="margin-top:8px">${(p.parcials||[]).filter(q=>/^\d+\/\d+$/.test(q)).map(q=>`<span class="tag">${q}</span>`).join('')}</div></div>`;}).join('');
+  let html=`<div class="card"><h2>Jornada ${jor}</h2><div class="games">${gcards}</div></div>`;
+  if(J.avis.length) html+=`<div class="card"><h2>Avisos de qualitat</h2>${J.avis.map(a=>`<p>${a}</p>`).join('')}</div>`;
+  if(J.sorpreses.length||J.desviacions.length){
+    html+=`<div class="card"><h2>Fora del normal</h2>`;
+    if(J.sorpreses.length) html+=`<h3>Sorpreses</h3>`+J.sorpreses.map(s=>`<p>${nom(s.guanyador)} ${s.tipus}.</p>`).join('');
+    if(J.desviacions.length){html+=`<h3>Desviacions respecte a la mitjana de l'equip</h3><div class="scroll"><table>
+      <thead><tr><th class="l">Equip</th><th class="l">Mètrica</th><th>Jornada</th><th>Mitjana</th><th>z</th></tr></thead><tbody>`+
+      J.desviacions.map(d=>`<tr><td class="l">${nom(d.equip)}</td><td class="l">${d.metrica}</td>
+        <td>${d.valor<1.6?n2(d.valor):n1(d.valor)}</td><td>${d.mitjana<1.6?n2(d.mitjana):n1(d.mitjana)}</td>
+        <td style="color:${d.z>0?'var(--hot)':'var(--cold)'};font-weight:600">${d.z>0?'+':''}${n1(d.z)}</td></tr>`).join('')+`</tbody></table></div>`;}
+    else html+=`<p class="empty">Encara no hi ha prou jornades per calcular desviacions (calen 4 partits per equip).</p>`;
+    html+=`</div>`;}
+  html+=`<div class="card"><h2>Ratxes</h2>${J.ratxes.length?`<div class="scroll"><table>
+    <thead><tr><th class="l">Equip</th><th>Parcial</th><th class="l">Moment</th><th class="l">Marcador</th><th class="l">Temps mort</th><th class="l">Quintet</th></tr></thead><tbody>`+
+    J.ratxes.map(r=>`<tr><td class="l">${nom(r.equip)}</td><td><b>${r.punts}-0</b></td><td class="l">${r.de} → ${r.a}</td>
+      <td class="l">${r.marcador}</td><td class="l">${r.temps_mort.length?r.temps_mort.join(', '):'–'}</td>
+      <td class="l" style="font-size:12.5px">${r.quintet.replace(/ \/ /g,' · ')}</td></tr>`).join('')+`</tbody></table></div>`:'<p class="empty">Cap ratxa destacada.</p>'}</div>`;
+  html+=`<div class="card"><h2>Actuacions individuals</h2><div id="ind"></div></div>`;
+  if(J.finals.length) html+=`<div class="card"><h2>Finals ajustats</h2>`+J.finals.map(f=>
+    `<p>${nom(f.equips[0])} ${f.marcador[0]}-${f.marcador[1]} ${nom(f.equips[1])} · marge a 5 minuts: ${f.marge_a_5_min>0?'+':''}${f.marge_a_5_min} · marge mínim: ${f.marge_minim}</p>`).join('')+`</div>`;
+  wrap.innerHTML=html;
+  const ind=J.individuals.map(i=>({jugadora:i.jugadora,equip:nom(i.equip),min:i.min,PT:i.PT,REB:i.REB,AS:i.AS,
+    T2:i.T2,T3:i.T3,TL:i.TL,VAL:i.VAL,pm:i.pm,TS:i.TS,z:i.z}));
+  wrap.querySelector('#ind').append(table(ind,[['jugadora','Jugadora','txt','l'],['equip','Equip','txt','l'],
+    ['min','Min','n1'],['PT','PTS'],['REB','REB'],['AS','AS'],['T2','T2','txt'],['T3','T3','txt'],['TL','TL','txt'],
+    ['VAL','VAL','','',''],['pm','+/-'],['TS','%TS','pct','','col'],['z','z','n1']],'ind',{sort:'VAL'}));
+  return wrap;
+}
+
+function viewEquips(){
+  const wrap=document.createElement('div');
+  wrap.innerHTML=`<div class="card"><h2>Equips · mitjanes de la temporada</h2>
+    <p class="empty" style="font-style:normal;color:var(--muted)">Vermell: per sobre de la mitjana de la lliga. Blau: per sota. A DER i % pèrdues, el color té en compte que menys és millor.</p><div id="t"></div></div>`;
+  const rows=DATA.teams.map(t=>({equip:nom(t.equip),V:t.V,D:t.D,PF:t.PF,PR:t.PR,ritme:t.ritme,OER:t.OER,DER:t.DER,net:t.net,
+    eFG:t.eFG,pRO:t.pRO,pRD:t.pRD,pBP:t.pBP,pBPr:t.pBP_riv,FTr:t.FTr,t3r:t.t3r}));
+  wrap.querySelector('#t').append(table(rows,[['equip','Equip','txt','l'],['V','V'],['D','D'],
+    ['PF','PF/P','n1'],['PR','PR/P','n1'],['ritme','Ritme','n1'],['OER','OER','n2','','col'],['DER','DER','n2','','inv'],
+    ['net','Net','n2','','col'],['eFG','%eFG','pct','','col'],['pRO','%RO','pct','','col'],['pRD','%RD','pct','','col'],
+    ['pBP','%BP','pct','','inv'],['pBPr','%BP riv.','pct','','col'],['FTr','FTr','n2','','col'],['t3r','3PAr','n2']],'eq',{sort:'net'}));
+  return wrap;
+}
+
+function viewJugadores(){
+  const wrap=document.createElement('div');
+  wrap.innerHTML=`<div class="card"><h2>Jugadores</h2>
+    <div class="filters"><label>Mínim de minuts <input type="number" id="mm" value="0" min="0" step="10" style="width:80px"></label>
+      <label>Cerca <input type="search" id="q" placeholder="nom o equip"></label>
+      <label><input type="checkbox" id="p40"> valors per 40 minuts</label></div>
+    <div id="t"></div></div><div class="card"><h2>Mapa de tir</h2>
+    <div class="filters"><label>Jugadora <select id="pl"></select></label></div><div id="shot"></div></div>`;
+  const mm=+localStorage.getItem('mm')||0;
+  const draw=()=>{
+    const q=(wrap.querySelector('#q').value||'').toLowerCase(), lim=+wrap.querySelector('#mm').value||0, per40=wrap.querySelector('#p40').checked;
+    const rows=DATA.players.filter(p=>p.MIN>=lim && (!q||p.jugadora.toLowerCase().includes(q)||p.equip.toLowerCase().includes(q)))
+      .map(p=>({jugadora:p.jugadora,equip:nom(p.equip),PJ:p.PJ,MIN:p.MIN,
+        PTS:per40?p.p40:p.ppp,REB:per40?p.r40:p.rpp,AS:per40?p.a40:p.app,VAL:per40?p.v40:p.vpp,pm:p.pm40,
+        TS:p.TS,eFG:p.eFG,us:p.us,pRO:p.pRO,pRD:p.pRD,T3:p.T3}));
+    const c=wrap.querySelector('#t'); c.innerHTML='';
+    c.append(table(rows,[['jugadora','Jugadora','txt','l'],['equip','Equip','txt','l'],['PJ','PJ'],['MIN','MIN','n1'],
+      ['PTS',per40?'PTS/40':'PTS/P','n1','','col'],['REB',per40?'REB/40':'REB/P','n1','','col'],['AS',per40?'AS/40':'AS/P','n1','','col'],
+      ['VAL',per40?'VAL/40':'VAL/P','n1','','col'],['pm','+/- 40','n1','','col'],['TS','%TS','pct','','col'],['eFG','%eFG','pct','','col'],
+      ['us','%ús','pct','','col'],['pRO','%RO','pct','','col'],['pRD','%RD','pct','','col'],['T3','T3','txt']],'jug',{sort:'VAL'}));
+  };
+  const sel=wrap.querySelector('#pl');
+  Object.keys(DATA.tirs).sort().forEach(k=>{const o=document.createElement('option');o.value=k;
+    o.textContent=k.split('|')[1]+' ('+nom(k.split('|')[0])+')';sel.appendChild(o);});
+  const shot=()=>{const k=sel.value,z=DATA.tirs[k]||{},box=wrap.querySelector('#shot');
+    box.innerHTML='<div class="court">'+ZONES.map(([code,label])=>{const v=z[code]||[0,0],l=DATA.zones_lliga[code]||[0,1];
+      const p=v[1]?v[0]/v[1]:null, lp=l[1]?l[0]/l[1]:0;
+      const bg=!v[1]?'var(--flat)':(p-lp>=0.05?'var(--hot)':p-lp<=-0.05?'var(--cold)':'var(--flat)');
+      return `<div class="zone" style="background:${bg};opacity:${v[1]?(v[1]>=3?1:.6):.3}">${v[0]}/${v[1]}
+        <small>${v[1]?pct(p):'–'} · lliga ${pct(lp)}</small><small style="font-size:10.5px">${label}</small></div>`;}).join('')+'</div>';};
+  wrap.querySelector('#mm').value=mm;
+  ['#q','#mm','#p40'].forEach(s=>wrap.querySelector(s).addEventListener('input',()=>{localStorage.setItem('mm',wrap.querySelector('#mm').value);draw();}));
+  sel.addEventListener('change',shot);
+  setTimeout(()=>{draw();shot();},0);
+  return wrap;
+}
+
+function render(){
+  M.innerHTML='';
+  M.append(view==='jornada'?viewJornada():view==='equips'?viewEquips():viewJugadores());
+  $('#foot').textContent=`Dades generades el ${DATA.generat.replace('T',' a les ')} · ${DATA.players.length} jugadores · actes oficials FEB`;
+}
+async function loadComp(entry){
+  DATA=await (await fetch(entry.fitxer+'?v='+Date.now())).json();
+  const js=Object.keys(DATA.jornades).map(Number).sort((a,b)=>a-b);
+  jor=String(js[js.length-1]);
+  $('#jor').innerHTML=js.map(j=>`<option value="${j}">Jornada ${j}</option>`).join('');
+  $('#jor').value=jor; render();
+}
+(async()=>{
+  try{ IDX=await (await fetch('data/index.json?v='+Date.now())).json(); }
+  catch(e){ M.innerHTML='<p class="empty">Encara no hi ha dades publicades.</p>'; return; }
+  if(!IDX.competicions.length){ M.innerHTML='<p class="empty">Encara no hi ha dades publicades.</p>'; return; }
+  $('#comp').innerHTML=IDX.competicions.map((c,i)=>`<option value="${i}">${c.nom} ${c.season}-${String(c.season+1).slice(-2)}</option>`).join('');
+  $('#comp').onchange=e=>loadComp(IDX.competicions[+e.target.value]);
+  $('#jor').onchange=e=>{jor=e.target.value;render();};
+  document.querySelectorAll('.tabs button').forEach(b=>b.onclick=()=>{
+    view=b.dataset.v; document.querySelectorAll('.tabs button').forEach(x=>x.setAttribute('aria-selected',x===b)); render();});
+  loadComp(IDX.competicions[0]);
+})();
+</script>
+</body>
+</html>
