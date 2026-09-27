@@ -1,0 +1,1285 @@
+{
+ "jornada": 26,
+ "partits": [
+  {
+   "id": 2479858,
+   "equips": [
+    "C. B. ISLA BONITA",
+    "MAGEC TÍAS LANZAROTE CONTRA LA VIOLENCIA DE GÉNERO"
+   ],
+   "marcador": [
+    58,
+    67
+   ],
+   "data": "18/04/2026",
+   "parcials": [
+    "13/12",
+    "11/19",
+    "22/21",
+    "12/15"
+   ],
+   "metriques": [
+    {
+     "PF": 58,
+     "PR": 67,
+     "poss": 73.08,
+     "ritme": 73.22,
+     "OER": 0.7937,
+     "DER": 0.9133,
+     "eFG": 0.3913,
+     "eFG_riv": 0.4154,
+     "pRO": 0.2632,
+     "pRD": 0.7805,
+     "pBP": 0.1505,
+     "pBP_riv": 0.1227,
+     "FTr": 0.1014,
+     "t3r": 0.3913,
+     "pT2": 0.4286,
+     "pT3": 0.2222,
+     "pTL": 0.5714,
+     "pAS": 0.4167,
+     "RO": 10,
+     "BP": 11,
+     "BR": 4,
+     "AS": 10,
+     "net": -0.1197
+    },
+    {
+     "PF": 67,
+     "PR": 58,
+     "poss": 73.36,
+     "ritme": 73.22,
+     "OER": 0.9133,
+     "DER": 0.7937,
+     "eFG": 0.4154,
+     "eFG_riv": 0.3913,
+     "pRO": 0.2195,
+     "pRD": 0.7368,
+     "pBP": 0.1227,
+     "pBP_riv": 0.1505,
+     "FTr": 0.2923,
+     "t3r": 0.4308,
+     "pT2": 0.4054,
+     "pT3": 0.2857,
+     "pTL": 0.6842,
+     "pAS": 0.5217,
+     "RO": 9,
+     "BP": 9,
+     "BR": 4,
+     "AS": 12,
+     "net": 0.1197
+    }
+   ]
+  },
+  {
+   "id": 2479859,
+   "equips": [
+    "CB CLARET BENIMACLET",
+    "SPAR GRAN CANARIA"
+   ],
+   "marcador": [
+    69,
+    45
+   ],
+   "data": "18/04/2026",
+   "parcials": [
+    "12/9",
+    "21/9",
+    "23/11",
+    "13/16"
+   ],
+   "metriques": [
+    {
+     "PF": 69,
+     "PR": 45,
+     "poss": 85.92,
+     "ritme": 82.98,
+     "OER": 0.8031,
+     "DER": 0.5622,
+     "eFG": 0.3734,
+     "eFG_riv": 0.3103,
+     "pRO": 0.3556,
+     "pRD": 0.6579,
+     "pBP": 0.1746,
+     "pBP_riv": 0.3498,
+     "FTr": 0.2278,
+     "t3r": 0.4557,
+     "pT2": 0.3023,
+     "pT3": 0.3056,
+     "pTL": 0.5556,
+     "pAS": 0.8333,
+     "RO": 16,
+     "BP": 15,
+     "BR": 21,
+     "AS": 20,
+     "net": 0.2409
+    },
+    {
+     "PF": 45,
+     "PR": 69,
+     "poss": 80.04,
+     "ritme": 82.98,
+     "OER": 0.5622,
+     "DER": 0.8031,
+     "eFG": 0.3103,
+     "eFG_riv": 0.3734,
+     "pRO": 0.3421,
+     "pRD": 0.6444,
+     "pBP": 0.3498,
+     "pBP_riv": 0.1746,
+     "FTr": 0.2759,
+     "t3r": 0.2069,
+     "pT2": 0.3261,
+     "pT3": 0.1667,
+     "pTL": 0.5625,
+     "pAS": 0.5882,
+     "RO": 13,
+     "BP": 28,
+     "BR": 13,
+     "AS": 10,
+     "net": -0.2409
+    }
+   ]
+  },
+  {
+   "id": 2479860,
+   "equips": [
+    "GEIEG PACISA",
+    "DISHELEC 65 VILADECANS"
+   ],
+   "marcador": [
+    74,
+    36
+   ],
+   "data": "18/04/2026",
+   "parcials": [
+    "21/9",
+    "16/1",
+    "17/11",
+    "20/15"
+   ],
+   "metriques": [
+    {
+     "PF": 74,
+     "PR": 36,
+     "poss": 69.12,
+     "ritme": 68.98,
+     "OER": 1.0706,
+     "DER": 0.523,
+     "eFG": 0.4545,
+     "eFG_riv": 0.2344,
+     "pRO": 0.2889,
+     "pRD": 0.7556,
+     "pBP": 0.0868,
+     "pBP_riv": 0.1598,
+     "FTr": 0.3485,
+     "t3r": 0.303,
+     "pT2": 0.3913,
+     "pT3": 0.4,
+     "pTL": 0.6087,
+     "pAS": 0.6538,
+     "RO": 13,
+     "BP": 6,
+     "BR": 10,
+     "AS": 17,
+     "net": 0.5477
+    },
+    {
+     "PF": 36,
+     "PR": 74,
+     "poss": 68.84,
+     "ritme": 68.98,
+     "OER": 0.523,
+     "DER": 1.0706,
+     "eFG": 0.2344,
+     "eFG_riv": 0.4545,
+     "pRO": 0.2444,
+     "pRD": 0.7111,
+     "pBP": 0.1598,
+     "pBP_riv": 0.0868,
+     "FTr": 0.1719,
+     "t3r": 0.375,
+     "pT2": 0.375,
+     "pT3": 0.0,
+     "pTL": 0.5455,
+     "pAS": 0.6,
+     "RO": 11,
+     "BP": 11,
+     "BR": 5,
+     "AS": 9,
+     "net": -0.5477
+    }
+   ]
+  },
+  {
+   "id": 2479861,
+   "equips": [
+    "ESCO GRUPO FEMENINO ALCORCON",
+    "EL PLANTEL GMASB"
+   ],
+   "marcador": [
+    71,
+    63
+   ],
+   "data": "18/04/2026",
+   "parcials": [
+    "14/21",
+    "12/16",
+    "20/9",
+    "25/17"
+   ],
+   "metriques": [
+    {
+     "PF": 71,
+     "PR": 63,
+     "poss": 77.12,
+     "ritme": 76.3,
+     "OER": 0.9206,
+     "DER": 0.8347,
+     "eFG": 0.4214,
+     "eFG_riv": 0.4154,
+     "pRO": 0.3864,
+     "pRD": 0.6579,
+     "pBP": 0.1815,
+     "pBP_riv": 0.212,
+     "FTr": 0.3286,
+     "t3r": 0.4571,
+     "pT2": 0.4211,
+     "pT3": 0.2812,
+     "pTL": 0.5217,
+     "pAS": 0.8,
+     "RO": 17,
+     "BP": 14,
+     "BR": 8,
+     "AS": 20,
+     "net": 0.086
+    },
+    {
+     "PF": 63,
+     "PR": 71,
+     "poss": 75.48,
+     "ritme": 76.3,
+     "OER": 0.8347,
+     "DER": 0.9206,
+     "eFG": 0.4154,
+     "eFG_riv": 0.4214,
+     "pRO": 0.3421,
+     "pRD": 0.6136,
+     "pBP": 0.212,
+     "pBP_riv": 0.1815,
+     "FTr": 0.2615,
+     "t3r": 0.5385,
+     "pT2": 0.4,
+     "pT3": 0.2857,
+     "pTL": 0.5294,
+     "pAS": 0.7273,
+     "RO": 13,
+     "BP": 16,
+     "BR": 10,
+     "AS": 16,
+     "net": -0.086
+    }
+   ]
+  },
+  {
+   "id": 2479862,
+   "equips": [
+    "CESUR DISTRITO OLIMPICO",
+    "SEGLE XXI"
+   ],
+   "marcador": [
+    62,
+    71
+   ],
+   "data": "18/04/2026",
+   "parcials": [
+    "10/19",
+    "21/17",
+    "13/23",
+    "18/12"
+   ],
+   "metriques": [
+    {
+     "PF": 62,
+     "PR": 71,
+     "poss": 75.36,
+     "ritme": 76.64,
+     "OER": 0.8227,
+     "DER": 0.9112,
+     "eFG": 0.4286,
+     "eFG_riv": 0.442,
+     "pRO": 0.0294,
+     "pRD": 0.641,
+     "pBP": 0.1592,
+     "pBP_riv": 0.1925,
+     "FTr": 0.3393,
+     "t3r": 0.2857,
+     "pT2": 0.375,
+     "pT3": 0.375,
+     "pTL": 0.7368,
+     "pAS": 0.8095,
+     "RO": 1,
+     "BP": 12,
+     "BR": 10,
+     "AS": 17,
+     "net": -0.0885
+    },
+    {
+     "PF": 71,
+     "PR": 62,
+     "poss": 77.92,
+     "ritme": 76.64,
+     "OER": 0.9112,
+     "DER": 0.8227,
+     "eFG": 0.442,
+     "eFG_riv": 0.4286,
+     "pRO": 0.359,
+     "pRD": 0.9706,
+     "pBP": 0.1925,
+     "pBP_riv": 0.1592,
+     "FTr": 0.2609,
+     "t3r": 0.3768,
+     "pT2": 0.4651,
+     "pT3": 0.2692,
+     "pTL": 0.5556,
+     "pAS": 0.4444,
+     "RO": 14,
+     "BP": 15,
+     "BR": 7,
+     "AS": 12,
+     "net": 0.0885
+    }
+   ]
+  },
+  {
+   "id": 2479863,
+   "equips": [
+    "DPES CB CIUDAD DE MOSTOLES",
+    "BASKET ALMEDA"
+   ],
+   "marcador": [
+    65,
+    66
+   ],
+   "data": "18/04/2026",
+   "parcials": [
+    "19/17",
+    "11/18",
+    "9/12",
+    "16/8",
+    "10/11"
+   ],
+   "metriques": [
+    {
+     "PF": 65,
+     "PR": 66,
+     "poss": 83.64,
+     "ritme": 86.02,
+     "OER": 0.7771,
+     "DER": 0.7466,
+     "eFG": 0.3219,
+     "eFG_riv": 0.35,
+     "pRO": 0.2157,
+     "pRD": 0.6136,
+     "pBP": 0.0956,
+     "pBP_riv": 0.2262,
+     "FTr": 0.4247,
+     "t3r": 0.3836,
+     "pT2": 0.4222,
+     "pT3": 0.1071,
+     "pTL": 0.5806,
+     "pAS": 0.4091,
+     "RO": 11,
+     "BP": 8,
+     "BR": 14,
+     "AS": 9,
+     "net": 0.0305
+    },
+    {
+     "PF": 66,
+     "PR": 65,
+     "poss": 88.4,
+     "ritme": 86.02,
+     "OER": 0.7466,
+     "DER": 0.7771,
+     "eFG": 0.35,
+     "eFG_riv": 0.3219,
+     "pRO": 0.3864,
+     "pRD": 0.7843,
+     "pBP": 0.2262,
+     "pBP_riv": 0.0956,
+     "FTr": 0.5,
+     "t3r": 0.3,
+     "pT2": 0.3469,
+     "pT3": 0.2381,
+     "pTL": 0.4857,
+     "pAS": 0.6818,
+     "RO": 17,
+     "BP": 20,
+     "BR": 4,
+     "AS": 15,
+     "net": -0.0305
+    }
+   ]
+  },
+  {
+   "id": 2479864,
+   "equips": [
+    "HIERROS DÍAZ EXTREMADURA MIRALVALLE",
+    "ELSAMEX CB ANDRATX"
+   ],
+   "marcador": [
+    55,
+    47
+   ],
+   "data": "18/04/2026",
+   "parcials": [
+    "16/16",
+    "11/13",
+    "18/8",
+    "10/10"
+   ],
+   "metriques": [
+    {
+     "PF": 55,
+     "PR": 47,
+     "poss": 70.92,
+     "ritme": 71.66,
+     "OER": 0.7755,
+     "DER": 0.6492,
+     "eFG": 0.386,
+     "eFG_riv": 0.375,
+     "pRO": 0.2857,
+     "pRD": 0.7143,
+     "pBP": 0.2256,
+     "pBP_riv": 0.3039,
+     "FTr": 0.3158,
+     "t3r": 0.386,
+     "pT2": 0.4571,
+     "pT3": 0.1818,
+     "pTL": 0.6111,
+     "pAS": 0.7,
+     "RO": 10,
+     "BP": 16,
+     "BR": 12,
+     "AS": 14,
+     "net": 0.1264
+    },
+    {
+     "PF": 47,
+     "PR": 55,
+     "poss": 72.4,
+     "ritme": 71.66,
+     "OER": 0.6492,
+     "DER": 0.7755,
+     "eFG": 0.375,
+     "eFG_riv": 0.386,
+     "pRO": 0.2857,
+     "pRD": 0.7143,
+     "pBP": 0.3039,
+     "pBP_riv": 0.2256,
+     "FTr": 0.1786,
+     "t3r": 0.375,
+     "pT2": 0.3429,
+     "pT3": 0.2857,
+     "pTL": 0.5,
+     "pAS": 0.6667,
+     "RO": 10,
+     "BP": 22,
+     "BR": 7,
+     "AS": 12,
+     "net": -0.1264
+    }
+   ]
+  }
+ ],
+ "desviacions": [],
+ "sorpreses": [
+  {
+   "id": 2479863,
+   "guanyador": "BASKET ALMEDA",
+   "tipus": "guanya amb menys punts per possessió",
+   "OER": [
+    0.777,
+    0.747
+   ]
+  }
+ ],
+ "ratxes": [
+  {
+   "id": 2479864,
+   "equip": "HIERROS DÍAZ EXTREMADURA MIRALVALLE",
+   "punts": 14,
+   "de": "Q3 06:11",
+   "a": "Q3 01:36",
+   "marcador": "31-34 → 45-34",
+   "quintet": "C.LAZARO / I.SERRANO / M.ROMERO / P.LAURENSON / S.BROWN",
+   "quintet_rival": "A.COMAS / B.GUAL / L.GARCÍA / M.LÓPEZ / N.JENG",
+   "temps_mort": [
+    "Q3 03:18"
+   ]
+  },
+  {
+   "id": 2479860,
+   "equip": "GEIEG PACISA",
+   "punts": 11,
+   "de": "Q1 03:07",
+   "a": "Q1 01:20",
+   "marcador": "10-7 → 21-7",
+   "quintet": "A.COMA / C.MORENTE / M.CARBO / N.MITJANAS / V.GONZALEZ",
+   "quintet_rival": "J.TORREÑO / L.ANDUCAS / L.SANCHEZ / N.SANCHEZ / P.CURTO",
+   "temps_mort": [
+    "Q1 02:22"
+   ]
+  },
+  {
+   "id": 2479860,
+   "equip": "GEIEG PACISA",
+   "punts": 11,
+   "de": "Q2 07:48",
+   "a": "Q2 03:16",
+   "marcador": "21-9 → 32-9",
+   "quintet": "A.RIERA / J.PAIRO / M.CARBO / M.MELERO / V.GONZALEZ",
+   "quintet_rival": "A.TORNE / J.TORREÑO / L.ANDUCAS / L.SANCHEZ / Q.UBIA",
+   "temps_mort": [
+    "Q2 06:03"
+   ]
+  },
+  {
+   "id": 2479861,
+   "equip": "ESCO GRUPO FEMENINO ALCORCON",
+   "punts": 11,
+   "de": "Q3 01:56",
+   "a": "Q3 00:45",
+   "marcador": "35-45 → 46-45",
+   "quintet": "C.DEL / D.MILIAUSKAITE / I.CAMIÑA / L.BERNARDO / N.IPO",
+   "quintet_rival": "C.VILLANUEVA / L.FERNANDEZ / M.DIAZ / O.SCHLEGL / T.SENE",
+   "temps_mort": []
+  },
+  {
+   "id": 2479860,
+   "equip": "GEIEG PACISA",
+   "punts": 10,
+   "de": "Q3 09:24",
+   "a": "Q3 05:51",
+   "marcador": "37-12 → 47-12",
+   "quintet": "A.COMA / A.RIERA / J.FERNANDEZ / M.MELERO / V.GONZALEZ",
+   "quintet_rival": "A.TORNE / L.SANCHEZ / N.SANCHEZ / P.CURTO / Q.UBIA",
+   "temps_mort": []
+  },
+  {
+   "id": 2479861,
+   "equip": "ESCO GRUPO FEMENINO ALCORCON",
+   "punts": 10,
+   "de": "Q4 09:41",
+   "a": "Q4 07:14",
+   "marcador": "46-46 → 56-46",
+   "quintet": "C.DEL / I.CAMIÑA / L.BERNARDO / M.BLANCO / Y.SIFAOUI",
+   "quintet_rival": "D.RYZINSKA / L.FERNANDEZ / M.SANCHEZ / O.BETANCOURT / R.REVUELTAS",
+   "temps_mort": [
+    "Q4 08:07"
+   ]
+  },
+  {
+   "id": 2479862,
+   "equip": "SEGLE XXI",
+   "punts": 10,
+   "de": "Q1 02:45",
+   "a": "Q1 00:46",
+   "marcador": "10-9 → 10-19",
+   "quintet": "A.PLANS / A.SMYKOVSKAIA / B.ASENSIO / D.GARCIA / S.OKAFOR",
+   "quintet_rival": "A.GONZÁLEZ / B.ARRANZ / B.SANCHEZ / J.MASIP / R.FLORES",
+   "temps_mort": []
+  },
+  {
+   "id": 2479861,
+   "equip": "EL PLANTEL GMASB",
+   "punts": 8,
+   "de": "Q2 04:16",
+   "a": "Q2 01:38",
+   "marcador": "20-29 → 20-37",
+   "quintet": "C.VILLANUEVA / D.RYZINSKA / L.FERNANDEZ / O.BETANCOURT / R.REVUELTAS",
+   "quintet_rival": "C.DEL / L.BERNARDO / M.ARANDA / N.IPO / Y.SIFAOUI",
+   "temps_mort": [
+    "Q2 04:16"
+   ]
+  },
+  {
+   "id": 2479863,
+   "equip": "BASKET ALMEDA",
+   "punts": 8,
+   "de": "Q2 06:09",
+   "a": "Q2 04:42",
+   "marcador": "21-20 → 21-28",
+   "quintet": "A.COJOCARIU / D.PERIS / J.MASA / L.TIERNO / M.COLL-VINENT",
+   "quintet_rival": "A.QUESADA / B.MORENO / M.GAMEZ / N.GOMEZ / P.GONZALEZ",
+   "temps_mort": [
+    "Q2 04:42"
+   ]
+  }
+ ],
+ "individuals": [
+  {
+   "id": 2479863,
+   "equip": "DPES CB CIUDAD DE MOSTOLES",
+   "jugadora": "M. GAMEZ MARTINEZ",
+   "min": 34.25,
+   "PT": 21,
+   "REB": 13,
+   "AS": 1,
+   "BP": 0,
+   "T2": "5/9",
+   "T3": "2/6",
+   "TL": "5/7",
+   "VAL": 29,
+   "pm": -5,
+   "doble_doble": true,
+   "TS": 0.581,
+   "VAL_mitjana": null,
+   "z": null,
+   "partits_previs": 0
+  },
+  {
+   "id": 2479861,
+   "equip": "EL PLANTEL GMASB",
+   "jugadora": "O. BETANCOURT LABRADOR",
+   "min": 35.38,
+   "PT": 18,
+   "REB": 10,
+   "AS": 2,
+   "BP": 1,
+   "T2": "5/9",
+   "T3": "1/3",
+   "TL": "5/5",
+   "VAL": 27,
+   "pm": 0,
+   "doble_doble": true,
+   "TS": 0.634,
+   "VAL_mitjana": null,
+   "z": null,
+   "partits_previs": 0
+  },
+  {
+   "id": 2479860,
+   "equip": "GEIEG PACISA",
+   "jugadora": "A. COMA PERPIÑA",
+   "min": 22.95,
+   "PT": 20,
+   "REB": 6,
+   "AS": 1,
+   "BP": 1,
+   "T2": "4/8",
+   "T3": "2/4",
+   "TL": "6/8",
+   "VAL": 24,
+   "pm": 29,
+   "doble_doble": false,
+   "TS": 0.644,
+   "VAL_mitjana": null,
+   "z": null,
+   "partits_previs": 0
+  },
+  {
+   "id": 2479860,
+   "equip": "GEIEG PACISA",
+   "jugadora": "V. GONZALEZ OLAIZOLA",
+   "min": 27.03,
+   "PT": 6,
+   "REB": 13,
+   "AS": 3,
+   "BP": 0,
+   "T2": "3/8",
+   "T3": "0/1",
+   "TL": "0/1",
+   "VAL": 21,
+   "pm": 39,
+   "doble_doble": false,
+   "TS": 0.318,
+   "VAL_mitjana": null,
+   "z": null,
+   "partits_previs": 0
+  },
+  {
+   "id": 2479863,
+   "equip": "BASKET ALMEDA",
+   "jugadora": "L. TIERNO MARTÍ",
+   "min": 31.43,
+   "PT": 13,
+   "REB": 10,
+   "AS": 2,
+   "BP": 2,
+   "T2": "0/1",
+   "T3": "3/5",
+   "TL": "4/5",
+   "VAL": 20,
+   "pm": 9,
+   "doble_doble": true,
+   "TS": 0.793,
+   "VAL_mitjana": null,
+   "z": null,
+   "partits_previs": 0
+  },
+  {
+   "id": 2479861,
+   "equip": "ESCO GRUPO FEMENINO ALCORCON",
+   "jugadora": "C. DEL AMO SEVILLANO",
+   "min": 18.55,
+   "PT": 14,
+   "REB": 5,
+   "AS": 3,
+   "BP": 2,
+   "T2": "2/5",
+   "T3": "3/3",
+   "TL": "1/2",
+   "VAL": 19,
+   "pm": 7,
+   "doble_doble": false,
+   "TS": 0.788,
+   "VAL_mitjana": null,
+   "z": null,
+   "partits_previs": 0
+  },
+  {
+   "id": 2479864,
+   "equip": "HIERROS DÍAZ EXTREMADURA MIRALVALLE",
+   "jugadora": "I. SERRANO ALVAREZ",
+   "min": 32.22,
+   "PT": 17,
+   "REB": 5,
+   "AS": 2,
+   "BP": 2,
+   "T2": "7/10",
+   "T3": "0/1",
+   "TL": "3/4",
+   "VAL": 19,
+   "pm": 11,
+   "doble_doble": false,
+   "TS": 0.666,
+   "VAL_mitjana": null,
+   "z": null,
+   "partits_previs": 0
+  },
+  {
+   "id": 2479858,
+   "equip": "C. B. ISLA BONITA",
+   "jugadora": "B. ARMENGOL VALL",
+   "min": 28.8,
+   "PT": 19,
+   "REB": 3,
+   "AS": 2,
+   "BP": 1,
+   "T2": "7/9",
+   "T3": "1/7",
+   "TL": "2/3",
+   "VAL": 18,
+   "pm": 2,
+   "doble_doble": false,
+   "TS": 0.548,
+   "VAL_mitjana": null,
+   "z": null,
+   "partits_previs": 0
+  },
+  {
+   "id": 2479858,
+   "equip": "MAGEC TÍAS LANZAROTE CONTRA LA VIOLENCIA DE GÉNERO",
+   "jugadora": "C. MATEO CAÑADA",
+   "min": 27.28,
+   "PT": 15,
+   "REB": 6,
+   "AS": 2,
+   "BP": 0,
+   "T2": "4/8",
+   "T3": "2/5",
+   "TL": "1/2",
+   "VAL": 18,
+   "pm": 6,
+   "doble_doble": false,
+   "TS": 0.54,
+   "VAL_mitjana": null,
+   "z": null,
+   "partits_previs": 0
+  },
+  {
+   "id": 2479860,
+   "equip": "GEIEG PACISA",
+   "jugadora": "J. PAIRO URTOS",
+   "min": 20.98,
+   "PT": 11,
+   "REB": 3,
+   "AS": 3,
+   "BP": 0,
+   "T2": "0/0",
+   "T3": "2/3",
+   "TL": "5/7",
+   "VAL": 18,
+   "pm": 18,
+   "doble_doble": false,
+   "TS": 0.905,
+   "VAL_mitjana": null,
+   "z": null,
+   "partits_previs": 0
+  },
+  {
+   "id": 2479863,
+   "equip": "BASKET ALMEDA",
+   "jugadora": "A. COJOCARIU",
+   "min": 31.48,
+   "PT": 16,
+   "REB": 16,
+   "AS": 3,
+   "BP": 5,
+   "T2": "3/10",
+   "T3": "2/7",
+   "TL": "4/11",
+   "VAL": 16,
+   "pm": 6,
+   "doble_doble": true,
+   "TS": 0.366,
+   "VAL_mitjana": null,
+   "z": null,
+   "partits_previs": 0
+  },
+  {
+   "id": 2479861,
+   "equip": "EL PLANTEL GMASB",
+   "jugadora": "M. SANCHEZ VALENZUELA",
+   "min": 32.0,
+   "PT": 18,
+   "REB": 4,
+   "AS": 4,
+   "BP": 0,
+   "T2": "3/7",
+   "T3": "4/9",
+   "TL": "0/0",
+   "VAL": 15,
+   "pm": 2,
+   "doble_doble": false,
+   "TS": 0.562,
+   "VAL_mitjana": null,
+   "z": null,
+   "partits_previs": 0
+  },
+  {
+   "id": 2479859,
+   "equip": "SPAR GRAN CANARIA",
+   "jugadora": "O. BONIFACE PETERS",
+   "min": 34.6,
+   "PT": 13,
+   "REB": 13,
+   "AS": 0,
+   "BP": 3,
+   "T2": "5/11",
+   "T3": "0/0",
+   "TL": "3/8",
+   "VAL": 14,
+   "pm": -22,
+   "doble_doble": true,
+   "TS": 0.448,
+   "VAL_mitjana": null,
+   "z": null,
+   "partits_previs": 0
+  },
+  {
+   "id": 2479863,
+   "equip": "BASKET ALMEDA",
+   "jugadora": "M. COLL-VINENT OLLE",
+   "min": 28.22,
+   "PT": 12,
+   "REB": 10,
+   "AS": 1,
+   "BP": 0,
+   "T2": "5/11",
+   "T3": "0/1",
+   "TL": "2/4",
+   "VAL": 12,
+   "pm": 0,
+   "doble_doble": true,
+   "TS": 0.436,
+   "VAL_mitjana": null,
+   "z": null,
+   "partits_previs": 0
+  }
+ ],
+ "finals_ajustats": [
+  {
+   "id": 2479861,
+   "equips": [
+    "ESCO GRUPO FEMENINO ALCORCON",
+    "EL PLANTEL GMASB"
+   ],
+   "marcador": [
+    71,
+    63
+   ],
+   "marge_a_5_min": 7,
+   "marge_minim": 2
+  },
+  {
+   "id": 2479863,
+   "equips": [
+    "DPES CB CIUDAD DE MOSTOLES",
+    "BASKET ALMEDA"
+   ],
+   "marcador": [
+    65,
+    66
+   ],
+   "marge_a_5_min": -1,
+   "marge_minim": 0
+  },
+  {
+   "id": 2479864,
+   "equips": [
+    "HIERROS DÍAZ EXTREMADURA MIRALVALLE",
+    "ELSAMEX CB ANDRATX"
+   ],
+   "marcador": [
+    55,
+    47
+   ],
+   "marge_a_5_min": 7,
+   "marge_minim": 4
+  }
+ ],
+ "quintets": [
+  {
+   "id": 2479858,
+   "equip": "C. B. ISLA BONITA",
+   "mes_usat": {
+    "quintet": "B.ARMENGOL / E.MOTEKAITYTÈ / I.BAUTISTA / M.COLOM / M.VULOVIC",
+    "minuts": 7.4,
+    "dif": 11
+   },
+   "millor": {
+    "quintet": "B.ARMENGOL / E.MOTEKAITYTÈ / I.BAUTISTA / M.COLOM / M.VULOVIC",
+    "minuts": 7.4,
+    "dif": 11
+   },
+   "pitjor": {
+    "quintet": "E.MOTEKAITYTÈ / I.BAUTISTA / M.CARBALLO / M.COLOM / M.VULOVIC",
+    "minuts": 5.3,
+    "dif": -5
+   }
+  },
+  {
+   "id": 2479858,
+   "equip": "MAGEC TÍAS LANZAROTE CONTRA LA VIOLENCIA DE GÉNERO",
+   "mes_usat": {
+    "quintet": "C.MATEO / M.MARINHO / N.ZABALA / S.HISADO / Y.GARCIA",
+    "minuts": 10.4,
+    "dif": -10
+   },
+   "millor": {
+    "quintet": "B.SNORRADOTTIR / C.MATEO / N.ZABALA / S.HISADO / Y.GARCIA",
+    "minuts": 4.3,
+    "dif": 4
+   },
+   "pitjor": {
+    "quintet": "C.MATEO / M.MARINHO / N.ZABALA / S.HISADO / Y.GARCIA",
+    "minuts": 10.4,
+    "dif": -10
+   }
+  },
+  {
+   "id": 2479859,
+   "equip": "CB CLARET BENIMACLET",
+   "mes_usat": {
+    "quintet": "E.TENBROCK / G.LOPEZ / J.ROCHINA / J.SARRIO / T.TOLEDO",
+    "minuts": 7.6,
+    "dif": 7
+   },
+   "millor": {
+    "quintet": "E.TENBROCK / G.LOPEZ / J.ROCHINA / J.SARRIO / T.TOLEDO",
+    "minuts": 7.6,
+    "dif": 7
+   },
+   "pitjor": {
+    "quintet": "E.TENBROCK / J.SARRIO / L.LIERN / M.BORDES / T.TOLEDO",
+    "minuts": 4.6,
+    "dif": -2
+   }
+  },
+  {
+   "id": 2479859,
+   "equip": "SPAR GRAN CANARIA",
+   "mes_usat": {
+    "quintet": "A.GARCIA / M.OCURTO / O.BONIFACE / P.DIAZ / T.EZEANATOGU",
+    "minuts": 9.4,
+    "dif": -1
+   },
+   "millor": {
+    "quintet": "A.GARCIA / M.OCURTO / O.BONIFACE / P.DIAZ / T.EZEANATOGU",
+    "minuts": 9.4,
+    "dif": -1
+   },
+   "pitjor": {
+    "quintet": "M.OCURTO / M.RASINES / O.BONIFACE / P.DIAZ / T.EZEANATOGU",
+    "minuts": 5.6,
+    "dif": -7
+   }
+  },
+  {
+   "id": 2479860,
+   "equip": "GEIEG PACISA",
+   "mes_usat": {
+    "quintet": "A.COMA / A.RIERA / J.FERNANDEZ / M.MELERO / V.GONZALEZ",
+    "minuts": 4.5,
+    "dif": 6
+   },
+   "millor": {
+    "quintet": "A.COMA / A.RIERA / J.FERNANDEZ / M.MELERO / V.GONZALEZ",
+    "minuts": 4.5,
+    "dif": 6
+   },
+   "pitjor": {
+    "quintet": "A.COMA / A.RIERA / J.FERNANDEZ / M.MELERO / V.GONZALEZ",
+    "minuts": 4.5,
+    "dif": 6
+   }
+  },
+  {
+   "id": 2479860,
+   "equip": "DISHELEC 65 VILADECANS",
+   "mes_usat": {
+    "quintet": "A.TORNE / M.RIBERA / N.SOLER / P.CURTO / Q.UBIA",
+    "minuts": 7.7,
+    "dif": -6
+   },
+   "millor": {
+    "quintet": "J.TORREÑO / L.ANDUCAS / L.SANCHEZ / M.RIBERA / N.SOLER",
+    "minuts": 5.9,
+    "dif": 1
+   },
+   "pitjor": {
+    "quintet": "A.TORNE / M.RIBERA / N.SOLER / P.CURTO / Q.UBIA",
+    "minuts": 7.7,
+    "dif": -6
+   }
+  },
+  {
+   "id": 2479861,
+   "equip": "ESCO GRUPO FEMENINO ALCORCON",
+   "mes_usat": {
+    "quintet": "D.MILIAUSKAITE / G.ESCORIAL / I.CAMIÑA / L.BERNARDO / N.IPO",
+    "minuts": 5.1,
+    "dif": 6
+   },
+   "millor": {
+    "quintet": "D.MILIAUSKAITE / G.ESCORIAL / I.CAMIÑA / L.BERNARDO / N.IPO",
+    "minuts": 5.1,
+    "dif": 6
+   },
+   "pitjor": {
+    "quintet": "D.MILIAUSKAITE / G.ESCORIAL / I.CAMIÑA / L.BERNARDO / N.IPO",
+    "minuts": 5.1,
+    "dif": 6
+   }
+  },
+  {
+   "id": 2479861,
+   "equip": "EL PLANTEL GMASB",
+   "mes_usat": {
+    "quintet": "C.VILLANUEVA / D.RYZINSKA / M.SANCHEZ / O.BETANCOURT / R.REVUELTAS",
+    "minuts": 10.0,
+    "dif": 9
+   },
+   "millor": {
+    "quintet": "C.VILLANUEVA / D.RYZINSKA / M.SANCHEZ / O.BETANCOURT / R.REVUELTAS",
+    "minuts": 10.0,
+    "dif": 9
+   },
+   "pitjor": {
+    "quintet": "D.RYZINSKA / L.FERNANDEZ / M.SANCHEZ / O.BETANCOURT / R.REVUELTAS",
+    "minuts": 8.6,
+    "dif": -3
+   }
+  },
+  {
+   "id": 2479862,
+   "equip": "CESUR DISTRITO OLIMPICO",
+   "mes_usat": {
+    "quintet": "A.PICOS / B.ARRANZ / C.LEAL / M.GOMEZ / V.LOPEZ",
+    "minuts": 9.8,
+    "dif": -4
+   },
+   "millor": {
+    "quintet": "A.GONZÁLEZ / A.PICOS / E.MORATINOS / M.GOMEZ / V.LOPEZ",
+    "minuts": 4.0,
+    "dif": 0
+   },
+   "pitjor": {
+    "quintet": "A.PICOS / B.ARRANZ / C.LEAL / M.GOMEZ / V.LOPEZ",
+    "minuts": 9.8,
+    "dif": -4
+   }
+  },
+  {
+   "id": 2479862,
+   "equip": "SEGLE XXI",
+   "mes_usat": {
+    "quintet": "I.GARCIA / M.CARBÓ / M.CINTAS / S.FERNANDEZ / S.NDE",
+    "minuts": 8.4,
+    "dif": 4
+   },
+   "millor": {
+    "quintet": "A.PLANS / A.SMYKOVSKAIA / B.ASENSIO / D.GARCIA / S.OKAFOR",
+    "minuts": 7.0,
+    "dif": 12
+   },
+   "pitjor": {
+    "quintet": "I.GARCIA / M.CARBÓ / M.CINTAS / S.FERNANDEZ / S.NDE",
+    "minuts": 8.4,
+    "dif": 4
+   }
+  },
+  {
+   "id": 2479863,
+   "equip": "DPES CB CIUDAD DE MOSTOLES",
+   "mes_usat": {
+    "quintet": "A.PEREDO / B.RODRÍGUEZ / E.ABUBAKAR / M.GAMEZ / P.GONZALEZ",
+    "minuts": 8.2,
+    "dif": -4
+   },
+   "millor": {
+    "quintet": "A.PEREDO / B.MORENO / B.RODRÍGUEZ / E.ABUBAKAR / M.GAMEZ",
+    "minuts": 4.8,
+    "dif": 1
+   },
+   "pitjor": {
+    "quintet": "A.PEREDO / B.RODRÍGUEZ / E.ABUBAKAR / M.GAMEZ / P.GONZALEZ",
+    "minuts": 8.2,
+    "dif": -4
+   }
+  },
+  {
+   "id": 2479863,
+   "equip": "BASKET ALMEDA",
+   "mes_usat": {
+    "quintet": "A.COJOCARIU / D.PERIS / L.TIERNO / M.COLL-VINENT / M.GARCIA",
+    "minuts": 7.0,
+    "dif": 4
+   },
+   "millor": {
+    "quintet": "A.COJOCARIU / D.PERIS / L.TIERNO / M.COLL-VINENT / M.GARCIA",
+    "minuts": 7.0,
+    "dif": 4
+   },
+   "pitjor": {
+    "quintet": "A.COJOCARIU / D.PERIS / L.TIERNO / M.COLL-VINENT / M.GARCIA",
+    "minuts": 7.0,
+    "dif": 4
+   }
+  },
+  {
+   "id": 2479864,
+   "equip": "HIERROS DÍAZ EXTREMADURA MIRALVALLE",
+   "mes_usat": {
+    "quintet": "C.LAZARO / I.SERRANO / M.ROMERO / P.LAURENSON / S.BROWN",
+    "minuts": 9.4,
+    "dif": 4
+   },
+   "millor": {
+    "quintet": "C.LAZARO / I.SERRANO / M.ROMERO / P.LAURENSON / S.BROWN",
+    "minuts": 9.4,
+    "dif": 4
+   },
+   "pitjor": {
+    "quintet": "C.LAZARO / I.SERRANO / M.ROMERO / P.LAURENSON / S.BROWN",
+    "minuts": 9.4,
+    "dif": 4
+   }
+  },
+  {
+   "id": 2479864,
+   "equip": "ELSAMEX CB ANDRATX",
+   "mes_usat": {
+    "quintet": "B.GUAL / J.BALLESTER / L.GARCÍA / M.LÓPEZ / N.JENG",
+    "minuts": 7.2,
+    "dif": -2
+   },
+   "millor": {
+    "quintet": "B.GUAL / J.BALLESTER / L.GARCÍA / M.LÓPEZ / N.JENG",
+    "minuts": 7.2,
+    "dif": -2
+   },
+   "pitjor": {
+    "quintet": "A.COMAS / B.GUAL / H.CONDOM / L.GARCÍA / M.LÓPEZ",
+    "minuts": 5.8,
+    "dif": -7
+   }
+  }
+ ],
+ "classificacio": [
+  {
+   "equip": "BASKET ALMEDA",
+   "V": 1,
+   "D": 0
+  },
+  {
+   "equip": "CB CLARET BENIMACLET",
+   "V": 1,
+   "D": 0
+  },
+  {
+   "equip": "ESCO GRUPO FEMENINO ALCORCON",
+   "V": 1,
+   "D": 0
+  },
+  {
+   "equip": "GEIEG PACISA",
+   "V": 1,
+   "D": 0
+  },
+  {
+   "equip": "HIERROS DÍAZ EXTREMADURA MIRALVALLE",
+   "V": 1,
+   "D": 0
+  },
+  {
+   "equip": "MAGEC TÍAS LANZAROTE CONTRA LA VIOLENCIA DE GÉNERO",
+   "V": 1,
+   "D": 0
+  },
+  {
+   "equip": "SEGLE XXI",
+   "V": 1,
+   "D": 0
+  },
+  {
+   "equip": "C. B. ISLA BONITA",
+   "V": 0,
+   "D": 1
+  },
+  {
+   "equip": "CESUR DISTRITO OLIMPICO",
+   "V": 0,
+   "D": 1
+  },
+  {
+   "equip": "DISHELEC 65 VILADECANS",
+   "V": 0,
+   "D": 1
+  },
+  {
+   "equip": "DPES CB CIUDAD DE MOSTOLES",
+   "V": 0,
+   "D": 1
+  },
+  {
+   "equip": "EL PLANTEL GMASB",
+   "V": 0,
+   "D": 1
+  },
+  {
+   "equip": "ELSAMEX CB ANDRATX",
+   "V": 0,
+   "D": 1
+  },
+  {
+   "equip": "SPAR GRAN CANARIA",
+   "V": 0,
+   "D": 1
+  }
+ ],
+ "avis": []
+}
