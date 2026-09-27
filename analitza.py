@@ -2,7 +2,7 @@
 Calcula les mètriques a partir dels JSON que deixa feb_scraper.py i genera:
   - fulls/full_mestre_<competicio>_<temporada>.xlsx  (Partits, Equips, Jugadores, Quintets, Parelles, Trios, Tirs, Paràmetres)
   - resums/<temporada>_<competicio>_J<nn>.json       (el destacat de la jornada, llest per redactar-hi el resum)
- 
+
 Ús:
   python analitza.py --comp lf2a --season 2025 --data data-test --jornada 26
   python analitza.py --comp all --season 2026            (agafa l'última jornada disponible)
@@ -10,12 +10,12 @@ Calcula les mètriques a partir dels JSON que deixa feb_scraper.py i genera:
 import argparse, json, math, re, statistics as st
 from pathlib import Path
 from collections import defaultdict
- 
+
 PBP = re.compile(r"^\((.+?)\) (?:(.+?): )?(.+)$")
 TEAM_KEYS = ["PT","T2A","T2I","T3A","T3I","TLA","TLI","RO","RD","AS","BR","BP"]
- 
+
 def nteam(s): return re.sub(r"\s+", " ", (s or "")).strip().upper()
- 
+
 # ---------------------------------------------------------------- càrrega
 def load(data_dir, season, comp):
     root = Path(data_dir) / str(season) / comp
@@ -30,16 +30,16 @@ def load(data_dir, season, comp):
             g["teams"] = [nteam(t) for t in g["teams"]]
             games.append(g)
     return games
- 
+
 # ---------------------------------------------------------------- mètriques d'equip
 def team_totals(g, ti):
     ps = [p for p in g["players"] if p["team"] == ti]
     t = {k: sum(p.get(k, 0) for p in ps) for k in TEAM_KEYS}
     t["MIN"] = sum(p.get("min", 0) for p in ps)
     return t
- 
+
 def possessions(t): return t["T2I"] + t["T3I"] + 0.44 * t["TLI"] + t["BP"] - t["RO"]
- 
+
 def team_metrics(t, o):
     tci = t["T2I"] + t["T3I"]; p = possessions(t); op = possessions(o)
     d = dict(PF=t["PT"], PR=o["PT"], poss=p, ritme=(p + op) / 2,
@@ -56,7 +56,7 @@ def team_metrics(t, o):
              RO=t["RO"], BP=t["BP"], BR=t["BR"], AS=t["AS"])
     d["net"] = d["OER"] - d["DER"]
     return d
- 
+
 def team_rows(games):
     rows = []
     for g in games:
@@ -68,7 +68,7 @@ def team_rows(games):
                              local="L" if ti == 0 else "V",
                              resultat="V" if t["PT"] > o["PT"] else "D", **m))
     return rows
- 
+
 # ---------------------------------------------------------------- play-by-play
 def parse_pbp(g):
     ev = []
@@ -76,7 +76,7 @@ def parse_pbp(g):
         m = PBP.match(acc)
         if m: ev.append(dict(q=q, rem=rem, team=nteam(m.group(1)), pl=m.group(2), act=m.group(3)))
     return ev
- 
+
 def qlen(q): return 600 if q <= 4 else 300
 def qstart(q): return (q - 1) * 600 if q <= 4 else 2400 + (q - 5) * 300
 def pts_of(act):
@@ -84,7 +84,7 @@ def pts_of(act):
 def short(n):
     p = (n or "").split(" ")
     return (p[0] + p[1]) if len(p) > 1 else (n or "")
- 
+
 def walk(g):
     """Reconstrueix quintets, ratxes, temps morts i el marcador segon a segon."""
     ev = parse_pbp(g); teams = g["teams"]
@@ -144,7 +144,7 @@ def walk(g):
     for r in runs:
         r["tm"] = [t for t in tos if t["team"] == r["opp"] and r["start_now"] <= t["now"] <= r["end_now"]]
     return dict(lineups=L, runs=runs, timeouts=tos, timeline=timeline, pbp_points=tpts)
- 
+
 # ---------------------------------------------------------------- tirs
 def zone_of(x, y, three):
     dx, dy = x - 1.575, y - 7.5
@@ -156,14 +156,14 @@ def zone_of(x, y, three):
     if x <= 5.8 and abs(dy) <= 2.45: return "Z"
     if a >= 67.5: return "M_B" + side
     return "M_A" + side if a >= 25 else "M_F"
- 
+
 PXM = 850 / 28
 def to_m(left, top):
     x = left / 100 * 850 / PXM
     y = (top / 100 * 474 - (474 - 15 * PXM) / 2) / PXM
     if x > 14: x, y = 28 - x, 15 - y
     return x, y
- 
+
 def shot_zones(g):
     """Assigna zona a cada tir; els N tirs més llunyans de cada jugadora són els seus triples segons l'acta."""
     by = defaultdict(list)
@@ -186,10 +186,10 @@ def shot_zones(g):
             out.append(dict(equip=g["teams"][p["team"]], jugadora=p["name"], jornada=g["jornada"],
                             zona=zone_of(s["x"], s["y"], s["three"]), encert=bool(s["made"])))
     return out
- 
+
 # ---------------------------------------------------------------- agregats de jugadores
 PCOLS = ["PT","T2A","T2I","T3A","T3I","TLA","TLI","RO","RD","AS","BR","BP","TF","FC","FR","VAL","PM"]
- 
+
 def player_rows(games):
     acc = defaultdict(lambda: dict(PJ=0, TIT=0, MIN=0.0, VALS=[], un=0.0, ud=0.0, orn=0.0, ord=0.0, drn=0.0, drd=0.0,
                                    **{k: 0 for k in PCOLS}))
@@ -221,7 +221,7 @@ def player_rows(games):
                         VALmitjana=st.mean(o["VALS"]) if o["VALS"] else 0,
                         VALde=st.stdev(o["VALS"]) if len(o["VALS"]) > 1 else 0))
     return sorted(out, key=lambda r: (r["equip"], -r["MIN"]))
- 
+
 def combo_rows(games, min_min=(20, 100, 100)):
     Q, C2, C3 = defaultdict(lambda: defaultdict(float)), defaultdict(lambda: defaultdict(float)), defaultdict(lambda: defaultdict(float))
     excluded = []
@@ -249,7 +249,7 @@ def combo_rows(games, min_min=(20, 100, 100)):
             rows[-1]["net"] = rows[-1]["ORtg"] - rows[-1]["DRtg"]
         return sorted(rows, key=lambda r: (r["equip"], -r["minuts"]))
     return fmt(Q, min_min[0]), fmt(C2, min_min[1]), fmt(C3, min_min[2]), excluded
- 
+
 # ---------------------------------------------------------------- full de càlcul
 def write_xlsx(path, comp, season, trows, prows, q, c2, c3, shots, excluded):
     from openpyxl import Workbook
@@ -343,10 +343,10 @@ def write_xlsx(path, comp, season, trows, prows, q, c2, c3, shots, excluded):
     ws.column_dimensions["A"].width = 28; ws.column_dimensions["B"].width = 80
     Path(path).parent.mkdir(parents=True, exist_ok=True)
     wb.save(path)
- 
+
 # ---------------------------------------------------------------- resum de la jornada
 def fmt_t(q, rem): return f"{'Q'+str(q) if q<=4 else 'P'+str(q-4)} {rem//60:02d}:{rem%60:02d}"
- 
+
 def resum(games, jornada, min_partits_de=4):
     prev = [g for g in games if g["jornada"] < jornada]
     cur = [g for g in games if g["jornada"] == jornada]
@@ -444,10 +444,75 @@ def resum(games, jornada, min_partits_de=4):
     out["individuals"].sort(key=lambda d: -d["VAL"])
     out["ratxes"].sort(key=lambda d: -d["punts"])
     return out
- 
+
+
+# ---------------------------------------------------------------- dades per al tauler web
+def per40(v, minutes): return (v / minutes * 40) if minutes else 0
+
+def web_payload(games, trows, prows, q, c2, c3, shots, season, comp):
+    eq = defaultdict(list)
+    for r in trows: eq[r["equip"]].append(r)
+    teams = []
+    for team, rs in eq.items():
+        d = dict(equip=team, PJ=len(rs), V=sum(1 for r in rs if r["resultat"] == "V"))
+        d["D"] = d["PJ"] - d["V"]
+        for k in ["PF","PR","ritme","OER","DER","net","eFG","eFG_riv","pRO","pRD","pBP","pBP_riv","FTr","t3r","pT2","pT3","pTL","pAS","RO","BP","BR","AS"]:
+            d[k] = round(st.mean(r[k] for r in rs), 4)
+        d["jornades"] = [dict(j=r["jornada"], rival=r["rival"], pf=r["PF"], pr=r["PR"], res=r["resultat"],
+                              oer=round(r["OER"],3), der=round(r["DER"],3), efg=round(r["eFG"],3)) for r in sorted(rs, key=lambda r: r["jornada"])]
+        teams.append(d)
+    teams.sort(key=lambda d: (-d["V"], -d["net"]))
+    players = []
+    for p in prows:
+        m = p["MIN"]
+        players.append(dict(equip=p["equip"], jugadora=p["jugadora"], PJ=p["PJ"], TIT=p["TIT"], MIN=m,
+                            PTS=p["PT"], REB=p["RO"] + p["RD"], AS=p["AS"], BR=p["BR"], BP=p["BP"], VAL=p["VAL"], PM=p["PM"],
+                            mpp=round(m / p["PJ"], 1) if p["PJ"] else 0,
+                            ppp=round(p["PT"] / p["PJ"], 1) if p["PJ"] else 0,
+                            rpp=round((p["RO"] + p["RD"]) / p["PJ"], 1) if p["PJ"] else 0,
+                            app=round(p["AS"] / p["PJ"], 1) if p["PJ"] else 0,
+                            vpp=round(p["VAL"] / p["PJ"], 1) if p["PJ"] else 0,
+                            p40=round(per40(p["PT"], m), 1), r40=round(per40(p["RO"] + p["RD"], m), 1),
+                            a40=round(per40(p["AS"], m), 1), v40=round(per40(p["VAL"], m), 1),
+                            pm40=round(per40(p["PM"], m), 1),
+                            TS=round(p["TS"], 4), eFG=round(p["eFG"], 4), us=round(p["us"], 4),
+                            pRO=round(p["pROj"], 4), pRD=round(p["pRDj"], 4),
+                            T2=f'{p["T2A"]}/{p["T2I"]}', T3=f'{p["T3A"]}/{p["T3I"]}', TL=f'{p["TLA"]}/{p["TLI"]}',
+                            pT3=round(p["T3A"] / p["T3I"], 4) if p["T3I"] else 0))
+    zt = defaultdict(lambda: [0, 0]); zl = defaultdict(lambda: [0, 0])
+    for s in shots:
+        zt[(s["equip"], s["jugadora"], s["zona"])][0] += 1 if s["encert"] else 0
+        zt[(s["equip"], s["jugadora"], s["zona"])][1] += 1
+        zl[s["zona"]][0] += 1 if s["encert"] else 0; zl[s["zona"]][1] += 1
+    tirs = defaultdict(dict)
+    for (e, j, z), v in zt.items(): tirs[e + "|" + j][z] = v
+    jornades = {}
+    for jn in sorted({g["jornada"] for g in games}):
+        r = resum(games, jn)
+        jornades[str(jn)] = dict(partits=r["partits"], desviacions=r["desviacions"], sorpreses=r["sorpreses"],
+                                 ratxes=r["ratxes"], individuals=r["individuals"], finals=r["finals_ajustats"],
+                                 quintets=r["quintets"], avis=r["avis"])
+    return dict(comp=comp, season=season, generat=__import__("datetime").datetime.now().isoformat(timespec="seconds"),
+                teams=teams, players=players, tirs=tirs, zones_lliga={k: v for k, v in zl.items()},
+                jornades=jornades, combos=dict(q=q[:400], c2=c2[:400], c3=c3[:400]))
+
+COMP_NOMS = {"lf": "Liga Femenina", "challenge": "LF Challenge", "lf2a": "LF-2 grup A", "lf2b": "LF-2 grup B"}
+
+def write_web(outdir, season, comp, payload):
+    d = Path(outdir) / "docs" / "data"; d.mkdir(parents=True, exist_ok=True)
+    (d / f"{season}_{comp}.json").write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    idx = d / "index.json"
+    cur = json.loads(idx.read_text(encoding="utf-8")) if idx.exists() else {"competicions": []}
+    entry = dict(comp=comp, season=season, nom=COMP_NOMS.get(comp, comp),
+                 fitxer=f"data/{season}_{comp}.json", jornades=sorted(int(j) for j in payload["jornades"]),
+                 generat=payload["generat"])
+    cur["competicions"] = [c for c in cur["competicions"] if not (c["comp"] == comp and c["season"] == season)] + [entry]
+    cur["competicions"].sort(key=lambda c: (-c["season"], c["comp"]))
+    idx.write_text(json.dumps(cur, ensure_ascii=False, indent=1), encoding="utf-8")
+
 # ---------------------------------------------------------------- principal
 COMPS = ["lf", "challenge", "lf2a", "lf2b"]
- 
+
 def run_comp(data_dir, season, comp, jornada, outdir="."):
     games = load(data_dir, season, comp)
     if not games:
@@ -458,6 +523,8 @@ def run_comp(data_dir, season, comp, jornada, outdir="."):
     shots = [s for g in games for s in shot_zones(g)]
     xlsx = Path(outdir) / "fulls" / f"full_mestre_{comp}_{season}.xlsx"
     write_xlsx(xlsx, comp, season, trows, prows, q, c2, c3, shots, excluded)
+    write_web(outdir, season, comp, web_payload(games, trows, prows, q, c2, c3, shots, season, comp))
+    write_web(outdir, season, comp, web_payload(games, trows, prows, q, c2, c3, shots, season, comp))
     r = resum(games, jn)
     rp = Path(outdir) / "resums" / f"{season}_{comp}_J{jn:02d}.json"
     rp.parent.mkdir(parents=True, exist_ok=True)
@@ -466,7 +533,7 @@ def run_comp(data_dir, season, comp, jornada, outdir="."):
           f"(J{jn}: {len(r['partits'])} partits, {len(r['desviacions'])} desviacions, "
           f"{len(r['ratxes'])} ratxes, {len(r['individuals'])} actuacions)")
     return r
- 
+
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--comp", default="all")
@@ -477,6 +544,3 @@ if __name__ == "__main__":
     a = ap.parse_args()
     for c in (COMPS if a.comp == "all" else [a.comp]):
         run_comp(a.data, a.season, c, a.jornada, a.out)
- 
-
-
