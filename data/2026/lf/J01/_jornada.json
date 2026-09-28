@@ -1,0 +1,101 @@
+{
+ "comp": "lf",
+ "season": 2026,
+ "fase": "Liga Regular Único",
+ "jornada": 1,
+ "jornada_text": "Jornada 1(03/10/2026)",
+ "data": "03/10/2026",
+ "ids": [
+  2522775,
+  2522776,
+  2522777,
+  2522778,
+  2522779,
+  2522780,
+  2522781,
+  2522782
+ ],
+ "generated": "2026-09-28T11:28:15.402914+00:00",
+ "games": [
+  {
+   "id": 2522775,
+   "teams": null,
+   "score": null,
+   "error": "timeout",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
+  },
+  {
+   "id": 2522776,
+   "teams": null,
+   "score": null,
+   "error": "timeout",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
+  },
+  {
+   "id": 2522777,
+   "teams": null,
+   "score": null,
+   "error": "timeout",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
+  },
+  {
+   "id": 2522778,
+   "teams": null,
+   "score": null,
+   "error": "timeout",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
+  },
+  {
+   "id": 2522779,
+   "teams": null,
+   "score": null,
+   "error": "timeout",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
+  },
+  {
+   "id": 2522780,
+   "teams": null,
+   "score": null,
+   "error": "timeout",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
+  },
+  {
+   "id": 2522781,
+   "teams": null,
+   "score": null,
+   "error": "timeout",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
+  },
+  {
+   "id": 2522782,
+   "teams": null,
+   "score": null,
+   "error": "timeout",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
+  }
+ ]
+}
