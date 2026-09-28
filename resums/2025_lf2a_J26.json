@@ -912,7 +912,12 @@
     63
    ],
    "marge_a_5_min": 7,
-   "marge_minim": 2
+   "marge_minim": 2,
+   "clutch": {
+    "minuts": 2.1,
+    "parcial": "ESCO GRUPO FEMENINO ALCORCON 6-2 EL PLANTEL GMASB",
+    "destacada": "I. CAMIÑA RODRIGUEZ"
+   }
   },
   {
    "id": 2479863,
@@ -925,7 +930,12 @@
     66
    ],
    "marge_a_5_min": -1,
-   "marge_minim": 0
+   "marge_minim": 0,
+   "clutch": {
+    "minuts": 10.0,
+    "parcial": "DPES CB CIUDAD DE MOSTOLES 18-18 BASKET ALMEDA",
+    "destacada": "M. GAMEZ MARTINEZ"
+   }
   },
   {
    "id": 2479864,
@@ -938,7 +948,12 @@
     47
    ],
    "marge_a_5_min": 7,
-   "marge_minim": 4
+   "marge_minim": 4,
+   "clutch": {
+    "minuts": 2.1,
+    "parcial": "HIERROS DÍAZ EXTREMADURA MIRALVALLE 5-0 ELSAMEX CB ANDRATX",
+    "destacada": "P. LAURENSON CHEYNEL"
+   }
   }
  ],
  "quintets": [
