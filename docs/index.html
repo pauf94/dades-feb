@@ -59,6 +59,7 @@ footer{max-width:1200px;margin:0 auto;padding:0 16px 40px;color:var(--muted);fon
     <button role="tab" data-v="jornada" aria-selected="true">Jornada</button>
     <button role="tab" data-v="equips" aria-selected="false">Equips</button>
     <button role="tab" data-v="jugadores" aria-selected="false">Jugadores</button>
+    <button role="tab" data-v="clutch" aria-selected="false">Clutch</button>
   </div>
 </div></header>
 <main id="main"><p class="empty">Carregant…</p></main>
@@ -88,8 +89,8 @@ function table(rows, cols, key, opts={}){
   const sd={}; cols.forEach(c=>{if(c[2]&&c[2]!=='txt'){const v=rows.map(r=>r[c[0]]).filter(x=>typeof x==='number'); if(v.length>1) sd[c[0]]=stats(v);}});
   const fmt=(c,v)=>c[2]==='pct'?pct(v):c[2]==='n2'?n2(v):c[2]==='n1'?n1(v):v;
   const h=`<thead><tr>${cols.map(c=>`<th data-c="${c[0]}" class="${c[3]||''} ${st.c===c[0]?'sorted':''} ${st.c===c[0]&&st.asc?'asc':''}">${c[1]}</th>`).join('')}</tr></thead>`;
-  const b=`<tbody>${rows.map(r=>`<tr>${cols.map(c=>{const v=r[c[0]];
-    const col=(c[4]&&sd[c[0]])?`style="color:${colour(v,sd[c[0]][0],sd[c[0]][1],c[4]==='inv')};font-weight:600"`:'';
+  const b=`<tbody>${rows.map(r=>`<tr${r._p?' style="opacity:.55;font-style:italic"':''}>${cols.map(c=>{const v=r[c[0]];
+    const col=(c[4]&&sd[c[0]]&&!r._p)?`style="color:${colour(v,sd[c[0]][0],sd[c[0]][1],c[4]==='inv')};font-weight:600"`:'';
     return `<td class="${c[3]||''}" ${col}>${v==null?'':fmt(c,v)}</td>`;}).join('')}</tr>`).join('')}</tbody>`;
   const el=document.createElement('div'); el.className='scroll';
   el.innerHTML=`<table>${h}${b}</table>`;
@@ -126,7 +127,8 @@ function viewJornada(){
       <td class="l" style="font-size:12.5px">${r.quintet.replace(/ \/ /g,' · ')}</td></tr>`).join('')+`</tbody></table></div>`:'<p class="empty">Cap ratxa destacada.</p>'}</div>`;
   html+=`<div class="card"><h2>Actuacions individuals</h2><div id="ind"></div></div>`;
   if(J.finals.length) html+=`<div class="card"><h2>Finals ajustats</h2>`+J.finals.map(f=>
-    `<p>${nom(f.equips[0])} ${f.marcador[0]}-${f.marcador[1]} ${nom(f.equips[1])} · marge a 5 minuts: ${f.marge_a_5_min>0?'+':''}${f.marge_a_5_min} · marge mínim: ${f.marge_minim}</p>`).join('')+`</div>`;
+    `<p>${nom(f.equips[0])} ${f.marcador[0]}-${f.marcador[1]} ${nom(f.equips[1])} · marge a 5 minuts: ${f.marge_a_5_min>0?'+':''}${f.marge_a_5_min} · marge mínim: ${f.marge_minim}`+
+    (f.clutch?`<br><span style="color:var(--muted);font-size:13px">En els ${n1(f.clutch.minuts)} minuts de clutch: ${f.clutch.parcial}${f.clutch.destacada?' · destacada: '+f.clutch.destacada:''}</span>`:'')+`</p>`).join('')+`</div>`;
   wrap.innerHTML=html;
   const ind=J.individuals.map(i=>({jugadora:i.jugadora,equip:nom(i.equip),min:i.min,PT:i.PT,REB:i.REB,AS:i.AS,
     T2:i.T2,T3:i.T3,TL:i.TL,VAL:i.VAL,pm:i.pm,TS:i.TS,z:i.z}));
@@ -163,12 +165,13 @@ function viewJugadores(){
     const rows=DATA.players.filter(p=>p.MIN>=lim && (!q||p.jugadora.toLowerCase().includes(q)||p.equip.toLowerCase().includes(q)))
       .map(p=>({jugadora:p.jugadora,equip:nom(p.equip),PJ:p.PJ,MIN:p.MIN,
         PTS:per40?p.p40:p.ppp,REB:per40?p.r40:p.rpp,AS:per40?p.a40:p.app,VAL:per40?p.v40:p.vpp,pm:p.pm40,
-        TS:p.TS,eFG:p.eFG,us:p.us,pRO:p.pRO,pRD:p.pRD,T3:p.T3}));
+        TS:p.TS,eFG:p.eFG,us:p.us,pRO:p.pRO,pRD:p.pRD,pROr:p.pRO_real,pRDr:p.pRD_real,difRO:p.dif_RO,difRD:p.dif_RD,T3:p.T3}));
     const c=wrap.querySelector('#t'); c.innerHTML='';
     c.append(table(rows,[['jugadora','Jugadora','txt','l'],['equip','Equip','txt','l'],['PJ','PJ'],['MIN','MIN','n1'],
       ['PTS',per40?'PTS/40':'PTS/P','n1','','col'],['REB',per40?'REB/40':'REB/P','n1','','col'],['AS',per40?'AS/40':'AS/P','n1','','col'],
       ['VAL',per40?'VAL/40':'VAL/P','n1','','col'],['pm','+/- 40','n1','','col'],['TS','%TS','pct','','col'],['eFG','%eFG','pct','','col'],
-      ['us','%ús','pct','','col'],['pRO','%RO','pct','','col'],['pRD','%RD','pct','','col'],['T3','T3','txt']],'jug',{sort:'VAL'}));
+      ['us','%ús','pct','','col'],['pRO','%RO est.','pct','','col'],['pROr','%RO real','pct','','col'],['difRO','Dif. RO','pct','','col'],
+      ['pRD','%RD est.','pct','','col'],['pRDr','%RD real','pct','','col'],['difRD','Dif. RD','pct','','col'],['T3','T3','txt']],'jug',{sort:'VAL'}));
   };
   const sel=wrap.querySelector('#pl');
   Object.keys(DATA.tirs).sort().forEach(k=>{const o=document.createElement('option');o.value=k;
@@ -186,9 +189,36 @@ function viewJugadores(){
   return wrap;
 }
 
+function viewClutch(){
+  const wrap=document.createElement('div');
+  const C=DATA.clutch||{equips:[],jugadores:[]};
+  wrap.innerHTML=`<div class="card"><h2>Clutch time</h2>
+    <p class="empty" style="font-style:normal;color:var(--muted)">Últims 5 minuts del quart període (o pròrrogues senceres) amb marge de 5 punts o menys en tot moment.
+      En gris: mostra petita (equips amb menys de 20 minuts acumulats, jugadores amb menys de 10).</p>
+    <h3>Equips</h3><div id="te"></div><h3>Jugadores</h3>
+    <div class="filters"><label>Mínim de minuts <input type="number" id="cmm" value="0" min="0" step="1" style="width:80px"></label></div>
+    <div id="tj"></div></div>`;
+  const eq=C.equips.map(r=>({equip:nom(r.equip),minuts:r.minuts,PF:r.PF,PC:r.PC,dif:r.dif,T2:r.T2,T3:r.T3,TL:r.TL,
+    BP:r.BP,BR:r.BR,OER:r.OER,DER:r.DER,eFG:r.eFG,pBP:r.pBP,_p:r.mostra_petita}));
+  wrap.querySelector('#te').append(table(eq,[['equip','Equip','txt','l'],['minuts','Min.','n1'],['PF','PF'],['PC','PC'],
+    ['dif','+/-'],['T2','T2','txt'],['T3','T3','txt'],['TL','TL','txt'],['BP','Pèrdues'],['BR','Robatoris'],
+    ['OER','OER','n2','','col'],['DER','DER','n2','','inv'],['eFG','%eFG','pct','','col'],['pBP','%Pèrdues','pct','','inv']],'ceq',{sort:'minuts'}));
+  const drawP=()=>{
+    const lim=+wrap.querySelector('#cmm').value||0;
+    const pl=C.jugadores.filter(r=>r.minuts>=lim).map(r=>({jugadora:r.jugadora,equip:nom(r.equip),minuts:r.minuts,PT:r.PT,
+      T2:r.T2,T3:r.T3,TL:r.TL,BP:r.BP,BR:r.BR,PM:r.PM,eFG:r.eFG,OER:r.OER,DER:r.DER,pBP:r.pBP,_p:r.mostra_petita}));
+    const c=wrap.querySelector('#tj'); c.innerHTML='';
+    c.append(table(pl,[['jugadora','Jugadora','txt','l'],['equip','Equip','txt','l'],['minuts','Min.','n1'],['PT','PT'],
+      ['T2','T2','txt'],['T3','T3','txt'],['TL','TL','txt'],['BP','Pèrdues'],['BR','Robatoris'],['PM','+/-'],
+      ['eFG','%eFG','pct','','col'],['OER','OER','n2','','col'],['DER','DER','n2','','inv'],['pBP','%Pèrdues','pct','','inv']],'cjug',{sort:'minuts'}));
+  };
+  wrap.querySelector('#cmm').addEventListener('input',drawP);
+  setTimeout(drawP,0);
+  return wrap;
+}
 function render(){
   M.innerHTML='';
-  M.append(view==='jornada'?viewJornada():view==='equips'?viewEquips():viewJugadores());
+  M.append(view==='jornada'?viewJornada():view==='equips'?viewEquips():view==='jugadores'?viewJugadores():viewClutch());
   $('#foot').textContent=`Dades generades el ${DATA.generat.replace('T',' a les ')} · ${DATA.players.length} jugadores · actes oficials FEB`;
 }
 async function loadComp(entry){
