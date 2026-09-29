@@ -165,13 +165,13 @@ function viewJugadores(){
     const rows=DATA.players.filter(p=>p.MIN>=lim && (!q||p.jugadora.toLowerCase().includes(q)||p.equip.toLowerCase().includes(q)))
       .map(p=>({jugadora:p.jugadora,equip:nom(p.equip),PJ:p.PJ,MIN:p.MIN,
         PTS:per40?p.p40:p.ppp,REB:per40?p.r40:p.rpp,AS:per40?p.a40:p.app,VAL:per40?p.v40:p.vpp,pm:p.pm40,
-        TS:p.TS,eFG:p.eFG,us:p.us,pRO:p.pRO,pRD:p.pRD,pROr:p.pRO_real,pRDr:p.pRD_real,difRO:p.dif_RO,difRD:p.dif_RD,T3:p.T3}));
+        TS:p.TS,eFG:p.eFG,us:p.us,pRO:p.pRO,pRD:p.pRD,pROr:p.pRO_real,pRDr:p.pRD_real,difRO:p.dif_RO,difRD:p.dif_RD,pROe:p.pRO_pista,pRDe:p.pRD_pista,dpRO:p.dif_pista_RO,dpRD:p.dif_pista_RD,T3:p.T3}));
     const c=wrap.querySelector('#t'); c.innerHTML='';
     c.append(table(rows,[['jugadora','Jugadora','txt','l'],['equip','Equip','txt','l'],['PJ','PJ'],['MIN','MIN','n1'],
       ['PTS',per40?'PTS/40':'PTS/P','n1','','col'],['REB',per40?'REB/40':'REB/P','n1','','col'],['AS',per40?'AS/40':'AS/P','n1','','col'],
       ['VAL',per40?'VAL/40':'VAL/P','n1','','col'],['pm','+/- 40','n1','','col'],['TS','%TS','pct','','col'],['eFG','%eFG','pct','','col'],
       ['us','%ús','pct','','col'],['pRO','%RO est.','pct','','col'],['pROr','%RO real','pct','','col'],['difRO','Dif. RO','pct','','col'],
-      ['pRD','%RD est.','pct','','col'],['pRDr','%RD real','pct','','col'],['difRD','Dif. RD','pct','','col'],['T3','T3','txt']],'jug',{sort:'VAL'}));
+      ['pRD','%RD est.','pct','','col'],['pRDr','%RD real','pct','','col'],['difRD','Dif. RD','pct','','col'],['pROe','%RO equip a pista','pct','','col'],['dpRO','Dif. RO pista vs equip','pct','','col'],['pRDe','%RD equip a pista','pct','','col'],['dpRD','Dif. RD pista vs equip','pct','','col'],['T3','T3','txt']],'jug',{sort:'VAL'}));
   };
   const sel=wrap.querySelector('#pl');
   Object.keys(DATA.tirs).sort().forEach(k=>{const o=document.createElement('option');o.value=k;
