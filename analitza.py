@@ -325,9 +325,17 @@ PCOLS = ["PT","T2A","T2I","T3A","T3I","TLA","TLI","RO","RD","AS","BR","BP","TF",
 def player_rows(games):
     acc = defaultdict(lambda: dict(PJ=0, TIT=0, MIN=0.0, VALS=[], un=0.0, ud=0.0, orn=0.0, ord=0.0, drn=0.0, drd=0.0,
                                    ro_real=0, rd_real=0, ro_riv_real=0, rd_riv_real=0,
+                                   ro_prop=0, rd_prop=0, orn_ok=0.0, ord_ok=0.0, drn_ok=0.0, drd_ok=0.0,
                                    **{k: 0 for k in PCOLS}))
+    # %RO/%RD de tot l'equip en els partits amb pbp_ok (referència del diferencial)
+    TR = defaultdict(lambda: dict(ro=0, rd=0, ro_riv=0, rd_riv=0))
     for g in games:
         T = [team_totals(g, 0), team_totals(g, 1)]
+        if g.get("checks", {}).get("pbp_ok"):
+            for i in (0, 1):
+                d = TR[g["teams"][i]]
+                d["ro"] += T[i]["RO"]; d["rd"] += T[i]["RD"]
+                d["ro_riv"] += T[1 - i]["RO"]; d["rd_riv"] += T[1 - i]["RD"]
         for p in g["players"]:
             if p.get("min", 0) <= 0: continue
             o = acc[(g["teams"][p["team"]], p["name"])]
@@ -340,6 +348,11 @@ def player_rows(games):
             o["ud"] += p["min"] * (tm["T2I"] + tm["T3I"] + 0.44 * tm["TLI"] + tm["BP"])
             o["orn"] += p.get("RO", 0) * tm["MIN"] / 5; o["ord"] += p["min"] * (tm["RO"] + op["RD"])
             o["drn"] += p.get("RD", 0) * tm["MIN"] / 5; o["drd"] += p["min"] * (tm["RD"] + op["RO"])
+            if g.get("checks", {}).get("pbp_ok"):
+                # rebots propis i estimació restringida als mateixos partits, perquè la diferència sigui comparable
+                o["ro_prop"] += p.get("RO", 0); o["rd_prop"] += p.get("RD", 0)
+                o["orn_ok"] += p.get("RO", 0) * tm["MIN"] / 5; o["ord_ok"] += p["min"] * (tm["RO"] + op["RD"])
+                o["drn_ok"] += p.get("RD", 0) * tm["MIN"] / 5; o["drd_ok"] += p["min"] * (tm["RD"] + op["RO"])
         # rebot real (des del play-by-play): només als partits en què el pbp quadra amb l'acta
         if g.get("checks", {}).get("pbp_ok"):
             w = walk(g)
@@ -351,13 +364,24 @@ def player_rows(games):
     for (equip, nom), o in acc.items():
         tci = o["T2I"] + o["T3I"]
         ro_den = o["ro_real"] + o["rd_riv_real"]; rd_den = o["rd_real"] + o["ro_riv_real"]
+        te = TR.get(equip)
+        eq_ro = te["ro"] / (te["ro"] + te["rd_riv"]) if te and (te["ro"] + te["rd_riv"]) else None
+        eq_rd = te["rd"] / (te["rd"] + te["ro_riv"]) if te and (te["rd"] + te["ro_riv"]) else None
         out.append(dict(equip=equip, jugadora=nom, PJ=o["PJ"], TIT=o["TIT"], MIN=round(o["MIN"], 1),
                         **{k: o[k] for k in PCOLS},
                         us=o["un"] / o["ud"] if o["ud"] else 0,
                         pROj=o["orn"] / o["ord"] if o["ord"] else 0,
                         pRDj=o["drn"] / o["drd"] if o["drd"] else 0,
-                        pRO_real=o["ro_real"] / ro_den if ro_den else None,
-                        pRD_real=o["rd_real"] / rd_den if rd_den else None,
+                        # %RO/%RD real individual: rebots propis / rebots disponibles mentre és a pista
+                        pRO_real=o["ro_prop"] / ro_den if ro_den else None,
+                        pRD_real=o["rd_prop"] / rd_den if rd_den else None,
+                        # %RO/%RD de l'equip amb ella a pista
+                        pRO_pista=o["ro_real"] / ro_den if ro_den else None,
+                        pRD_pista=o["rd_real"] / rd_den if rd_den else None,
+                        dif_pista_RO=(o["ro_real"] / ro_den - eq_ro) if ro_den and eq_ro is not None else None,
+                        dif_pista_RD=(o["rd_real"] / rd_den - eq_rd) if rd_den and eq_rd is not None else None,
+                        dif_RO=(o["ro_prop"] / ro_den - o["orn_ok"] / o["ord_ok"]) if ro_den and o["ord_ok"] else None,
+                        dif_RD=(o["rd_prop"] / rd_den - o["drn_ok"] / o["drd_ok"]) if rd_den and o["drd_ok"] else None,
                         eFG=(o["T2A"] + 1.5 * o["T3A"]) / tci if tci else 0,
                         TS=o["PT"] / (2 * (tci + 0.44 * o["TLI"])) if (tci or o["TLI"]) else 0,
                         VALmax=max(o["VALS"]) if o["VALS"] else 0,
@@ -452,9 +476,11 @@ def write_xlsx(path, comp, season, trows, prows, q, c2, c3, shots, excluded, ctr
           ("RO","RO"),("RD","RD"),("AS","AS"),("BR","BR"),("BP","BP"),("TF","TAP"),("FC","FC"),("FR","FR"),
           ("VAL","VAL"),("PM","+/-"),("VALmax","VAL màx"),("VALmitjana","VAL/P"),("VALde","DE VAL"),
           ("eFG","%eFG"),("TS","%TS"),("us","%ús"),
-          ("pROj","%RO est."),("pRO_real","%RO real"),("pRDj","%RD est."),("pRD_real","%RD real")]
+          ("pROj","%RO est."),("pRO_real","%RO real"),("pRDj","%RD est."),("pRD_real","%RD real"),
+          ("pRO_pista","%RO equip a pista"),("dif_pista_RO","Dif. RO pista vs equip"),
+          ("pRD_pista","%RD equip a pista"),("dif_pista_RD","Dif. RD pista vs equip")]
     sheet("Jugadores", prows, PH, {"equip":22,"jugadora":30},
-          {"eFG","TS","us","pROj","pRDj","pRO_real","pRD_real"}, {"VALmitjana","VALde"}, {"MIN"})
+          {"eFG","TS","us","pROj","pRDj","pRO_real","pRD_real","pRO_pista","pRD_pista","dif_pista_RO","dif_pista_RD"}, {"VALmitjana","VALde"}, {"MIN"})
     CH = [("equip","Equip"),("combinacio","Combinació"),("minuts","Minuts"),("PF","PF"),("PC","PC"),("dif","+/-"),
           ("ORtg","ORtg"),("DRtg","DRtg"),("net","Net")]
     sheet("Quintets", q, CH, {"equip":22,"combinacio":60}, (), {"ORtg","DRtg","net"}, {"minuts"})
@@ -509,7 +535,9 @@ def write_xlsx(path, comp, season, trows, prows, q, c2, c3, shots, excluded, ctr
             ("%eFG", "(T2A + 1,5·T3A) / (T2I + T3I)"), ("%TS", "PTS / (2·(TCI + 0,44·TLI))"),
             ("%RO / %RD", "rebots capturats sobre els disponibles (fórmula clàssica)"),
             ("%RO / %RD est. (jugadora)", "estimació per minuts: repartiment proporcional dels rebots de l'equip"),
-            ("%RO / %RD real (jugadora)", "des del play-by-play: rebots ofensius/defensius propis i del rival mentre és a pista, només partits amb pbp_ok"),
+            ("%RO / %RD real (jugadora)", "des del play-by-play: rebots propis / rebots disponibles mentre és a pista; només partits amb pbp_ok"),
+            ("%RO / %RD equip a pista", "rebots capturats per tot l'equip / disponibles mentre ella és a pista; només partits amb pbp_ok"),
+            ("Dif. pista vs equip", "%RO/%RD de l'equip amb ella a pista menys el %RO/%RD de l'equip en tots els seus partits amb pbp_ok"),
             ("%ús", "possessions de l'equip que acaba la jugadora mentre és a pista"),
             ("Quintets/Parelles/Trios", f"mínims de minuts junts: {20}, {100} i {100}. ORtg i DRtg per 100 possessions"),
             ("Zones de tir", "12 zones; els triples s'ajusten perquè quadrin amb l'acta"),
@@ -664,8 +692,12 @@ def web_payload(games, trows, prows, q, c2, c3, shots, season, comp, ctrows=None
                             pRO=round(p["pROj"], 4), pRD=round(p["pRDj"], 4),
                             pRO_real=round(p["pRO_real"], 4) if p["pRO_real"] is not None else None,
                             pRD_real=round(p["pRD_real"], 4) if p["pRD_real"] is not None else None,
-                            dif_RO=round(p["pRO_real"] - p["pROj"], 4) if p["pRO_real"] is not None else None,
-                            dif_RD=round(p["pRD_real"] - p["pRDj"], 4) if p["pRD_real"] is not None else None,
+                            pRO_pista=round(p["pRO_pista"], 4) if p["pRO_pista"] is not None else None,
+                            pRD_pista=round(p["pRD_pista"], 4) if p["pRD_pista"] is not None else None,
+                            dif_pista_RO=round(p["dif_pista_RO"], 4) if p["dif_pista_RO"] is not None else None,
+                            dif_pista_RD=round(p["dif_pista_RD"], 4) if p["dif_pista_RD"] is not None else None,
+                            dif_RO=round(p["dif_RO"], 4) if p["dif_RO"] is not None else None,
+                            dif_RD=round(p["dif_RD"], 4) if p["dif_RD"] is not None else None,
                             T2=f'{p["T2A"]}/{p["T2I"]}', T3=f'{p["T3A"]}/{p["T3I"]}', TL=f'{p["TLA"]}/{p["TLI"]}',
                             pT3=round(p["T3A"] / p["T3I"], 4) if p["T3I"] else 0))
     zt = defaultdict(lambda: [0, 0]); zl = defaultdict(lambda: [0, 0])
