@@ -1,0 +1,209 @@
+{
+ "comp": "lf2a",
+ "season": 2026,
+ "fase": "Liga Regular \"A\"",
+ "jornada": 1,
+ "jornada_text": "Jornada 1(03/10/2026)",
+ "data": "03/10/2026",
+ "ids": [
+  2524697,
+  2524698,
+  2524699,
+  2524700,
+  2524701,
+  2524702,
+  2524703,
+  2524704,
+  2524705,
+  2524706,
+  2524707,
+  2524708,
+  2524709,
+  2524710
+ ],
+ "generated": "2026-10-05T08:38:37.370310+00:00",
+ "games": [
+  {
+   "id": 2524697,
+   "teams": [
+    "CB ISLA BONITA SANO SANO CATERING",
+    "GRUPO INTERBUS ALCOBENDAS"
+   ],
+   "score": [
+    71,
+    64
+   ],
+   "error": null,
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
+  },
+  {
+   "id": 2524698,
+   "teams": [
+    "SERNOVA RENOVABLES REAL CANOE",
+    "EL COCHINILLO SEGOVIANO SL"
+   ],
+   "score": [
+    73,
+    68
+   ],
+   "error": null,
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
+  },
+  {
+   "id": 2524699,
+   "teams": [
+    "SIROKO GIJON BASKETBALL",
+    "HIERROS DÍAZ EXTREMADURA MIRALVALLE"
+   ],
+   "score": [
+    65,
+    69
+   ],
+   "error": null,
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
+  },
+  {
+   "id": 2524700,
+   "teams": [
+    "MARISCOS ANTÓN CORTEGADA",
+    "CESUR DISTRITO OLIMPICO"
+   ],
+   "score": [
+    67,
+    62
+   ],
+   "error": null,
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
+  },
+  {
+   "id": 2524701,
+   "teams": [
+    "C.B. LAS ROZAS",
+    "DPES-SUMIALKI CB CIUDAD DE MOSTOLES"
+   ],
+   "score": [
+    52,
+    58
+   ],
+   "error": null,
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
+  },
+  {
+   "id": 2524702,
+   "teams": [
+    "MAGEC TÍAS LANZAROTE CONTRA LA VIOLENCIA DE GÉNERO",
+    "SPAR GRAN CANARIA"
+   ],
+   "score": [
+    69,
+    59
+   ],
+   "error": null,
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
+  },
+  {
+   "id": 2524703,
+   "teams": [
+    "CB POZUELO",
+    "ACEITES ABRIL ADBA SANFER"
+   ],
+   "score": [
+    36,
+    53
+   ],
+   "error": null,
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
+  },
+  {
+   "id": 2524704,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
+  },
+  {
+   "id": 2524705,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
+  },
+  {
+   "id": 2524706,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
+  },
+  {
+   "id": 2524707,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
+  },
+  {
+   "id": 2524708,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
+  },
+  {
+   "id": 2524709,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
+  },
+  {
+   "id": 2524710,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
+  }
+ ]
+}
