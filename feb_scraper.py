@@ -87,9 +87,18 @@ def list_games(page, comp, season, jornada):
     jsel = selects()[2]
     jopts = jsel.evaluate("s=>[...s.options].map(o=>[o.value,o.text,o.selected])")
     if jornada == "last":
-        # la jornada que la web mostra per defecte és l'actual; si encara no s'ha jugat, l'anterior
+        # La web mostra per defecte la propera jornada un cop acabada l'anterior.
+        # Si la data de la jornada per defecte encara no ha arribat, agafem l'anterior.
         cur = next(o for o in jopts if o[2])
         jn = int(re.search(r"Jornada\s+(\d+)", cur[1]).group(1))
+        md = re.search(r"(\d{1,2})[-/](\d{1,2})[-/](\d{4})", cur[1])
+        if md and jn > 1:
+            d = datetime(int(md.group(3)), int(md.group(2)), int(md.group(1)), tzinfo=timezone.utc)
+            if d.date() > datetime.now(timezone.utc).date():
+                log(f"  la jornada {jn} encara no s'ha jugat ({md.group(0)}); agafo la {jn - 1}")
+                jn -= 1
+    elif isinstance(jornada, int):
+        jn = jornada
     else:
         jn = int(jornada)
     target = next((o for o in jopts if re.search(rf"Jornada\s+{jn}\b", o[1])), None)
@@ -157,11 +166,27 @@ def parse_player(p):
             except ValueError: out[k] = 0
     return out
 
-def click_tab(page, text):
-    page.locator("a.btn-tab", has_text=re.compile(text, re.I)).first.click()
+def click_tab(page, text, timeout=8000):
+    """Clica una pestanya del partit. Si no és visible en 8 s, retorna False en lloc d'encallar-se."""
+    try:
+        page.locator("a.btn-tab", has_text=re.compile(text, re.I)).first.click(timeout=timeout)
+        return True
+    except PWTimeout:
+        log(f"  la pestanya {text!r} no és visible")
+        return False
+
+def save_diag(page, gid):
+    """Desa captura i HTML de la pàgina quan no hi ha acta, per poder veure què mostra la FEB."""
+    d = Path("proves") / "diag"; d.mkdir(parents=True, exist_ok=True)
+    try:
+        page.screenshot(path=str(d / f"{gid}.png"), full_page=True)
+        (d / f"{gid}.html").write_text(page.content(), encoding="utf-8")
+        log(f"  {gid}: diagnosi desada a proves/diag/")
+    except Exception as e:
+        log(f"  {gid}: no s'ha pogut desar la diagnosi ({e})")
 
 def read_pbp(page, timeout_s=40):
-    click_tab(page, r"^\s*Directo\s*$")
+    if not click_tab(page, r"^\s*Directo\s*$"): return []
     last, stable, t0 = -1, 0, time.time()
     while time.time() - t0 < timeout_s:
         n = page.evaluate("()=>{const k=document.querySelector('.widget-keyfacts');return k?k.children.length:0}")
@@ -179,7 +204,7 @@ def read_pbp(page, timeout_s=40):
         const tm=c.textContent.match(/(\d\d):(\d\d)/); return tm?[q,+tm[1]*60+ +tm[2],acc]:null}).filter(Boolean);}""")
 
 def read_shots(page, fga, timeout_s=25):
-    click_tab(page, r"Gr.{1,2}fico de tiro")
+    if not click_tab(page, r"Gr.{1,2}fico de tiro"): return []
     t0 = time.time()
     while time.time() - t0 < timeout_s:
         n = page.evaluate("()=>document.querySelectorAll('.court-shoots .shoot').length")
@@ -236,6 +261,11 @@ def extract_game(page, gid, tries=3):
                 time.sleep(0.5)
             if not box_complete:
                 log(f"  {gid}: la pàgina no s'acaba d'estabilitzar ({snap}); llegeixo el que hi ha")
+            if not snap or snap.get("tables", 0) == 0:
+                # Sense taules d'acta: partit no jugat, acta no publicada o pàgina canviada.
+                # Reintentar no hi ajuda; desem diagnosi i passem al següent.
+                save_diag(page, gid)
+                return {"id": gid, "error": "sense_acta"}
             box = page.evaluate(JS_BOX)
             players = [parse_player(p) for p in box["players"]]
             teams = [norm_team(t) for t in box["teams"]]
@@ -287,6 +317,13 @@ def run(comp, season, jornada, outdir):
         page = ctx.new_page()
         info = list_games(page, comp, season, jornada)
         log(f"{comp} {season} {info['jornada_text']}: {len(info['ids'])} partits {info['ids']}")
+        if jornada == "last" and info["ids"] and info["jornada"] > 1:
+            # xarxa de seguretat: si el primer partit no té acta, la jornada no s'ha jugat
+            first = extract_game(page, info["ids"][0])
+            if first.get("error") == "sense_acta":
+                log(f"  la jornada {info['jornada']} no té actes; agafo la {info['jornada'] - 1}")
+                info = list_games(page, comp, season, info["jornada"] - 1)
+                log(f"{comp} {season} {info['jornada_text']}: {len(info['ids'])} partits {info['ids']}")
         folder = Path(outdir) / str(season) / comp / f"J{info['jornada']:02d}"
         folder.mkdir(parents=True, exist_ok=True)
         report = {"comp": comp, "season": season, **info, "generated": datetime.now(timezone.utc).isoformat(), "games": []}
