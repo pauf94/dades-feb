@@ -1,0 +1,231 @@
+{
+ "comp": "challenge",
+ "season": 2026,
+ "fase": "Liga Regular Único",
+ "jornada": 1,
+ "jornada_text": "Jornada 1(03/10/2026)",
+ "data": "03/10/2026",
+ "ids": [
+  2524455,
+  2524456,
+  2524457,
+  2524458,
+  2524459,
+  2524460,
+  2524461,
+  2524462,
+  2524463,
+  2524464,
+  2524465,
+  2524466,
+  2524467,
+  2524468,
+  2524469,
+  2524470
+ ],
+ "generated": "2026-10-05T08:56:11.264504+00:00",
+ "games": [
+  {
+   "id": 2524455,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
+  },
+  {
+   "id": 2524456,
+   "teams": [
+    "C.B. AL-QAZERES EXTREMADURA",
+    "RECOLETAS ZAMORA"
+   ],
+   "score": [
+    73,
+    64
+   ],
+   "error": null,
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
+  },
+  {
+   "id": 2524457,
+   "teams": [
+    "FUSTECMA NBF CASTELLÓ",
+    "SPARKING TRUTH MARISTAS"
+   ],
+   "score": [
+    82,
+    83
+   ],
+   "error": null,
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
+  },
+  {
+   "id": 2524458,
+   "teams": [
+    "DOMUSA TEKNIK ISB",
+    "UNICAJA MIJAS"
+   ],
+   "score": [
+    83,
+    85
+   ],
+   "error": null,
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
+  },
+  {
+   "id": 2524459,
+   "teams": [
+    "MIPELLETYMAS B.F. LEON",
+    "SEVILLA CAJASOL GARDENSTORE BALONCESTO"
+   ],
+   "score": [
+    73,
+    84
+   ],
+   "error": null,
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
+  },
+  {
+   "id": 2524460,
+   "teams": [
+    "SPAR GRAN CANARIA",
+    "MCR LIMA-HORTA BARCELONA"
+   ],
+   "score": [
+    54,
+    68
+   ],
+   "error": null,
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
+  },
+  {
+   "id": 2524461,
+   "teams": [
+    "LA LAGUNA TOYOTA ADAREVA",
+    "OSES CONSTRUCCION"
+   ],
+   "score": [
+    64,
+    70
+   ],
+   "error": null,
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
+  },
+  {
+   "id": 2524462,
+   "teams": [
+    "MELILLA CIUDAD DEL DEPORTE LA SALLE",
+    "BOSONIT UNIBASKET"
+   ],
+   "score": [
+    63,
+    57
+   ],
+   "error": null,
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
+  },
+  {
+   "id": 2524463,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
+  },
+  {
+   "id": 2524464,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
+  },
+  {
+   "id": 2524465,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
+  },
+  {
+   "id": 2524466,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
+  },
+  {
+   "id": 2524467,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
+  },
+  {
+   "id": 2524468,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
+  },
+  {
+   "id": 2524469,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
+  },
+  {
+   "id": 2524470,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
+  }
+ ]
+}

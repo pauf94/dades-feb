@@ -1,6 +1,16 @@
 {
  "competicions": [
   {
+   "comp": "challenge",
+   "season": 2026,
+   "nom": "LF Challenge",
+   "fitxer": "data/2026_challenge.json",
+   "jornades": [
+    1
+   ],
+   "generat": "2026-10-05T09:03:46"
+  },
+  {
    "comp": "lf2a",
    "season": 2026,
    "nom": "LF-2 grup A",
