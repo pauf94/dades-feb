@@ -4,6 +4,38 @@
  "fase": "Liga Regular Único",
  "jornada": 1,
  "jornada_text": "Jornada 1(03/10/2026)",
+ "dates": {
+  "1": "2026-10-03",
+  "2": "2026-10-10",
+  "3": "2026-10-17",
+  "4": "2026-10-24",
+  "5": "2026-10-31",
+  "6": "2026-11-06",
+  "7": "2026-11-21",
+  "8": "2026-11-28",
+  "9": "2026-12-05",
+  "10": "2026-12-08",
+  "11": "2026-12-12",
+  "12": "2026-12-19",
+  "13": "2026-12-29",
+  "14": "2027-01-02",
+  "15": "2027-01-09",
+  "16": "2027-01-16",
+  "17": "2027-01-23",
+  "18": "2027-01-30",
+  "19": "2027-02-05",
+  "20": "2027-02-20",
+  "21": "2027-02-27",
+  "22": "2027-03-06",
+  "23": "2027-03-13",
+  "24": "2027-03-20",
+  "25": "2027-03-27",
+  "26": "2027-03-31",
+  "27": "2027-04-03",
+  "28": "2027-04-10",
+  "29": "2027-04-17",
+  "30": "2027-04-24"
+ },
  "data": "03/10/2026",
  "ids": [
   2524455,
@@ -23,13 +55,14 @@
   2524469,
   2524470
  ],
- "generated": "2026-10-05T12:11:27.628596+00:00",
+ "generated": "2026-10-05T16:23:02.576203+00:00",
  "games": [
   {
    "id": 2524455,
    "teams": null,
    "score": null,
    "error": "sense_acta",
+   "date": "07/10/2026",
    "pbp_ok": null,
    "shots_ok": null,
    "shot_mismatch": null,
@@ -45,11 +78,9 @@
     73,
     64
    ],
-   "error": null,
+   "date": "03/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524457,
@@ -61,11 +92,9 @@
     82,
     83
    ],
-   "error": null,
+   "date": "03/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524458,
@@ -77,11 +106,9 @@
     83,
     85
    ],
-   "error": null,
+   "date": "03/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524459,
@@ -93,11 +120,9 @@
     73,
     84
    ],
-   "error": null,
+   "date": "03/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524460,
@@ -109,11 +134,9 @@
     54,
     68
    ],
-   "error": null,
+   "date": "03/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524461,
@@ -125,11 +148,9 @@
     64,
     70
    ],
-   "error": null,
+   "date": "03/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524462,
@@ -141,91 +162,19 @@
     63,
     57
    ],
-   "error": null,
+   "date": "04/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
-  },
-  {
-   "id": 2524463,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
-  },
-  {
-   "id": 2524464,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
-  },
-  {
-   "id": 2524465,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
-  },
-  {
-   "id": 2524466,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
-  },
-  {
-   "id": 2524467,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
-  },
-  {
-   "id": 2524468,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
-  },
-  {
-   "id": 2524469,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
-  },
-  {
-   "id": 2524470,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "shots_ok": true
   }
+ ],
+ "altres_jornades": [
+  2524463,
+  2524464,
+  2524465,
+  2524466,
+  2524467,
+  2524468,
+  2524469,
+  2524470
  ]
 }

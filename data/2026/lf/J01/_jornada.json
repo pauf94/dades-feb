@@ -4,6 +4,38 @@
  "fase": "Liga Regular Único",
  "jornada": 1,
  "jornada_text": "Jornada 1(03/10/2026)",
+ "dates": {
+  "1": "2026-10-03",
+  "2": "2026-10-09",
+  "3": "2026-10-11",
+  "4": "2026-10-17",
+  "5": "2026-10-24",
+  "6": "2026-10-31",
+  "7": "2026-11-06",
+  "8": "2026-11-22",
+  "9": "2026-11-28",
+  "10": "2026-12-05",
+  "11": "2026-12-09",
+  "12": "2026-12-13",
+  "13": "2026-12-19",
+  "14": "2026-12-22",
+  "15": "2026-12-29",
+  "16": "2027-01-03",
+  "17": "2027-01-09",
+  "18": "2027-01-16",
+  "19": "2027-01-23",
+  "20": "2027-01-30",
+  "21": "2027-02-05",
+  "22": "2027-02-21",
+  "23": "2027-02-27",
+  "24": "2027-03-06",
+  "25": "2027-03-13",
+  "26": "2027-03-17",
+  "27": "2027-03-20",
+  "28": "2027-04-03",
+  "29": "2027-04-11",
+  "30": "2027-04-21"
+ },
  "data": "03/10/2026",
  "ids": [
   2522775,
@@ -23,7 +55,7 @@
   2522789,
   2522790
  ],
- "generated": "2026-10-05T12:04:19.445080+00:00",
+ "generated": "2026-10-05T16:19:47.208968+00:00",
  "games": [
   {
    "id": 2522775,
@@ -35,11 +67,9 @@
     88,
     71
    ],
-   "error": null,
+   "date": "03/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2522776,
@@ -51,11 +81,9 @@
     82,
     77
    ],
-   "error": null,
+   "date": "04/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2522777,
@@ -67,11 +95,9 @@
     53,
     72
    ],
-   "error": null,
+   "date": "04/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2522778,
@@ -83,11 +109,9 @@
     82,
     79
    ],
-   "error": null,
+   "date": "03/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2522779,
@@ -99,11 +123,9 @@
     66,
     63
    ],
-   "error": null,
+   "date": "03/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2522780,
@@ -115,11 +137,9 @@
     80,
     84
    ],
-   "error": null,
+   "date": "03/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2522781,
@@ -131,11 +151,9 @@
     73,
     57
    ],
-   "error": null,
+   "date": "03/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2522782,
@@ -147,17 +165,16 @@
     68,
     41
    ],
-   "error": null,
+   "date": "04/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2522783,
    "teams": null,
    "score": null,
    "error": "sense_acta",
+   "date": "08/10/2026",
    "pbp_ok": null,
    "shots_ok": null,
    "shot_mismatch": null,
@@ -168,6 +185,7 @@
    "teams": null,
    "score": null,
    "error": "sense_acta",
+   "date": "08/10/2026",
    "pbp_ok": null,
    "shots_ok": null,
    "shot_mismatch": null,
@@ -178,6 +196,7 @@
    "teams": null,
    "score": null,
    "error": "sense_acta",
+   "date": "08/10/2026",
    "pbp_ok": null,
    "shots_ok": null,
    "shot_mismatch": null,
@@ -188,6 +207,7 @@
    "teams": null,
    "score": null,
    "error": "sense_acta",
+   "date": "08/10/2026",
    "pbp_ok": null,
    "shots_ok": null,
    "shot_mismatch": null,
@@ -198,6 +218,7 @@
    "teams": null,
    "score": null,
    "error": "sense_acta",
+   "date": "08/10/2026",
    "pbp_ok": null,
    "shots_ok": null,
    "shot_mismatch": null,
@@ -208,6 +229,7 @@
    "teams": null,
    "score": null,
    "error": "sense_acta",
+   "date": "08/10/2026",
    "pbp_ok": null,
    "shots_ok": null,
    "shot_mismatch": null,
@@ -218,6 +240,7 @@
    "teams": null,
    "score": null,
    "error": "sense_acta",
+   "date": "07/10/2026",
    "pbp_ok": null,
    "shots_ok": null,
    "shot_mismatch": null,
@@ -228,10 +251,12 @@
    "teams": null,
    "score": null,
    "error": "sense_acta",
+   "date": "07/10/2026",
    "pbp_ok": null,
    "shots_ok": null,
    "shot_mismatch": null,
    "shot_orphans": null
   }
- ]
+ ],
+ "altres_jornades": []
 }
