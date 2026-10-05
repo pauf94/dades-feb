@@ -3,7 +3,9 @@ name: Dades FEB setmanals
 on:
   schedule:
     - cron: "0 5 * * 1"   # dilluns a les 5:00 UTC (7:00 a l'estiu, 6:00 a l'hivern)
-    - cron: "0 5 * * 3"   # dimecres, per recollir partits ajornats
+    - cron: "0 9 * * 1"   # dilluns a les 9:00 UTC: segona oportunitat si GitHub s'ha saltat la primera
+    - cron: "0 5 * * 3"   # dimecres: partits ajornats del cap de setmana
+    - cron: "0 5 * * 4"   # dijous: partits jugats dimecres (jornades entre setmana i ajornats)
   workflow_dispatch:
     inputs:
       mode:
@@ -18,7 +20,7 @@ on:
         description: "Any d'inici de temporada"
         default: "2026"
       jornada:
-        description: "Número de jornada o 'last'"
+        description: "Número de jornada (1, J1...) o 'last'"
         default: "last"
 
 permissions:
@@ -27,7 +29,7 @@ permissions:
 jobs:
   extract:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -69,5 +71,7 @@ jobs:
             echo "No hi ha dades noves per desar"
           else
             git commit -m "Dades FEB $(date -u +%Y-%m-%d)"
+            # si mentrestant s'ha pujat un altre canvi, l'incorporem abans de pujar
+            git pull --rebase --autostash || true
             git push
           fi
