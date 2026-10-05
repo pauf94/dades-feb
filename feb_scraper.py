@@ -60,6 +60,32 @@ def select_and_wait(page, handle, value):
         page.wait_for_load_state("networkidle", timeout=30000)
     page.wait_for_selector("select", timeout=30000)
 
+# ---------------------------------------------------------------- dates i jornades
+def norm_jornada(j):
+    """'J1', 'j01', '1' o 1 -> 1. 'last' es tracta a part."""
+    if isinstance(j, int): return j
+    m = re.search(r"(\d+)", str(j))
+    if not m: raise ValueError(f"Jornada no vàlida: {j!r} (usa un número, p. ex. 1, o 'last')")
+    return int(m.group(1))
+
+def parse_date(txt):
+    m = re.search(r"(\d{1,2})[-/](\d{1,2})[-/](\d{4})", txt or "")
+    if not m: return None
+    try: return datetime(int(m.group(3)), int(m.group(2)), int(m.group(1))).date()
+    except ValueError: return None
+
+def in_window(game_date, jn, dates):
+    """Un partit és de la jornada jn si la seva data és entre la data de la jornada (menys 2 dies)
+    i la data de la jornada següent. Sense dates conegudes, no descartem res."""
+    if not game_date or jn not in dates: return True
+    start = datetime.fromisoformat(dates[jn]).date()
+    if (start - game_date).days > 2: return False
+    nxt = dates.get(jn + 1)
+    return not (nxt and game_date >= datetime.fromisoformat(nxt).date())
+
+JS_FECHA = """()=>{const lab=[...document.querySelectorAll('.label')].find(e=>/Fecha/.test(e.textContent));
+  return lab?lab.parentElement.textContent:'';}"""
+
 # ---------------------------------------------------------------- llistat de partits
 def list_games(page, comp, season, jornada):
     c = COMPS[comp]
@@ -97,10 +123,8 @@ def list_games(page, comp, season, jornada):
             if d.date() > datetime.now(timezone.utc).date():
                 log(f"  la jornada {jn} encara no s'ha jugat ({md.group(0)}); agafo la {jn - 1}")
                 jn -= 1
-    elif isinstance(jornada, int):
-        jn = jornada
     else:
-        jn = int(jornada)
+        jn = norm_jornada(jornada)
     target = next((o for o in jopts if re.search(rf"Jornada\s+{jn}\b", o[1])), None)
     if not target:
         raise RuntimeError(f"No existeix la jornada {jn}")
@@ -109,7 +133,11 @@ def list_games(page, comp, season, jornada):
     ids = page.evaluate("""()=>[...new Set([...document.querySelectorAll('a[href*="Partido.aspx"]')]
         .map(a=>+new URL(a.href).searchParams.get('p')))]""")
     date_txt = re.search(r"\((.*?)\)", target[1])
-    return {"fase": fase[1], "jornada": jn, "jornada_text": target[1],
+    dates = {}
+    for o in jopts:
+        mj, md2 = re.search(r"Jornada\s+(\d+)", o[1]), parse_date(o[1])
+        if mj and md2: dates[int(mj.group(1))] = md2.isoformat()
+    return {"fase": fase[1], "jornada": jn, "jornada_text": target[1], "dates": dates,
             "data": date_txt.group(1) if date_txt else None, "ids": sorted(ids)}
 
 # ---------------------------------------------------------------- extracció d'un partit
@@ -256,6 +284,8 @@ def extract_game(page, gid, tries=3):
                     if stable >= 6 and cur["tables"] >= 2:
                         box_complete = True
                         break
+                    if stable >= 20 and cur["tables"] == 0:   # 10 s sense cap taula: no hi ha acta
+                        break
                 else:
                     snap, stable = cur, 0
                 time.sleep(0.5)
@@ -265,7 +295,10 @@ def extract_game(page, gid, tries=3):
                 # Sense taules d'acta: partit no jugat, acta no publicada o pàgina canviada.
                 # Reintentar no hi ajuda; desem diagnosi i passem al següent.
                 save_diag(page, gid)
-                return {"id": gid, "error": "sense_acta"}
+                fecha = page.evaluate(JS_FECHA)
+                d = parse_date(fecha)
+                return {"id": gid, "error": "sense_acta", "date": d.strftime("%d/%m/%Y") if d else "",
+                        "date_raw": " ".join(fecha.split())}
             box = page.evaluate(JS_BOX)
             players = [parse_player(p) for p in box["players"]]
             teams = [norm_team(t) for t in box["teams"]]
@@ -309,6 +342,65 @@ def extract_game(page, gid, tries=3):
     return {"id": gid, "error": "unknown"}
 
 # ---------------------------------------------------------------- execució
+def game_date(g):
+    return parse_date(g.get("date") or g.get("date_raw") or "")
+
+def save_game(folder, g, report):
+    (folder / f"{g['id']}.json").write_text(json.dumps(g, ensure_ascii=False), encoding="utf-8")
+    ch = g.get("checks", {})
+    report["games"].append({"id": g["id"], "teams": g.get("teams"), "score": g.get("score"), "error": g.get("error"),
+                            "date": g.get("date"), "pbp_ok": ch.get("pbp_ok"), "shots_ok": ch.get("shots_ok"),
+                            "shot_mismatch": ch.get("shot_mismatch"), "shot_orphans": ch.get("shot_orphans")})
+    log(f"  {g['id']} {g.get('teams')} {g.get('score')} pbp_ok={ch.get('pbp_ok')} "
+        f"tirs={ch.get('shots')}/{ch.get('fga')}" + (f" [{g['error']} {g.get('date','')}]" if g.get("error") else ""))
+
+def extract_jornada(page, comp, season, info, outdir):
+    """Extreu els partits d'una jornada. Salta els que ja tenen acta, descarta els d'altres jornades
+    (la pàgina de resultats també enllaça la jornada següent) i deixa els ajornats com a pendents."""
+    jn, dates = info["jornada"], info.get("dates", {})
+    folder = Path(outdir) / str(season) / comp / f"J{jn:02d}"
+    folder.mkdir(parents=True, exist_ok=True)
+    report = {"comp": comp, "season": season, **info, "generated": datetime.now(timezone.utc).isoformat(),
+              "games": [], "altres_jornades": []}
+    for gid in info["ids"]:
+        f = folder / f"{gid}.json"
+        if f.exists():
+            old = json.loads(f.read_text(encoding="utf-8"))
+            if "players" in old:
+                log(f"  {gid}: ja extret, el salto"); report["games"].append({"id": gid, "teams": old["teams"],
+                    "score": old["score"], "date": old.get("date"), "pbp_ok": old["checks"].get("pbp_ok"),
+                    "shots_ok": old["checks"].get("shots_ok")}); continue
+        g = extract_game(page, gid)
+        if not in_window(game_date(g), jn, dates):
+            log(f"  {gid}: és d'una altra jornada ({g.get('date')}); no el deso a J{jn:02d}")
+            report["altres_jornades"].append(gid)
+            if f.exists(): f.unlink()
+            continue
+        save_game(folder, g, report)
+    (folder / "_jornada.json").write_text(json.dumps(report, ensure_ascii=False, indent=1), encoding="utf-8")
+    return report
+
+def recover_pending(page, comp, season, outdir, dates):
+    """Torna a provar els partits desats sense acta (ajornats o fallits) de jornades anteriors."""
+    root = Path(outdir) / str(season) / comp
+    today = datetime.now(timezone.utc).date()
+    for folder in sorted(root.glob("J*")):
+        jn = int(folder.name[1:])
+        for f in sorted(folder.glob("[0-9]*.json")):
+            old = json.loads(f.read_text(encoding="utf-8"))
+            if "players" in old: continue
+            d = game_date(old)
+            if d and not in_window(d, jn, dates):
+                log(f"  {old['id']}: no és de la J{jn} ({old.get('date')}); l'elimino"); f.unlink(); continue
+            if d and d >= today:
+                log(f"  {old['id']}: pendent, es juga el {old.get('date')}"); continue
+            log(f"  {old['id']}: torno a provar el partit pendent de la J{jn}")
+            g = extract_game(page, old["id"])
+            if not in_window(game_date(g), jn, dates):
+                log(f"  {old['id']}: és d'una altra jornada ({g.get('date')}); l'elimino"); f.unlink(); continue
+            f.write_text(json.dumps(g, ensure_ascii=False), encoding="utf-8")
+            log(f"  {old['id']} {g.get('teams')} {g.get('score')} " + (g.get("error") or "recuperat"))
+
 def run(comp, season, jornada, outdir):
     with sync_playwright() as pw:
         browser = pw.chromium.launch(headless=True)
@@ -316,32 +408,22 @@ def run(comp, season, jornada, outdir):
                                   user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36")
         page = ctx.new_page()
         info = list_games(page, comp, season, jornada)
-        log(f"{comp} {season} {info['jornada_text']}: {len(info['ids'])} partits {info['ids']}")
-        if jornada == "last" and info["ids"] and info["jornada"] > 1:
-            # xarxa de seguretat: si el primer partit no té acta, la jornada no s'ha jugat
-            first = extract_game(page, info["ids"][0])
-            if first.get("error") == "sense_acta":
-                log(f"  la jornada {info['jornada']} no té actes; agafo la {info['jornada'] - 1}")
-                info = list_games(page, comp, season, info["jornada"] - 1)
-                log(f"{comp} {season} {info['jornada_text']}: {len(info['ids'])} partits {info['ids']}")
-        folder = Path(outdir) / str(season) / comp / f"J{info['jornada']:02d}"
-        folder.mkdir(parents=True, exist_ok=True)
-        report = {"comp": comp, "season": season, **info, "generated": datetime.now(timezone.utc).isoformat(), "games": []}
-        for gid in info["ids"]:
-            g = extract_game(page, gid)
-            (folder / f"{gid}.json").write_text(json.dumps(g, ensure_ascii=False), encoding="utf-8")
-            ch = g.get("checks", {})
-            line = {"id": gid, "teams": g.get("teams"), "score": g.get("score"), "error": g.get("error"),
-                    "pbp_ok": ch.get("pbp_ok"), "shots_ok": ch.get("shots_ok"),
-                    "shot_mismatch": ch.get("shot_mismatch"), "shot_orphans": ch.get("shot_orphans")}
-            report["games"].append(line)
-            log(f"  {gid} {g.get('teams')} {g.get('score')} pbp_ok={ch.get('pbp_ok')} tirs={ch.get('shots')}/{ch.get('fga')}")
-        (folder / "_jornada.json").write_text(json.dumps(report, ensure_ascii=False, indent=1), encoding="utf-8")
+        log(f"{comp} {season} {info['jornada_text']}: {len(info['ids'])} enllaços {info['ids']}")
+        recover_pending(page, comp, season, outdir, info["dates"])
+        report = extract_jornada(page, comp, season, info, outdir)
+        played = sum(1 for g in report["games"] if g.get("error") is None)
+        if jornada == "last" and played == 0 and info["jornada"] > 1:
+            # xarxa de seguretat: cap partit amb acta vol dir que la jornada encara no s'ha jugat
+            log(f"  la jornada {info['jornada']} no té cap acta; agafo la {info['jornada'] - 1}")
+            info = list_games(page, comp, season, info["jornada"] - 1)
+            report = extract_jornada(page, comp, season, info, outdir)
         browser.close()
         return report
 
 def self_test(outdir):
     """Prova amb una jornada coneguda: LF-2 grup A 2025-26, J26 (partits 2479858-2479864)."""
+    # la prova ha d'extreure de nou: esborrem els partits desats d'una prova anterior
+    for f in (Path(outdir) / "2025" / "lf2a" / "J26").glob("[0-9]*.json"): f.unlink()
     rep = run("lf2a", 2025, 26, outdir)
     expected = {2479859: [69, 45],   # CB Claret 69 - 45 Spar Gran Canaria
                 2479861: [71, 63]}   # Alcorcón 71 - 63 GMASB (acta amb una fila extra)
