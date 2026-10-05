@@ -19,13 +19,16 @@ def nteam(s): return re.sub(r"\s+", " ", (s or "")).strip().upper()
 # ---------------------------------------------------------------- càrrega
 def load(data_dir, season, comp):
     root = Path(data_dir) / str(season) / comp
-    games = []
+    games, seen = [], set()
     for folder in sorted(root.glob("J*")):
         jn = int(folder.name[1:])
         for f in sorted(folder.glob("*.json")):
             if f.name.startswith("_"): continue
             g = json.loads(f.read_text(encoding="utf-8"))
             if "players" not in g: continue
+            if g["id"] in seen:   # mai comptar dues vegades el mateix partit
+                print(f"  avís: el partit {g['id']} és a més d'una jornada; el compto només a la primera"); continue
+            seen.add(g["id"])
             g["jornada"] = jn
             g["teams"] = [nteam(t) for t in g["teams"]]
             games.append(g)
@@ -739,7 +742,7 @@ def run_comp(data_dir, season, comp, jornada, outdir="."):
     games = load(data_dir, season, comp)
     if not games:
         print(f"{comp}: no hi ha dades a {data_dir}/{season}/{comp}"); return None
-    jn = max(g["jornada"] for g in games) if jornada in (None, "last") else int(jornada)
+    jn = max(g["jornada"] for g in games) if jornada in (None, "last") else int(re.search(r"\d+", str(jornada)).group())
     trows = team_rows(games); prows = player_rows(games)
     q, c2, c3, excluded = combo_rows(games)
     ctrows, cprows, _ = clutch_rows(games)
@@ -747,10 +750,14 @@ def run_comp(data_dir, season, comp, jornada, outdir="."):
     xlsx = Path(outdir) / "fulls" / f"full_mestre_{comp}_{season}.xlsx"
     write_xlsx(xlsx, comp, season, trows, prows, q, c2, c3, shots, excluded, ctrows, cprows)
     write_web(outdir, season, comp, web_payload(games, trows, prows, q, c2, c3, shots, season, comp, ctrows, cprows))
+    # refem el resum de totes les jornades: un partit ajornat recuperat més tard actualitza la seva
+    for j in sorted({g["jornada"] for g in games}):
+        rj = resum(games, j)
+        rpj = Path(outdir) / "resums" / f"{season}_{comp}_J{j:02d}.json"
+        rpj.parent.mkdir(parents=True, exist_ok=True)
+        rpj.write_text(json.dumps(rj, ensure_ascii=False, indent=1), encoding="utf-8")
     r = resum(games, jn)
     rp = Path(outdir) / "resums" / f"{season}_{comp}_J{jn:02d}.json"
-    rp.parent.mkdir(parents=True, exist_ok=True)
-    rp.write_text(json.dumps(r, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"{comp}: {len(games)} partits · full {xlsx} · resum {rp} "
           f"(J{jn}: {len(r['partits'])} partits, {len(r['desviacions'])} desviacions, "
           f"{len(r['ratxes'])} ratxes, {len(r['individuals'])} actuacions)")
