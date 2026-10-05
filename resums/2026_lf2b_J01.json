@@ -1,0 +1,339 @@
+{
+ "jornada": 1,
+ "partits": [
+  {
+   "id": 2524883,
+   "equips": [
+    "LUCENTUM ALICANTE",
+    "HORBISA SPIRIT AUSARTA BARAKALDO"
+   ],
+   "marcador": [
+    46,
+    63
+   ],
+   "data": "04/10/2026",
+   "parcials": [
+    "12/17",
+    "14/12",
+    "7/17",
+    "13/17"
+   ],
+   "metriques": [
+    {
+     "PF": 46,
+     "PR": 63,
+     "poss": 76.24,
+     "ritme": 79.56,
+     "OER": 0.6034,
+     "DER": 0.7601,
+     "eFG": 0.2672,
+     "eFG_riv": 0.3406,
+     "pRO": 0.35,
+     "pRD": 0.75,
+     "pBP": 0.3017,
+     "pBP_riv": 0.1569,
+     "FTr": 0.3621,
+     "t3r": 0.4483,
+     "pT2": 0.3438,
+     "pT3": 0.1154,
+     "pTL": 0.7143,
+     "pAS": 0.8571,
+     "RO": 14,
+     "BP": 23,
+     "BR": 3,
+     "AS": 12,
+     "net": -0.1568
+    },
+    {
+     "PF": 63,
+     "PR": 46,
+     "poss": 82.88,
+     "ritme": 79.56,
+     "OER": 0.7601,
+     "DER": 0.6034,
+     "eFG": 0.3406,
+     "eFG_riv": 0.2672,
+     "pRO": 0.25,
+     "pRD": 0.65,
+     "pBP": 0.1569,
+     "pBP_riv": 0.3017,
+     "FTr": 0.3913,
+     "t3r": 0.3478,
+     "pT2": 0.4222,
+     "pT3": 0.125,
+     "pTL": 0.5926,
+     "pAS": 0.6364,
+     "RO": 11,
+     "BP": 13,
+     "BR": 14,
+     "AS": 14,
+     "net": 0.1568
+    }
+   ]
+  },
+  {
+   "id": 2524885,
+   "equips": [
+    "XEREZ CLUB DEPORTIVO",
+    "SMARTLOG OINTXE"
+   ],
+   "marcador": [
+    63,
+    73
+   ],
+   "data": "04/10/2026",
+   "parcials": [
+    "23/24",
+    "12/12",
+    "15/24",
+    "13/13"
+   ],
+   "metriques": [
+    {
+     "PF": 63,
+     "PR": 73,
+     "poss": 86.6,
+     "ritme": 86.48,
+     "OER": 0.7275,
+     "DER": 0.8453,
+     "eFG": 0.4154,
+     "eFG_riv": 0.4254,
+     "pRO": 0.1429,
+     "pRD": 0.5143,
+     "pBP": 0.2309,
+     "pBP_riv": 0.3242,
+     "FTr": 0.2308,
+     "t3r": 0.3692,
+     "pT2": 0.439,
+     "pT3": 0.25,
+     "pTL": 0.6,
+     "pAS": 0.5417,
+     "RO": 5,
+     "BP": 20,
+     "BR": 14,
+     "AS": 13,
+     "net": -0.1178
+    },
+    {
+     "PF": 73,
+     "PR": 63,
+     "poss": 86.36,
+     "ritme": 86.48,
+     "OER": 0.8453,
+     "DER": 0.7275,
+     "eFG": 0.4254,
+     "eFG_riv": 0.4154,
+     "pRO": 0.4857,
+     "pRD": 0.8571,
+     "pBP": 0.3242,
+     "pBP_riv": 0.2309,
+     "FTr": 0.2836,
+     "t3r": 0.1493,
+     "pT2": 0.4211,
+     "pT3": 0.3,
+     "pTL": 0.8421,
+     "pAS": 0.4074,
+     "RO": 17,
+     "BP": 28,
+     "BR": 12,
+     "AS": 11,
+     "net": 0.1178
+    }
+   ]
+  }
+ ],
+ "desviacions": [],
+ "sorpreses": [],
+ "ratxes": [
+  {
+   "id": 2524883,
+   "equip": "HORBISA SPIRIT AUSARTA BARAKALDO",
+   "punts": 14,
+   "de": "Q3 01:30",
+   "a": "Q4 07:44",
+   "marcador": "33-41 → 33-55",
+   "quintet": "B.ANGUERA / E.RAVN / I.TOMAS / L.BERNARDO / N.SOW",
+   "quintet_rival": "A.ALGUACIL / C.GARCIA / J.FARRANDO / L.MORO / M.ROMEO",
+   "temps_mort": [
+    "Q3 00:27"
+   ]
+  },
+  {
+   "id": 2524885,
+   "equip": "SMARTLOG OINTXE",
+   "punts": 11,
+   "de": "Q3 02:22",
+   "a": "Q3 00:01",
+   "marcador": "50-49 → 50-60",
+   "quintet": "I.BEDIA / I.PEREZ / S.MOLINA / U.ETXARTE / V.BAUTISTA",
+   "quintet_rival": "C.CALVO / E.DE / L.CRUZADO / L.FLETA / M.PÉREZ",
+   "temps_mort": [
+    "Q3 01:36"
+   ]
+  }
+ ],
+ "individuals": [
+  {
+   "id": 2524885,
+   "equip": "SMARTLOG OINTXE",
+   "jugadora": "J. ANTÓNIO",
+   "min": 33.78,
+   "PT": 19,
+   "REB": 15,
+   "AS": 1,
+   "BP": 3,
+   "T2": "9/16",
+   "T3": "0/0",
+   "TL": "1/3",
+   "VAL": 25,
+   "pm": 11,
+   "doble_doble": true,
+   "TS": 0.548,
+   "VAL_mitjana": null,
+   "z": null,
+   "partits_previs": 0
+  },
+  {
+   "id": 2524883,
+   "equip": "LUCENTUM ALICANTE",
+   "jugadora": "J. FARRANDO PEREZ",
+   "min": 21.82,
+   "PT": 9,
+   "REB": 14,
+   "AS": 2,
+   "BP": 3,
+   "T2": "2/3",
+   "T3": "0/2",
+   "TL": "5/6",
+   "VAL": 23,
+   "pm": -9,
+   "doble_doble": false,
+   "TS": 0.589,
+   "VAL_mitjana": null,
+   "z": null,
+   "partits_previs": 0
+  },
+  {
+   "id": 2524885,
+   "equip": "XEREZ CLUB DEPORTIVO",
+   "jugadora": "A. GONZÁLEZ RAMÍREZ",
+   "min": 19.95,
+   "PT": 12,
+   "REB": 4,
+   "AS": 2,
+   "BP": 1,
+   "T2": "4/7",
+   "T3": "1/2",
+   "TL": "1/2",
+   "VAL": 19,
+   "pm": -5,
+   "doble_doble": false,
+   "TS": 0.607,
+   "VAL_mitjana": null,
+   "z": null,
+   "partits_previs": 0
+  }
+ ],
+ "finals_ajustats": [],
+ "quintets": [
+  {
+   "id": 2524883,
+   "equip": "LUCENTUM ALICANTE",
+   "mes_usat": {
+    "quintet": "A.DUDA / A.SANCHEZ / M.LOPEZ / S.OSORIO / T.BALAGUN",
+    "minuts": 6.3,
+    "dif": -4
+   },
+   "millor": {
+    "quintet": "A.DUDA / A.SANCHEZ / M.LOPEZ / S.OSORIO / T.BALAGUN",
+    "minuts": 6.3,
+    "dif": -4
+   },
+   "pitjor": {
+    "quintet": "A.ALGUACIL / C.GARCIA / J.FARRANDO / L.MORO / M.ROMEO",
+    "minuts": 4.6,
+    "dif": -7
+   }
+  },
+  {
+   "id": 2524883,
+   "equip": "HORBISA SPIRIT AUSARTA BARAKALDO",
+   "mes_usat": {
+    "quintet": "A.PANAGIOTOPOULOU / C.CARRAL / N.SOW / R.KALAYDJIEV / S.CARLI",
+    "minuts": 8.7,
+    "dif": 9
+   },
+   "millor": {
+    "quintet": "A.PANAGIOTOPOULOU / C.CARRAL / N.SOW / R.KALAYDJIEV / S.CARLI",
+    "minuts": 8.7,
+    "dif": 9
+   },
+   "pitjor": {
+    "quintet": "A.PANAGIOTOPOULOU / L.BERNARDO / N.SOW / R.KALAYDJIEV / S.CARLI",
+    "minuts": 4.1,
+    "dif": -4
+   }
+  },
+  {
+   "id": 2524885,
+   "equip": "XEREZ CLUB DEPORTIVO",
+   "mes_usat": {
+    "quintet": "A.BOURGAREL / A.LINARES / E.LIJÓ / L.CRUZADO / L.FLETA",
+    "minuts": 5.5,
+    "dif": 7
+   },
+   "millor": {
+    "quintet": "A.BOURGAREL / A.LINARES / E.LIJÓ / L.CRUZADO / L.FLETA",
+    "minuts": 5.5,
+    "dif": 7
+   },
+   "pitjor": {
+    "quintet": "A.BOURGAREL / A.LINARES / E.LIJÓ / L.CRUZADO / L.FLETA",
+    "minuts": 5.5,
+    "dif": 7
+   }
+  },
+  {
+   "id": 2524885,
+   "equip": "SMARTLOG OINTXE",
+   "mes_usat": {
+    "quintet": "D.ZAFRA / I.BEDIA / J.ANTÓNIO / S.GUTIERREZ / S.MOLINA",
+    "minuts": 4.9,
+    "dif": 2
+   },
+   "millor": {
+    "quintet": "I.BEDIA / J.ANTÓNIO / S.GUTIERREZ / S.MOLINA / U.ETXARTE",
+    "minuts": 4.3,
+    "dif": 3
+   },
+   "pitjor": {
+    "quintet": "A.FLORES / D.ZAFRA / I.PEREZ / J.ANTÓNIO / V.BAUTISTA",
+    "minuts": 4.3,
+    "dif": -6
+   }
+  }
+ ],
+ "classificacio": [
+  {
+   "equip": "HORBISA SPIRIT AUSARTA BARAKALDO",
+   "V": 1,
+   "D": 0
+  },
+  {
+   "equip": "SMARTLOG OINTXE",
+   "V": 1,
+   "D": 0
+  },
+  {
+   "equip": "LUCENTUM ALICANTE",
+   "V": 0,
+   "D": 1
+  },
+  {
+   "equip": "XEREZ CLUB DEPORTIVO",
+   "V": 0,
+   "D": 1
+  }
+ ],
+ "avis": []
+}

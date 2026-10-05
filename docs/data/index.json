@@ -8,7 +8,7 @@
    "jornades": [
     1
    ],
-   "generat": "2026-10-05T09:03:46"
+   "generat": "2026-10-05T12:33:59"
   },
   {
    "comp": "lf",
@@ -18,7 +18,7 @@
    "jornades": [
     1
    ],
-   "generat": "2026-10-05T10:10:58"
+   "generat": "2026-10-05T12:33:59"
   },
   {
    "comp": "lf2a",
@@ -28,7 +28,17 @@
    "jornades": [
     1
    ],
-   "generat": "2026-10-05T08:44:48"
+   "generat": "2026-10-05T12:34:00"
+  },
+  {
+   "comp": "lf2b",
+   "season": 2026,
+   "nom": "LF-2 grup B",
+   "fitxer": "data/2026_lf2b.json",
+   "jornades": [
+    1
+   ],
+   "generat": "2026-10-05T12:34:00"
   },
   {
    "comp": "lf2a",

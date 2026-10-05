@@ -1,0 +1,179 @@
+{
+ "comp": "lf2b",
+ "season": 2026,
+ "fase": "Liga Regular \"B\"",
+ "jornada": 1,
+ "jornada_text": "Jornada 1(03/10/2026)",
+ "data": "03/10/2026",
+ "ids": [
+  2524879,
+  2524880,
+  2524881,
+  2524882,
+  2524883,
+  2524884,
+  2524885,
+  2524886,
+  2524887,
+  2524888,
+  2524889,
+  2524890,
+  2524891,
+  2524892
+ ],
+ "generated": "2026-10-05T12:25:16.342569+00:00",
+ "games": [
+  {
+   "id": 2524879,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
+  },
+  {
+   "id": 2524880,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
+  },
+  {
+   "id": 2524881,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
+  },
+  {
+   "id": 2524882,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
+  },
+  {
+   "id": 2524883,
+   "teams": [
+    "LUCENTUM ALICANTE",
+    "HORBISA SPIRIT AUSARTA BARAKALDO"
+   ],
+   "score": [
+    46,
+    63
+   ],
+   "error": null,
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
+  },
+  {
+   "id": 2524884,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
+  },
+  {
+   "id": 2524885,
+   "teams": [
+    "XEREZ CLUB DEPORTIVO",
+    "SMARTLOG OINTXE"
+   ],
+   "score": [
+    63,
+    73
+   ],
+   "error": null,
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
+  },
+  {
+   "id": 2524886,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
+  },
+  {
+   "id": 2524887,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
+  },
+  {
+   "id": 2524888,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
+  },
+  {
+   "id": 2524889,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
+  },
+  {
+   "id": 2524890,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
+  },
+  {
+   "id": 2524891,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
+  },
+  {
+   "id": 2524892,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
+  }
+ ]
+}
