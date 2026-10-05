@@ -13,85 +13,221 @@
   2522779,
   2522780,
   2522781,
-  2522782
+  2522782,
+  2522783,
+  2522784,
+  2522785,
+  2522786,
+  2522787,
+  2522788,
+  2522789,
+  2522790
  ],
- "generated": "2026-09-30T10:52:11.307477+00:00",
+ "generated": "2026-10-05T10:03:47.776451+00:00",
  "games": [
   {
    "id": 2522775,
-   "teams": null,
-   "score": null,
-   "error": "timeout",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "teams": [
+    "AZULMARINO MALLORCA PALMA",
+    "VALENCIA B.C."
+   ],
+   "score": [
+    88,
+    71
+   ],
+   "error": null,
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   },
   {
    "id": 2522776,
-   "teams": null,
-   "score": null,
-   "error": "timeout",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "teams": [
+    "BAXI FERROL",
+    "KUTXABANK ARASKI"
+   ],
+   "score": [
+    82,
+    77
+   ],
+   "error": null,
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   },
   {
    "id": 2522777,
-   "teams": null,
-   "score": null,
-   "error": "timeout",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "teams": [
+    "DURÁN MAQUINARIA ENSINO",
+    "MIRAI EUSKOTREN"
+   ],
+   "score": [
+    53,
+    72
+   ],
+   "error": null,
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   },
   {
    "id": 2522778,
-   "teams": null,
-   "score": null,
-   "error": "timeout",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "teams": [
+    "MOVISTAR ESTUDIANTES",
+    "SPAR GIRONA"
+   ],
+   "score": [
+    82,
+    79
+   ],
+   "error": null,
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   },
   {
    "id": 2522779,
-   "teams": null,
-   "score": null,
-   "error": "timeout",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "teams": [
+    "INNOVA-TSN LEGANÉS",
+    "HOZONO GLOBAL JAIRIS"
+   ],
+   "score": [
+    66,
+    63
+   ],
+   "error": null,
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   },
   {
    "id": 2522780,
-   "teams": null,
-   "score": null,
-   "error": "timeout",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "teams": [
+    "CELTA FEMXA ZORKA",
+    "INVERSUS GERNIKA BIZKAIA"
+   ],
+   "score": [
+    80,
+    84
+   ],
+   "error": null,
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   },
   {
    "id": 2522781,
+   "teams": [
+    "MEINS AVENIDA",
+    "CADI LA SEU"
+   ],
+   "score": [
+    73,
+    57
+   ],
+   "error": null,
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
+  },
+  {
+   "id": 2522782,
+   "teams": [
+    "CASADEMONT ZARAGOZA",
+    "IMPULSO 360 ESTEPONA"
+   ],
+   "score": [
+    68,
+    41
+   ],
+   "error": null,
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
+  },
+  {
+   "id": 2522783,
    "teams": null,
    "score": null,
-   "error": "timeout",
+   "error": "sense_acta",
    "pbp_ok": null,
    "shots_ok": null,
    "shot_mismatch": null,
    "shot_orphans": null
   },
   {
-   "id": 2522782,
+   "id": 2522784,
    "teams": null,
    "score": null,
-   "error": "timeout",
+   "error": "sense_acta",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
+  },
+  {
+   "id": 2522785,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
+  },
+  {
+   "id": 2522786,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
+  },
+  {
+   "id": 2522787,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
+  },
+  {
+   "id": 2522788,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
+  },
+  {
+   "id": 2522789,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
+  },
+  {
+   "id": 2522790,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
    "pbp_ok": null,
    "shots_ok": null,
    "shot_mismatch": null,
