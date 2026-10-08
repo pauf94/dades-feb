@@ -561,6 +561,146 @@
      "net": -0.3521
     }
    ]
+  },
+  {
+   "id": 2522789,
+   "equips": [
+    "VALENCIA B.C.",
+    "MEINS AVENIDA"
+   ],
+   "marcador": [
+    82,
+    57
+   ],
+   "data": "07/10/2026",
+   "parcials": [
+    "23/18",
+    "15/13",
+    "21/14",
+    "23/12"
+   ],
+   "metriques": [
+    {
+     "PF": 82,
+     "PR": 57,
+     "poss": 76.48,
+     "ritme": 77.56,
+     "OER": 1.0722,
+     "DER": 0.7248,
+     "eFG": 0.5234,
+     "eFG_riv": 0.4044,
+     "pRO": 0.3871,
+     "pRD": 0.8286,
+     "pBP": 0.2223,
+     "pBP_riv": 0.178,
+     "FTr": 0.2656,
+     "t3r": 0.375,
+     "pT2": 0.575,
+     "pT3": 0.2917,
+     "pTL": 0.8824,
+     "pAS": 0.6667,
+     "RO": 12,
+     "BP": 17,
+     "BR": 6,
+     "AS": 20,
+     "net": 0.3474
+    },
+    {
+     "PF": 57,
+     "PR": 82,
+     "poss": 78.64,
+     "ritme": 77.56,
+     "OER": 0.7248,
+     "DER": 1.0722,
+     "eFG": 0.4044,
+     "eFG_riv": 0.5234,
+     "pRO": 0.1714,
+     "pRD": 0.6129,
+     "pBP": 0.178,
+     "pBP_riv": 0.2223,
+     "FTr": 0.0882,
+     "t3r": 0.2941,
+     "pT2": 0.3542,
+     "pT3": 0.35,
+     "pTL": 0.3333,
+     "pAS": 0.5417,
+     "RO": 6,
+     "BP": 14,
+     "BR": 9,
+     "AS": 13,
+     "net": -0.3474
+    }
+   ]
+  },
+  {
+   "id": 2522790,
+   "equips": [
+    "INVERSUS GERNIKA BIZKAIA",
+    "CASADEMONT ZARAGOZA"
+   ],
+   "marcador": [
+    72,
+    108
+   ],
+   "data": "07/10/2026",
+   "parcials": [
+    "15/21",
+    "16/28",
+    "26/34",
+    "15/25"
+   ],
+   "metriques": [
+    {
+     "PF": 72,
+     "PR": 108,
+     "poss": 80.56,
+     "ritme": 78.98,
+     "OER": 0.8937,
+     "DER": 1.3953,
+     "eFG": 0.4333,
+     "eFG_riv": 0.6972,
+     "pRO": 0.1714,
+     "pRD": 0.6667,
+     "pBP": 0.1986,
+     "pBP_riv": 0.1421,
+     "FTr": 0.4,
+     "t3r": 0.3833,
+     "pT2": 0.4595,
+     "pT3": 0.2609,
+     "pTL": 0.8333,
+     "pAS": 0.6087,
+     "RO": 6,
+     "BP": 16,
+     "BR": 8,
+     "AS": 14,
+     "net": -0.5016
+    },
+    {
+     "PF": 108,
+     "PR": 72,
+     "poss": 77.4,
+     "ritme": 78.98,
+     "OER": 1.3953,
+     "DER": 0.8937,
+     "eFG": 0.6972,
+     "eFG_riv": 0.4333,
+     "pRO": 0.3333,
+     "pRD": 0.8286,
+     "pBP": 0.1421,
+     "pBP_riv": 0.1986,
+     "FTr": 0.1408,
+     "t3r": 0.4789,
+     "pT2": 0.6486,
+     "pT3": 0.5,
+     "pTL": 0.9,
+     "pAS": 0.8537,
+     "RO": 9,
+     "BP": 11,
+     "BR": 10,
+     "AS": 35,
+     "net": 0.5016
+    }
+   ]
   }
  ],
  "desviacions": [],
@@ -603,6 +743,20 @@
   }
  ],
  "ratxes": [
+  {
+   "id": 2522790,
+   "equip": "CASADEMONT ZARAGOZA",
+   "punts": 16,
+   "de": "Q2 06:44",
+   "a": "Q2 03:19",
+   "marcador": "22-24 → 22-40",
+   "quintet": "A.SHEPPARD / C.BRITO / L.FLORES / N.HERMOSA / O.BANKOLE",
+   "quintet_rival": "A.SALVADORES / A.VONLEH / E.BOSGANA / S.GALANOPOULOS / S.RIDARD",
+   "temps_mort": [
+    "Q2 05:43",
+    "Q2 04:21"
+   ]
+  },
   {
    "id": 2522776,
    "equip": "BAXI FERROL",
@@ -688,6 +842,17 @@
    "temps_mort": [
     "Q3 04:35"
    ]
+  },
+  {
+   "id": 2522789,
+   "equip": "VALENCIA B.C.",
+   "punts": 11,
+   "de": "Q4 05:07",
+   "a": "Q4 00:06",
+   "marcador": "71-57 → 82-57",
+   "quintet": "A.JENKINS / I.HERNANDEZ / K.BORKOWSKA / L.ROMERO / M.SUAREZ",
+   "quintet_rival": "I.SANTIBAÑEZ / M.FASSINA / R.MIKULASIKOVA / S.MAWULI / S.ROUMY",
+   "temps_mort": []
   },
   {
    "id": 2522777,
@@ -880,6 +1045,26 @@
    "partits_previs": 0
   },
   {
+   "id": 2522790,
+   "equip": "CASADEMONT ZARAGOZA",
+   "jugadora": "A. SHEPPARD",
+   "min": 21.58,
+   "PT": 31,
+   "REB": 4,
+   "AS": 1,
+   "BP": 4,
+   "T2": "4/6",
+   "T3": "7/8",
+   "TL": "2/2",
+   "VAL": 30,
+   "pm": 27,
+   "doble_doble": false,
+   "TS": 1.042,
+   "VAL_mitjana": null,
+   "z": null,
+   "partits_previs": 0
+  },
+  {
    "id": 2522775,
    "equip": "AZULMARINO MALLORCA PALMA",
    "jugadora": "K. ALEXANDER",
@@ -920,6 +1105,26 @@
    "partits_previs": 0
   },
   {
+   "id": 2522789,
+   "equip": "VALENCIA B.C.",
+   "jugadora": "V. TAKACS-KISS",
+   "min": 21.87,
+   "PT": 12,
+   "REB": 9,
+   "AS": 2,
+   "BP": 2,
+   "T2": "3/4",
+   "T3": "0/0",
+   "TL": "6/8",
+   "VAL": 26,
+   "pm": 21,
+   "doble_doble": false,
+   "TS": 0.798,
+   "VAL_mitjana": null,
+   "z": null,
+   "partits_previs": 0
+  },
+  {
    "id": 2522781,
    "equip": "MEINS AVENIDA",
    "jugadora": "S. MAWULI",
@@ -955,6 +1160,26 @@
    "pm": 7,
    "doble_doble": false,
    "TS": 1.036,
+   "VAL_mitjana": null,
+   "z": null,
+   "partits_previs": 0
+  },
+  {
+   "id": 2522790,
+   "equip": "INVERSUS GERNIKA BIZKAIA",
+   "jugadora": "A. SALVADORES ALVAREZ",
+   "min": 33.17,
+   "PT": 16,
+   "REB": 4,
+   "AS": 5,
+   "BP": 5,
+   "T2": "2/4",
+   "T3": "1/6",
+   "TL": "9/12",
+   "VAL": 22,
+   "pm": -17,
+   "doble_doble": false,
+   "TS": 0.524,
    "VAL_mitjana": null,
    "z": null,
    "partits_previs": 0
@@ -1015,6 +1240,26 @@
    "pm": 22,
    "doble_doble": false,
    "TS": 0.957,
+   "VAL_mitjana": null,
+   "z": null,
+   "partits_previs": 0
+  },
+  {
+   "id": 2522789,
+   "equip": "MEINS AVENIDA",
+   "jugadora": "S. MAWULI",
+   "min": 29.32,
+   "PT": 20,
+   "REB": 4,
+   "AS": 0,
+   "BP": 0,
+   "T2": "4/7",
+   "T3": "4/7",
+   "TL": "0/0",
+   "VAL": 20,
+   "pm": -15,
+   "doble_doble": false,
+   "TS": 0.714,
    "VAL_mitjana": null,
    "z": null,
    "partits_previs": 0
@@ -1115,6 +1360,26 @@
    "pm": 18,
    "doble_doble": false,
    "TS": 0.666,
+   "VAL_mitjana": null,
+   "z": null,
+   "partits_previs": 0
+  },
+  {
+   "id": 2522790,
+   "equip": "CASADEMONT ZARAGOZA",
+   "jugadora": "O. BANKOLE",
+   "min": 20.83,
+   "PT": 8,
+   "REB": 4,
+   "AS": 7,
+   "BP": 0,
+   "T2": "1/3",
+   "T3": "2/3",
+   "TL": "0/0",
+   "VAL": 18,
+   "pm": 38,
+   "doble_doble": false,
+   "TS": 0.667,
    "VAL_mitjana": null,
    "z": null,
    "partits_previs": 0
@@ -1530,9 +1795,90 @@
    },
    "millor": null,
    "pitjor": null
+  },
+  {
+   "id": 2522789,
+   "equip": "VALENCIA B.C.",
+   "mes_usat": {
+    "quintet": "A.JENKINS / I.HERNANDEZ / L.ROMERO / M.SUAREZ / V.TAKACS-KISS",
+    "minuts": 5.9,
+    "dif": 4
+   },
+   "millor": {
+    "quintet": "A.JENKINS / I.HERNANDEZ / L.ROMERO / M.SUAREZ / V.TAKACS-KISS",
+    "minuts": 5.9,
+    "dif": 4
+   },
+   "pitjor": {
+    "quintet": "A.PETERSON / E.BALOGUN / H.PUEYO / K.BORKOWSKA / M.PEREZ",
+    "minuts": 5.8,
+    "dif": 3
+   }
+  },
+  {
+   "id": 2522789,
+   "equip": "MEINS AVENIDA",
+   "mes_usat": {
+    "quintet": "C.SORIANO / E.JOHANSSON / M.FASSINA / R.MIKULASIKOVA / S.MAWULI",
+    "minuts": 6.9,
+    "dif": -6
+   },
+   "millor": {
+    "quintet": "C.SORIANO / M.FASSINA / R.MIKULASIKOVA / S.MAWULI / S.ROUMY",
+    "minuts": 6.1,
+    "dif": 5
+   },
+   "pitjor": {
+    "quintet": "C.SORIANO / E.JOHANSSON / M.FASSINA / R.MIKULASIKOVA / S.MAWULI",
+    "minuts": 6.9,
+    "dif": -6
+   }
+  },
+  {
+   "id": 2522790,
+   "equip": "INVERSUS GERNIKA BIZKAIA",
+   "mes_usat": {
+    "quintet": "A.SALVADORES / A.VONLEH / E.MATARRANZ / J.BROWN / S.GALANOPOULOS",
+    "minuts": 5.7,
+    "dif": 6
+   },
+   "millor": {
+    "quintet": "A.SALVADORES / A.VONLEH / E.MATARRANZ / J.BROWN / S.GALANOPOULOS",
+    "minuts": 5.7,
+    "dif": 6
+   },
+   "pitjor": {
+    "quintet": "A.SALVADORES / A.VONLEH / J.BROWN / S.GALANOPOULOS / S.RIDARD",
+    "minuts": 4.7,
+    "dif": -11
+   }
+  },
+  {
+   "id": 2522790,
+   "equip": "CASADEMONT ZARAGOZA",
+   "mes_usat": {
+    "quintet": "A.SHEPPARD / M.HEMPE / M.ORTIZ / N.HERMOSA / O.BANKOLE",
+    "minuts": 5.0,
+    "dif": 6
+   },
+   "millor": {
+    "quintet": "A.SHEPPARD / C.BRITO / M.HEMPE / M.ORTIZ / V.VORACKOVA",
+    "minuts": 4.0,
+    "dif": 7
+   },
+   "pitjor": {
+    "quintet": "A.SHEPPARD / M.HEMPE / M.ORTIZ / N.HERMOSA / O.BANKOLE",
+    "minuts": 5.0,
+    "dif": 6
+   }
   }
  ],
  "classificacio": [
+  {
+   "equip": "CASADEMONT ZARAGOZA",
+   "V": 2,
+   "D": 0
+  },
   {
    "equip": "AZULMARINO MALLORCA PALMA",
    "V": 1,
@@ -1544,11 +1890,6 @@
    "D": 0
   },
   {
-   "equip": "CASADEMONT ZARAGOZA",
-   "V": 1,
-   "D": 0
-  },
-  {
    "equip": "INNOVA-TSN LEGANÉS",
    "V": 1,
    "D": 0
@@ -1556,12 +1897,12 @@
   {
    "equip": "INVERSUS GERNIKA BIZKAIA",
    "V": 1,
-   "D": 0
+   "D": 1
   },
   {
    "equip": "MEINS AVENIDA",
    "V": 1,
-   "D": 0
+   "D": 1
   },
   {
    "equip": "MIRAI EUSKOTREN",
@@ -1572,6 +1913,11 @@
    "equip": "MOVISTAR ESTUDIANTES",
    "V": 1,
    "D": 0
+  },
+  {
+   "equip": "VALENCIA B.C.",
+   "V": 1,
+   "D": 1
   },
   {
    "equip": "CADI LA SEU",
@@ -1605,11 +1951,6 @@
   },
   {
    "equip": "SPAR GIRONA",
-   "V": 0,
-   "D": 1
-  },
-  {
-   "equip": "VALENCIA B.C.",
    "V": 0,
    "D": 1
   }

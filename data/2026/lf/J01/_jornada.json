@@ -55,7 +55,7 @@
   2522789,
   2522790
  ],
- "generated": "2026-10-07T11:29:03.806171+00:00",
+ "generated": "2026-10-08T11:49:25.269668+00:00",
  "games": [
   {
    "id": 2522775,
@@ -237,25 +237,31 @@
   },
   {
    "id": 2522789,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
+   "teams": [
+    "VALENCIA B.C.",
+    "MEINS AVENIDA"
+   ],
+   "score": [
+    82,
+    57
+   ],
    "date": "07/10/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "pbp_ok": true,
+   "shots_ok": true
   },
   {
    "id": 2522790,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
+   "teams": [
+    "INVERSUS GERNIKA BIZKAIA",
+    "CASADEMONT ZARAGOZA"
+   ],
+   "score": [
+    72,
+    108
+   ],
    "date": "07/10/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "pbp_ok": true,
+   "shots_ok": true
   }
  ],
  "altres_jornades": []

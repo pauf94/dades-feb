@@ -55,18 +55,21 @@
   2524469,
   2524470
  ],
- "generated": "2026-10-07T11:30:37.076047+00:00",
+ "generated": "2026-10-08T11:51:10.711381+00:00",
  "games": [
   {
    "id": 2524455,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
+   "teams": [
+    "CLUB JOVENTUT BADALONA",
+    "VALENCIA BASKET"
+   ],
+   "score": [
+    101,
+    71
+   ],
    "date": "07/10/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "pbp_ok": false,
+   "shots_ok": true
   },
   {
    "id": 2524456,

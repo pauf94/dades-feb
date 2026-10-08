@@ -2,6 +2,76 @@
  "jornada": 1,
  "partits": [
   {
+   "id": 2524455,
+   "equips": [
+    "CLUB JOVENTUT BADALONA",
+    "VALENCIA BASKET"
+   ],
+   "marcador": [
+    101,
+    71
+   ],
+   "data": "07/10/2026",
+   "parcials": [
+    "14/19",
+    "36/17",
+    "31/11",
+    "20/24"
+   ],
+   "metriques": [
+    {
+     "PF": 101,
+     "PR": 71,
+     "poss": 91.32,
+     "ritme": 93.42,
+     "OER": 1.106,
+     "DER": 0.7433,
+     "eFG": 0.5375,
+     "eFG_riv": 0.4701,
+     "pRO": 0.4,
+     "pRD": 0.6452,
+     "pBP": 0.1643,
+     "pBP_riv": 0.3769,
+     "FTr": 0.35,
+     "t3r": 0.3,
+     "pT2": 0.5536,
+     "pT3": 0.3333,
+     "pTL": 0.5357,
+     "pAS": 0.6154,
+     "RO": 16,
+     "BP": 15,
+     "BR": 25,
+     "AS": 24,
+     "net": 0.3627
+    },
+    {
+     "PF": 71,
+     "PR": 101,
+     "poss": 95.52,
+     "ritme": 93.42,
+     "OER": 0.7433,
+     "DER": 1.106,
+     "eFG": 0.4701,
+     "eFG_riv": 0.5375,
+     "pRO": 0.3548,
+     "pRD": 0.6,
+     "pBP": 0.3769,
+     "pBP_riv": 0.1643,
+     "FTr": 0.1194,
+     "t3r": 0.3731,
+     "pT2": 0.5,
+     "pT3": 0.28,
+     "pTL": 1.0,
+     "pAS": 0.5,
+     "RO": 11,
+     "BP": 36,
+     "BR": 9,
+     "AS": 14,
+     "net": -0.3627
+    }
+   ]
+  },
+  {
    "id": 2524456,
    "equips": [
     "C.B. AL-QAZERES EXTREMADURA",
@@ -517,6 +587,28 @@
  ],
  "ratxes": [
   {
+   "id": 2524455,
+   "equip": "CLUB JOVENTUT BADALONA",
+   "punts": 12,
+   "de": "Q3 05:26",
+   "a": "Q3 02:14",
+   "marcador": "59-41 → 71-41",
+   "quintet": "G.MAYELE / J.TEDDER / M.AKULLU / N.DIARRA / R.COTANO",
+   "quintet_rival": "A.ALONSO / F.FILOR / I.BRONCANO / L.CRUZ / P.REYNAL",
+   "temps_mort": []
+  },
+  {
+   "id": 2524455,
+   "equip": "CLUB JOVENTUT BADALONA",
+   "punts": 11,
+   "de": "Q4 09:05",
+   "a": "Q4 07:32",
+   "marcador": "79-45 → 90-45",
+   "quintet": "A.HINOJOSA / C.PINTO / E.LORBEK / E.TRAWALLY / J.RUEDA",
+   "quintet_rival": "A.ALONSO / I.BRONCANO / I.MARTIN / N.KAMARA / P.REYNAL",
+   "temps_mort": []
+  },
+  {
    "id": 2524456,
    "equip": "RECOLETAS ZAMORA",
    "punts": 11,
@@ -528,6 +620,28 @@
    "temps_mort": [
     "Q3 02:15"
    ]
+  },
+  {
+   "id": 2524455,
+   "equip": "CLUB JOVENTUT BADALONA",
+   "punts": 10,
+   "de": "Q2 04:00",
+   "a": "Q2 02:30",
+   "marcador": "32-29 → 42-29",
+   "quintet": "A.MICHEAUX / E.TRAWALLY / G.MAYELE / J.RUEDA / N.DIARRA",
+   "quintet_rival": "C.CHE / I.BRONCANO / N.KAMARA / P.REYNAL / S.DAVILA",
+   "temps_mort": []
+  },
+  {
+   "id": 2524455,
+   "equip": "VALENCIA BASKET",
+   "punts": 10,
+   "de": "Q4 06:45",
+   "a": "Q4 04:43",
+   "marcador": "90-45 → 90-55",
+   "quintet": "C.CHE / I.BRONCANO / I.MARTIN / N.KAMARA / S.DAVILA",
+   "quintet_rival": "A.HINOJOSA / A.MICHEAUX / E.TRAWALLY / N.DIARRA / P.SARAVIA",
+   "temps_mort": []
   },
   {
    "id": 2524459,
@@ -565,6 +679,19 @@
    ]
   },
   {
+   "id": 2524455,
+   "equip": "CLUB JOVENTUT BADALONA",
+   "punts": 9,
+   "de": "Q2 06:54",
+   "a": "Q2 05:04",
+   "marcador": "23-25 → 32-25",
+   "quintet": "A.MICHEAUX / C.PINTO / J.TEDDER / N.DIARRA / R.COTANO",
+   "quintet_rival": "A.ALONSO / F.FILOR / I.BRONCANO / J.NIEBLA / P.REYNAL",
+   "temps_mort": [
+    "Q2 05:19"
+   ]
+  },
+  {
    "id": 2524457,
    "equip": "SPARKING TRUTH MARISTAS",
    "punts": 9,
@@ -588,6 +715,19 @@
    "quintet_rival": "A.COULIBALY / A.TUHINA / M.NGNAWO / N.DIMITRIJEVIC / N.RIOS",
    "temps_mort": [
     "Q3 05:09"
+   ]
+  },
+  {
+   "id": 2524455,
+   "equip": "CLUB JOVENTUT BADALONA",
+   "punts": 8,
+   "de": "Q3 08:03",
+   "a": "Q3 06:27",
+   "marcador": "51-39 → 59-39",
+   "quintet": "A.MICHEAUX / C.PINTO / E.TRAWALLY / J.RUEDA / J.TEDDER",
+   "quintet_rival": "A.ALONSO / C.CHE / J.NIEBLA / N.KAMARA / S.DAVILA",
+   "temps_mort": [
+    "Q3 06:27"
    ]
   },
   {
@@ -731,6 +871,26 @@
    "partits_previs": 0
   },
   {
+   "id": 2524455,
+   "equip": "CLUB JOVENTUT BADALONA",
+   "jugadora": "M. AKULLU",
+   "min": 15.42,
+   "PT": 17,
+   "REB": 2,
+   "AS": 3,
+   "BP": 0,
+   "T2": "7/7",
+   "T3": "0/0",
+   "TL": "3/4",
+   "VAL": 28,
+   "pm": 13,
+   "doble_doble": false,
+   "TS": 0.97,
+   "VAL_mitjana": null,
+   "z": null,
+   "partits_previs": 0
+  },
+  {
    "id": 2524460,
    "equip": "MCR LIMA-HORTA BARCELONA",
    "jugadora": "L. ROIG I SALRACH",
@@ -766,6 +926,26 @@
    "pm": -13,
    "doble_doble": false,
    "TS": 0.751,
+   "VAL_mitjana": null,
+   "z": null,
+   "partits_previs": 0
+  },
+  {
+   "id": 2524455,
+   "equip": "CLUB JOVENTUT BADALONA",
+   "jugadora": "C. PINTO",
+   "min": 20.83,
+   "PT": 16,
+   "REB": 4,
+   "AS": 2,
+   "BP": 2,
+   "T2": "4/7",
+   "T3": "2/2",
+   "TL": "2/3",
+   "VAL": 25,
+   "pm": 27,
+   "doble_doble": false,
+   "TS": 0.775,
    "VAL_mitjana": null,
    "z": null,
    "partits_previs": 0
@@ -1031,6 +1211,26 @@
    "partits_previs": 0
   },
   {
+   "id": 2524455,
+   "equip": "CLUB JOVENTUT BADALONA",
+   "jugadora": "A. MICHEAUX",
+   "min": 15.55,
+   "PT": 19,
+   "REB": 6,
+   "AS": 0,
+   "BP": 2,
+   "T2": "8/14",
+   "T3": "0/1",
+   "TL": "3/7",
+   "VAL": 14,
+   "pm": 3,
+   "doble_doble": false,
+   "TS": 0.525,
+   "VAL_mitjana": null,
+   "z": null,
+   "partits_previs": 0
+  },
+  {
    "id": 2524457,
    "equip": "SPARKING TRUTH MARISTAS",
    "jugadora": "M. NGNAWO NGUIENSAM",
@@ -1139,11 +1339,33 @@
    "clutch": {
     "minuts": 1.6,
     "parcial": "MELILLA CIUDAD DEL DEPORTE LA SALLE 7-0 BOSONIT UNIBASKET",
-    "destacada": "R. LEHTORANTA "
+    "destacada": "J. EDWARDS"
    }
   }
  ],
  "quintets": [
+  {
+   "id": 2524455,
+   "equip": "CLUB JOVENTUT BADALONA",
+   "mes_usat": {
+    "quintet": "C.PINTO / J.TEDDER / M.AKULLU / P.SARAVIA / R.COTANO",
+    "minuts": 3.8,
+    "dif": 5
+   },
+   "millor": null,
+   "pitjor": null
+  },
+  {
+   "id": 2524455,
+   "equip": "VALENCIA BASKET",
+   "mes_usat": {
+    "quintet": "A.ALONSO / F.FILOR / I.BRONCANO / J.NIEBLA / P.REYNAL",
+    "minuts": 3.5,
+    "dif": 2
+   },
+   "millor": null,
+   "pitjor": null
+  },
   {
    "id": 2524456,
    "equip": "C.B. AL-QAZERES EXTREMADURA",
@@ -1418,6 +1640,11 @@
    "D": 0
   },
   {
+   "equip": "CLUB JOVENTUT BADALONA",
+   "V": 1,
+   "D": 0
+  },
+  {
    "equip": "MCR LIMA-HORTA BARCELONA",
    "V": 1,
    "D": 0
@@ -1481,7 +1708,14 @@
    "equip": "SPAR GRAN CANARIA",
    "V": 0,
    "D": 1
+  },
+  {
+   "equip": "VALENCIA BASKET",
+   "V": 0,
+   "D": 1
   }
  ],
- "avis": []
+ "avis": [
+  "2524455: el play-by-play no quadra amb l'acta; ratxes i quintets no s'han calculat"
+ ]
 }
