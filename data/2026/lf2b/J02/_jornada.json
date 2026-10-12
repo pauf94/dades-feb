@@ -49,7 +49,7 @@
   2524898,
   2524899
  ],
- "generated": "2026-10-12T12:59:55.437302+00:00",
+ "generated": "2026-10-12T18:39:03.502215+00:00",
  "games": [
   {
    "id": 2524886,
@@ -61,12 +61,9 @@
     73,
     66
    ],
-   "error": null,
    "date": "10/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524887,
@@ -78,14 +75,9 @@
     66,
     72
    ],
-   "error": null,
    "date": "11/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [
-    "S. VILLA PEREZ 12/10"
-   ],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524888,
@@ -97,12 +89,9 @@
     60,
     43
    ],
-   "error": null,
    "date": "10/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524889,
@@ -114,12 +103,9 @@
     59,
     67
    ],
-   "error": null,
    "date": "12/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524890,
@@ -131,12 +117,9 @@
     83,
     57
    ],
-   "error": null,
    "date": "11/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524891,
@@ -148,12 +131,9 @@
     64,
     39
    ],
-   "error": null,
    "date": "10/10/2026",
    "pbp_ok": false,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524892,
@@ -165,14 +145,9 @@
     72,
     69
    ],
-   "error": null,
    "date": "10/10/2026",
    "pbp_ok": false,
-   "shots_ok": false,
-   "shot_mismatch": [
-    "B. ASENSIO SENOSIÁIN 6/7"
-   ],
-   "shot_orphans": []
+   "shots_ok": false
   }
  ],
  "altres_jornades": [
