@@ -36,6 +36,7 @@
   "29": "2027-04-17",
   "30": "2027-04-24"
  },
+ "altres_jornades": [],
  "data": "10/10/2026",
  "ids": [
   2524463,
@@ -55,7 +56,7 @@
   2524477,
   2524478
  ],
- "generated": "2026-10-12T18:35:06.657516+00:00",
+ "generated": "2026-10-13T06:21:17.251909+00:00",
  "games": [
   {
    "id": 2524463,
@@ -170,24 +171,86 @@
    "shots_ok": true
   },
   {
-   "id": 2524474,
+   "id": 2524471,
    "teams": null,
    "score": null,
    "error": "sense_acta",
-   "date": "16/10/2026",
+   "date": "18/10/2026",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
+  },
+  {
+   "id": 2524472,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "date": "17/10/2026",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
+  },
+  {
+   "id": 2524473,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "date": "17/10/2026",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
+  },
+  {
+   "id": 2524474,
+   "error": "sense_acta",
+   "date": "16/10/2026"
+  },
+  {
+   "id": 2524475,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "date": "17/10/2026",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
+  },
+  {
+   "id": 2524476,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "date": "17/10/2026",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
+  },
+  {
+   "id": 2524477,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "date": "18/10/2026",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
+  },
+  {
+   "id": 2524478,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "date": "18/10/2026",
    "pbp_ok": null,
    "shots_ok": null,
    "shot_mismatch": null,
    "shot_orphans": null
   }
- ],
- "altres_jornades": [
-  2524471,
-  2524472,
-  2524473,
-  2524475,
-  2524476,
-  2524477,
-  2524478
  ]
 }
