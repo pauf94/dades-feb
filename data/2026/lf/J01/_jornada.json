@@ -36,6 +36,16 @@
   "29": "2027-04-11",
   "30": "2027-04-21"
  },
+ "altres_jornades": [
+  2522789,
+  2522790,
+  2522783,
+  2522785,
+  2522784,
+  2522787,
+  2522788,
+  2522786
+ ],
  "data": "03/10/2026",
  "ids": [
   2522775,
@@ -45,17 +55,10 @@
   2522779,
   2522780,
   2522781,
-  2522782,
-  2522783,
-  2522784,
-  2522785,
-  2522786,
-  2522787,
-  2522788,
-  2522789,
-  2522790
+  2522782
  ],
- "generated": "2026-10-08T11:49:25.269668+00:00",
+ "ids_method": 2,
+ "generated": "2026-10-13T06:56:55.181227+00:00",
  "games": [
   {
    "id": 2522775,
@@ -168,101 +171,6 @@
    "date": "04/10/2026",
    "pbp_ok": true,
    "shots_ok": true
-  },
-  {
-   "id": 2522783,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
-   "date": "08/10/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
-  },
-  {
-   "id": 2522784,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
-   "date": "08/10/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
-  },
-  {
-   "id": 2522785,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
-   "date": "08/10/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
-  },
-  {
-   "id": 2522786,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
-   "date": "08/10/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
-  },
-  {
-   "id": 2522787,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
-   "date": "08/10/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
-  },
-  {
-   "id": 2522788,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
-   "date": "08/10/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
-  },
-  {
-   "id": 2522789,
-   "teams": [
-    "VALENCIA B.C.",
-    "MEINS AVENIDA"
-   ],
-   "score": [
-    82,
-    57
-   ],
-   "date": "07/10/2026",
-   "pbp_ok": true,
-   "shots_ok": true
-  },
-  {
-   "id": 2522790,
-   "teams": [
-    "INVERSUS GERNIKA BIZKAIA",
-    "CASADEMONT ZARAGOZA"
-   ],
-   "score": [
-    72,
-    108
-   ],
-   "date": "07/10/2026",
-   "pbp_ok": true,
-   "shots_ok": true
   }
- ],
- "altres_jornades": []
+ ]
 }

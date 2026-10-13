@@ -32,15 +32,17 @@
   "25": "2027-04-10",
   "26": "2027-04-17"
  },
- "data": "10/10/2026",
- "ids": [
-  2524886,
-  2524887,
-  2524888,
-  2524889,
-  2524890,
+ "altres_jornades": [
   2524891,
   2524892,
+  2524888,
+  2524886,
+  2524890,
+  2524887,
+  2524889
+ ],
+ "data": "10/10/2026",
+ "ids": [
   2524893,
   2524894,
   2524895,
@@ -49,114 +51,85 @@
   2524898,
   2524899
  ],
- "generated": "2026-10-12T18:39:03.502215+00:00",
+ "ids_method": 2,
+ "generated": "2026-10-13T07:02:37.455146+00:00",
  "games": [
   {
-   "id": 2524886,
-   "teams": [
-    "SMARTLOG OINTXE",
-    "KINES IBAIZABAL GDKO"
-   ],
-   "score": [
-    73,
-    66
-   ],
-   "date": "10/10/2026",
-   "pbp_ok": true,
-   "shots_ok": true
+   "id": 2524893,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "date": "18/10/2026",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
   },
   {
-   "id": 2524887,
-   "teams": [
-    "STADIUM CASABLANCA-PATATAS GÓMEZ",
-    "XEREZ CLUB DEPORTIVO"
-   ],
-   "score": [
-    66,
-    72
-   ],
-   "date": "11/10/2026",
-   "pbp_ok": true,
-   "shots_ok": true
+   "id": 2524894,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "date": "18/10/2026",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
   },
   {
-   "id": 2524888,
-   "teams": [
-    "HORBISA SPIRIT AUSARTA BARAKALDO",
-    "BASKET ALMEDA"
-   ],
-   "score": [
-    60,
-    43
-   ],
-   "date": "10/10/2026",
-   "pbp_ok": true,
-   "shots_ok": true
+   "id": 2524895,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "date": "17/10/2026",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
   },
   {
-   "id": 2524889,
-   "teams": [
-    "TGN BASQUET A",
-    "LUCENTUM ALICANTE"
-   ],
-   "score": [
-    59,
-    67
-   ],
-   "date": "12/10/2026",
-   "pbp_ok": true,
-   "shots_ok": true
+   "id": 2524896,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "date": "18/10/2026",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
   },
   {
-   "id": 2524890,
-   "teams": [
-    "GEIEG PACISA",
-    "DISHELEC 65 VILADECANS"
-   ],
-   "score": [
-    83,
-    57
-   ],
-   "date": "11/10/2026",
-   "pbp_ok": true,
-   "shots_ok": true
+   "id": 2524897,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "date": "17/10/2026",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
   },
   {
-   "id": 2524891,
-   "teams": [
-    "ROMAKURUMA U.E.MATARÓ",
-    "MANRESA CBF A"
-   ],
-   "score": [
-    64,
-    39
-   ],
-   "date": "10/10/2026",
-   "pbp_ok": false,
-   "shots_ok": true
+   "id": 2524898,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "date": "18/10/2026",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
   },
   {
-   "id": 2524892,
-   "teams": [
-    "SEGLE XXI",
-    "BALONCESTO CLARET BENIMACLET"
-   ],
-   "score": [
-    72,
-    69
-   ],
-   "date": "10/10/2026",
-   "pbp_ok": false,
-   "shots_ok": false
+   "id": 2524899,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "date": "17/10/2026",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null
   }
- ],
- "altres_jornades": [
-  2524893,
-  2524894,
-  2524895,
-  2524896,
-  2524897,
-  2524898,
-  2524899
  ]
 }

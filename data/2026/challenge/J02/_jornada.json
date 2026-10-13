@@ -36,17 +36,18 @@
   "29": "2027-04-17",
   "30": "2027-04-24"
  },
- "altres_jornades": [],
- "data": "10/10/2026",
- "ids": [
-  2524463,
+ "altres_jornades": [
+  2524470,
+  2524469,
   2524464,
   2524465,
-  2524466,
-  2524467,
   2524468,
-  2524469,
-  2524470,
+  2524463,
+  2524467,
+  2524466
+ ],
+ "data": "10/10/2026",
+ "ids": [
   2524471,
   2524472,
   2524473,
@@ -56,152 +57,23 @@
   2524477,
   2524478
  ],
- "generated": "2026-10-13T06:21:17.251909+00:00",
+ "ids_method": 2,
+ "generated": "2026-10-13T07:00:08.791324+00:00",
  "games": [
   {
-   "id": 2524463,
-   "teams": [
-    "MCR LIMA-HORTA BARCELONA",
-    "MELILLA CIUDAD DEL DEPORTE LA SALLE"
-   ],
-   "score": [
-    47,
-    61
-   ],
-   "date": "11/10/2026",
-   "pbp_ok": true,
-   "shots_ok": true
-  },
-  {
-   "id": 2524464,
-   "teams": [
-    "SPARKING TRUTH MARISTAS",
-    "DOMUSA TEKNIK ISB"
-   ],
-   "score": [
-    75,
-    52
-   ],
-   "date": "10/10/2026",
-   "pbp_ok": true,
-   "shots_ok": true
-  },
-  {
-   "id": 2524465,
-   "teams": [
-    "BOSONIT UNIBASKET",
-    "LA LAGUNA TOYOTA ADAREVA"
-   ],
-   "score": [
-    79,
-    53
-   ],
-   "date": "10/10/2026",
-   "pbp_ok": true,
-   "shots_ok": true
-  },
-  {
-   "id": 2524466,
-   "teams": [
-    "UNICAJA MIJAS",
-    "CLUB JOVENTUT BADALONA"
-   ],
-   "score": [
-    66,
-    76
-   ],
-   "date": "11/10/2026",
-   "pbp_ok": true,
-   "shots_ok": true
-  },
-  {
-   "id": 2524467,
-   "teams": [
-    "OSES CONSTRUCCION",
-    "SPAR GRAN CANARIA"
-   ],
-   "score": [
-    77,
-    72
-   ],
-   "date": "11/10/2026",
-   "pbp_ok": true,
-   "shots_ok": true
-  },
-  {
-   "id": 2524468,
-   "teams": [
-    "SEVILLA CAJASOL GARDENSTORE BALONCESTO",
-    "FUSTECMA NBF CASTELLÓ"
-   ],
-   "score": [
-    72,
-    57
-   ],
-   "date": "10/10/2026",
-   "pbp_ok": true,
-   "shots_ok": true
-  },
-  {
-   "id": 2524469,
-   "teams": [
-    "VALENCIA BASKET",
-    "C.B. AL-QAZERES EXTREMADURA"
-   ],
-   "score": [
-    77,
-    81
-   ],
-   "date": "10/10/2026",
-   "pbp_ok": true,
-   "shots_ok": true
-  },
-  {
-   "id": 2524470,
-   "teams": [
-    "RECOLETAS ZAMORA",
-    "MIPELLETYMAS B.F. LEON"
-   ],
-   "score": [
-    59,
-    38
-   ],
-   "date": "10/10/2026",
-   "pbp_ok": true,
-   "shots_ok": true
-  },
-  {
    "id": 2524471,
-   "teams": null,
-   "score": null,
    "error": "sense_acta",
-   "date": "18/10/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "date": "18/10/2026"
   },
   {
    "id": 2524472,
-   "teams": null,
-   "score": null,
    "error": "sense_acta",
-   "date": "17/10/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "date": "17/10/2026"
   },
   {
    "id": 2524473,
-   "teams": null,
-   "score": null,
    "error": "sense_acta",
-   "date": "17/10/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "date": "17/10/2026"
   },
   {
    "id": 2524474,
@@ -210,47 +82,23 @@
   },
   {
    "id": 2524475,
-   "teams": null,
-   "score": null,
    "error": "sense_acta",
-   "date": "17/10/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "date": "17/10/2026"
   },
   {
    "id": 2524476,
-   "teams": null,
-   "score": null,
    "error": "sense_acta",
-   "date": "17/10/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "date": "17/10/2026"
   },
   {
    "id": 2524477,
-   "teams": null,
-   "score": null,
    "error": "sense_acta",
-   "date": "18/10/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "date": "18/10/2026"
   },
   {
    "id": 2524478,
-   "teams": null,
-   "score": null,
    "error": "sense_acta",
-   "date": "18/10/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "date": "18/10/2026"
   }
  ]
 }

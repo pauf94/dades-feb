@@ -1,0 +1,2771 @@
+{
+ "jornada": 2,
+ "partits": [
+  {
+   "id": 2522783,
+   "equips": [
+    "KUTXABANK ARASKI",
+    "MOVISTAR ESTUDIANTES"
+   ],
+   "marcador": [
+    45,
+    76
+   ],
+   "data": "08/10/2026",
+   "parcials": [
+    "17/15",
+    "10/30",
+    "7/11",
+    "11/20"
+   ],
+   "metriques": [
+    {
+     "PF": 45,
+     "PR": 76,
+     "poss": 76.04,
+     "ritme": 75.98,
+     "OER": 0.5918,
+     "DER": 1.0011,
+     "eFG": 0.3269,
+     "eFG_riv": 0.4577,
+     "pRO": 0.2059,
+     "pRD": 0.6,
+     "pBP": 0.3156,
+     "pBP_riv": 0.1712,
+     "FTr": 0.3077,
+     "t3r": 0.4038,
+     "pT2": 0.3548,
+     "pT3": 0.1905,
+     "pTL": 0.6875,
+     "pAS": 0.5333,
+     "RO": 7,
+     "BP": 24,
+     "BR": 4,
+     "AS": 8,
+     "net": -0.4093
+    },
+    {
+     "PF": 76,
+     "PR": 45,
+     "poss": 75.92,
+     "ritme": 75.98,
+     "OER": 1.0011,
+     "DER": 0.5918,
+     "eFG": 0.4577,
+     "eFG_riv": 0.3269,
+     "pRO": 0.4,
+     "pRD": 0.7941,
+     "pBP": 0.1712,
+     "pBP_riv": 0.3156,
+     "FTr": 0.2535,
+     "t3r": 0.3239,
+     "pT2": 0.4583,
+     "pT3": 0.3043,
+     "pTL": 0.6111,
+     "pAS": 0.7586,
+     "RO": 16,
+     "BP": 13,
+     "BR": 11,
+     "AS": 22,
+     "net": 0.4093
+    }
+   ]
+  },
+  {
+   "id": 2522784,
+   "equips": [
+    "SPAR GIRONA",
+    "AZULMARINO MALLORCA PALMA"
+   ],
+   "marcador": [
+    83,
+    89
+   ],
+   "data": "08/10/2026",
+   "parcials": [
+    "23/22",
+    "19/24",
+    "18/23",
+    "23/20"
+   ],
+   "metriques": [
+    {
+     "PF": 83,
+     "PR": 89,
+     "poss": 69.36,
+     "ritme": 71.64,
+     "OER": 1.1967,
+     "DER": 1.204,
+     "eFG": 0.5323,
+     "eFG_riv": 0.529,
+     "pRO": 0.3,
+     "pRD": 0.5556,
+     "pBP": 0.1153,
+     "pBP_riv": 0.1218,
+     "FTr": 0.3065,
+     "t3r": 0.371,
+     "pT2": 0.5385,
+     "pT3": 0.3478,
+     "pTL": 0.8947,
+     "pAS": 0.4483,
+     "RO": 9,
+     "BP": 8,
+     "BR": 8,
+     "AS": 13,
+     "net": -0.0073
+    },
+    {
+     "PF": 89,
+     "PR": 83,
+     "poss": 73.92,
+     "ritme": 71.64,
+     "OER": 1.204,
+     "DER": 1.1967,
+     "eFG": 0.529,
+     "eFG_riv": 0.5323,
+     "pRO": 0.4444,
+     "pRD": 0.7,
+     "pBP": 0.1218,
+     "pBP_riv": 0.1153,
+     "FTr": 0.2609,
+     "t3r": 0.2319,
+     "pT2": 0.6038,
+     "pT3": 0.1875,
+     "pTL": 0.8889,
+     "pAS": 0.4857,
+     "RO": 12,
+     "BP": 9,
+     "BR": 8,
+     "AS": 17,
+     "net": 0.0073
+    }
+   ]
+  },
+  {
+   "id": 2522785,
+   "equips": [
+    "MIRAI EUSKOTREN",
+    "CELTA FEMXA ZORKA"
+   ],
+   "marcador": [
+    75,
+    65
+   ],
+   "data": "08/10/2026",
+   "parcials": [
+    "16/14",
+    "22/17",
+    "18/18",
+    "19/16"
+   ],
+   "metriques": [
+    {
+     "PF": 75,
+     "PR": 65,
+     "poss": 72.24,
+     "ritme": 75.68,
+     "OER": 1.0382,
+     "DER": 0.8215,
+     "eFG": 0.4394,
+     "eFG_riv": 0.4722,
+     "pRO": 0.4857,
+     "pRD": 0.7826,
+     "pBP": 0.1938,
+     "pBP_riv": 0.2528,
+     "FTr": 0.3182,
+     "t3r": 0.3485,
+     "pT2": 0.3953,
+     "pT3": 0.3478,
+     "pTL": 0.8095,
+     "pAS": 0.52,
+     "RO": 17,
+     "BP": 14,
+     "BR": 16,
+     "AS": 13,
+     "net": 0.2167
+    },
+    {
+     "PF": 65,
+     "PR": 75,
+     "poss": 79.12,
+     "ritme": 75.68,
+     "OER": 0.8215,
+     "DER": 1.0382,
+     "eFG": 0.4722,
+     "eFG_riv": 0.4394,
+     "pRO": 0.2174,
+     "pRD": 0.5143,
+     "pBP": 0.2528,
+     "pBP_riv": 0.1938,
+     "FTr": 0.4259,
+     "t3r": 0.3333,
+     "pT2": 0.5,
+     "pT3": 0.2778,
+     "pTL": 0.6087,
+     "pAS": 0.2174,
+     "RO": 5,
+     "BP": 20,
+     "BR": 8,
+     "AS": 5,
+     "net": -0.2167
+    }
+   ]
+  },
+  {
+   "id": 2522786,
+   "equips": [
+    "CADI LA SEU",
+    "INNOVA-TSN LEGANÉS"
+   ],
+   "marcador": [
+    70,
+    60
+   ],
+   "data": "08/10/2026",
+   "parcials": [
+    "25/12",
+    "18/21",
+    "17/18",
+    "10/9"
+   ],
+   "metriques": [
+    {
+     "PF": 70,
+     "PR": 60,
+     "poss": 74.04,
+     "ritme": 73.32,
+     "OER": 0.9454,
+     "DER": 0.8264,
+     "eFG": 0.4833,
+     "eFG_riv": 0.4153,
+     "pRO": 0.1613,
+     "pRD": 0.7429,
+     "pBP": 0.1621,
+     "pBP_riv": 0.2204,
+     "FTr": 0.2667,
+     "t3r": 0.3667,
+     "pT2": 0.4474,
+     "pT3": 0.3636,
+     "pTL": 0.75,
+     "pAS": 0.4,
+     "RO": 5,
+     "BP": 12,
+     "BR": 10,
+     "AS": 10,
+     "net": 0.119
+    },
+    {
+     "PF": 60,
+     "PR": 70,
+     "poss": 72.6,
+     "ritme": 73.32,
+     "OER": 0.8264,
+     "DER": 0.9454,
+     "eFG": 0.4153,
+     "eFG_riv": 0.4833,
+     "pRO": 0.2571,
+     "pRD": 0.8387,
+     "pBP": 0.2204,
+     "pBP_riv": 0.1621,
+     "FTr": 0.2542,
+     "t3r": 0.4237,
+     "pT2": 0.4118,
+     "pT3": 0.28,
+     "pTL": 0.7333,
+     "pAS": 0.619,
+     "RO": 9,
+     "BP": 16,
+     "BR": 6,
+     "AS": 13,
+     "net": -0.119
+    }
+   ]
+  },
+  {
+   "id": 2522787,
+   "equips": [
+    "IMPULSO 360 ESTEPONA",
+    "DURÁN MAQUINARIA ENSINO"
+   ],
+   "marcador": [
+    82,
+    55
+   ],
+   "data": "08/10/2026",
+   "parcials": [
+    "14/17",
+    "20/11",
+    "25/10",
+    "23/17"
+   ],
+   "metriques": [
+    {
+     "PF": 82,
+     "PR": 55,
+     "poss": 73.4,
+     "ritme": 73.52,
+     "OER": 1.1172,
+     "DER": 0.7469,
+     "eFG": 0.5887,
+     "eFG_riv": 0.4545,
+     "pRO": 0.2963,
+     "pRD": 0.7742,
+     "pBP": 0.2044,
+     "pBP_riv": 0.3123,
+     "FTr": 0.1613,
+     "t3r": 0.4839,
+     "pT2": 0.5312,
+     "pT3": 0.4333,
+     "pTL": 0.9,
+     "pAS": 0.8333,
+     "RO": 8,
+     "BP": 15,
+     "BR": 15,
+     "AS": 25,
+     "net": 0.3703
+    },
+    {
+     "PF": 55,
+     "PR": 82,
+     "poss": 73.64,
+     "ritme": 73.52,
+     "OER": 0.7469,
+     "DER": 1.1172,
+     "eFG": 0.4545,
+     "eFG_riv": 0.5887,
+     "pRO": 0.2258,
+     "pRD": 0.7037,
+     "pBP": 0.3123,
+     "pBP_riv": 0.2044,
+     "FTr": 0.1091,
+     "t3r": 0.4545,
+     "pT2": 0.3333,
+     "pT3": 0.4,
+     "pTL": 0.8333,
+     "pAS": 0.55,
+     "RO": 7,
+     "BP": 23,
+     "BR": 10,
+     "AS": 11,
+     "net": -0.3703
+    }
+   ]
+  },
+  {
+   "id": 2522788,
+   "equips": [
+    "HOZONO GLOBAL JAIRIS",
+    "BAXI FERROL"
+   ],
+   "marcador": [
+    74,
+    61
+   ],
+   "data": "08/10/2026",
+   "parcials": [
+    "23/19",
+    "14/10",
+    "20/11",
+    "17/21"
+   ],
+   "metriques": [
+    {
+     "PF": 74,
+     "PR": 61,
+     "poss": 76.6,
+     "ritme": 74.96,
+     "OER": 0.9661,
+     "DER": 0.832,
+     "eFG": 0.4697,
+     "eFG_riv": 0.4531,
+     "pRO": 0.2812,
+     "pRD": 0.7368,
+     "pBP": 0.1697,
+     "pBP_riv": 0.2455,
+     "FTr": 0.2273,
+     "t3r": 0.3939,
+     "pT2": 0.55,
+     "pT3": 0.2308,
+     "pTL": 0.8,
+     "pAS": 0.6786,
+     "RO": 9,
+     "BP": 13,
+     "BR": 10,
+     "AS": 19,
+     "net": 0.1341
+    },
+    {
+     "PF": 61,
+     "PR": 74,
+     "poss": 73.32,
+     "ritme": 74.96,
+     "OER": 0.832,
+     "DER": 0.9661,
+     "eFG": 0.4531,
+     "eFG_riv": 0.4697,
+     "pRO": 0.2632,
+     "pRD": 0.7188,
+     "pBP": 0.2455,
+     "pBP_riv": 0.1697,
+     "FTr": 0.0469,
+     "t3r": 0.375,
+     "pT2": 0.425,
+     "pT3": 0.3333,
+     "pTL": 1.0,
+     "pAS": 0.6,
+     "RO": 10,
+     "BP": 18,
+     "BR": 9,
+     "AS": 15,
+     "net": -0.1341
+    }
+   ]
+  },
+  {
+   "id": 2522789,
+   "equips": [
+    "VALENCIA B.C.",
+    "MEINS AVENIDA"
+   ],
+   "marcador": [
+    82,
+    57
+   ],
+   "data": "07/10/2026",
+   "parcials": [
+    "23/18",
+    "15/13",
+    "21/14",
+    "23/12"
+   ],
+   "metriques": [
+    {
+     "PF": 82,
+     "PR": 57,
+     "poss": 76.48,
+     "ritme": 77.56,
+     "OER": 1.0722,
+     "DER": 0.7248,
+     "eFG": 0.5234,
+     "eFG_riv": 0.4044,
+     "pRO": 0.3871,
+     "pRD": 0.8286,
+     "pBP": 0.2223,
+     "pBP_riv": 0.178,
+     "FTr": 0.2656,
+     "t3r": 0.375,
+     "pT2": 0.575,
+     "pT3": 0.2917,
+     "pTL": 0.8824,
+     "pAS": 0.6667,
+     "RO": 12,
+     "BP": 17,
+     "BR": 6,
+     "AS": 20,
+     "net": 0.3474
+    },
+    {
+     "PF": 57,
+     "PR": 82,
+     "poss": 78.64,
+     "ritme": 77.56,
+     "OER": 0.7248,
+     "DER": 1.0722,
+     "eFG": 0.4044,
+     "eFG_riv": 0.5234,
+     "pRO": 0.1714,
+     "pRD": 0.6129,
+     "pBP": 0.178,
+     "pBP_riv": 0.2223,
+     "FTr": 0.0882,
+     "t3r": 0.2941,
+     "pT2": 0.3542,
+     "pT3": 0.35,
+     "pTL": 0.3333,
+     "pAS": 0.5417,
+     "RO": 6,
+     "BP": 14,
+     "BR": 9,
+     "AS": 13,
+     "net": -0.3474
+    }
+   ]
+  },
+  {
+   "id": 2522790,
+   "equips": [
+    "INVERSUS GERNIKA BIZKAIA",
+    "CASADEMONT ZARAGOZA"
+   ],
+   "marcador": [
+    72,
+    108
+   ],
+   "data": "07/10/2026",
+   "parcials": [
+    "15/21",
+    "16/28",
+    "26/34",
+    "15/25"
+   ],
+   "metriques": [
+    {
+     "PF": 72,
+     "PR": 108,
+     "poss": 80.56,
+     "ritme": 78.98,
+     "OER": 0.8937,
+     "DER": 1.3953,
+     "eFG": 0.4333,
+     "eFG_riv": 0.6972,
+     "pRO": 0.1714,
+     "pRD": 0.6667,
+     "pBP": 0.1986,
+     "pBP_riv": 0.1421,
+     "FTr": 0.4,
+     "t3r": 0.3833,
+     "pT2": 0.4595,
+     "pT3": 0.2609,
+     "pTL": 0.8333,
+     "pAS": 0.6087,
+     "RO": 6,
+     "BP": 16,
+     "BR": 8,
+     "AS": 14,
+     "net": -0.5016
+    },
+    {
+     "PF": 108,
+     "PR": 72,
+     "poss": 77.4,
+     "ritme": 78.98,
+     "OER": 1.3953,
+     "DER": 0.8937,
+     "eFG": 0.6972,
+     "eFG_riv": 0.4333,
+     "pRO": 0.3333,
+     "pRD": 0.8286,
+     "pBP": 0.1421,
+     "pBP_riv": 0.1986,
+     "FTr": 0.1408,
+     "t3r": 0.4789,
+     "pT2": 0.6486,
+     "pT3": 0.5,
+     "pTL": 0.9,
+     "pAS": 0.8537,
+     "RO": 9,
+     "BP": 11,
+     "BR": 10,
+     "AS": 35,
+     "net": 0.5016
+    }
+   ]
+  },
+  {
+   "id": 2522791,
+   "equips": [
+    "AZULMARINO MALLORCA PALMA",
+    "CADI LA SEU"
+   ],
+   "marcador": [
+    72,
+    50
+   ],
+   "data": "11/10/2026",
+   "parcials": [
+    "22/16",
+    "14/9",
+    "18/14",
+    "18/11"
+   ],
+   "metriques": [
+    {
+     "PF": 72,
+     "PR": 50,
+     "poss": 72.36,
+     "ritme": 71.88,
+     "OER": 0.995,
+     "DER": 0.7003,
+     "eFG": 0.4603,
+     "eFG_riv": 0.3231,
+     "pRO": 0.3333,
+     "pRD": 0.7105,
+     "pBP": 0.1797,
+     "pBP_riv": 0.1821,
+     "FTr": 0.3016,
+     "t3r": 0.3175,
+     "pT2": 0.4651,
+     "pT3": 0.3,
+     "pTL": 0.7368,
+     "pAS": 0.6923,
+     "RO": 12,
+     "BP": 13,
+     "BR": 8,
+     "AS": 18,
+     "net": 0.2947
+    },
+    {
+     "PF": 50,
+     "PR": 72,
+     "poss": 71.4,
+     "ritme": 71.88,
+     "OER": 0.7003,
+     "DER": 0.995,
+     "eFG": 0.3231,
+     "eFG_riv": 0.4603,
+     "pRO": 0.2895,
+     "pRD": 0.6667,
+     "pBP": 0.1821,
+     "pBP_riv": 0.1797,
+     "FTr": 0.1538,
+     "t3r": 0.3538,
+     "pT2": 0.3571,
+     "pT3": 0.1739,
+     "pTL": 0.8,
+     "pAS": 0.3684,
+     "RO": 11,
+     "BP": 13,
+     "BR": 7,
+     "AS": 7,
+     "net": -0.2947
+    }
+   ]
+  },
+  {
+   "id": 2522792,
+   "equips": [
+    "BAXI FERROL",
+    "IMPULSO 360 ESTEPONA"
+   ],
+   "marcador": [
+    84,
+    72
+   ],
+   "data": "11/10/2026",
+   "parcials": [
+    "19/23",
+    "19/17",
+    "20/18",
+    "26/14"
+   ],
+   "metriques": [
+    {
+     "PF": 84,
+     "PR": 72,
+     "poss": 70.0,
+     "ritme": 72.08,
+     "OER": 1.2,
+     "DER": 0.9709,
+     "eFG": 0.5424,
+     "eFG_riv": 0.5167,
+     "pRO": 0.3333,
+     "pRD": 0.7037,
+     "pBP": 0.1429,
+     "pBP_riv": 0.2157,
+     "FTr": 0.4237,
+     "t3r": 0.3729,
+     "pT2": 0.4595,
+     "pT3": 0.4545,
+     "pTL": 0.8,
+     "pAS": 0.3333,
+     "RO": 10,
+     "BP": 10,
+     "BR": 6,
+     "AS": 9,
+     "net": 0.2291
+    },
+    {
+     "PF": 72,
+     "PR": 84,
+     "poss": 74.16,
+     "ritme": 72.08,
+     "OER": 0.9709,
+     "DER": 1.2,
+     "eFG": 0.5167,
+     "eFG_riv": 0.5424,
+     "pRO": 0.2963,
+     "pRD": 0.6667,
+     "pBP": 0.2157,
+     "pBP_riv": 0.1429,
+     "FTr": 0.2333,
+     "t3r": 0.4333,
+     "pT2": 0.6471,
+     "pT3": 0.2308,
+     "pTL": 0.7143,
+     "pAS": 0.4286,
+     "RO": 8,
+     "BP": 16,
+     "BR": 7,
+     "AS": 12,
+     "net": -0.2291
+    }
+   ]
+  },
+  {
+   "id": 2522793,
+   "equips": [
+    "SPAR GIRONA",
+    "HOZONO GLOBAL JAIRIS"
+   ],
+   "marcador": [
+    48,
+    64
+   ],
+   "data": "11/10/2026",
+   "parcials": [
+    "15/18",
+    "14/10",
+    "12/15",
+    "7/21"
+   ],
+   "metriques": [
+    {
+     "PF": 48,
+     "PR": 64,
+     "poss": 71.96,
+     "ritme": 70.18,
+     "OER": 0.667,
+     "DER": 0.9357,
+     "eFG": 0.3385,
+     "eFG_riv": 0.4435,
+     "pRO": 0.2,
+     "pRD": 0.8235,
+     "pBP": 0.1529,
+     "pBP_riv": 0.117,
+     "FTr": 0.1385,
+     "t3r": 0.4154,
+     "pT2": 0.3421,
+     "pT3": 0.2222,
+     "pTL": 0.4444,
+     "pAS": 0.6316,
+     "RO": 8,
+     "BP": 11,
+     "BR": 6,
+     "AS": 12,
+     "net": -0.2686
+    },
+    {
+     "PF": 64,
+     "PR": 48,
+     "poss": 68.4,
+     "ritme": 70.18,
+     "OER": 0.9357,
+     "DER": 0.667,
+     "eFG": 0.4435,
+     "eFG_riv": 0.3385,
+     "pRO": 0.1765,
+     "pRD": 0.8,
+     "pBP": 0.117,
+     "pBP_riv": 0.1529,
+     "FTr": 0.1613,
+     "t3r": 0.4839,
+     "pT2": 0.5312,
+     "pT3": 0.2333,
+     "pTL": 0.9,
+     "pAS": 0.4583,
+     "RO": 6,
+     "BP": 8,
+     "BR": 9,
+     "AS": 11,
+     "net": 0.2686
+    }
+   ]
+  },
+  {
+   "id": 2522794,
+   "equips": [
+    "DURÁN MAQUINARIA ENSINO",
+    "KUTXABANK ARASKI"
+   ],
+   "marcador": [
+    76,
+    63
+   ],
+   "data": "11/10/2026",
+   "parcials": [
+    "17/18",
+    "19/11",
+    "25/23",
+    "15/11"
+   ],
+   "metriques": [
+    {
+     "PF": 76,
+     "PR": 63,
+     "poss": 75.8,
+     "ritme": 74.64,
+     "OER": 1.0026,
+     "DER": 0.8574,
+     "eFG": 0.4917,
+     "eFG_riv": 0.4298,
+     "pRO": 0.2581,
+     "pRD": 0.6364,
+     "pBP": 0.1979,
+     "pBP_riv": 0.2858,
+     "FTr": 0.3333,
+     "t3r": 0.3833,
+     "pT2": 0.5135,
+     "pT3": 0.3043,
+     "pTL": 0.85,
+     "pAS": 0.5385,
+     "RO": 8,
+     "BP": 15,
+     "BR": 15,
+     "AS": 14,
+     "net": 0.1453
+    },
+    {
+     "PF": 63,
+     "PR": 76,
+     "poss": 73.48,
+     "ritme": 74.64,
+     "OER": 0.8574,
+     "DER": 1.0026,
+     "eFG": 0.4298,
+     "eFG_riv": 0.4917,
+     "pRO": 0.3636,
+     "pRD": 0.7419,
+     "pBP": 0.2858,
+     "pBP_riv": 0.1979,
+     "FTr": 0.2982,
+     "t3r": 0.4737,
+     "pT2": 0.4667,
+     "pT3": 0.2593,
+     "pTL": 0.8235,
+     "pAS": 0.7619,
+     "RO": 12,
+     "BP": 21,
+     "BR": 9,
+     "AS": 16,
+     "net": -0.1453
+    }
+   ]
+  },
+  {
+   "id": 2522795,
+   "equips": [
+    "MOVISTAR ESTUDIANTES",
+    "VALENCIA B.C."
+   ],
+   "marcador": [
+    70,
+    99
+   ],
+   "data": "11/10/2026",
+   "parcials": [
+    "16/21",
+    "18/25",
+    "25/25",
+    "11/28"
+   ],
+   "metriques": [
+    {
+     "PF": 70,
+     "PR": 99,
+     "poss": 75.16,
+     "ritme": 76.48,
+     "OER": 0.9313,
+     "DER": 1.2725,
+     "eFG": 0.4758,
+     "eFG_riv": 0.6803,
+     "pRO": 0.4242,
+     "pRD": 0.7222,
+     "pBP": 0.2794,
+     "pBP_riv": 0.1671,
+     "FTr": 0.2258,
+     "t3r": 0.3548,
+     "pT2": 0.4,
+     "pT3": 0.4091,
+     "pTL": 0.7857,
+     "pAS": 0.64,
+     "RO": 14,
+     "BP": 21,
+     "BR": 8,
+     "AS": 16,
+     "net": -0.3411
+    },
+    {
+     "PF": 99,
+     "PR": 70,
+     "poss": 77.8,
+     "ritme": 76.48,
+     "OER": 1.2725,
+     "DER": 0.9313,
+     "eFG": 0.6803,
+     "eFG_riv": 0.4758,
+     "pRO": 0.2778,
+     "pRD": 0.5758,
+     "pBP": 0.1671,
+     "pBP_riv": 0.2794,
+     "FTr": 0.3279,
+     "t3r": 0.3934,
+     "pT2": 0.6757,
+     "pT3": 0.4583,
+     "pTL": 0.8,
+     "pAS": 0.4444,
+     "RO": 5,
+     "BP": 13,
+     "BR": 16,
+     "AS": 16,
+     "net": 0.3411
+    }
+   ]
+  },
+  {
+   "id": 2522796,
+   "equips": [
+    "INNOVA-TSN LEGANÉS",
+    "MIRAI EUSKOTREN"
+   ],
+   "marcador": [
+    49,
+    70
+   ],
+   "data": "11/10/2026",
+   "parcials": [
+    "9/12",
+    "15/21",
+    "13/18",
+    "12/19"
+   ],
+   "metriques": [
+    {
+     "PF": 49,
+     "PR": 70,
+     "poss": 71.04,
+     "ritme": 70.48,
+     "OER": 0.6898,
+     "DER": 1.0011,
+     "eFG": 0.3796,
+     "eFG_riv": 0.4911,
+     "pRO": 0.4,
+     "pRD": 0.8,
+     "pBP": 0.3097,
+     "pBP_riv": 0.1573,
+     "FTr": 0.2963,
+     "t3r": 0.2778,
+     "pT2": 0.4103,
+     "pT3": 0.2,
+     "pTL": 0.5,
+     "pAS": 0.5789,
+     "RO": 12,
+     "BP": 22,
+     "BR": 3,
+     "AS": 11,
+     "net": -0.3114
+    },
+    {
+     "PF": 70,
+     "PR": 49,
+     "poss": 69.92,
+     "ritme": 70.48,
+     "OER": 1.0011,
+     "DER": 0.6898,
+     "eFG": 0.4911,
+     "eFG_riv": 0.3796,
+     "pRO": 0.2,
+     "pRD": 0.6,
+     "pBP": 0.1573,
+     "pBP_riv": 0.3097,
+     "FTr": 0.3214,
+     "t3r": 0.1607,
+     "pT2": 0.4255,
+     "pT3": 0.5556,
+     "pTL": 0.8333,
+     "pAS": 0.52,
+     "RO": 5,
+     "BP": 11,
+     "BR": 11,
+     "AS": 13,
+     "net": 0.3114
+    }
+   ]
+  },
+  {
+   "id": 2522797,
+   "equips": [
+    "CELTA FEMXA ZORKA",
+    "CASADEMONT ZARAGOZA"
+   ],
+   "marcador": [
+    52,
+    83
+   ],
+   "data": "11/10/2026",
+   "parcials": [
+    "12/13",
+    "11/23",
+    "18/25",
+    "11/22"
+   ],
+   "metriques": [
+    {
+     "PF": 52,
+     "PR": 83,
+     "poss": 79.04,
+     "ritme": 79.2,
+     "OER": 0.6579,
+     "DER": 1.0459,
+     "eFG": 0.3475,
+     "eFG_riv": 0.5391,
+     "pRO": 0.25,
+     "pRD": 0.7273,
+     "pBP": 0.2783,
+     "pBP_riv": 0.2016,
+     "FTr": 0.2712,
+     "t3r": 0.3898,
+     "pT2": 0.4444,
+     "pT3": 0.1304,
+     "pTL": 0.6875,
+     "pAS": 0.5263,
+     "RO": 9,
+     "BP": 22,
+     "BR": 11,
+     "AS": 10,
+     "net": -0.388
+    },
+    {
+     "PF": 83,
+     "PR": 52,
+     "poss": 79.36,
+     "ritme": 79.2,
+     "OER": 1.0459,
+     "DER": 0.6579,
+     "eFG": 0.5391,
+     "eFG_riv": 0.3475,
+     "pRO": 0.2727,
+     "pRD": 0.75,
+     "pBP": 0.2016,
+     "pBP_riv": 0.2783,
+     "FTr": 0.2969,
+     "t3r": 0.3906,
+     "pT2": 0.5385,
+     "pT3": 0.36,
+     "pTL": 0.7368,
+     "pAS": 0.7,
+     "RO": 9,
+     "BP": 16,
+     "BR": 13,
+     "AS": 21,
+     "net": 0.388
+    }
+   ]
+  },
+  {
+   "id": 2522798,
+   "equips": [
+    "MEINS AVENIDA",
+    "INVERSUS GERNIKA BIZKAIA"
+   ],
+   "marcador": [
+    86,
+    58
+   ],
+   "data": "11/10/2026",
+   "parcials": [
+    "18/20",
+    "22/5",
+    "26/19",
+    "20/14"
+   ],
+   "metriques": [
+    {
+     "PF": 86,
+     "PR": 58,
+     "poss": 78.52,
+     "ritme": 78.68,
+     "OER": 1.0953,
+     "DER": 0.7357,
+     "eFG": 0.5256,
+     "eFG_riv": 0.375,
+     "pRO": 0.3333,
+     "pRD": 0.7381,
+     "pBP": 0.1019,
+     "pBP_riv": 0.2156,
+     "FTr": 0.1026,
+     "t3r": 0.4359,
+     "pT2": 0.5227,
+     "pT3": 0.3529,
+     "pTL": 0.5,
+     "pAS": 0.5714,
+     "RO": 11,
+     "BP": 8,
+     "BR": 10,
+     "AS": 20,
+     "net": 0.3596
+    },
+    {
+     "PF": 58,
+     "PR": 86,
+     "poss": 78.84,
+     "ritme": 78.68,
+     "OER": 0.7357,
+     "DER": 1.0953,
+     "eFG": 0.375,
+     "eFG_riv": 0.5256,
+     "pRO": 0.2619,
+     "pRD": 0.6667,
+     "pBP": 0.2156,
+     "pBP_riv": 0.1019,
+     "FTr": 0.1618,
+     "t3r": 0.3382,
+     "pT2": 0.4,
+     "pT3": 0.2174,
+     "pTL": 0.6364,
+     "pAS": 0.4348,
+     "RO": 11,
+     "BP": 17,
+     "BR": 7,
+     "AS": 10,
+     "net": -0.3596
+    }
+   ]
+  }
+ ],
+ "desviacions": [],
+ "sorpreses": [
+  {
+   "id": 2522784,
+   "guanyador": "AZULMARINO MALLORCA PALMA",
+   "tipus": "guanya tirant pitjor",
+   "eFG": [
+    0.532,
+    0.529
+   ]
+  },
+  {
+   "id": 2522785,
+   "guanyador": "MIRAI EUSKOTREN",
+   "tipus": "guanya tirant pitjor",
+   "eFG": [
+    0.439,
+    0.472
+   ]
+  }
+ ],
+ "ratxes": [
+  {
+   "id": 2522783,
+   "equip": "MOVISTAR ESTUDIANTES",
+   "punts": 18,
+   "de": "Q2 07:18",
+   "a": "Q2 02:49",
+   "marcador": "21-19 → 21-37",
+   "quintet": "I.ETXARRI / I.LATORRE / J.FEQUIERE / K.COOPER / R.BUCH",
+   "quintet_rival": "A.STANACEV / J.MUNGO / K.HIGGINS / L.PIERA / M.ROTERS",
+   "temps_mort": [
+    "Q2 05:31"
+   ]
+  },
+  {
+   "id": 2522798,
+   "equip": "MEINS AVENIDA",
+   "punts": 18,
+   "de": "Q1 00:04",
+   "a": "Q2 03:31",
+   "marcador": "15-20 → 33-20",
+   "quintet": "D.ANGEL / I.SANTIBAÑEZ / M.CANELLA / M.FASSINA / R.MIKULASIKOVA",
+   "quintet_rival": "A.SALVADORES / A.VONLEH / E.BOSGANA / E.MATARRANZ / J.BROWN",
+   "temps_mort": [
+    "Q2 06:25",
+    "Q2 03:31"
+   ]
+  },
+  {
+   "id": 2522790,
+   "equip": "CASADEMONT ZARAGOZA",
+   "punts": 16,
+   "de": "Q2 06:44",
+   "a": "Q2 03:19",
+   "marcador": "22-24 → 22-40",
+   "quintet": "A.SHEPPARD / C.BRITO / L.FLORES / N.HERMOSA / O.BANKOLE",
+   "quintet_rival": "A.SALVADORES / A.VONLEH / E.BOSGANA / S.GALANOPOULOS / S.RIDARD",
+   "temps_mort": [
+    "Q2 05:43",
+    "Q2 04:21"
+   ]
+  },
+  {
+   "id": 2522793,
+   "equip": "HOZONO GLOBAL JAIRIS",
+   "punts": 16,
+   "de": "Q3 02:44",
+   "a": "Q4 04:50",
+   "marcador": "41-39 → 41-55",
+   "quintet": "A.PRIETO / B.MASSEY / E.BESSOIR / S.HILL / T.ALARCON",
+   "quintet_rival": "C.GUERRERO / J.CAMILION / M.CONNER / M.GARCIA / Q.CASAS",
+   "temps_mort": [
+    "Q4 09:11",
+    "Q4 04:59"
+   ]
+  },
+  {
+   "id": 2522792,
+   "equip": "IMPULSO 360 ESTEPONA",
+   "punts": 15,
+   "de": "Q1 05:42",
+   "a": "Q1 02:09",
+   "marcador": "11-4 → 11-19",
+   "quintet": "A.GERVASINI / A.SANCHEZ / M.GRETTER / S.WATTS / T.MOORE",
+   "quintet_rival": "C.MELIA / K.SOTOLOVÁ / M.DOOGAN / N.PRIEDE / S.SHAW",
+   "temps_mort": []
+  },
+  {
+   "id": 2522787,
+   "equip": "DURÁN MAQUINARIA ENSINO",
+   "punts": 13,
+   "de": "Q1 04:38",
+   "a": "Q1 00:04",
+   "marcador": "14-4 → 14-17",
+   "quintet": "A.VILARO / H.VAN / K.WILLIAMS / N.BOSCH / T.YURKEVICHUS",
+   "quintet_rival": "C.MUHATE / L.HOWARD / M.GRETTER / M.ORTEGA / T.MOORE",
+   "temps_mort": []
+  },
+  {
+   "id": 2522787,
+   "equip": "IMPULSO 360 ESTEPONA",
+   "punts": 13,
+   "de": "Q3 07:17",
+   "a": "Q3 03:42",
+   "marcador": "37-34 → 50-34",
+   "quintet": "A.GERVASINI / L.RODRIGUEZ / M.GRETTER / S.WATTS / T.MOORE",
+   "quintet_rival": "A.VILARO / H.VAN / L.EKH / N.BOSCH / Z.HERNANDEZ",
+   "temps_mort": [
+    "Q3 05:21",
+    "Q3 03:42"
+   ]
+  },
+  {
+   "id": 2522785,
+   "equip": "MIRAI EUSKOTREN",
+   "punts": 12,
+   "de": "Q2 04:52",
+   "a": "Q2 02:15",
+   "marcador": "22-28 → 34-28",
+   "quintet": "I.ARIZTIMUÑO / I.TATE / K.FAYE / P.ROBINSON / V.REMENÁROVÁ",
+   "quintet_rival": "C.SAMSON / D.BERMEJO / E.RONSIEK / M.GAKDENG / M.GEA",
+   "temps_mort": [
+    "Q2 04:25",
+    "Q2 03:40"
+   ]
+  },
+  {
+   "id": 2522788,
+   "equip": "HOZONO GLOBAL JAIRIS",
+   "punts": 12,
+   "de": "Q3 04:05",
+   "a": "Q3 00:38",
+   "marcador": "45-40 → 57-40",
+   "quintet": "A.PRIETO / J.HOBBS / L.GIL / M.MANE / S.HILL",
+   "quintet_rival": "C.MELIA / I.BELOSEVIC / K.GALICKOVA / M.DOOGAN / S.SHAW",
+   "temps_mort": [
+    "Q3 03:01"
+   ]
+  },
+  {
+   "id": 2522791,
+   "equip": "AZULMARINO MALLORCA PALMA",
+   "punts": 12,
+   "de": "Q2 06:12",
+   "a": "Q3 09:40",
+   "marcador": "26-25 → 38-25",
+   "quintet": "A.TORRENS / B.MILLAN / G.DEMBELE / K.ALEXANDER / K.HOLM",
+   "quintet_rival": "A.DONARSKI / A.ORSILI / L.SONTAG / M.MORALES / N.NIARE",
+   "temps_mort": [
+    "Q2 02:51"
+   ]
+  },
+  {
+   "id": 2522795,
+   "equip": "VALENCIA B.C.",
+   "punts": 12,
+   "de": "Q4 08:54",
+   "a": "Q4 06:28",
+   "marcador": "65-71 → 65-83",
+   "quintet": "A.JENKINS / A.PETERSON / H.PUEYO / M.SUAREZ / V.TAKACS-KISS",
+   "quintet_rival": "B.DE / G.SANCHEZ / I.ETXARRI / I.LATORRE / P.STRAUTMANE",
+   "temps_mort": [
+    "Q4 07:22"
+   ]
+  },
+  {
+   "id": 2522797,
+   "equip": "CASADEMONT ZARAGOZA",
+   "punts": 12,
+   "de": "Q4 05:52",
+   "a": "Q4 03:35",
+   "marcador": "47-69 → 47-81",
+   "quintet": "A.SHEPPARD / K.VITOLA / M.ORTIZ / N.FINGALL / Y.GARZON",
+   "quintet_rival": "D.BERMEJO / E.RONSIEK / M.GAKDENG / P.SALINAS / T.SABEL",
+   "temps_mort": [
+    "Q4 04:23"
+   ]
+  },
+  {
+   "id": 2522787,
+   "equip": "IMPULSO 360 ESTEPONA",
+   "punts": 11,
+   "de": "Q4 04:58",
+   "a": "Q4 02:42",
+   "marcador": "66-48 → 77-48",
+   "quintet": "A.GERVASINI / L.HOWARD / L.RODRIGUEZ / M.GRETTER / T.MOORE",
+   "quintet_rival": "A.VILARO / H.VAN / K.WILLIAMS / T.YURKEVICHUS / Z.HERNANDEZ",
+   "temps_mort": [
+    "Q4 04:33"
+   ]
+  },
+  {
+   "id": 2522789,
+   "equip": "VALENCIA B.C.",
+   "punts": 11,
+   "de": "Q4 05:07",
+   "a": "Q4 00:06",
+   "marcador": "71-57 → 82-57",
+   "quintet": "A.JENKINS / I.HERNANDEZ / K.BORKOWSKA / L.ROMERO / M.SUAREZ",
+   "quintet_rival": "I.SANTIBAÑEZ / M.FASSINA / R.MIKULASIKOVA / S.MAWULI / S.ROUMY",
+   "temps_mort": []
+  },
+  {
+   "id": 2522796,
+   "equip": "MIRAI EUSKOTREN",
+   "punts": 10,
+   "de": "Q2 06:46",
+   "a": "Q2 04:15",
+   "marcador": "13-16 → 13-26",
+   "quintet": "G.CAPEL / I.ARIZTIMUÑO / I.TATE / L.GONZALEZ / V.REMENÁROVÁ",
+   "quintet_rival": "A.SANGARE / M.ESPIN / N.DRIESSEN / R.AGUILAR / R.IGBOWKE",
+   "temps_mort": [
+    "Q2 06:18"
+   ]
+  },
+  {
+   "id": 2522797,
+   "equip": "CASADEMONT ZARAGOZA",
+   "punts": 10,
+   "de": "Q2 05:41",
+   "a": "Q2 02:30",
+   "marcador": "16-22 → 16-32",
+   "quintet": "K.VITOLA / L.FLORES / N.HERMOSA / O.BANKOLE / V.VORACKOVA",
+   "quintet_rival": "C.SAMSON / E.RONSIEK / L.VORPAHL / M.GAKDENG / U.RODRÍGUEZ",
+   "temps_mort": [
+    "Q2 03:10"
+   ]
+  },
+  {
+   "id": 2522785,
+   "equip": "CELTA FEMXA ZORKA",
+   "punts": 8,
+   "de": "Q2 08:50",
+   "a": "Q2 06:16",
+   "marcador": "20-17 → 20-25",
+   "quintet": "D.CABRERA / E.RONSIEK / L.VORPAHL / P.SALINAS / T.SABEL",
+   "quintet_rival": "G.CAPEL / I.TATE / K.FAYE / L.GONZALEZ / P.ROBINSON",
+   "temps_mort": [
+    "Q2 06:18"
+   ]
+  },
+  {
+   "id": 2522786,
+   "equip": "CADI LA SEU",
+   "punts": 8,
+   "de": "Q4 04:28",
+   "a": "Q4 01:50",
+   "marcador": "62-55 → 70-55",
+   "quintet": "A.DONARSKI / L.SONTAG / M.AVIÑOA / M.MATA / M.MORALES",
+   "quintet_rival": "A.SANGARE / E.RODRIGUEZ / I.LAHUERTA / M.JOINER / N.ROSIC",
+   "temps_mort": [
+    "Q4 04:28"
+   ]
+  },
+  {
+   "id": 2522788,
+   "equip": "HOZONO GLOBAL JAIRIS",
+   "punts": 8,
+   "de": "Q2 02:46",
+   "a": "Q3 09:45",
+   "marcador": "31-29 → 39-29",
+   "quintet": "A.AYUSO / A.PRIETO / B.MASSEY / J.HOBBS / T.ALARCON",
+   "quintet_rival": "E.CASTEDO / K.SOTOLOVÁ / M.DOOGAN / N.PRIEDE / T.EKE",
+   "temps_mort": [
+    "Q2 02:17"
+   ]
+  },
+  {
+   "id": 2522791,
+   "equip": "AZULMARINO MALLORCA PALMA",
+   "punts": 8,
+   "de": "Q4 08:47",
+   "a": "Q4 06:25",
+   "marcador": "54-41 → 62-41",
+   "quintet": "A.TORRENS / K.ALEXANDER / K.HOLM / M.ARROJO / Y.EJIM",
+   "quintet_rival": "L.RAVENTOS / M.AVIÑOA / M.MORALES / N.NIARE / P.MBU",
+   "temps_mort": [
+    "Q4 06:52"
+   ]
+  },
+  {
+   "id": 2522792,
+   "equip": "BAXI FERROL",
+   "punts": 8,
+   "de": "Q2 03:02",
+   "a": "Q2 01:22",
+   "marcador": "27-38 → 35-38",
+   "quintet": "C.MELIA / K.GALICKOVA / K.SOTOLOVÁ / S.SHAW / T.EKE",
+   "quintet_rival": "A.GERVASINI / C.MUHATE / M.GRETTER / S.WATTS / T.MOORE",
+   "temps_mort": [
+    "Q2 01:32"
+   ]
+  },
+  {
+   "id": 2522794,
+   "equip": "DURÁN MAQUINARIA ENSINO",
+   "punts": 8,
+   "de": "Q3 01:35",
+   "a": "Q3 00:47",
+   "marcador": "53-48 → 61-48",
+   "quintet": "E.GARFELLA / H.VAN / K.WILLIAMS / M.DEMBELE / Z.HERNANDEZ",
+   "quintet_rival": "A.STANACEV / K.HIGGINS / L.PIERA / M.BROTONS / M.ROTERS",
+   "temps_mort": [
+    "Q3 00:48"
+   ]
+  },
+  {
+   "id": 2522798,
+   "equip": "MEINS AVENIDA",
+   "punts": 8,
+   "de": "Q4 08:07",
+   "a": "Q4 06:20",
+   "marcador": "68-48 → 76-48",
+   "quintet": "C.SORIANO / D.ANGEL / M.FASSINA / R.MIKULASIKOVA / S.ROUMY",
+   "quintet_rival": "A.SALVADORES / J.BROWN / L.MCSPADDEN / S.GALANOPOULOS / S.RIDARD",
+   "temps_mort": [
+    "Q4 06:56"
+   ]
+  }
+ ],
+ "individuals": [
+  {
+   "id": 2522792,
+   "equip": "BAXI FERROL",
+   "jugadora": "M. DOOGAN",
+   "min": 31.12,
+   "PT": 38,
+   "REB": 6,
+   "AS": 0,
+   "BP": 1,
+   "T2": "7/11",
+   "T3": "6/8",
+   "TL": "6/6",
+   "VAL": 40,
+   "pm": 10,
+   "doble_doble": false,
+   "TS": 0.878,
+   "VAL_mitjana": 17,
+   "z": null,
+   "partits_previs": 1
+  },
+  {
+   "id": 2522784,
+   "equip": "SPAR GIRONA",
+   "jugadora": "I. MARTIN CARRION",
+   "min": 34.35,
+   "PT": 27,
+   "REB": 6,
+   "AS": 9,
+   "BP": 4,
+   "T2": "3/6",
+   "T3": "5/9",
+   "TL": "6/6",
+   "VAL": 36,
+   "pm": -5,
+   "doble_doble": false,
+   "TS": 0.765,
+   "VAL_mitjana": 21,
+   "z": null,
+   "partits_previs": 1
+  },
+  {
+   "id": 2522784,
+   "equip": "AZULMARINO MALLORCA PALMA",
+   "jugadora": "K. ALEXANDER",
+   "min": 38.53,
+   "PT": 24,
+   "REB": 13,
+   "AS": 1,
+   "BP": 1,
+   "T2": "11/16",
+   "T3": "0/0",
+   "TL": "2/2",
+   "VAL": 32,
+   "pm": 5,
+   "doble_doble": true,
+   "TS": 0.711,
+   "VAL_mitjana": 29,
+   "z": null,
+   "partits_previs": 1
+  },
+  {
+   "id": 2522790,
+   "equip": "CASADEMONT ZARAGOZA",
+   "jugadora": "A. SHEPPARD",
+   "min": 21.58,
+   "PT": 31,
+   "REB": 4,
+   "AS": 1,
+   "BP": 4,
+   "T2": "4/6",
+   "T3": "7/8",
+   "TL": "2/2",
+   "VAL": 30,
+   "pm": 27,
+   "doble_doble": false,
+   "TS": 1.042,
+   "VAL_mitjana": 1,
+   "z": null,
+   "partits_previs": 1
+  },
+  {
+   "id": 2522783,
+   "equip": "MOVISTAR ESTUDIANTES",
+   "jugadora": "I. ETXARRI MUNARRIZ",
+   "min": 28.13,
+   "PT": 15,
+   "REB": 11,
+   "AS": 6,
+   "BP": 4,
+   "T2": "6/11",
+   "T3": "0/0",
+   "TL": "3/3",
+   "VAL": 28,
+   "pm": 19,
+   "doble_doble": true,
+   "TS": 0.609,
+   "VAL_mitjana": 6,
+   "z": null,
+   "partits_previs": 1
+  },
+  {
+   "id": 2522784,
+   "equip": "AZULMARINO MALLORCA PALMA",
+   "jugadora": "K. HOLM",
+   "min": 29.43,
+   "PT": 22,
+   "REB": 4,
+   "AS": 6,
+   "BP": 3,
+   "T2": "6/12",
+   "T3": "3/3",
+   "TL": "1/2",
+   "VAL": 27,
+   "pm": -7,
+   "doble_doble": false,
+   "TS": 0.693,
+   "VAL_mitjana": 30,
+   "z": null,
+   "partits_previs": 1
+  },
+  {
+   "id": 2522789,
+   "equip": "VALENCIA B.C.",
+   "jugadora": "V. TAKACS-KISS",
+   "min": 21.87,
+   "PT": 12,
+   "REB": 9,
+   "AS": 2,
+   "BP": 2,
+   "T2": "3/4",
+   "T3": "0/0",
+   "TL": "6/8",
+   "VAL": 26,
+   "pm": 21,
+   "doble_doble": false,
+   "TS": 0.798,
+   "VAL_mitjana": 9,
+   "z": null,
+   "partits_previs": 1
+  },
+  {
+   "id": 2522791,
+   "equip": "AZULMARINO MALLORCA PALMA",
+   "jugadora": "K. HOLM",
+   "min": 33.02,
+   "PT": 11,
+   "REB": 9,
+   "AS": 8,
+   "BP": 2,
+   "T2": "3/5",
+   "T3": "0/1",
+   "TL": "5/6",
+   "VAL": 25,
+   "pm": 27,
+   "doble_doble": false,
+   "TS": 0.637,
+   "VAL_mitjana": 30,
+   "z": null,
+   "partits_previs": 1
+  },
+  {
+   "id": 2522791,
+   "equip": "AZULMARINO MALLORCA PALMA",
+   "jugadora": "K. ALEXANDER",
+   "min": 29.8,
+   "PT": 19,
+   "REB": 11,
+   "AS": 0,
+   "BP": 2,
+   "T2": "9/16",
+   "T3": "0/0",
+   "TL": "1/1",
+   "VAL": 25,
+   "pm": 29,
+   "doble_doble": true,
+   "TS": 0.578,
+   "VAL_mitjana": 29,
+   "z": null,
+   "partits_previs": 1
+  },
+  {
+   "id": 2522783,
+   "equip": "MOVISTAR ESTUDIANTES",
+   "jugadora": "J. FEQUIERE",
+   "min": 27.83,
+   "PT": 12,
+   "REB": 7,
+   "AS": 1,
+   "BP": 1,
+   "T2": "3/4",
+   "T3": "1/2",
+   "TL": "3/3",
+   "VAL": 24,
+   "pm": 21,
+   "doble_doble": false,
+   "TS": 0.82,
+   "VAL_mitjana": 16,
+   "z": null,
+   "partits_previs": 1
+  },
+  {
+   "id": 2522794,
+   "equip": "DURÁN MAQUINARIA ENSINO",
+   "jugadora": "L. EKH",
+   "min": 31.48,
+   "PT": 21,
+   "REB": 4,
+   "AS": 1,
+   "BP": 0,
+   "T2": "6/7",
+   "T3": "2/8",
+   "TL": "3/3",
+   "VAL": 24,
+   "pm": 11,
+   "doble_doble": false,
+   "TS": 0.643,
+   "VAL_mitjana": 4,
+   "z": null,
+   "partits_previs": 1
+  },
+  {
+   "id": 2522788,
+   "equip": "HOZONO GLOBAL JAIRIS",
+   "jugadora": "J. HOBBS",
+   "min": 23.13,
+   "PT": 21,
+   "REB": 6,
+   "AS": 0,
+   "BP": 2,
+   "T2": "5/6",
+   "T3": "3/6",
+   "TL": "2/2",
+   "VAL": 23,
+   "pm": 10,
+   "doble_doble": false,
+   "TS": 0.815,
+   "VAL_mitjana": 16,
+   "z": null,
+   "partits_previs": 1
+  },
+  {
+   "id": 2522786,
+   "equip": "INNOVA-TSN LEGANÉS",
+   "jugadora": "A. SANGARE",
+   "min": 32.18,
+   "PT": 12,
+   "REB": 13,
+   "AS": 2,
+   "BP": 1,
+   "T2": "2/7",
+   "T3": "2/5",
+   "TL": "2/2",
+   "VAL": 22,
+   "pm": -6,
+   "doble_doble": true,
+   "TS": 0.466,
+   "VAL_mitjana": 31,
+   "z": null,
+   "partits_previs": 1
+  },
+  {
+   "id": 2522790,
+   "equip": "INVERSUS GERNIKA BIZKAIA",
+   "jugadora": "A. SALVADORES ALVAREZ",
+   "min": 33.17,
+   "PT": 16,
+   "REB": 4,
+   "AS": 5,
+   "BP": 5,
+   "T2": "2/4",
+   "T3": "1/6",
+   "TL": "9/12",
+   "VAL": 22,
+   "pm": -17,
+   "doble_doble": false,
+   "TS": 0.524,
+   "VAL_mitjana": 11,
+   "z": null,
+   "partits_previs": 1
+  },
+  {
+   "id": 2522791,
+   "equip": "AZULMARINO MALLORCA PALMA",
+   "jugadora": "B. MILLAN MODIA",
+   "min": 31.28,
+   "PT": 18,
+   "REB": 6,
+   "AS": 2,
+   "BP": 0,
+   "T2": "3/6",
+   "T3": "3/4",
+   "TL": "3/5",
+   "VAL": 22,
+   "pm": 16,
+   "doble_doble": false,
+   "TS": 0.738,
+   "VAL_mitjana": 19,
+   "z": null,
+   "partits_previs": 1
+  },
+  {
+   "id": 2522785,
+   "equip": "MIRAI EUSKOTREN",
+   "jugadora": "S. WASHINGTON",
+   "min": 15.12,
+   "PT": 14,
+   "REB": 6,
+   "AS": 0,
+   "BP": 1,
+   "T2": "4/5",
+   "T3": "0/0",
+   "TL": "6/6",
+   "VAL": 21,
+   "pm": 15,
+   "doble_doble": false,
+   "TS": 0.916,
+   "VAL_mitjana": 17,
+   "z": null,
+   "partits_previs": 1
+  },
+  {
+   "id": 2522789,
+   "equip": "MEINS AVENIDA",
+   "jugadora": "S. MAWULI",
+   "min": 29.32,
+   "PT": 20,
+   "REB": 4,
+   "AS": 0,
+   "BP": 0,
+   "T2": "4/7",
+   "T3": "4/7",
+   "TL": "0/0",
+   "VAL": 20,
+   "pm": -15,
+   "doble_doble": false,
+   "TS": 0.714,
+   "VAL_mitjana": 25,
+   "z": null,
+   "partits_previs": 1
+  },
+  {
+   "id": 2522798,
+   "equip": "MEINS AVENIDA",
+   "jugadora": "M. CANELLA RODRIGUEZ",
+   "min": 15.67,
+   "PT": 13,
+   "REB": 7,
+   "AS": 2,
+   "BP": 0,
+   "T2": "3/5",
+   "T3": "2/5",
+   "TL": "1/2",
+   "VAL": 20,
+   "pm": 12,
+   "doble_doble": false,
+   "TS": 0.597,
+   "VAL_mitjana": 17,
+   "z": null,
+   "partits_previs": 1
+  },
+  {
+   "id": 2522785,
+   "equip": "MIRAI EUSKOTREN",
+   "jugadora": "P. ROBINSON",
+   "min": 33.82,
+   "PT": 21,
+   "REB": 1,
+   "AS": 3,
+   "BP": 1,
+   "T2": "2/5",
+   "T3": "5/7",
+   "TL": "2/2",
+   "VAL": 19,
+   "pm": 4,
+   "doble_doble": false,
+   "TS": 0.815,
+   "VAL_mitjana": 14,
+   "z": null,
+   "partits_previs": 1
+  },
+  {
+   "id": 2522787,
+   "equip": "IMPULSO 360 ESTEPONA",
+   "jugadora": "M. GRETTER",
+   "min": 35.38,
+   "PT": 8,
+   "REB": 4,
+   "AS": 4,
+   "BP": 1,
+   "T2": "1/1",
+   "T3": "2/4",
+   "TL": "0/0",
+   "VAL": 19,
+   "pm": 19,
+   "doble_doble": false,
+   "TS": 0.8,
+   "VAL_mitjana": 1,
+   "z": null,
+   "partits_previs": 1
+  },
+  {
+   "id": 2522787,
+   "equip": "IMPULSO 360 ESTEPONA",
+   "jugadora": "L. RODRIGUEZ ARRIBAS",
+   "min": 26.32,
+   "PT": 19,
+   "REB": 3,
+   "AS": 1,
+   "BP": 0,
+   "T2": "2/2",
+   "T3": "5/8",
+   "TL": "0/0",
+   "VAL": 19,
+   "pm": 34,
+   "doble_doble": false,
+   "TS": 0.95,
+   "VAL_mitjana": -2,
+   "z": null,
+   "partits_previs": 1
+  },
+  {
+   "id": 2522792,
+   "equip": "IMPULSO 360 ESTEPONA",
+   "jugadora": "T. MOORE",
+   "min": 32.45,
+   "PT": 22,
+   "REB": 1,
+   "AS": 1,
+   "BP": 1,
+   "T2": "9/16",
+   "T3": "1/2",
+   "TL": "1/1",
+   "VAL": 19,
+   "pm": -11,
+   "doble_doble": false,
+   "TS": 0.597,
+   "VAL_mitjana": 6,
+   "z": null,
+   "partits_previs": 1
+  },
+  {
+   "id": 2522794,
+   "equip": "KUTXABANK ARASKI",
+   "jugadora": "K. HIGGINS",
+   "min": 27.65,
+   "PT": 13,
+   "REB": 13,
+   "AS": 0,
+   "BP": 4,
+   "T2": "5/9",
+   "T3": "0/0",
+   "TL": "3/4",
+   "VAL": 19,
+   "pm": -11,
+   "doble_doble": true,
+   "TS": 0.604,
+   "VAL_mitjana": 12,
+   "z": null,
+   "partits_previs": 1
+  },
+  {
+   "id": 2522796,
+   "equip": "MIRAI EUSKOTREN",
+   "jugadora": "P. ROBINSON",
+   "min": 18.25,
+   "PT": 15,
+   "REB": 2,
+   "AS": 3,
+   "BP": 0,
+   "T2": "2/2",
+   "T3": "3/3",
+   "TL": "2/2",
+   "VAL": 19,
+   "pm": 9,
+   "doble_doble": false,
+   "TS": 1.276,
+   "VAL_mitjana": 14,
+   "z": null,
+   "partits_previs": 1
+  },
+  {
+   "id": 2522790,
+   "equip": "CASADEMONT ZARAGOZA",
+   "jugadora": "O. BANKOLE",
+   "min": 20.83,
+   "PT": 8,
+   "REB": 4,
+   "AS": 7,
+   "BP": 0,
+   "T2": "1/3",
+   "T3": "2/3",
+   "TL": "0/0",
+   "VAL": 18,
+   "pm": 38,
+   "doble_doble": false,
+   "TS": 0.667,
+   "VAL_mitjana": 18,
+   "z": null,
+   "partits_previs": 1
+  },
+  {
+   "id": 2522795,
+   "equip": "VALENCIA B.C.",
+   "jugadora": "V. TAKACS-KISS",
+   "min": 18.98,
+   "PT": 14,
+   "REB": 2,
+   "AS": 1,
+   "BP": 2,
+   "T2": "4/6",
+   "T3": "0/1",
+   "TL": "6/6",
+   "VAL": 18,
+   "pm": 20,
+   "doble_doble": false,
+   "TS": 0.726,
+   "VAL_mitjana": 9,
+   "z": null,
+   "partits_previs": 1
+  },
+  {
+   "id": 2522795,
+   "equip": "VALENCIA B.C.",
+   "jugadora": "M. SUAREZ RODRIGUEZ",
+   "min": 16.18,
+   "PT": 16,
+   "REB": 4,
+   "AS": 1,
+   "BP": 0,
+   "T2": "3/4",
+   "T3": "3/8",
+   "TL": "1/1",
+   "VAL": 18,
+   "pm": 21,
+   "doble_doble": false,
+   "TS": 0.643,
+   "VAL_mitjana": null,
+   "z": null,
+   "partits_previs": 0
+  },
+  {
+   "id": 2522797,
+   "equip": "CELTA FEMXA ZORKA",
+   "jugadora": "M. GAKDENG",
+   "min": 30.62,
+   "PT": 13,
+   "REB": 9,
+   "AS": 1,
+   "BP": 4,
+   "T2": "6/9",
+   "T3": "0/0",
+   "TL": "1/1",
+   "VAL": 18,
+   "pm": -28,
+   "doble_doble": false,
+   "TS": 0.689,
+   "VAL_mitjana": 10,
+   "z": null,
+   "partits_previs": 1
+  },
+  {
+   "id": 2522798,
+   "equip": "MEINS AVENIDA",
+   "jugadora": "M. FASSINA",
+   "min": 22.45,
+   "PT": 16,
+   "REB": 6,
+   "AS": 1,
+   "BP": 0,
+   "T2": "2/7",
+   "T3": "3/7",
+   "TL": "3/4",
+   "VAL": 18,
+   "pm": 10,
+   "doble_doble": false,
+   "TS": 0.508,
+   "VAL_mitjana": 0,
+   "z": null,
+   "partits_previs": 1
+  },
+  {
+   "id": 2522792,
+   "equip": "IMPULSO 360 ESTEPONA",
+   "jugadora": "L. HOWARD",
+   "min": 22.43,
+   "PT": 19,
+   "REB": 1,
+   "AS": 2,
+   "BP": 2,
+   "T2": "5/6",
+   "T3": "3/4",
+   "TL": "0/0",
+   "VAL": 14,
+   "pm": 12,
+   "doble_doble": false,
+   "TS": 0.95,
+   "VAL_mitjana": -4,
+   "z": null,
+   "partits_previs": 1
+  }
+ ],
+ "finals_ajustats": [
+  {
+   "id": 2522785,
+   "equips": [
+    "MIRAI EUSKOTREN",
+    "CELTA FEMXA ZORKA"
+   ],
+   "marcador": [
+    75,
+    65
+   ],
+   "marge_a_5_min": 9,
+   "marge_minim": 5,
+   "clutch": {
+    "minuts": 1.0,
+    "parcial": "MIRAI EUSKOTREN 5-0 CELTA FEMXA ZORKA",
+    "destacada": "L. GONZALEZ DUARTE "
+   }
+  },
+  {
+   "id": 2522792,
+   "equips": [
+    "BAXI FERROL",
+    "IMPULSO 360 ESTEPONA"
+   ],
+   "marcador": [
+    84,
+    72
+   ],
+   "marge_a_5_min": 3,
+   "marge_minim": 3,
+   "clutch": {
+    "minuts": 1.0,
+    "parcial": "BAXI FERROL 4-0 IMPULSO 360 ESTEPONA",
+    "destacada": "M. DOOGAN"
+   }
+  }
+ ],
+ "quintets": [
+  {
+   "id": 2522783,
+   "equip": "KUTXABANK ARASKI",
+   "mes_usat": {
+    "quintet": "A.STANACEV / J.MUNGO / K.HIGGINS / L.LAHTINEN / N.DUDASOVA",
+    "minuts": 5.9,
+    "dif": 4
+   },
+   "millor": {
+    "quintet": "A.STANACEV / J.MUNGO / K.HIGGINS / L.LAHTINEN / N.DUDASOVA",
+    "minuts": 5.9,
+    "dif": 4
+   },
+   "pitjor": {
+    "quintet": "A.STANACEV / J.MUNGO / K.HIGGINS / L.LAHTINEN / L.PIERA",
+    "minuts": 4.8,
+    "dif": 0
+   }
+  },
+  {
+   "id": 2522783,
+   "equip": "MOVISTAR ESTUDIANTES",
+   "mes_usat": {
+    "quintet": "C.OSMA / I.ETXARRI / I.LATORRE / J.FEQUIERE / K.COOPER",
+    "minuts": 9.0,
+    "dif": 10
+   },
+   "millor": {
+    "quintet": "C.OSMA / I.ETXARRI / I.LATORRE / J.FEQUIERE / K.COOPER",
+    "minuts": 9.0,
+    "dif": 10
+   },
+   "pitjor": {
+    "quintet": "I.ETXARRI / I.LATORRE / J.FEQUIERE / K.COOPER / R.BUCH",
+    "minuts": 5.7,
+    "dif": 2
+   }
+  },
+  {
+   "id": 2522784,
+   "equip": "SPAR GIRONA",
+   "mes_usat": {
+    "quintet": "A.BULGAK / I.MARTIN / J.CAMILION / M.CONNER / T.SENYUREK",
+    "minuts": 11.9,
+    "dif": -1
+   },
+   "millor": {
+    "quintet": "A.BULGAK / I.MARTIN / J.CAMILION / M.CONNER / T.SENYUREK",
+    "minuts": 11.9,
+    "dif": -1
+   },
+   "pitjor": {
+    "quintet": "C.GUERRERO / I.MARTIN / M.CONNER / M.GARCIA / Q.CASAS",
+    "minuts": 6.9,
+    "dif": -5
+   }
+  },
+  {
+   "id": 2522784,
+   "equip": "AZULMARINO MALLORCA PALMA",
+   "mes_usat": {
+    "quintet": "A.TORRENS / B.MILLAN / G.DEMBELE / K.ALEXANDER / K.HOLM",
+    "minuts": 11.6,
+    "dif": -5
+   },
+   "millor": {
+    "quintet": "A.TORRENS / B.MILLAN / K.ALEXANDER / K.HOLM / Y.EJIM",
+    "minuts": 11.4,
+    "dif": 0
+   },
+   "pitjor": {
+    "quintet": "A.TORRENS / B.MILLAN / G.DEMBELE / K.ALEXANDER / K.HOLM",
+    "minuts": 11.6,
+    "dif": -5
+   }
+  },
+  {
+   "id": 2522785,
+   "equip": "MIRAI EUSKOTREN",
+   "mes_usat": {
+    "quintet": "I.ARIZTIMUÑO / I.TATE / M.ERAUNCETAMURGIL / P.ROBINSON / S.WASHINGTON",
+    "minuts": 8.1,
+    "dif": 4
+   },
+   "millor": {
+    "quintet": "I.ARIZTIMUÑO / K.FAYE / L.GONZALEZ / M.ERAUNCETAMURGIL / P.ROBINSON",
+    "minuts": 7.2,
+    "dif": 5
+   },
+   "pitjor": {
+    "quintet": "G.CAPEL / I.TATE / K.FAYE / L.GONZALEZ / P.ROBINSON",
+    "minuts": 5.5,
+    "dif": -1
+   }
+  },
+  {
+   "id": 2522785,
+   "equip": "CELTA FEMXA ZORKA",
+   "mes_usat": {
+    "quintet": "C.SAMSON / E.RONSIEK / L.VORPAHL / M.GAKDENG / T.SABEL",
+    "minuts": 3.8,
+    "dif": 2
+   },
+   "millor": null,
+   "pitjor": null
+  },
+  {
+   "id": 2522786,
+   "equip": "CADI LA SEU",
+   "mes_usat": {
+    "quintet": "A.DONARSKI / A.ORSILI / A.PALMA / L.SONTAG / M.MATA",
+    "minuts": 6.7,
+    "dif": -6
+   },
+   "millor": {
+    "quintet": "A.ORSILI / A.PALMA / L.RAVENTOS / L.SONTAG / M.MATA",
+    "minuts": 4.2,
+    "dif": 9
+   },
+   "pitjor": {
+    "quintet": "A.DONARSKI / A.ORSILI / A.PALMA / L.SONTAG / M.MATA",
+    "minuts": 6.7,
+    "dif": -6
+   }
+  },
+  {
+   "id": 2522786,
+   "equip": "INNOVA-TSN LEGANÉS",
+   "mes_usat": {
+    "quintet": "A.SANGARE / E.RODRIGUEZ / I.LAHUERTA / M.JOINER / R.AGUILAR",
+    "minuts": 5.6,
+    "dif": 8
+   },
+   "millor": {
+    "quintet": "A.SANGARE / E.RODRIGUEZ / I.LAHUERTA / M.JOINER / R.AGUILAR",
+    "minuts": 5.6,
+    "dif": 8
+   },
+   "pitjor": {
+    "quintet": "A.SANGARE / I.LAHUERTA / M.JOINER / N.DRIESSEN / R.IGBOWKE",
+    "minuts": 4.4,
+    "dif": -3
+   }
+  },
+  {
+   "id": 2522787,
+   "equip": "IMPULSO 360 ESTEPONA",
+   "mes_usat": {
+    "quintet": "A.GERVASINI / L.RODRIGUEZ / M.GRETTER / S.WATTS / T.MOORE",
+    "minuts": 6.3,
+    "dif": 10
+   },
+   "millor": {
+    "quintet": "A.GERVASINI / L.RODRIGUEZ / M.GRETTER / S.WATTS / T.MOORE",
+    "minuts": 6.3,
+    "dif": 10
+   },
+   "pitjor": {
+    "quintet": "A.GERVASINI / L.RODRIGUEZ / M.GRETTER / S.WATTS / T.MOORE",
+    "minuts": 6.3,
+    "dif": 10
+   }
+  },
+  {
+   "id": 2522787,
+   "equip": "DURÁN MAQUINARIA ENSINO",
+   "mes_usat": {
+    "quintet": "A.VILARO / E.GARFELLA / H.VAN / L.EKH / N.BOSCH",
+    "minuts": 5.0,
+    "dif": -10
+   },
+   "millor": {
+    "quintet": "A.VILARO / H.VAN / L.EKH / N.BOSCH / Z.HERNANDEZ",
+    "minuts": 4.7,
+    "dif": -2
+   },
+   "pitjor": {
+    "quintet": "A.VILARO / E.GARFELLA / H.VAN / L.EKH / N.BOSCH",
+    "minuts": 5.0,
+    "dif": -10
+   }
+  },
+  {
+   "id": 2522788,
+   "equip": "HOZONO GLOBAL JAIRIS",
+   "mes_usat": {
+    "quintet": "A.AYUSO / B.MASSEY / J.HOBBS / M.MANE / T.ALARCON",
+    "minuts": 13.3,
+    "dif": 4
+   },
+   "millor": {
+    "quintet": "A.PRIETO / J.HOBBS / L.GIL / M.MANE / S.HILL",
+    "minuts": 4.1,
+    "dif": 6
+   },
+   "pitjor": {
+    "quintet": "A.PRIETO / E.BESSOIR / L.GIL / M.ALSINA / S.HILL",
+    "minuts": 7.2,
+    "dif": -1
+   }
+  },
+  {
+   "id": 2522788,
+   "equip": "BAXI FERROL",
+   "mes_usat": {
+    "quintet": "E.CASTEDO / K.SOTOLOVÁ / M.DOOGAN / N.PRIEDE / T.EKE",
+    "minuts": 10.4,
+    "dif": -8
+   },
+   "millor": {
+    "quintet": "E.CASTEDO / K.SOTOLOVÁ / M.DOOGAN / N.PRIEDE / T.EKE",
+    "minuts": 10.4,
+    "dif": -8
+   },
+   "pitjor": {
+    "quintet": "E.CASTEDO / K.SOTOLOVÁ / M.DOOGAN / N.PRIEDE / T.EKE",
+    "minuts": 10.4,
+    "dif": -8
+   }
+  },
+  {
+   "id": 2522789,
+   "equip": "VALENCIA B.C.",
+   "mes_usat": {
+    "quintet": "A.JENKINS / I.HERNANDEZ / L.ROMERO / M.SUAREZ / V.TAKACS-KISS",
+    "minuts": 5.9,
+    "dif": 4
+   },
+   "millor": {
+    "quintet": "A.JENKINS / I.HERNANDEZ / L.ROMERO / M.SUAREZ / V.TAKACS-KISS",
+    "minuts": 5.9,
+    "dif": 4
+   },
+   "pitjor": {
+    "quintet": "A.PETERSON / E.BALOGUN / H.PUEYO / K.BORKOWSKA / M.PEREZ",
+    "minuts": 5.8,
+    "dif": 3
+   }
+  },
+  {
+   "id": 2522789,
+   "equip": "MEINS AVENIDA",
+   "mes_usat": {
+    "quintet": "C.SORIANO / E.JOHANSSON / M.FASSINA / R.MIKULASIKOVA / S.MAWULI",
+    "minuts": 6.9,
+    "dif": -6
+   },
+   "millor": {
+    "quintet": "C.SORIANO / M.FASSINA / R.MIKULASIKOVA / S.MAWULI / S.ROUMY",
+    "minuts": 6.1,
+    "dif": 5
+   },
+   "pitjor": {
+    "quintet": "C.SORIANO / E.JOHANSSON / M.FASSINA / R.MIKULASIKOVA / S.MAWULI",
+    "minuts": 6.9,
+    "dif": -6
+   }
+  },
+  {
+   "id": 2522790,
+   "equip": "INVERSUS GERNIKA BIZKAIA",
+   "mes_usat": {
+    "quintet": "A.SALVADORES / A.VONLEH / E.MATARRANZ / J.BROWN / S.GALANOPOULOS",
+    "minuts": 5.7,
+    "dif": 6
+   },
+   "millor": {
+    "quintet": "A.SALVADORES / A.VONLEH / E.MATARRANZ / J.BROWN / S.GALANOPOULOS",
+    "minuts": 5.7,
+    "dif": 6
+   },
+   "pitjor": {
+    "quintet": "A.SALVADORES / A.VONLEH / J.BROWN / S.GALANOPOULOS / S.RIDARD",
+    "minuts": 4.7,
+    "dif": -11
+   }
+  },
+  {
+   "id": 2522790,
+   "equip": "CASADEMONT ZARAGOZA",
+   "mes_usat": {
+    "quintet": "A.SHEPPARD / M.HEMPE / M.ORTIZ / N.HERMOSA / O.BANKOLE",
+    "minuts": 5.0,
+    "dif": 6
+   },
+   "millor": {
+    "quintet": "A.SHEPPARD / C.BRITO / M.HEMPE / M.ORTIZ / V.VORACKOVA",
+    "minuts": 4.0,
+    "dif": 7
+   },
+   "pitjor": {
+    "quintet": "A.SHEPPARD / M.HEMPE / M.ORTIZ / N.HERMOSA / O.BANKOLE",
+    "minuts": 5.0,
+    "dif": 6
+   }
+  },
+  {
+   "id": 2522791,
+   "equip": "AZULMARINO MALLORCA PALMA",
+   "mes_usat": {
+    "quintet": "A.TORRENS / B.MILLAN / G.DEMBELE / K.ALEXANDER / K.HOLM",
+    "minuts": 17.2,
+    "dif": 16
+   },
+   "millor": {
+    "quintet": "A.TORRENS / B.MILLAN / G.DEMBELE / K.ALEXANDER / K.HOLM",
+    "minuts": 17.2,
+    "dif": 16
+   },
+   "pitjor": {
+    "quintet": "A.TORRENS / B.MILLAN / G.DEMBELE / K.ALEXANDER / K.HOLM",
+    "minuts": 17.2,
+    "dif": 16
+   }
+  },
+  {
+   "id": 2522791,
+   "equip": "CADI LA SEU",
+   "mes_usat": {
+    "quintet": "L.RAVENTOS / M.AVIÑOA / M.MORALES / N.NIARE / P.MBU",
+    "minuts": 6.7,
+    "dif": 5
+   },
+   "millor": {
+    "quintet": "L.RAVENTOS / M.AVIÑOA / M.MORALES / N.NIARE / P.MBU",
+    "minuts": 6.7,
+    "dif": 5
+   },
+   "pitjor": {
+    "quintet": "A.DONARSKI / A.ORSILI / A.PALMA / L.SONTAG / N.NIARE",
+    "minuts": 4.6,
+    "dif": -7
+   }
+  },
+  {
+   "id": 2522792,
+   "equip": "BAXI FERROL",
+   "mes_usat": {
+    "quintet": "C.MELIA / K.SOTOLOVÁ / M.DOOGAN / N.PRIEDE / S.SHAW",
+    "minuts": 12.0,
+    "dif": -3
+   },
+   "millor": {
+    "quintet": "C.MELIA / I.BELOSEVIC / K.SOTOLOVÁ / M.DOOGAN / S.SHAW",
+    "minuts": 6.3,
+    "dif": 9
+   },
+   "pitjor": {
+    "quintet": "C.MELIA / K.SOTOLOVÁ / M.DOOGAN / N.PRIEDE / S.SHAW",
+    "minuts": 12.0,
+    "dif": -3
+   }
+  },
+  {
+   "id": 2522792,
+   "equip": "IMPULSO 360 ESTEPONA",
+   "mes_usat": {
+    "quintet": "A.GERVASINI / L.RODRIGUEZ / M.GRETTER / S.WATTS / T.MOORE",
+    "minuts": 7.3,
+    "dif": -6
+   },
+   "millor": {
+    "quintet": "A.GERVASINI / A.SANCHEZ / L.HOWARD / M.GRETTER / T.MOORE",
+    "minuts": 6.7,
+    "dif": 11
+   },
+   "pitjor": {
+    "quintet": "A.GERVASINI / L.RODRIGUEZ / M.GRETTER / S.WATTS / T.MOORE",
+    "minuts": 7.3,
+    "dif": -6
+   }
+  },
+  {
+   "id": 2522793,
+   "equip": "SPAR GIRONA",
+   "mes_usat": {
+    "quintet": "C.GUERRERO / J.CAMILION / M.CONNER / M.GARCIA / Q.CASAS",
+    "minuts": 8.6,
+    "dif": -4
+   },
+   "millor": {
+    "quintet": "C.GUERRERO / J.CAMILION / M.CONNER / M.GARCIA / Q.CASAS",
+    "minuts": 8.6,
+    "dif": -4
+   },
+   "pitjor": {
+    "quintet": "A.BULGAK / I.MARTIN / J.CAMILION / M.CONNER / T.SENYUREK",
+    "minuts": 8.0,
+    "dif": -9
+   }
+  },
+  {
+   "id": 2522793,
+   "equip": "HOZONO GLOBAL JAIRIS",
+   "mes_usat": {
+    "quintet": "A.AYUSO / J.HOBBS / L.GIL / M.MANE / T.ALARCON",
+    "minuts": 12.7,
+    "dif": 0
+   },
+   "millor": {
+    "quintet": "A.PRIETO / B.MASSEY / E.BESSOIR / M.ALSINA / S.HILL",
+    "minuts": 10.0,
+    "dif": 12
+   },
+   "pitjor": {
+    "quintet": "A.AYUSO / J.HOBBS / L.GIL / M.MANE / T.ALARCON",
+    "minuts": 12.7,
+    "dif": 0
+   }
+  },
+  {
+   "id": 2522794,
+   "equip": "DURÁN MAQUINARIA ENSINO",
+   "mes_usat": {
+    "quintet": "A.VILARO / H.VAN / K.WILLIAMS / L.EKH / N.BOSCH",
+    "minuts": 7.1,
+    "dif": -7
+   },
+   "millor": {
+    "quintet": "A.VILARO / L.EKH / M.DEMBELE / T.YURKEVICHUS / Z.HERNANDEZ",
+    "minuts": 6.9,
+    "dif": 10
+   },
+   "pitjor": {
+    "quintet": "A.VILARO / H.VAN / K.WILLIAMS / L.EKH / N.BOSCH",
+    "minuts": 7.1,
+    "dif": -7
+   }
+  },
+  {
+   "id": 2522794,
+   "equip": "KUTXABANK ARASKI",
+   "mes_usat": {
+    "quintet": "A.STANACEV / J.MUNGO / K.HIGGINS / L.LAHTINEN / N.DUDASOVA",
+    "minuts": 7.4,
+    "dif": 2
+   },
+   "millor": {
+    "quintet": "A.STANACEV / J.MUNGO / K.HIGGINS / L.LAHTINEN / N.DUDASOVA",
+    "minuts": 7.4,
+    "dif": 2
+   },
+   "pitjor": {
+    "quintet": "A.STANACEV / J.MUNGO / K.HIGGINS / L.LAHTINEN / N.DUDASOVA",
+    "minuts": 7.4,
+    "dif": 2
+   }
+  },
+  {
+   "id": 2522795,
+   "equip": "MOVISTAR ESTUDIANTES",
+   "mes_usat": {
+    "quintet": "I.ETXARRI / I.LATORRE / J.FEQUIERE / K.COOPER / R.BUCH",
+    "minuts": 7.3,
+    "dif": 0
+   },
+   "millor": {
+    "quintet": "I.ETXARRI / I.LATORRE / J.FEQUIERE / K.COOPER / R.BUCH",
+    "minuts": 7.3,
+    "dif": 0
+   },
+   "pitjor": {
+    "quintet": "C.OSMA / I.ETXARRI / I.LATORRE / J.FEQUIERE / K.COOPER",
+    "minuts": 4.4,
+    "dif": -1
+   }
+  },
+  {
+   "id": 2522795,
+   "equip": "VALENCIA B.C.",
+   "mes_usat": {
+    "quintet": "A.FLOREZ / A.JENKINS / L.ROMERO / M.SUAREZ / V.TAKACS-KISS",
+    "minuts": 6.8,
+    "dif": 10
+   },
+   "millor": {
+    "quintet": "A.FLOREZ / A.JENKINS / L.ROMERO / M.SUAREZ / V.TAKACS-KISS",
+    "minuts": 6.8,
+    "dif": 10
+   },
+   "pitjor": {
+    "quintet": "A.PETERSON / E.BALOGUN / H.PUEYO / K.BORKOWSKA / M.PEREZ",
+    "minuts": 5.6,
+    "dif": -3
+   }
+  },
+  {
+   "id": 2522796,
+   "equip": "INNOVA-TSN LEGANÉS",
+   "mes_usat": {
+    "quintet": "A.SANGARE / E.RODRIGUEZ / M.JOINER / R.AGUILAR / R.IGBOWKE",
+    "minuts": 5.6,
+    "dif": 3
+   },
+   "millor": {
+    "quintet": "A.SANGARE / E.RODRIGUEZ / M.JOINER / R.AGUILAR / R.IGBOWKE",
+    "minuts": 5.6,
+    "dif": 3
+   },
+   "pitjor": {
+    "quintet": "A.SANGARE / I.LAHUERTA / M.JOINER / N.DRIESSEN / R.IGBOWKE",
+    "minuts": 4.9,
+    "dif": -9
+   }
+  },
+  {
+   "id": 2522796,
+   "equip": "MIRAI EUSKOTREN",
+   "mes_usat": {
+    "quintet": "G.CAPEL / I.ARIZTIMUÑO / I.TATE / K.FAYE / L.GONZALEZ",
+    "minuts": 4.2,
+    "dif": 6
+   },
+   "millor": {
+    "quintet": "G.CAPEL / I.ARIZTIMUÑO / I.TATE / K.FAYE / L.GONZALEZ",
+    "minuts": 4.2,
+    "dif": 6
+   },
+   "pitjor": {
+    "quintet": "I.ARIZTIMUÑO / K.FAYE / M.ERAUNCETAMURGIL / P.ROBINSON / V.REMENÁROVÁ",
+    "minuts": 4.1,
+    "dif": 3
+   }
+  },
+  {
+   "id": 2522797,
+   "equip": "CELTA FEMXA ZORKA",
+   "mes_usat": {
+    "quintet": "C.SAMSON / E.RONSIEK / L.VORPAHL / M.GAKDENG / T.SABEL",
+    "minuts": 7.1,
+    "dif": -4
+   },
+   "millor": {
+    "quintet": "C.SAMSON / E.RONSIEK / L.VORPAHL / M.GAKDENG / T.SABEL",
+    "minuts": 7.1,
+    "dif": -4
+   },
+   "pitjor": {
+    "quintet": "D.BERMEJO / E.RONSIEK / M.GAKDENG / M.GEA / T.SABEL",
+    "minuts": 4.1,
+    "dif": -6
+   }
+  },
+  {
+   "id": 2522797,
+   "equip": "CASADEMONT ZARAGOZA",
+   "mes_usat": {
+    "quintet": "A.SHEPPARD / H.OMA / M.ORTIZ / N.FINGALL / N.HERMOSA",
+    "minuts": 5.1,
+    "dif": 0
+   },
+   "millor": {
+    "quintet": "A.SHEPPARD / C.BRITO / L.FLORES / M.HEMPE / V.VORACKOVA",
+    "minuts": 4.2,
+    "dif": 6
+   },
+   "pitjor": {
+    "quintet": "A.SHEPPARD / H.OMA / M.ORTIZ / N.FINGALL / N.HERMOSA",
+    "minuts": 5.1,
+    "dif": 0
+   }
+  },
+  {
+   "id": 2522798,
+   "equip": "MEINS AVENIDA",
+   "mes_usat": {
+    "quintet": "C.SORIANO / M.CANELLA / R.MIKULASIKOVA / S.MAWULI / S.ROUMY",
+    "minuts": 7.2,
+    "dif": 11
+   },
+   "millor": {
+    "quintet": "C.SORIANO / M.CANELLA / R.MIKULASIKOVA / S.MAWULI / S.ROUMY",
+    "minuts": 7.2,
+    "dif": 11
+   },
+   "pitjor": {
+    "quintet": "C.SORIANO / M.CANELLA / R.MIKULASIKOVA / S.MAWULI / S.ROUMY",
+    "minuts": 7.2,
+    "dif": 11
+   }
+  },
+  {
+   "id": 2522798,
+   "equip": "INVERSUS GERNIKA BIZKAIA",
+   "mes_usat": {
+    "quintet": "A.SALVADORES / J.BROWN / L.MCSPADDEN / S.GALANOPOULOS / S.RIDARD",
+    "minuts": 14.7,
+    "dif": -23
+   },
+   "millor": {
+    "quintet": "A.SALVADORES / J.BROWN / L.MCSPADDEN / S.GALANOPOULOS / S.RIDARD",
+    "minuts": 14.7,
+    "dif": -23
+   },
+   "pitjor": {
+    "quintet": "A.SALVADORES / J.BROWN / L.MCSPADDEN / S.GALANOPOULOS / S.RIDARD",
+    "minuts": 14.7,
+    "dif": -23
+   }
+  }
+ ],
+ "classificacio": [
+  {
+   "equip": "AZULMARINO MALLORCA PALMA",
+   "V": 3,
+   "D": 0
+  },
+  {
+   "equip": "CASADEMONT ZARAGOZA",
+   "V": 3,
+   "D": 0
+  },
+  {
+   "equip": "MIRAI EUSKOTREN",
+   "V": 3,
+   "D": 0
+  },
+  {
+   "equip": "BAXI FERROL",
+   "V": 2,
+   "D": 1
+  },
+  {
+   "equip": "HOZONO GLOBAL JAIRIS",
+   "V": 2,
+   "D": 1
+  },
+  {
+   "equip": "MEINS AVENIDA",
+   "V": 2,
+   "D": 1
+  },
+  {
+   "equip": "MOVISTAR ESTUDIANTES",
+   "V": 2,
+   "D": 1
+  },
+  {
+   "equip": "VALENCIA B.C.",
+   "V": 2,
+   "D": 1
+  },
+  {
+   "equip": "CADI LA SEU",
+   "V": 1,
+   "D": 2
+  },
+  {
+   "equip": "DURÁN MAQUINARIA ENSINO",
+   "V": 1,
+   "D": 2
+  },
+  {
+   "equip": "IMPULSO 360 ESTEPONA",
+   "V": 1,
+   "D": 2
+  },
+  {
+   "equip": "INNOVA-TSN LEGANÉS",
+   "V": 1,
+   "D": 2
+  },
+  {
+   "equip": "INVERSUS GERNIKA BIZKAIA",
+   "V": 1,
+   "D": 2
+  },
+  {
+   "equip": "CELTA FEMXA ZORKA",
+   "V": 0,
+   "D": 3
+  },
+  {
+   "equip": "KUTXABANK ARASKI",
+   "V": 0,
+   "D": 3
+  },
+  {
+   "equip": "SPAR GIRONA",
+   "V": 0,
+   "D": 3
+  }
+ ],
+ "avis": []
+}
