@@ -103,9 +103,6 @@ def list_games(page, comp, season, jornada):
     # 1) fase (lliga regular / grup)
     fase = choose(1, lambda t: c["fase"].lower() in t.lower(), "fase")
     # 2) jornada
-    # La pàgina conserva els enllaços de la jornada que mostrava per defecte. Els desem abans de canviar
-    # de jornada per restar-los després: així només ens quedem amb els partits de la jornada triada.
-    ids_before = set(page.evaluate(JS_IDS))
     jsel = selects()[2]
     jopts = jsel.evaluate("s=>[...s.options].map(o=>[o.value,o.text,o.selected])")
     if jornada == "last":
@@ -124,15 +121,23 @@ def list_games(page, comp, season, jornada):
     target = next((o for o in jopts if re.search(rf"Jornada\s+{jn}\b", o[1])), None)
     if not target:
         raise RuntimeError(f"No existeix la jornada {jn}")
-    ids_all = None
-    if not target[2]:
-        select_and_wait(page, jsel, target[0])
+    # La pàgina, a més dels partits de la jornada triada, enllaça sempre els d'una altra jornada
+    # (la propera). Per separar-los, carreguem també una jornada veïna: el que surt a totes dues
+    # no és de la jornada triada. Si tot és comú, és que la triada és justament aquella altra jornada.
+    def select_and_read(opt):
+        select_and_wait(page, selects()[2], opt[0])
+        return page.evaluate(JS_IDS)
+    nums = {int(re.search(r"Jornada\s+(\d+)", o[1]).group(1)): o for o in jopts if re.search(r"Jornada\s+(\d+)", o[1])}
+    neigh = nums.get(jn - 1) or nums.get(jn + 1)
+    ids_n = set(page.evaluate(JS_IDS)) if target[2] else set(select_and_read(target))
+    if neigh:
+        common = ids_n & set(select_and_read(neigh))
+        select_and_wait(page, selects()[2], target[0])   # deixem la pàgina a la jornada triada
         ids_all = page.evaluate(JS_IDS)
-        own = [i for i in ids_all if i not in ids_before]
-        ids = own or ids_all
+        ids = [i for i in ids_all if i not in common] or ids_all
     else:
-        ids = page.evaluate(JS_IDS)
-    others = [i for i in (ids_all or []) if i not in ids]
+        ids_all = page.evaluate(JS_IDS); ids = ids_all
+    others = [i for i in ids_all if i not in ids]
     date_txt = re.search(r"\((.*?)\)", target[1])
     dates = {}
     for o in jopts:
@@ -362,11 +367,18 @@ def extract_jornada(page, comp, season, info, outdir):
     folder = Path(outdir) / str(season) / comp / f"J{jn:02d}"
     folder.mkdir(parents=True, exist_ok=True)
     own = set(info["ids"])
+    root = Path(outdir) / str(season) / comp
     for f in folder.glob("[0-9]*.json"):
         old = json.loads(f.read_text(encoding="utf-8"))
-        if "players" not in old and old["id"] not in own:
+        if old["id"] in own: continue
+        if "players" not in old:
             log(f"  {old['id']}: no és de la J{jn}; elimino el fitxer pendent"); f.unlink()
-    report = {"comp": comp, "season": season, **info, "generated": datetime.now(timezone.utc).isoformat(), "games": []}
+        elif any(p.parent != folder for p in root.glob(f"J*/{old['id']}.json")):
+            log(f"  {old['id']}: no és de la J{jn} i ja és a la seva jornada; elimino el duplicat"); f.unlink()
+        else:
+            log(f"  avís: {old['id']} té acta però no és de la J{jn}; el deixo fins que s'extregui la seva jornada")
+    report = {"comp": comp, "season": season, **info, "ids_method": IDS_METHOD,
+              "generated": datetime.now(timezone.utc).isoformat(), "games": []}
     today = datetime.now(timezone.utc).date()
     for gid in info["ids"]:
         f = folder / f"{gid}.json"
@@ -384,11 +396,18 @@ def extract_jornada(page, comp, season, info, outdir):
     (folder / "_jornada.json").write_text(json.dumps(report, ensure_ascii=False, indent=1), encoding="utf-8")
     return report
 
+IDS_METHOD = 2   # versió del mètode per separar els partits de cada jornada
+
 def complete(folder):
-    """Una jornada està completa si ja s'ha processat i tots els seus partits tenen acta."""
-    if not (folder / "_jornada.json").exists(): return False
-    files = list(folder.glob("[0-9]*.json"))
-    return bool(files) and all("players" in json.loads(f.read_text(encoding="utf-8")) for f in files)
+    """Una jornada està completa si s'ha processat amb el mètode actual, a la carpeta hi ha
+    exactament els seus partits i tots tenen acta."""
+    rep = folder / "_jornada.json"
+    if not rep.exists(): return False
+    r = json.loads(rep.read_text(encoding="utf-8"))
+    if r.get("ids_method") != IDS_METHOD: return False
+    files = {int(f.stem): f for f in folder.glob("[0-9]*.json")}
+    if set(files) != set(r.get("ids", [])): return False
+    return all("players" in json.loads(f.read_text(encoding="utf-8")) for f in files.values())
 
 def run(comp, season, jornada, outdir):
     with sync_playwright() as pw:
