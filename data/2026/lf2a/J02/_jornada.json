@@ -52,84 +52,42 @@
   2524717
  ],
  "ids_method": 2,
- "generated": "2026-10-13T07:00:15.411361+00:00",
+ "generated": "2026-10-14T09:53:51.668497+00:00",
  "games": [
   {
    "id": 2524711,
-   "teams": null,
-   "score": null,
    "error": "sense_acta",
-   "date": "17/10/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "date": "17/10/2026"
   },
   {
    "id": 2524712,
-   "teams": null,
-   "score": null,
    "error": "sense_acta",
-   "date": "17/10/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "date": "17/10/2026"
   },
   {
    "id": 2524713,
-   "teams": null,
-   "score": null,
    "error": "sense_acta",
-   "date": "17/10/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "date": "17/10/2026"
   },
   {
    "id": 2524714,
-   "teams": null,
-   "score": null,
    "error": "sense_acta",
-   "date": "17/10/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "date": "17/10/2026"
   },
   {
    "id": 2524715,
-   "teams": null,
-   "score": null,
    "error": "sense_acta",
-   "date": "17/10/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "date": "17/10/2026"
   },
   {
    "id": 2524716,
-   "teams": null,
-   "score": null,
    "error": "sense_acta",
-   "date": "17/10/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "date": "17/10/2026"
   },
   {
    "id": 2524717,
-   "teams": null,
-   "score": null,
    "error": "sense_acta",
-   "date": "17/10/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "date": "17/10/2026"
   }
  ]
 }

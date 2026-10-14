@@ -52,7 +52,7 @@
   2524885
  ],
  "ids_method": 2,
- "generated": "2026-10-13T07:01:43.354013+00:00",
+ "generated": "2026-10-14T09:54:00.743300+00:00",
  "games": [
   {
    "id": 2524879,
@@ -81,7 +81,7 @@
    "teams": null,
    "score": null,
    "error": "sense_acta",
-   "date": "",
+   "date": "16/12/2026",
    "pbp_ok": null,
    "shots_ok": null,
    "shot_mismatch": null,
@@ -92,7 +92,7 @@
    "teams": null,
    "score": null,
    "error": "sense_acta",
-   "date": "",
+   "date": "08/12/2026",
    "pbp_ok": null,
    "shots_ok": null,
    "shot_mismatch": null,
