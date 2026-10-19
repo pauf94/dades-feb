@@ -7,9 +7,10 @@
    "fitxer": "data/2026_challenge.json",
    "jornades": [
     1,
-    2
+    2,
+    3
    ],
-   "generat": "2026-10-19T15:15:51"
+   "generat": "2026-10-19T15:30:10"
   },
   {
    "comp": "lf",
@@ -20,7 +21,7 @@
     1,
     2
    ],
-   "generat": "2026-10-19T15:15:50"
+   "generat": "2026-10-19T15:30:09"
   },
   {
    "comp": "lf2a",
@@ -29,9 +30,10 @@
    "fitxer": "data/2026_lf2a.json",
    "jornades": [
     1,
-    2
+    2,
+    3
    ],
-   "generat": "2026-10-19T15:15:52"
+   "generat": "2026-10-19T15:30:11"
   },
   {
    "comp": "lf2b",
@@ -40,9 +42,10 @@
    "fitxer": "data/2026_lf2b.json",
    "jornades": [
     1,
-    2
+    2,
+    3
    ],
-   "generat": "2026-10-19T15:15:52"
+   "generat": "2026-10-19T15:30:12"
   },
   {
    "comp": "lf2a",
