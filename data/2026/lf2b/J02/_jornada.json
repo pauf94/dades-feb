@@ -52,42 +52,128 @@
   2524899
  ],
  "ids_method": 2,
- "generated": "2026-10-15T09:44:12.749301+00:00",
+ "generated": "2026-10-19T10:37:25.698879+00:00",
  "games": [
   {
    "id": 2524893,
-   "error": "sense_acta",
-   "date": "18/10/2026"
+   "teams": [
+    "KINES IBAIZABAL GDKO",
+    "BALONCESTO CLARET BENIMACLET"
+   ],
+   "score": [
+    62,
+    70
+   ],
+   "error": null,
+   "date": "18/10/2026",
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   },
   {
    "id": 2524894,
-   "error": "sense_acta",
-   "date": "18/10/2026"
+   "teams": [
+    "MANRESA CBF A",
+    "SEGLE XXI"
+   ],
+   "score": [
+    62,
+    60
+   ],
+   "error": null,
+   "date": "18/10/2026",
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   },
   {
    "id": 2524895,
-   "error": "sense_acta",
-   "date": "17/10/2026"
+   "teams": [
+    "DISHELEC 65 VILADECANS",
+    "ROMAKURUMA U.E.MATARÓ"
+   ],
+   "score": [
+    49,
+    65
+   ],
+   "error": null,
+   "date": "17/10/2026",
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   },
   {
    "id": 2524896,
-   "error": "sense_acta",
-   "date": "18/10/2026"
+   "teams": [
+    "LUCENTUM ALICANTE",
+    "GEIEG PACISA"
+   ],
+   "score": [
+    69,
+    54
+   ],
+   "error": null,
+   "date": "18/10/2026",
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   },
   {
    "id": 2524897,
-   "error": "sense_acta",
-   "date": "17/10/2026"
+   "teams": [
+    "BASKET ALMEDA",
+    "TGN BASQUET A"
+   ],
+   "score": [
+    63,
+    59
+   ],
+   "error": null,
+   "date": "17/10/2026",
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   },
   {
    "id": 2524898,
-   "error": "sense_acta",
-   "date": "18/10/2026"
+   "teams": [
+    "XEREZ CLUB DEPORTIVO",
+    "HORBISA SPIRIT AUSARTA BARAKALDO"
+   ],
+   "score": [
+    74,
+    71
+   ],
+   "error": null,
+   "date": "18/10/2026",
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   },
   {
    "id": 2524899,
-   "error": "sense_acta",
-   "date": "17/10/2026"
+   "teams": [
+    "SMARTLOG OINTXE",
+    "STADIUM CASABLANCA-PATATAS GÓMEZ"
+   ],
+   "score": [
+    64,
+    58
+   ],
+   "error": null,
+   "date": "17/10/2026",
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [
+    "S. VILLA PEREZ 3/1"
+   ],
+   "shot_orphans": []
   }
  ]
 }

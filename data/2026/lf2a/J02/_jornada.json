@@ -52,42 +52,128 @@
   2524717
  ],
  "ids_method": 2,
- "generated": "2026-10-15T09:42:09.980280+00:00",
+ "generated": "2026-10-19T10:34:53.930129+00:00",
  "games": [
   {
    "id": 2524711,
-   "error": "sense_acta",
-   "date": "17/10/2026"
+   "teams": [
+    "CB ISLA BONITA SANO SANO CATERING",
+    "SERNOVA RENOVABLES REAL CANOE"
+   ],
+   "score": [
+    57,
+    56
+   ],
+   "error": null,
+   "date": "17/10/2026",
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   },
   {
    "id": 2524712,
-   "error": "sense_acta",
-   "date": "17/10/2026"
+   "teams": [
+    "SIROKO GIJON BASKETBALL",
+    "GRUPO INTERBUS ALCOBENDAS"
+   ],
+   "score": [
+    78,
+    97
+   ],
+   "error": null,
+   "date": "17/10/2026",
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   },
   {
    "id": 2524713,
-   "error": "sense_acta",
-   "date": "17/10/2026"
+   "teams": [
+    "MARISCOS ANTÓN CORTEGADA",
+    "EL COCHINILLO SEGOVIANO SL"
+   ],
+   "score": [
+    77,
+    75
+   ],
+   "error": null,
+   "date": "17/10/2026",
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   },
   {
    "id": 2524714,
-   "error": "sense_acta",
-   "date": "17/10/2026"
+   "teams": [
+    "C.B. LAS ROZAS",
+    "HIERROS DÍAZ EXTREMADURA MIRALVALLE"
+   ],
+   "score": [
+    59,
+    53
+   ],
+   "error": null,
+   "date": "17/10/2026",
+   "pbp_ok": true,
+   "shots_ok": false,
+   "shot_mismatch": [
+    "I. BAEZA DIEZ 9/10"
+   ],
+   "shot_orphans": []
   },
   {
    "id": 2524715,
-   "error": "sense_acta",
-   "date": "17/10/2026"
+   "teams": [
+    "MAGEC TÍAS LANZAROTE CONTRA LA VIOLENCIA DE GÉNERO",
+    "CESUR DISTRITO OLIMPICO"
+   ],
+   "score": [
+    50,
+    71
+   ],
+   "error": null,
+   "date": "17/10/2026",
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   },
   {
    "id": 2524716,
-   "error": "sense_acta",
-   "date": "17/10/2026"
+   "teams": [
+    "CB POZUELO",
+    "DPES-SUMIALKI CB CIUDAD DE MOSTOLES"
+   ],
+   "score": [
+    45,
+    47
+   ],
+   "error": null,
+   "date": "17/10/2026",
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   },
   {
    "id": 2524717,
-   "error": "sense_acta",
-   "date": "17/10/2026"
+   "teams": [
+    "SPAR GRAN CANARIA",
+    "ACEITES ABRIL ADBA SANFER"
+   ],
+   "score": [
+    68,
+    72
+   ],
+   "error": null,
+   "date": "17/10/2026",
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   }
  ]
 }
