@@ -6,10 +6,9 @@
    "nom": "LF Challenge",
    "fitxer": "data/2026_challenge.json",
    "jornades": [
-    1,
-    2
+    1
    ],
-   "generat": "2026-10-19T10:38:50"
+   "generat": "2026-10-19T15:02:09"
   },
   {
    "comp": "lf",
@@ -17,11 +16,9 @@
    "nom": "Liga Femenina",
    "fitxer": "data/2026_lf.json",
    "jornades": [
-    1,
-    2,
-    3
+    1
    ],
-   "generat": "2026-10-19T10:38:48"
+   "generat": "2026-10-19T15:02:08"
   },
   {
    "comp": "lf2a",
@@ -29,10 +26,9 @@
    "nom": "LF-2 grup A",
    "fitxer": "data/2026_lf2a.json",
    "jornades": [
-    1,
-    2
+    1
    ],
-   "generat": "2026-10-19T10:38:51"
+   "generat": "2026-10-19T15:02:10"
   },
   {
    "comp": "lf2b",
@@ -40,10 +36,9 @@
    "nom": "LF-2 grup B",
    "fitxer": "data/2026_lf2b.json",
    "jornades": [
-    1,
-    2
+    1
    ],
-   "generat": "2026-10-19T10:38:52"
+   "generat": "2026-10-19T15:02:10"
   },
   {
    "comp": "lf2a",
