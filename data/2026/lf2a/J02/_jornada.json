@@ -1,0 +1,179 @@
+{
+ "comp": "lf2a",
+ "season": 2026,
+ "fase": "Liga Regular \"A\"",
+ "jornada": 2,
+ "jornada_text": "Jornada 2(10/10/2026)",
+ "dates": {
+  "1": "2026-10-03",
+  "2": "2026-10-10",
+  "3": "2026-10-17",
+  "4": "2026-10-24",
+  "5": "2026-10-31",
+  "6": "2026-11-07",
+  "7": "2026-11-14",
+  "8": "2026-11-21",
+  "9": "2026-11-28",
+  "10": "2026-12-05",
+  "11": "2026-12-12",
+  "12": "2026-12-19",
+  "13": "2027-01-09",
+  "14": "2027-01-16",
+  "15": "2027-01-23",
+  "16": "2027-01-30",
+  "17": "2027-02-06",
+  "18": "2027-02-13",
+  "19": "2027-02-20",
+  "20": "2027-02-27",
+  "21": "2027-03-06",
+  "22": "2027-03-13",
+  "23": "2027-03-20",
+  "24": "2027-04-03",
+  "25": "2027-04-10",
+  "26": "2027-04-17"
+ },
+ "altres_jornades": [
+  2524714,
+  2524717,
+  2524716,
+  2524713,
+  2524711,
+  2524712,
+  2524715
+ ],
+ "data": "10/10/2026",
+ "ids": [
+  2524704,
+  2524705,
+  2524706,
+  2524707,
+  2524708,
+  2524709,
+  2524710
+ ],
+ "ids_method": 2,
+ "generated": "2026-10-19T15:10:39.653482+00:00",
+ "games": [
+  {
+   "id": 2524704,
+   "teams": [
+    "ACEITES ABRIL ADBA SANFER",
+    "CB ISLA BONITA SANO SANO CATERING"
+   ],
+   "score": [
+    56,
+    69
+   ],
+   "error": null,
+   "date": "10/10/2026",
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
+  },
+  {
+   "id": 2524705,
+   "teams": [
+    "SPAR GRAN CANARIA",
+    "CB POZUELO"
+   ],
+   "score": [
+    71,
+    48
+   ],
+   "error": null,
+   "date": "10/10/2026",
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
+  },
+  {
+   "id": 2524706,
+   "teams": [
+    "DPES-SUMIALKI CB CIUDAD DE MOSTOLES",
+    "MAGEC TÍAS LANZAROTE CONTRA LA VIOLENCIA DE GÉNERO"
+   ],
+   "score": [
+    94,
+    60
+   ],
+   "error": null,
+   "date": "11/10/2026",
+   "pbp_ok": true,
+   "shots_ok": false,
+   "shot_mismatch": [
+    "N. GOMEZ COBO 5/6"
+   ],
+   "shot_orphans": []
+  },
+  {
+   "id": 2524707,
+   "teams": [
+    "CESUR DISTRITO OLIMPICO",
+    "C.B. LAS ROZAS"
+   ],
+   "score": [
+    75,
+    71
+   ],
+   "error": null,
+   "date": "10/10/2026",
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
+  },
+  {
+   "id": 2524708,
+   "teams": [
+    "HIERROS DÍAZ EXTREMADURA MIRALVALLE",
+    "MARISCOS ANTÓN CORTEGADA"
+   ],
+   "score": [
+    67,
+    77
+   ],
+   "error": null,
+   "date": "10/10/2026",
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
+  },
+  {
+   "id": 2524709,
+   "teams": [
+    "EL COCHINILLO SEGOVIANO SL",
+    "SIROKO GIJON BASKETBALL"
+   ],
+   "score": [
+    76,
+    72
+   ],
+   "error": null,
+   "date": "10/10/2026",
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
+  },
+  {
+   "id": 2524710,
+   "teams": [
+    "GRUPO INTERBUS ALCOBENDAS",
+    "SERNOVA RENOVABLES REAL CANOE"
+   ],
+   "score": [
+    86,
+    79
+   ],
+   "error": null,
+   "date": "10/10/2026",
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
+  }
+ ]
+}
