@@ -69,13 +69,23 @@ def norm_jornada(j):
     return int(m.group(1))
 
 def parse_date(txt):
-    m = re.search(r"(\d{1,2})[-/](\d{1,2})[-/](\d{4})", txt or "")
+    m = re.search(r"(\d{1,2})[-/](\d{1,2})[-/](\d{4}|\d{2})(?![0-9])", txt or "")
     if not m: return None
-    try: return datetime(int(m.group(3)), int(m.group(2)), int(m.group(1))).date()
+    y = int(m.group(3))
+    if y < 100: y += 2000
+    try: return datetime(y, int(m.group(2)), int(m.group(1))).date()
     except ValueError: return None
 
-JS_IDS = """()=>[...new Set([...document.querySelectorAll('a[href*="Partido.aspx"]')]
-        .map(a=>+new URL(a.href).searchParams.get('p')))]"""
+JS_IDS = """()=>{
+  const WS=[' ',String.fromCharCode(160),String.fromCharCode(9),String.fromCharCode(10),String.fromCharCode(13)];
+  const clean=s=>{s=(s||''); for(const w of WS) s=s.split(w).join(' '); return s.split(' ').filter(Boolean).join(' ');};
+  const out=[];
+  [...document.querySelectorAll('.wrapper-seccion-contents table tr')].forEach(tr=>{
+    const a=tr.querySelector('a[href*="Partido.aspx"]'); if(!a) return;
+    out.push([+new URL(a.href).searchParams.get('p'), clean(tr.innerText)]);});
+  if(!out.length) [...document.querySelectorAll('a[href*="Partido.aspx"]')].forEach(a=>{
+    const tr=a.closest('tr'); out.push([+new URL(a.href).searchParams.get('p'), clean(tr?tr.innerText:a.innerText)]);});
+  return out;}"""
 
 JS_FECHA = """()=>{const lab=[...document.querySelectorAll('.label')].find(e=>/Fecha/.test(e.textContent));
   return lab?lab.parentElement.textContent:'';}"""
@@ -124,19 +134,25 @@ def list_games(page, comp, season, jornada):
     # La pàgina, a més dels partits de la jornada triada, enllaça sempre els d'una altra jornada
     # (la propera). Per separar-los, carreguem també una jornada veïna: el que surt a totes dues
     # no és de la jornada triada. Si tot és comú, és que la triada és justament aquella altra jornada.
-    def select_and_read(opt):
-        select_and_wait(page, selects()[2], opt[0])
-        return page.evaluate(JS_IDS)
-    nums = {int(re.search(r"Jornada\s+(\d+)", o[1]).group(1)): o for o in jopts if re.search(r"Jornada\s+(\d+)", o[1])}
-    neigh = nums.get(jn - 1) or nums.get(jn + 1)
-    ids_n = set(page.evaluate(JS_IDS)) if target[2] else set(select_and_read(target))
-    if neigh:
-        common = ids_n & set(select_and_read(neigh))
-        select_and_wait(page, selects()[2], target[0])   # deixem la pàgina a la jornada triada
-        ids_all = page.evaluate(JS_IDS)
-        ids = [i for i in ids_all if i not in common] or ids_all
-    else:
-        ids_all = page.evaluate(JS_IDS); ids = ids_all
+    if not target[2]:
+        select_and_wait(page, selects()[2], target[0])
+    rows = page.evaluate(JS_IDS)
+    ids_all = [r[0] for r in rows]
+    # La taula mostra els partits de la jornada triada i també els de la següent (amb "*-*").
+    # Els separem per la data de cada partit, que surt a la mateixa fila.
+    jdate = parse_date(target[1])
+    ids, dates_fila = [], {}
+    for gid, txt in rows:
+        d = parse_date(txt)
+        if d: dates_fila[gid] = d
+        if jdate and d and abs((d - jdate).days) <= 3:
+            ids.append(gid)
+    if not ids:
+        if jdate and not any(dates_fila.values()):
+            log(f"  jornada {jn}: cap partit amb data; encara no s'ha jugat")
+        else:
+            log(f"  jornada {jn}: no puc separar els partits per data; agafo tota la taula")
+            ids = ids_all
     others = [i for i in ids_all if i not in ids]
     date_txt = re.search(r"\((.*?)\)", target[1])
     dates = {}
