@@ -58,84 +58,130 @@
   2524486
  ],
  "ids_method": 2,
- "generated": "2026-10-22T09:54:18.901890+00:00",
+ "generated": "2026-10-26T09:46:51.237357+00:00",
  "games": [
   {
    "id": 2524480,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
+   "teams": [
+    "SPARKING TRUTH MARISTAS",
+    "C.B. AL-QAZERES EXTREMADURA"
+   ],
+   "score": [
+    56,
+    88
+   ],
+   "error": null,
    "date": "24/10/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   },
   {
    "id": 2524481,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
+   "teams": [
+    "BOSONIT UNIBASKET",
+    "SPAR GRAN CANARIA"
+   ],
+   "score": [
+    70,
+    72
+   ],
+   "error": null,
    "date": "24/10/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   },
   {
    "id": 2524482,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
+   "teams": [
+    "UNICAJA MIJAS",
+    "MIPELLETYMAS B.F. LEON"
+   ],
+   "score": [
+    81,
+    82
+   ],
+   "error": null,
    "date": "24/10/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   },
   {
    "id": 2524483,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
+   "teams": [
+    "OSES CONSTRUCCION",
+    "CLUB JOVENTUT BADALONA"
+   ],
+   "score": [
+    79,
+    72
+   ],
+   "error": null,
    "date": "25/10/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   },
   {
    "id": 2524484,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
+   "teams": [
+    "SEVILLA CAJASOL GARDENSTORE BALONCESTO",
+    "MELILLA CIUDAD DEL DEPORTE LA SALLE"
+   ],
+   "score": [
+    73,
+    53
+   ],
+   "error": null,
    "date": "24/10/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "pbp_ok": true,
+   "shots_ok": false,
+   "shot_mismatch": [
+    "T. SIDBERRY 10/11"
+   ],
+   "shot_orphans": []
   },
   {
    "id": 2524485,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
+   "teams": [
+    "VALENCIA BASKET",
+    "LA LAGUNA TOYOTA ADAREVA"
+   ],
+   "score": [
+    75,
+    78
+   ],
+   "error": null,
    "date": "24/10/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   },
   {
    "id": 2524486,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
+   "teams": [
+    "RECOLETAS ZAMORA",
+    "FUSTECMA NBF CASTELLÓ"
+   ],
+   "score": [
+    65,
+    37
+   ],
+   "error": null,
    "date": "24/10/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "pbp_ok": true,
+   "shots_ok": false,
+   "shot_mismatch": [
+    "B. JACKSON 10/11"
+   ],
+   "shot_orphans": []
   }
  ]
 }
