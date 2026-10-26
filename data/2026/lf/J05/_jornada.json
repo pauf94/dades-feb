@@ -58,95 +58,143 @@
   2522814
  ],
  "ids_method": 2,
- "generated": "2026-10-22T09:52:43.196907+00:00",
+ "generated": "2026-10-26T09:28:45.123690+00:00",
  "games": [
   {
    "id": 2522807,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
+   "teams": [
+    "AZULMARINO MALLORCA PALMA",
+    "HOZONO GLOBAL JAIRIS"
+   ],
+   "score": [
+    67,
+    69
+   ],
+   "error": null,
    "date": "24/10/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   },
   {
    "id": 2522808,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
+   "teams": [
+    "BAXI FERROL",
+    "INVERSUS GERNIKA BIZKAIA"
+   ],
+   "score": [
+    76,
+    71
+   ],
+   "error": null,
    "date": "24/10/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   },
   {
    "id": 2522809,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
+   "teams": [
+    "SPAR GIRONA",
+    "MIRAI EUSKOTREN"
+   ],
+   "score": [
+    53,
+    56
+   ],
+   "error": null,
    "date": "25/10/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   },
   {
    "id": 2522810,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
+   "teams": [
+    "DURÁN MAQUINARIA ENSINO",
+    "VALENCIA B.C."
+   ],
+   "score": [
+    59,
+    75
+   ],
+   "error": null,
    "date": "25/10/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   },
   {
    "id": 2522811,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
+   "teams": [
+    "MOVISTAR ESTUDIANTES",
+    "IMPULSO 360 ESTEPONA"
+   ],
+   "score": [
+    52,
+    70
+   ],
+   "error": null,
    "date": "24/10/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   },
   {
    "id": 2522812,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
+   "teams": [
+    "INNOVA-TSN LEGANÉS",
+    "KUTXABANK ARASKI"
+   ],
+   "score": [
+    63,
+    58
+   ],
+   "error": null,
    "date": "24/10/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   },
   {
    "id": 2522813,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
+   "teams": [
+    "CELTA FEMXA ZORKA",
+    "CADI LA SEU"
+   ],
+   "score": [
+    80,
+    86
+   ],
+   "error": null,
    "date": "24/10/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "pbp_ok": false,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   },
   {
    "id": 2522814,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
+   "teams": [
+    "MEINS AVENIDA",
+    "CASADEMONT ZARAGOZA"
+   ],
+   "score": [
+    71,
+    83
+   ],
+   "error": null,
    "date": "25/10/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   }
  ]
 }
