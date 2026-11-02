@@ -1,0 +1,1774 @@
+{
+ "jornada": 5,
+ "partits": [
+  {
+   "id": 2524487,
+   "equips": [
+    "CLUB JOVENTUT BADALONA",
+    "RECOLETAS ZAMORA"
+   ],
+   "marcador": [
+    71,
+    61
+   ],
+   "data": "31/10/2026",
+   "parcials": [
+    "13/19",
+    "25/11",
+    "17/12",
+    "16/19"
+   ],
+   "metriques": [
+    {
+     "PF": 71,
+     "PR": 61,
+     "poss": 83.96,
+     "ritme": 80.44,
+     "OER": 0.8456,
+     "DER": 0.793,
+     "eFG": 0.4521,
+     "eFG_riv": 0.4068,
+     "pRO": 0.2424,
+     "pRD": 0.7143,
+     "pBP": 0.1787,
+     "pBP_riv": 0.26,
+     "FTr": 0.1233,
+     "t3r": 0.4795,
+     "pT2": 0.4737,
+     "pT3": 0.2857,
+     "pTL": 0.5556,
+     "pAS": 0.3929,
+     "RO": 8,
+     "BP": 15,
+     "BR": 13,
+     "AS": 11,
+     "net": 0.0526
+    },
+    {
+     "PF": 61,
+     "PR": 71,
+     "poss": 76.92,
+     "ritme": 80.44,
+     "OER": 0.793,
+     "DER": 0.8456,
+     "eFG": 0.4068,
+     "eFG_riv": 0.4521,
+     "pRO": 0.2857,
+     "pRD": 0.7576,
+     "pBP": 0.26,
+     "pBP_riv": 0.1787,
+     "FTr": 0.3051,
+     "t3r": 0.339,
+     "pT2": 0.3846,
+     "pT3": 0.3,
+     "pTL": 0.7222,
+     "pAS": 0.5714,
+     "RO": 10,
+     "BP": 20,
+     "BR": 10,
+     "AS": 12,
+     "net": -0.0526
+    }
+   ]
+  },
+  {
+   "id": 2524488,
+   "equips": [
+    "DOMUSA TEKNIK ISB",
+    "FUSTECMA NBF CASTELLÓ"
+   ],
+   "marcador": [
+    69,
+    52
+   ],
+   "data": "31/10/2026",
+   "parcials": [
+    "21/10",
+    "16/19",
+    "18/16",
+    "14/7"
+   ],
+   "metriques": [
+    {
+     "PF": 69,
+     "PR": 52,
+     "poss": 74.0,
+     "ritme": 74.2,
+     "OER": 0.9324,
+     "DER": 0.6989,
+     "eFG": 0.4474,
+     "eFG_riv": 0.3667,
+     "pRO": 0.3529,
+     "pRD": 0.8158,
+     "pBP": 0.2432,
+     "pBP_riv": 0.2285,
+     "FTr": 0.4386,
+     "t3r": 0.386,
+     "pT2": 0.3429,
+     "pT3": 0.4091,
+     "pTL": 0.72,
+     "pAS": 0.5238,
+     "RO": 12,
+     "BP": 18,
+     "BR": 12,
+     "AS": 11,
+     "net": 0.2335
+    },
+    {
+     "PF": 52,
+     "PR": 69,
+     "poss": 74.4,
+     "ritme": 74.2,
+     "OER": 0.6989,
+     "DER": 0.9324,
+     "eFG": 0.3667,
+     "eFG_riv": 0.4474,
+     "pRO": 0.1842,
+     "pRD": 0.6471,
+     "pBP": 0.2285,
+     "pBP_riv": 0.2432,
+     "FTr": 0.1667,
+     "t3r": 0.4333,
+     "pT2": 0.3824,
+     "pT3": 0.2308,
+     "pTL": 0.8,
+     "pAS": 0.3684,
+     "RO": 7,
+     "BP": 17,
+     "BR": 10,
+     "AS": 7,
+     "net": -0.2335
+    }
+   ]
+  },
+  {
+   "id": 2524489,
+   "equips": [
+    "MIPELLETYMAS B.F. LEON",
+    "OSES CONSTRUCCION"
+   ],
+   "marcador": [
+    67,
+    84
+   ],
+   "data": "01/11/2026",
+   "parcials": [
+    "21/24",
+    "12/23",
+    "14/19",
+    "20/18"
+   ],
+   "metriques": [
+    {
+     "PF": 67,
+     "PR": 84,
+     "poss": 77.4,
+     "ritme": 77.32,
+     "OER": 0.8656,
+     "DER": 1.0875,
+     "eFG": 0.5,
+     "eFG_riv": 0.4786,
+     "pRO": 0.3214,
+     "pRD": 0.6316,
+     "pBP": 0.2713,
+     "pBP_riv": 0.1554,
+     "FTr": 0.1639,
+     "t3r": 0.3934,
+     "pT2": 0.3784,
+     "pT3": 0.4583,
+     "pTL": 0.6,
+     "pAS": 0.64,
+     "RO": 9,
+     "BP": 21,
+     "BR": 6,
+     "AS": 16,
+     "net": -0.2219
+    },
+    {
+     "PF": 84,
+     "PR": 67,
+     "poss": 77.24,
+     "ritme": 77.32,
+     "OER": 1.0875,
+     "DER": 0.8656,
+     "eFG": 0.4786,
+     "eFG_riv": 0.5,
+     "pRO": 0.3684,
+     "pRD": 0.6786,
+     "pBP": 0.1554,
+     "pBP_riv": 0.2713,
+     "FTr": 0.3,
+     "t3r": 0.5,
+     "pT2": 0.4857,
+     "pT3": 0.3143,
+     "pTL": 0.8095,
+     "pAS": 0.5714,
+     "RO": 14,
+     "BP": 12,
+     "BR": 13,
+     "AS": 16,
+     "net": 0.2219
+    }
+   ]
+  },
+  {
+   "id": 2524490,
+   "equips": [
+    "BOSONIT UNIBASKET",
+    "MCR LIMA-HORTA BARCELONA"
+   ],
+   "marcador": [
+    63,
+    69
+   ],
+   "data": "31/10/2026",
+   "parcials": [
+    "18/18",
+    "19/24",
+    "15/10",
+    "11/17"
+   ],
+   "metriques": [
+    {
+     "PF": 63,
+     "PR": 69,
+     "poss": 75.96,
+     "ritme": 75.48,
+     "OER": 0.8294,
+     "DER": 0.92,
+     "eFG": 0.4531,
+     "eFG_riv": 0.4483,
+     "pRO": 0.3158,
+     "pRD": 0.8333,
+     "pBP": 0.2633,
+     "pBP_riv": 0.16,
+     "FTr": 0.1406,
+     "t3r": 0.2656,
+     "pT2": 0.4255,
+     "pT3": 0.3529,
+     "pTL": 0.5556,
+     "pAS": 0.5769,
+     "RO": 12,
+     "BP": 20,
+     "BR": 7,
+     "AS": 15,
+     "net": -0.0906
+    },
+    {
+     "PF": 69,
+     "PR": 63,
+     "poss": 75.0,
+     "ritme": 75.48,
+     "OER": 0.92,
+     "DER": 0.8294,
+     "eFG": 0.4483,
+     "eFG_riv": 0.4531,
+     "pRO": 0.1667,
+     "pRD": 0.6842,
+     "pBP": 0.16,
+     "pBP_riv": 0.2633,
+     "FTr": 0.431,
+     "t3r": 0.4655,
+     "pT2": 0.3548,
+     "pT3": 0.3704,
+     "pTL": 0.68,
+     "pAS": 0.619,
+     "RO": 6,
+     "BP": 12,
+     "BR": 13,
+     "AS": 13,
+     "net": 0.0906
+    }
+   ]
+  },
+  {
+   "id": 2524491,
+   "equips": [
+    "SPAR GRAN CANARIA",
+    "SPARKING TRUTH MARISTAS"
+   ],
+   "marcador": [
+    69,
+    65
+   ],
+   "data": "31/10/2026",
+   "parcials": [
+    "20/24",
+    "18/14",
+    "14/12",
+    "17/15"
+   ],
+   "metriques": [
+    {
+     "PF": 69,
+     "PR": 65,
+     "poss": 81.88,
+     "ritme": 83.3,
+     "OER": 0.8427,
+     "DER": 0.7672,
+     "eFG": 0.4127,
+     "eFG_riv": 0.4085,
+     "pRO": 0.2812,
+     "pRD": 0.8108,
+     "pBP": 0.1954,
+     "pBP_riv": 0.1771,
+     "FTr": 0.4286,
+     "t3r": 0.3492,
+     "pT2": 0.4146,
+     "pT3": 0.2727,
+     "pTL": 0.6296,
+     "pAS": 0.6087,
+     "RO": 9,
+     "BP": 16,
+     "BR": 10,
+     "AS": 14,
+     "net": 0.0755
+    },
+    {
+     "PF": 65,
+     "PR": 69,
+     "poss": 84.72,
+     "ritme": 83.3,
+     "OER": 0.7672,
+     "DER": 0.8427,
+     "eFG": 0.4085,
+     "eFG_riv": 0.4127,
+     "pRO": 0.1892,
+     "pRD": 0.7188,
+     "pBP": 0.1771,
+     "pBP_riv": 0.1954,
+     "FTr": 0.1831,
+     "t3r": 0.4085,
+     "pT2": 0.4048,
+     "pT3": 0.2759,
+     "pTL": 0.5385,
+     "pAS": 0.48,
+     "RO": 7,
+     "BP": 15,
+     "BR": 9,
+     "AS": 12,
+     "net": -0.0755
+    }
+   ]
+  },
+  {
+   "id": 2524492,
+   "equips": [
+    "LA LAGUNA TOYOTA ADAREVA",
+    "C.B. AL-QAZERES EXTREMADURA"
+   ],
+   "marcador": [
+    77,
+    63
+   ],
+   "data": "31/10/2026",
+   "parcials": [
+    "19/19",
+    "13/19",
+    "23/7",
+    "22/18"
+   ],
+   "metriques": [
+    {
+     "PF": 77,
+     "PR": 63,
+     "poss": 77.92,
+     "ritme": 77.76,
+     "OER": 0.9882,
+     "DER": 0.8119,
+     "eFG": 0.5078,
+     "eFG_riv": 0.3784,
+     "pRO": 0.2432,
+     "pRD": 0.551,
+     "pBP": 0.1925,
+     "pBP_riv": 0.2448,
+     "FTr": 0.2812,
+     "t3r": 0.4062,
+     "pT2": 0.4211,
+     "pT3": 0.4231,
+     "pTL": 0.6667,
+     "pAS": 0.5185,
+     "RO": 9,
+     "BP": 15,
+     "BR": 12,
+     "AS": 14,
+     "net": 0.1763
+    },
+    {
+     "PF": 63,
+     "PR": 77,
+     "poss": 77.6,
+     "ritme": 77.76,
+     "OER": 0.8119,
+     "DER": 0.9882,
+     "eFG": 0.3784,
+     "eFG_riv": 0.5078,
+     "pRO": 0.449,
+     "pRD": 0.7568,
+     "pBP": 0.2448,
+     "pBP_riv": 0.1925,
+     "FTr": 0.2027,
+     "t3r": 0.4054,
+     "pT2": 0.4318,
+     "pT3": 0.2,
+     "pTL": 0.4667,
+     "pAS": 0.24,
+     "RO": 22,
+     "BP": 19,
+     "BR": 9,
+     "AS": 6,
+     "net": -0.1763
+    }
+   ]
+  },
+  {
+   "id": 2524493,
+   "equips": [
+    "SEVILLA CAJASOL GARDENSTORE BALONCESTO",
+    "UNICAJA MIJAS"
+   ],
+   "marcador": [
+    73,
+    64
+   ],
+   "data": "31/10/2026",
+   "parcials": [
+    "22/18",
+    "21/13",
+    "16/20",
+    "14/13"
+   ],
+   "metriques": [
+    {
+     "PF": 73,
+     "PR": 64,
+     "poss": 76.24,
+     "ritme": 75.58,
+     "OER": 0.9575,
+     "DER": 0.8542,
+     "eFG": 0.4917,
+     "eFG_riv": 0.4167,
+     "pRO": 0.25,
+     "pRD": 0.7368,
+     "pBP": 0.1967,
+     "pBP_riv": 0.2269,
+     "FTr": 0.35,
+     "t3r": 0.3167,
+     "pT2": 0.4634,
+     "pT3": 0.3684,
+     "pTL": 0.6667,
+     "pAS": 0.7308,
+     "RO": 8,
+     "BP": 15,
+     "BR": 3,
+     "AS": 19,
+     "net": 0.1033
+    },
+    {
+     "PF": 64,
+     "PR": 73,
+     "poss": 74.92,
+     "ritme": 75.58,
+     "OER": 0.8542,
+     "DER": 0.9575,
+     "eFG": 0.4167,
+     "eFG_riv": 0.4917,
+     "pRO": 0.2632,
+     "pRD": 0.75,
+     "pBP": 0.2269,
+     "pBP_riv": 0.1967,
+     "FTr": 0.3,
+     "t3r": 0.4167,
+     "pT2": 0.3714,
+     "pT3": 0.32,
+     "pTL": 0.7778,
+     "pAS": 0.5714,
+     "RO": 10,
+     "BP": 17,
+     "BR": 9,
+     "AS": 12,
+     "net": -0.1033
+    }
+   ]
+  },
+  {
+   "id": 2524494,
+   "equips": [
+    "MELILLA CIUDAD DEL DEPORTE LA SALLE",
+    "VALENCIA BASKET"
+   ],
+   "marcador": [
+    72,
+    41
+   ],
+   "data": "31/10/2026",
+   "parcials": [
+    "15/10",
+    "19/13",
+    "21/7",
+    "17/11"
+   ],
+   "metriques": [
+    {
+     "PF": 72,
+     "PR": 41,
+     "poss": 80.96,
+     "ritme": 79.34,
+     "OER": 0.8893,
+     "DER": 0.5275,
+     "eFG": 0.4015,
+     "eFG_riv": 0.275,
+     "pRO": 0.3404,
+     "pRD": 0.7805,
+     "pBP": 0.1976,
+     "pBP_riv": 0.2702,
+     "FTr": 0.5152,
+     "t3r": 0.2727,
+     "pT2": 0.4583,
+     "pT3": 0.1667,
+     "pTL": 0.5588,
+     "pAS": 0.72,
+     "RO": 16,
+     "BP": 16,
+     "BR": 16,
+     "AS": 18,
+     "net": 0.3618
+    },
+    {
+     "PF": 41,
+     "PR": 72,
+     "poss": 77.72,
+     "ritme": 79.34,
+     "OER": 0.5275,
+     "DER": 0.8893,
+     "eFG": 0.275,
+     "eFG_riv": 0.4015,
+     "pRO": 0.2195,
+     "pRD": 0.6596,
+     "pBP": 0.2702,
+     "pBP_riv": 0.1976,
+     "FTr": 0.2167,
+     "t3r": 0.3667,
+     "pT2": 0.3947,
+     "pT3": 0.0455,
+     "pTL": 0.6154,
+     "pAS": 0.75,
+     "RO": 9,
+     "BP": 21,
+     "BR": 11,
+     "AS": 12,
+     "net": -0.3618
+    }
+   ]
+  }
+ ],
+ "desviacions": [
+  {
+   "equip": "RECOLETAS ZAMORA",
+   "rival": "CLUB JOVENTUT BADALONA",
+   "metrica": "punts per possessió",
+   "valor": 0.793,
+   "mitjana": 0.8888,
+   "z": -1.54
+  },
+  {
+   "equip": "RECOLETAS ZAMORA",
+   "rival": "CLUB JOVENTUT BADALONA",
+   "metrica": "% pèrdues",
+   "valor": 0.26,
+   "mitjana": 0.198,
+   "z": 2.92
+  },
+  {
+   "equip": "RECOLETAS ZAMORA",
+   "rival": "CLUB JOVENTUT BADALONA",
+   "metrica": "ritme",
+   "valor": 80.44,
+   "mitjana": 72.13,
+   "z": 3.71
+  },
+  {
+   "equip": "FUSTECMA NBF CASTELLÓ",
+   "rival": "DOMUSA TEKNIK ISB",
+   "metrica": "ràtio de TL",
+   "valor": 0.1667,
+   "mitjana": 0.3896,
+   "z": -2.44
+  },
+  {
+   "equip": "MIPELLETYMAS B.F. LEON",
+   "rival": "OSES CONSTRUCCION",
+   "metrica": "ràtio de TL",
+   "valor": 0.1639,
+   "mitjana": 0.2948,
+   "z": -2.81
+  },
+  {
+   "equip": "OSES CONSTRUCCION",
+   "rival": "MIPELLETYMAS B.F. LEON",
+   "metrica": "% rebot ofensiu",
+   "valor": 0.3684,
+   "mitjana": 0.2738,
+   "z": 2.75
+  },
+  {
+   "equip": "BOSONIT UNIBASKET",
+   "rival": "MCR LIMA-HORTA BARCELONA",
+   "metrica": "% pèrdues",
+   "valor": 0.2633,
+   "mitjana": 0.1603,
+   "z": 2.51
+  },
+  {
+   "equip": "SPAR GRAN CANARIA",
+   "rival": "SPARKING TRUTH MARISTAS",
+   "metrica": "punts rebuts per possessió",
+   "valor": 0.7672,
+   "mitjana": 0.9131,
+   "z": -1.87
+  },
+  {
+   "equip": "SPAR GRAN CANARIA",
+   "rival": "SPARKING TRUTH MARISTAS",
+   "metrica": "ràtio de TL",
+   "valor": 0.4286,
+   "mitjana": 0.2536,
+   "z": 3.32
+  },
+  {
+   "equip": "SPARKING TRUTH MARISTAS",
+   "rival": "SPAR GRAN CANARIA",
+   "metrica": "% rebot ofensiu",
+   "valor": 0.1892,
+   "mitjana": 0.2904,
+   "z": -3.12
+  },
+  {
+   "equip": "SPARKING TRUTH MARISTAS",
+   "rival": "SPAR GRAN CANARIA",
+   "metrica": "ràtio de TL",
+   "valor": 0.1831,
+   "mitjana": 0.2856,
+   "z": -1.52
+  },
+  {
+   "equip": "LA LAGUNA TOYOTA ADAREVA",
+   "rival": "C.B. AL-QAZERES EXTREMADURA",
+   "metrica": "punts per possessió",
+   "valor": 0.9882,
+   "mitjana": 0.7684,
+   "z": 3.03
+  },
+  {
+   "equip": "LA LAGUNA TOYOTA ADAREVA",
+   "rival": "C.B. AL-QAZERES EXTREMADURA",
+   "metrica": "%eFG",
+   "valor": 0.5078,
+   "mitjana": 0.3632,
+   "z": 2.42
+  },
+  {
+   "equip": "C.B. AL-QAZERES EXTREMADURA",
+   "rival": "LA LAGUNA TOYOTA ADAREVA",
+   "metrica": "% rebot ofensiu",
+   "valor": 0.449,
+   "mitjana": 0.3416,
+   "z": 1.72
+  },
+  {
+   "equip": "SEVILLA CAJASOL GARDENSTORE BALONCESTO",
+   "rival": "UNICAJA MIJAS",
+   "metrica": "% rebot ofensiu",
+   "valor": 0.25,
+   "mitjana": 0.339,
+   "z": -1.75
+  },
+  {
+   "equip": "UNICAJA MIJAS",
+   "rival": "SEVILLA CAJASOL GARDENSTORE BALONCESTO",
+   "metrica": "%eFG",
+   "valor": 0.4167,
+   "mitjana": 0.475,
+   "z": -1.61
+  },
+  {
+   "equip": "MELILLA CIUDAD DEL DEPORTE LA SALLE",
+   "rival": "VALENCIA BASKET",
+   "metrica": "punts rebuts per possessió",
+   "valor": 0.5275,
+   "mitjana": 0.8331,
+   "z": -2.03
+  },
+  {
+   "equip": "MELILLA CIUDAD DEL DEPORTE LA SALLE",
+   "rival": "VALENCIA BASKET",
+   "metrica": "ràtio de TL",
+   "valor": 0.5152,
+   "mitjana": 0.2987,
+   "z": 3.22
+  },
+  {
+   "equip": "MELILLA CIUDAD DEL DEPORTE LA SALLE",
+   "rival": "VALENCIA BASKET",
+   "metrica": "ritme",
+   "valor": 79.34,
+   "mitjana": 74.16,
+   "z": 5.3
+  }
+ ],
+ "sorpreses": [
+  {
+   "id": 2524489,
+   "guanyador": "OSES CONSTRUCCION",
+   "tipus": "guanya tirant pitjor",
+   "eFG": [
+    0.5,
+    0.479
+   ]
+  },
+  {
+   "id": 2524490,
+   "guanyador": "MCR LIMA-HORTA BARCELONA",
+   "tipus": "guanya tirant pitjor",
+   "eFG": [
+    0.453,
+    0.448
+   ]
+  }
+ ],
+ "ratxes": [
+  {
+   "id": 2524494,
+   "equip": "MELILLA CIUDAD DEL DEPORTE LA SALLE",
+   "punts": 14,
+   "de": "Q1 01:55",
+   "a": "Q2 06:41",
+   "marcador": "10-10 → 24-10",
+   "quintet": "A.SENOSIAIN / C.CACERES / C.GARCIA / E.MORENO / I.LOSADA",
+   "quintet_rival": "A.ALONSO / L.SEGURA / M.BLEDA / N.KAMARA / P.REYNAL",
+   "temps_mort": [
+    "Q2 08:58"
+   ]
+  },
+  {
+   "id": 2524491,
+   "equip": "SPAR GRAN CANARIA",
+   "punts": 13,
+   "de": "Q3 02:29",
+   "a": "Q4 08:26",
+   "marcador": "42-50 → 55-50",
+   "quintet": "E.EZEANATOGU / J.NOBLE / L.PEREZ / M.DOUMBIA / T.EZEANATOGU",
+   "quintet_rival": "A.COULIBALY / A.JIMENEZ / A.TUHINA / B.FONTANA / N.DIMITRIJEVIC",
+   "temps_mort": [
+    "Q3 01:30"
+   ]
+  },
+  {
+   "id": 2524489,
+   "equip": "OSES CONSTRUCCION",
+   "punts": 12,
+   "de": "Q3 09:22",
+   "a": "Q3 05:20",
+   "marcador": "33-47 → 33-59",
+   "quintet": "A.WONE / C.CAPELLAN / C.GARCIA / M.BLANCO / V.GAUNA",
+   "quintet_rival": "A.BOQUETE / C.CELAYA / J.MARTINEZ / P.VAQUERA / S.CASTRO",
+   "temps_mort": [
+    "Q3 07:05"
+   ]
+  },
+  {
+   "id": 2524492,
+   "equip": "LA LAGUNA TOYOTA ADAREVA",
+   "punts": 12,
+   "de": "Q3 01:43",
+   "a": "Q4 09:21",
+   "marcador": "48-45 → 60-45",
+   "quintet": "F.BOHRÉ / M.GOMEZ / S.BASAEZ / S.CASTRO / T.BROWN",
+   "quintet_rival": "C.GONZALEZ / C.PRATTER / L.SALMERON / M.BARATA / N.LISTE",
+   "temps_mort": []
+  },
+  {
+   "id": 2524488,
+   "equip": "DOMUSA TEKNIK ISB",
+   "punts": 11,
+   "de": "Q2 02:33",
+   "a": "Q3 07:20",
+   "marcador": "34-29 → 45-29",
+   "quintet": "A.LIZUNDIA / A.MASTRAL / A.NDIBA / G.LEAUPEPE / M.GUTIERREZ",
+   "quintet_rival": "B.JACKSON / F.ASEMOTA / I.FERNANDEZ / J.GOMEZ / L.RUIZ",
+   "temps_mort": [
+    "Q2 00:16"
+   ]
+  },
+  {
+   "id": 2524488,
+   "equip": "FUSTECMA NBF CASTELLÓ",
+   "punts": 11,
+   "de": "Q3 04:46",
+   "a": "Q3 01:54",
+   "marcador": "49-31 → 49-42",
+   "quintet": "B.JACKSON / F.ASEMOTA / I.FERNANDEZ / J.GOMEZ / L.CAMPOS",
+   "quintet_rival": "A.LIZUNDIA / A.MASTRAL / A.NDIBA / K.FILEWICH / L.FINAU",
+   "temps_mort": []
+  },
+  {
+   "id": 2524489,
+   "equip": "OSES CONSTRUCCION",
+   "punts": 11,
+   "de": "Q4 06:00",
+   "a": "Q4 04:11",
+   "marcador": "56-69 → 56-80",
+   "quintet": "A.DIEZ / A.WONE / C.CAPELLAN / C.GARCIA / M.BLANCO",
+   "quintet_rival": "D.DÍAZ / L.MELERO / L.RODRIGUEZ / M.FERRERAS / S.CASTRO",
+   "temps_mort": []
+  },
+  {
+   "id": 2524491,
+   "equip": "SPARKING TRUTH MARISTAS",
+   "punts": 11,
+   "de": "Q1 02:39",
+   "a": "Q1 00:44",
+   "marcador": "17-13 → 17-24",
+   "quintet": "A.COULIBALY / A.JIMENEZ / A.TUHINA / B.FONTANA / N.DIMITRIJEVIC",
+   "quintet_rival": "C.RIVIERE / J.NOBLE / L.PEREZ / M.DOUMBIA / T.EZEANATOGU",
+   "temps_mort": [
+    "Q1 00:45"
+   ]
+  },
+  {
+   "id": 2524494,
+   "equip": "MELILLA CIUDAD DEL DEPORTE LA SALLE",
+   "punts": 11,
+   "de": "Q3 07:43",
+   "a": "Q3 03:59",
+   "marcador": "38-26 → 49-26",
+   "quintet": "I.ARAÚJO / J.EDWARDS / L.FONTELA / L.MOYA / R.LEHTORANTA",
+   "quintet_rival": "A.ALONSO / C.CHE / C.WILLIAMS / I.BRONCANO / L.SEGURA",
+   "temps_mort": [
+    "Q3 04:33"
+   ]
+  },
+  {
+   "id": 2524487,
+   "equip": "CLUB JOVENTUT BADALONA",
+   "punts": 10,
+   "de": "Q2 05:49",
+   "a": "Q2 04:01",
+   "marcador": "21-23 → 31-23",
+   "quintet": "C.PINTO / J.RUEDA / M.AKULLU / P.SARAVIA / R.COTANO",
+   "quintet_rival": "A.PEREZ / J.NAVARRO / K.BENITEZ / L.SOARES / S.KOSAREVA",
+   "temps_mort": [
+    "Q2 04:18"
+   ]
+  },
+  {
+   "id": 2524488,
+   "equip": "DOMUSA TEKNIK ISB",
+   "punts": 10,
+   "de": "Q1 06:53",
+   "a": "Q1 03:56",
+   "marcador": "5-8 → 15-8",
+   "quintet": "A.MASTRAL / A.NDIBA / G.LEAUPEPE / L.FINAU / M.GUTIERREZ",
+   "quintet_rival": "B.JACKSON / C.ARFINENGO / J.GOMEZ / L.CAMPOS / L.RUIZ",
+   "temps_mort": []
+  },
+  {
+   "id": 2524489,
+   "equip": "MIPELLETYMAS B.F. LEON",
+   "punts": 10,
+   "de": "Q3 02:44",
+   "a": "Q3 00:08",
+   "marcador": "37-66 → 47-66",
+   "quintet": "A.MARTIN / D.DÍAZ / J.MARTINEZ / L.MELERO / M.FERRERAS",
+   "quintet_rival": "A.ELSO / A.WONE / C.CAPELLAN / C.LANGARITA / P.GARCIA",
+   "temps_mort": []
+  },
+  {
+   "id": 2524490,
+   "equip": "BOSONIT UNIBASKET",
+   "punts": 10,
+   "de": "Q3 07:48",
+   "a": "Q3 04:16",
+   "marcador": "37-44 → 47-44",
+   "quintet": "C.ALDECOA / E.JACQUOT / L.GUTIERREZ / N.ZUBIAGA / S.HART",
+   "quintet_rival": "A.BADOSA / E.MORALES / L.SOLER / M.AGUADO / M.SERRACANTA",
+   "temps_mort": [
+    "Q3 04:16"
+   ]
+  },
+  {
+   "id": 2524492,
+   "equip": "C.B. AL-QAZERES EXTREMADURA",
+   "punts": 10,
+   "de": "Q2 09:49",
+   "a": "Q2 06:29",
+   "marcador": "19-19 → 19-29",
+   "quintet": "C.FERREIRA / C.PRATTER / C.PRIETO / L.SALMERON / N.LISTE",
+   "quintet_rival": "A.NARANJO / A.NEGRIN / M.BARNEDA / M.HERMOSO / M.ROSALES",
+   "temps_mort": [
+    "Q2 07:33"
+   ]
+  },
+  {
+   "id": 2524489,
+   "equip": "MIPELLETYMAS B.F. LEON",
+   "punts": 9,
+   "de": "Q4 09:03",
+   "a": "Q4 06:31",
+   "marcador": "47-69 → 56-69",
+   "quintet": "D.DÍAZ / L.MELERO / L.RODRIGUEZ / M.FERRERAS / S.CASTRO",
+   "quintet_rival": "A.WONE / C.GARCIA / C.LANGARITA / P.GARCIA / S.SMITH",
+   "temps_mort": [
+    "Q4 07:54"
+   ]
+  },
+  {
+   "id": 2524492,
+   "equip": "C.B. AL-QAZERES EXTREMADURA",
+   "punts": 9,
+   "de": "Q1 06:32",
+   "a": "Q1 04:27",
+   "marcador": "7-6 → 7-15",
+   "quintet": "C.GONZALEZ / C.PRATTER / C.SUÁREZ / M.BARATA / N.LISTE",
+   "quintet_rival": "F.BOHRÉ / M.GOMEZ / S.BASAEZ / S.CASTRO / T.BROWN",
+   "temps_mort": [
+    "Q1 05:52"
+   ]
+  },
+  {
+   "id": 2524492,
+   "equip": "LA LAGUNA TOYOTA ADAREVA",
+   "punts": 9,
+   "de": "Q2 06:17",
+   "a": "Q2 05:10",
+   "marcador": "19-29 → 28-29",
+   "quintet": "M.BARNEDA / M.GOMEZ / S.BASAEZ / S.CASTRO / T.BROWN",
+   "quintet_rival": "A.SUBIRATS / C.FERREIRA / C.GONZALEZ / C.PRATTER / L.SALMERON",
+   "temps_mort": [
+    "Q2 05:59"
+   ]
+  },
+  {
+   "id": 2524489,
+   "equip": "OSES CONSTRUCCION",
+   "punts": 8,
+   "de": "Q2 09:10",
+   "a": "Q2 06:03",
+   "marcador": "23-26 → 23-34",
+   "quintet": "A.WONE / C.CAPELLAN / C.GARCIA / M.BLANCO / P.GARCIA",
+   "quintet_rival": "C.CELAYA / D.DÍAZ / F.DEMBELE / L.MELERO / P.VAQUERA",
+   "temps_mort": [
+    "Q2 07:29"
+   ]
+  }
+ ],
+ "individuals": [
+  {
+   "id": 2524489,
+   "equip": "OSES CONSTRUCCION",
+   "jugadora": "C. CAPELLAN SANTANA",
+   "min": 30.27,
+   "PT": 30,
+   "REB": 5,
+   "AS": 6,
+   "BP": 4,
+   "T2": "5/5",
+   "T3": "4/10",
+   "TL": "8/8",
+   "VAL": 37,
+   "pm": 25,
+   "doble_doble": false,
+   "TS": 0.81,
+   "VAL_mitjana": 10,
+   "z": 2.83,
+   "partits_previs": 4
+  },
+  {
+   "id": 2524492,
+   "equip": "C.B. AL-QAZERES EXTREMADURA",
+   "jugadora": "N. LISTE ALFONSIN",
+   "min": 32.43,
+   "PT": 18,
+   "REB": 13,
+   "AS": 0,
+   "BP": 0,
+   "T2": "7/10",
+   "T3": "0/1",
+   "TL": "4/7",
+   "VAL": 27,
+   "pm": -13,
+   "doble_doble": true,
+   "TS": 0.639,
+   "VAL_mitjana": 27.75,
+   "z": -0.06,
+   "partits_previs": 4
+  },
+  {
+   "id": 2524492,
+   "equip": "LA LAGUNA TOYOTA ADAREVA",
+   "jugadora": "S. CASTRO MARRERO",
+   "min": 33.67,
+   "PT": 21,
+   "REB": 8,
+   "AS": 1,
+   "BP": 4,
+   "T2": "2/7",
+   "T3": "3/8",
+   "TL": "8/12",
+   "VAL": 22,
+   "pm": 4,
+   "doble_doble": false,
+   "TS": 0.518,
+   "VAL_mitjana": 21,
+   "z": 0.1,
+   "partits_previs": 4
+  },
+  {
+   "id": 2524490,
+   "equip": "MCR LIMA-HORTA BARCELONA",
+   "jugadora": "E. MORALES LÓPEZ",
+   "min": 29.2,
+   "PT": 16,
+   "REB": 10,
+   "AS": 0,
+   "BP": 3,
+   "T2": "4/7",
+   "T3": "1/2",
+   "TL": "5/10",
+   "VAL": 21,
+   "pm": 10,
+   "doble_doble": true,
+   "TS": 0.597,
+   "VAL_mitjana": 13,
+   "z": 3.02,
+   "partits_previs": 3
+  },
+  {
+   "id": 2524493,
+   "equip": "SEVILLA CAJASOL GARDENSTORE BALONCESTO",
+   "jugadora": "M. DAVYDOVA",
+   "min": 29.37,
+   "PT": 17,
+   "REB": 7,
+   "AS": 2,
+   "BP": 3,
+   "T2": "5/9",
+   "T3": "0/0",
+   "TL": "7/10",
+   "VAL": 21,
+   "pm": 9,
+   "doble_doble": false,
+   "TS": 0.634,
+   "VAL_mitjana": 13.25,
+   "z": 2.28,
+   "partits_previs": 4
+  },
+  {
+   "id": 2524491,
+   "equip": "SPAR GRAN CANARIA",
+   "jugadora": "T. EZEANATOGU EZEONU",
+   "min": 34.93,
+   "PT": 13,
+   "REB": 5,
+   "AS": 5,
+   "BP": 2,
+   "T2": "6/9",
+   "T3": "0/0",
+   "TL": "1/1",
+   "VAL": 20,
+   "pm": 0,
+   "doble_doble": false,
+   "TS": 0.689,
+   "VAL_mitjana": 8.5,
+   "z": 1.61,
+   "partits_previs": 4
+  },
+  {
+   "id": 2524494,
+   "equip": "MELILLA CIUDAD DEL DEPORTE LA SALLE",
+   "jugadora": "J. EDWARDS",
+   "min": 23.03,
+   "PT": 19,
+   "REB": 10,
+   "AS": 0,
+   "BP": 1,
+   "T2": "8/17",
+   "T3": "0/0",
+   "TL": "3/5",
+   "VAL": 20,
+   "pm": 16,
+   "doble_doble": true,
+   "TS": 0.495,
+   "VAL_mitjana": 17.75,
+   "z": 0.23,
+   "partits_previs": 4
+  },
+  {
+   "id": 2524487,
+   "equip": "CLUB JOVENTUT BADALONA",
+   "jugadora": "J. RUEDA CHONI",
+   "min": 26.18,
+   "PT": 12,
+   "REB": 7,
+   "AS": 4,
+   "BP": 1,
+   "T2": "3/6",
+   "T3": "2/4",
+   "TL": "0/0",
+   "VAL": 19,
+   "pm": 1,
+   "doble_doble": false,
+   "TS": 0.6,
+   "VAL_mitjana": 8,
+   "z": 1.46,
+   "partits_previs": 3
+  },
+  {
+   "id": 2524489,
+   "equip": "OSES CONSTRUCCION",
+   "jugadora": "A. WONE ARANAZ",
+   "min": 27.67,
+   "PT": 20,
+   "REB": 7,
+   "AS": 0,
+   "BP": 2,
+   "T2": "5/13",
+   "T3": "2/2",
+   "TL": "4/6",
+   "VAL": 19,
+   "pm": 17,
+   "doble_doble": false,
+   "TS": 0.567,
+   "VAL_mitjana": 8.5,
+   "z": 1.81,
+   "partits_previs": 4
+  },
+  {
+   "id": 2524492,
+   "equip": "LA LAGUNA TOYOTA ADAREVA",
+   "jugadora": "T. BROWN",
+   "min": 31.33,
+   "PT": 13,
+   "REB": 15,
+   "AS": 2,
+   "BP": 3,
+   "T2": "6/15",
+   "T3": "0/0",
+   "TL": "1/2",
+   "VAL": 19,
+   "pm": 9,
+   "doble_doble": true,
+   "TS": 0.409,
+   "VAL_mitjana": 5.67,
+   "z": 3.52,
+   "partits_previs": 3
+  },
+  {
+   "id": 2524493,
+   "equip": "UNICAJA MIJAS",
+   "jugadora": "A. ZUÑIGA RODRIGUEZ",
+   "min": 33.18,
+   "PT": 20,
+   "REB": 4,
+   "AS": 4,
+   "BP": 2,
+   "T2": "4/11",
+   "T3": "2/5",
+   "TL": "6/8",
+   "VAL": 19,
+   "pm": 1,
+   "doble_doble": false,
+   "TS": 0.512,
+   "VAL_mitjana": 10.25,
+   "z": 1.53,
+   "partits_previs": 4
+  },
+  {
+   "id": 2524488,
+   "equip": "DOMUSA TEKNIK ISB",
+   "jugadora": "G. LEAUPEPE",
+   "min": 19.63,
+   "PT": 18,
+   "REB": 2,
+   "AS": 1,
+   "BP": 5,
+   "T2": "1/3",
+   "T3": "4/4",
+   "TL": "4/4",
+   "VAL": 18,
+   "pm": 15,
+   "doble_doble": false,
+   "TS": 1.027,
+   "VAL_mitjana": 12.33,
+   "z": 1.4,
+   "partits_previs": 3
+  },
+  {
+   "id": 2524488,
+   "equip": "DOMUSA TEKNIK ISB",
+   "jugadora": "M. FALL",
+   "min": 18.55,
+   "PT": 10,
+   "REB": 10,
+   "AS": 0,
+   "BP": 2,
+   "T2": "4/8",
+   "T3": "0/0",
+   "TL": "2/5",
+   "VAL": 18,
+   "pm": 18,
+   "doble_doble": true,
+   "TS": 0.49,
+   "VAL_mitjana": 6,
+   "z": 1.22,
+   "partits_previs": 3
+  },
+  {
+   "id": 2524489,
+   "equip": "OSES CONSTRUCCION",
+   "jugadora": "C. GARCIA PAUNERO",
+   "min": 29.95,
+   "PT": 13,
+   "REB": 8,
+   "AS": 1,
+   "BP": 1,
+   "T2": "2/3",
+   "T3": "3/7",
+   "TL": "0/0",
+   "VAL": 18,
+   "pm": 36,
+   "doble_doble": false,
+   "TS": 0.65,
+   "VAL_mitjana": 14.5,
+   "z": 0.4,
+   "partits_previs": 4
+  },
+  {
+   "id": 2524490,
+   "equip": "MCR LIMA-HORTA BARCELONA",
+   "jugadora": "M. AGUADO TORTELLA",
+   "min": 29.13,
+   "PT": 12,
+   "REB": 5,
+   "AS": 2,
+   "BP": 0,
+   "T2": "2/8",
+   "T3": "2/2",
+   "TL": "2/3",
+   "VAL": 18,
+   "pm": 8,
+   "doble_doble": false,
+   "TS": 0.53,
+   "VAL_mitjana": 7,
+   "z": 1.76,
+   "partits_previs": 3
+  },
+  {
+   "id": 2524494,
+   "equip": "MELILLA CIUDAD DEL DEPORTE LA SALLE",
+   "jugadora": "C. GARCIA MUÑOZ",
+   "min": 16.97,
+   "PT": 15,
+   "REB": 3,
+   "AS": 1,
+   "BP": 2,
+   "T2": "5/7",
+   "T3": "0/0",
+   "TL": "5/7",
+   "VAL": 18,
+   "pm": 15,
+   "doble_doble": false,
+   "TS": 0.744,
+   "VAL_mitjana": 6,
+   "z": 1.32,
+   "partits_previs": 4
+  },
+  {
+   "id": 2524489,
+   "equip": "MIPELLETYMAS B.F. LEON",
+   "jugadora": "J. MARTINEZ LLAMAZARES",
+   "min": 30.0,
+   "PT": 19,
+   "REB": 3,
+   "AS": 1,
+   "BP": 3,
+   "T2": "1/3",
+   "T3": "5/8",
+   "TL": "2/3",
+   "VAL": 17,
+   "pm": -9,
+   "doble_doble": false,
+   "TS": 0.771,
+   "VAL_mitjana": 10.25,
+   "z": 1.06,
+   "partits_previs": 4
+  },
+  {
+   "id": 2524491,
+   "equip": "SPAR GRAN CANARIA",
+   "jugadora": "J. NOBLE",
+   "min": 25.63,
+   "PT": 10,
+   "REB": 11,
+   "AS": 1,
+   "BP": 1,
+   "T2": "0/1",
+   "T3": "2/11",
+   "TL": "4/6",
+   "VAL": 14,
+   "pm": 5,
+   "doble_doble": true,
+   "TS": 0.342,
+   "VAL_mitjana": 11.5,
+   "z": 3.54,
+   "partits_previs": 2
+  },
+  {
+   "id": 2524492,
+   "equip": "C.B. AL-QAZERES EXTREMADURA",
+   "jugadora": "C. PRATTER",
+   "min": 33.67,
+   "PT": 18,
+   "REB": 13,
+   "AS": 2,
+   "BP": 6,
+   "T2": "5/15",
+   "T3": "2/7",
+   "TL": "2/6",
+   "VAL": 12,
+   "pm": -13,
+   "doble_doble": true,
+   "TS": 0.365,
+   "VAL_mitjana": 21,
+   "z": -2.53,
+   "partits_previs": 4
+  }
+ ],
+ "finals_ajustats": [
+  {
+   "id": 2524490,
+   "equips": [
+    "BOSONIT UNIBASKET",
+    "MCR LIMA-HORTA BARCELONA"
+   ],
+   "marcador": [
+    63,
+    69
+   ],
+   "marge_a_5_min": -1,
+   "marge_minim": 0,
+   "clutch": {
+    "minuts": 4.4,
+    "parcial": "BOSONIT UNIBASKET 7-12 MCR LIMA-HORTA BARCELONA",
+    "destacada": "M. AGUADO TORTELLA"
+   }
+  },
+  {
+   "id": 2524491,
+   "equips": [
+    "SPAR GRAN CANARIA",
+    "SPARKING TRUTH MARISTAS"
+   ],
+   "marcador": [
+    69,
+    65
+   ],
+   "marge_a_5_min": -2,
+   "marge_minim": 0,
+   "clutch": {
+    "minuts": 5.0,
+    "parcial": "SPAR GRAN CANARIA 12-6 SPARKING TRUTH MARISTAS",
+    "destacada": "L. PEREZ CASTRO"
+   }
+  }
+ ],
+ "quintets": [
+  {
+   "id": 2524487,
+   "equip": "CLUB JOVENTUT BADALONA",
+   "mes_usat": {
+    "quintet": "A.MICHEAUX / C.PINTO / J.RUEDA / N.DIARRA / R.COTANO",
+    "minuts": 6.9,
+    "dif": -6
+   },
+   "millor": {
+    "quintet": "C.PINTO / J.RUEDA / M.AKULLU / P.SARAVIA / R.COTANO",
+    "minuts": 5.4,
+    "dif": 9
+   },
+   "pitjor": {
+    "quintet": "A.MICHEAUX / C.PINTO / J.RUEDA / N.DIARRA / R.COTANO",
+    "minuts": 6.9,
+    "dif": -6
+   }
+  },
+  {
+   "id": 2524487,
+   "equip": "RECOLETAS ZAMORA",
+   "mes_usat": {
+    "quintet": "A.PEREZ / E.ASPAJO / K.BENITEZ / L.SOARES / S.KOSAREVA",
+    "minuts": 8.4,
+    "dif": 7
+   },
+   "millor": {
+    "quintet": "A.HERNANGOMEZ / C.PEREZ / E.ASPAJO / J.NAVARRO / K.BENITEZ",
+    "minuts": 4.2,
+    "dif": 9
+   },
+   "pitjor": {
+    "quintet": "A.HERNANGOMEZ / A.PEREZ / K.BENITEZ / L.SOARES / S.KOSAREVA",
+    "minuts": 4.2,
+    "dif": -1
+   }
+  },
+  {
+   "id": 2524488,
+   "equip": "DOMUSA TEKNIK ISB",
+   "mes_usat": {
+    "quintet": "A.MASTRAL / A.NDIBA / G.LEAUPEPE / L.FINAU / M.GUTIERREZ",
+    "minuts": 4.9,
+    "dif": 2
+   },
+   "millor": {
+    "quintet": "A.MASTRAL / A.NDIBA / G.LEAUPEPE / L.FINAU / M.GUTIERREZ",
+    "minuts": 4.9,
+    "dif": 2
+   },
+   "pitjor": {
+    "quintet": "A.MASTRAL / A.NDIBA / G.LEAUPEPE / L.FINAU / M.GUTIERREZ",
+    "minuts": 4.9,
+    "dif": 2
+   }
+  },
+  {
+   "id": 2524488,
+   "equip": "FUSTECMA NBF CASTELLÓ",
+   "mes_usat": {
+    "quintet": "B.JACKSON / C.ARFINENGO / J.GOMEZ / L.CAMPOS / L.RUIZ",
+    "minuts": 7.1,
+    "dif": -2
+   },
+   "millor": {
+    "quintet": "B.JACKSON / C.ARFINENGO / J.GOMEZ / L.CAMPOS / L.RUIZ",
+    "minuts": 7.1,
+    "dif": -2
+   },
+   "pitjor": {
+    "quintet": "B.JACKSON / C.ARFINENGO / J.GOMEZ / L.CAMPOS / L.RUIZ",
+    "minuts": 7.1,
+    "dif": -2
+   }
+  },
+  {
+   "id": 2524489,
+   "equip": "MIPELLETYMAS B.F. LEON",
+   "mes_usat": {
+    "quintet": "D.DÍAZ / L.MELERO / L.RODRIGUEZ / M.FERRERAS / S.CASTRO",
+    "minuts": 4.8,
+    "dif": 1
+   },
+   "millor": {
+    "quintet": "C.CELAYA / F.DEMBELE / J.MARTINEZ / L.MELERO / M.FERRERAS",
+    "minuts": 4.4,
+    "dif": 4
+   },
+   "pitjor": {
+    "quintet": "D.DÍAZ / L.MELERO / L.RODRIGUEZ / M.FERRERAS / S.CASTRO",
+    "minuts": 4.8,
+    "dif": 1
+   }
+  },
+  {
+   "id": 2524489,
+   "equip": "OSES CONSTRUCCION",
+   "mes_usat": {
+    "quintet": "A.WONE / C.CAPELLAN / C.GARCIA / M.BLANCO / V.GAUNA",
+    "minuts": 13.3,
+    "dif": 20
+   },
+   "millor": {
+    "quintet": "A.WONE / C.CAPELLAN / C.GARCIA / M.BLANCO / V.GAUNA",
+    "minuts": 13.3,
+    "dif": 20
+   },
+   "pitjor": {
+    "quintet": "A.WONE / C.CAPELLAN / C.GARCIA / M.BLANCO / V.GAUNA",
+    "minuts": 13.3,
+    "dif": 20
+   }
+  },
+  {
+   "id": 2524490,
+   "equip": "BOSONIT UNIBASKET",
+   "mes_usat": {
+    "quintet": "C.ALDECOA / E.JACQUOT / L.GUTIERREZ / M.ALONSO / S.HART",
+    "minuts": 5.5,
+    "dif": -2
+   },
+   "millor": {
+    "quintet": "C.ALDECOA / E.JACQUOT / L.GUTIERREZ / M.ALONSO / S.HART",
+    "minuts": 5.5,
+    "dif": -2
+   },
+   "pitjor": {
+    "quintet": "C.ALDECOA / E.JACQUOT / L.GUTIERREZ / M.ALONSO / S.HART",
+    "minuts": 5.5,
+    "dif": -2
+   }
+  },
+  {
+   "id": 2524490,
+   "equip": "MCR LIMA-HORTA BARCELONA",
+   "mes_usat": {
+    "quintet": "A.BADOSA / E.MORALES / L.ROIG / M.AGUADO / X.SALZMANN",
+    "minuts": 7.9,
+    "dif": 9
+   },
+   "millor": {
+    "quintet": "A.BADOSA / E.MORALES / L.ROIG / M.AGUADO / X.SALZMANN",
+    "minuts": 7.9,
+    "dif": 9
+   },
+   "pitjor": {
+    "quintet": "A.BADOSA / E.MORALES / L.ROIG / M.AGUADO / X.SALZMANN",
+    "minuts": 7.9,
+    "dif": 9
+   }
+  },
+  {
+   "id": 2524491,
+   "equip": "SPAR GRAN CANARIA",
+   "mes_usat": {
+    "quintet": "A.MBENGUE / M.DOUMBIA / T.EZEANATOGU / T.GONZALEZ / V.MONTERO",
+    "minuts": 6.8,
+    "dif": 2
+   },
+   "millor": {
+    "quintet": "J.NOBLE / L.TOURE / M.DOUMBIA / T.GONZALEZ / V.MONTERO",
+    "minuts": 4.0,
+    "dif": 8
+   },
+   "pitjor": {
+    "quintet": "A.MBENGUE / M.DOUMBIA / T.EZEANATOGU / T.GONZALEZ / V.MONTERO",
+    "minuts": 6.8,
+    "dif": 2
+   }
+  },
+  {
+   "id": 2524491,
+   "equip": "SPARKING TRUTH MARISTAS",
+   "mes_usat": {
+    "quintet": "A.COULIBALY / A.JIMENEZ / A.TUHINA / B.FONTANA / N.DIMITRIJEVIC",
+    "minuts": 6.3,
+    "dif": 9
+   },
+   "millor": {
+    "quintet": "A.COULIBALY / A.JIMENEZ / A.TUHINA / B.FONTANA / N.DIMITRIJEVIC",
+    "minuts": 6.3,
+    "dif": 9
+   },
+   "pitjor": {
+    "quintet": "A.TUHINA / E.FILGUEIRA / M.NGNAWO / N.RIOS / R.BOTANA",
+    "minuts": 5.2,
+    "dif": 6
+   }
+  },
+  {
+   "id": 2524492,
+   "equip": "LA LAGUNA TOYOTA ADAREVA",
+   "mes_usat": {
+    "quintet": "F.BOHRÉ / M.GOMEZ / S.BASAEZ / S.CASTRO / T.BROWN",
+    "minuts": 13.8,
+    "dif": 5
+   },
+   "millor": {
+    "quintet": "F.BOHRÉ / M.GOMEZ / S.BASAEZ / S.CASTRO / T.BROWN",
+    "minuts": 13.8,
+    "dif": 5
+   },
+   "pitjor": {
+    "quintet": "F.BOHRÉ / M.GOMEZ / S.BASAEZ / S.CASTRO / T.BROWN",
+    "minuts": 13.8,
+    "dif": 5
+   }
+  },
+  {
+   "id": 2524492,
+   "equip": "C.B. AL-QAZERES EXTREMADURA",
+   "mes_usat": {
+    "quintet": "C.GONZALEZ / C.PRATTER / C.SUÁREZ / M.BARATA / N.LISTE",
+    "minuts": 9.9,
+    "dif": -3
+   },
+   "millor": {
+    "quintet": "A.SUBIRATS / C.PRATTER / C.PRIETO / L.SALMERON / N.LISTE",
+    "minuts": 4.8,
+    "dif": 5
+   },
+   "pitjor": {
+    "quintet": "C.GONZALEZ / C.PRATTER / C.SUÁREZ / M.BARATA / N.LISTE",
+    "minuts": 9.9,
+    "dif": -3
+   }
+  },
+  {
+   "id": 2524493,
+   "equip": "SEVILLA CAJASOL GARDENSTORE BALONCESTO",
+   "mes_usat": {
+    "quintet": "A.MARTIN / A.PRIM / L.VAN / M.DAVYDOVA / T.SIDBERRY",
+    "minuts": 11.5,
+    "dif": 14
+   },
+   "millor": {
+    "quintet": "A.MARTIN / A.PRIM / L.VAN / M.DAVYDOVA / T.SIDBERRY",
+    "minuts": 11.5,
+    "dif": 14
+   },
+   "pitjor": {
+    "quintet": "A.MARTIN / A.OROIS / L.VAN / M.DAVYDOVA / T.SIDBERRY",
+    "minuts": 10.2,
+    "dif": 5
+   }
+  },
+  {
+   "id": 2524493,
+   "equip": "UNICAJA MIJAS",
+   "mes_usat": {
+    "quintet": "A.ZUÑIGA / E.GABA / F.PARRA / L.VINDEL / S.ARCOS",
+    "minuts": 6.6,
+    "dif": -1
+   },
+   "millor": {
+    "quintet": "A.ZUÑIGA / E.GABA / F.PARRA / L.VINDEL / S.ARCOS",
+    "minuts": 6.6,
+    "dif": -1
+   },
+   "pitjor": {
+    "quintet": "D.REIS / F.PARRA / S.AFONSO / S.GALERON / S.SAMUEL",
+    "minuts": 6.3,
+    "dif": -11
+   }
+  },
+  {
+   "id": 2524494,
+   "equip": "MELILLA CIUDAD DEL DEPORTE LA SALLE",
+   "mes_usat": {
+    "quintet": "I.ARAÚJO / J.EDWARDS / L.FONTELA / L.MOYA / R.LEHTORANTA",
+    "minuts": 10.8,
+    "dif": 9
+   },
+   "millor": {
+    "quintet": "A.ALCANTARA / A.SENOSIAIN / C.GARCIA / E.MORENO / M.SANOGO",
+    "minuts": 4.8,
+    "dif": 11
+   },
+   "pitjor": {
+    "quintet": "I.ARAÚJO / J.EDWARDS / L.FONTELA / L.MOYA / R.LEHTORANTA",
+    "minuts": 10.8,
+    "dif": 9
+   }
+  },
+  {
+   "id": 2524494,
+   "equip": "VALENCIA BASKET",
+   "mes_usat": {
+    "quintet": "A.ALONSO / C.CHE / C.WILLIAMS / L.SEGURA / P.REYNAL",
+    "minuts": 4.5,
+    "dif": -3
+   },
+   "millor": {
+    "quintet": "A.ALONSO / C.CHE / C.WILLIAMS / L.SEGURA / P.REYNAL",
+    "minuts": 4.5,
+    "dif": -3
+   },
+   "pitjor": {
+    "quintet": "A.ALONSO / C.CHE / C.WILLIAMS / L.SEGURA / P.REYNAL",
+    "minuts": 4.5,
+    "dif": -3
+   }
+  }
+ ],
+ "classificacio": [
+  {
+   "equip": "OSES CONSTRUCCION",
+   "V": 5,
+   "D": 0
+  },
+  {
+   "equip": "SEVILLA CAJASOL GARDENSTORE BALONCESTO",
+   "V": 5,
+   "D": 0
+  },
+  {
+   "equip": "C.B. AL-QAZERES EXTREMADURA",
+   "V": 3,
+   "D": 2
+  },
+  {
+   "equip": "CLUB JOVENTUT BADALONA",
+   "V": 3,
+   "D": 1
+  },
+  {
+   "equip": "MCR LIMA-HORTA BARCELONA",
+   "V": 3,
+   "D": 1
+  },
+  {
+   "equip": "MELILLA CIUDAD DEL DEPORTE LA SALLE",
+   "V": 3,
+   "D": 2
+  },
+  {
+   "equip": "RECOLETAS ZAMORA",
+   "V": 3,
+   "D": 2
+  },
+  {
+   "equip": "DOMUSA TEKNIK ISB",
+   "V": 2,
+   "D": 2
+  },
+  {
+   "equip": "LA LAGUNA TOYOTA ADAREVA",
+   "V": 2,
+   "D": 3
+  },
+  {
+   "equip": "MIPELLETYMAS B.F. LEON",
+   "V": 2,
+   "D": 3
+  },
+  {
+   "equip": "SPAR GRAN CANARIA",
+   "V": 2,
+   "D": 3
+  },
+  {
+   "equip": "SPARKING TRUTH MARISTAS",
+   "V": 2,
+   "D": 3
+  },
+  {
+   "equip": "UNICAJA MIJAS",
+   "V": 2,
+   "D": 3
+  },
+  {
+   "equip": "BOSONIT UNIBASKET",
+   "V": 1,
+   "D": 4
+  },
+  {
+   "equip": "FUSTECMA NBF CASTELLÓ",
+   "V": 0,
+   "D": 5
+  },
+  {
+   "equip": "VALENCIA BASKET",
+   "V": 0,
+   "D": 4
+  }
+ ],
+ "avis": []
+}
