@@ -58,95 +58,47 @@
   2522830
  ],
  "ids_method": 2,
- "generated": "2026-11-04T12:44:15.314136+00:00",
+ "generated": "2026-11-05T12:57:27.167440+00:00",
  "games": [
   {
    "id": 2522823,
-   "teams": null,
-   "score": null,
    "error": "sense_acta",
-   "date": "06/11/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "date": "06/11/2026"
   },
   {
    "id": 2522824,
-   "teams": null,
-   "score": null,
    "error": "sense_acta",
-   "date": "06/11/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "date": "06/11/2026"
   },
   {
    "id": 2522825,
-   "teams": null,
-   "score": null,
    "error": "sense_acta",
-   "date": "06/11/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "date": "06/11/2026"
   },
   {
    "id": 2522826,
-   "teams": null,
-   "score": null,
    "error": "sense_acta",
-   "date": "06/11/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "date": "06/11/2026"
   },
   {
    "id": 2522827,
-   "teams": null,
-   "score": null,
    "error": "sense_acta",
-   "date": "06/11/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "date": "06/11/2026"
   },
   {
    "id": 2522828,
-   "teams": null,
-   "score": null,
    "error": "sense_acta",
-   "date": "06/11/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "date": "06/11/2026"
   },
   {
    "id": 2522829,
-   "teams": null,
-   "score": null,
    "error": "sense_acta",
-   "date": "06/11/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "date": "06/11/2026"
   },
   {
    "id": 2522830,
-   "teams": null,
-   "score": null,
    "error": "sense_acta",
-   "date": "06/11/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "date": "06/11/2026"
   }
  ]
 }
