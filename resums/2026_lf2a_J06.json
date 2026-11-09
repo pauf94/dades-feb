@@ -1,0 +1,1876 @@
+{
+ "jornada": 6,
+ "partits": [
+  {
+   "id": 2524732,
+   "equips": [
+    "DPES-SUMIALKI CB CIUDAD DE MOSTOLES",
+    "CB ISLA BONITA SANO SANO CATERING"
+   ],
+   "marcador": [
+    52,
+    57
+   ],
+   "data": "08/11/2026",
+   "parcials": [
+    "12/9",
+    "8/19",
+    "18/11",
+    "14/18"
+   ],
+   "metriques": [
+    {
+     "PF": 52,
+     "PR": 57,
+     "poss": 73.8,
+     "ritme": 73.34,
+     "OER": 0.7046,
+     "DER": 0.7821,
+     "eFG": 0.4018,
+     "eFG_riv": 0.3519,
+     "pRO": 0.1944,
+     "pRD": 0.5556,
+     "pBP": 0.2168,
+     "pBP_riv": 0.3156,
+     "FTr": 0.3571,
+     "t3r": 0.5,
+     "pT2": 0.4286,
+     "pT3": 0.25,
+     "pTL": 0.35,
+     "pAS": 0.7368,
+     "RO": 7,
+     "BP": 16,
+     "BR": 9,
+     "AS": 14,
+     "net": -0.0775
+    },
+    {
+     "PF": 57,
+     "PR": 52,
+     "poss": 72.88,
+     "ritme": 73.34,
+     "OER": 0.7821,
+     "DER": 0.7046,
+     "eFG": 0.3519,
+     "eFG_riv": 0.4018,
+     "pRO": 0.4444,
+     "pRD": 0.8056,
+     "pBP": 0.3156,
+     "pBP_riv": 0.2168,
+     "FTr": 0.5,
+     "t3r": 0.4259,
+     "pT2": 0.4194,
+     "pT3": 0.1739,
+     "pTL": 0.7037,
+     "pAS": 0.5294,
+     "RO": 16,
+     "BP": 23,
+     "BR": 12,
+     "AS": 9,
+     "net": 0.0775
+    }
+   ]
+  },
+  {
+   "id": 2524733,
+   "equips": [
+    "CESUR DISTRITO OLIMPICO",
+    "SPAR GRAN CANARIA"
+   ],
+   "marcador": [
+    85,
+    54
+   ],
+   "data": "07/11/2026",
+   "parcials": [
+    "18/13",
+    "23/8",
+    "23/20",
+    "21/13"
+   ],
+   "metriques": [
+    {
+     "PF": 85,
+     "PR": 54,
+     "poss": 83.48,
+     "ritme": 82.82,
+     "OER": 1.0182,
+     "DER": 0.6573,
+     "eFG": 0.4458,
+     "eFG_riv": 0.371,
+     "pRO": 0.5814,
+     "pRD": 0.8205,
+     "pBP": 0.2156,
+     "pBP_riv": 0.2556,
+     "FTr": 0.2048,
+     "t3r": 0.3855,
+     "pT2": 0.4902,
+     "pT3": 0.25,
+     "pTL": 0.6471,
+     "pAS": 0.5758,
+     "RO": 25,
+     "BP": 18,
+     "BR": 16,
+     "AS": 19,
+     "net": 0.361
+    },
+    {
+     "PF": 54,
+     "PR": 85,
+     "poss": 82.16,
+     "ritme": 82.82,
+     "OER": 0.6573,
+     "DER": 1.0182,
+     "eFG": 0.371,
+     "eFG_riv": 0.4458,
+     "pRO": 0.1795,
+     "pRD": 0.4186,
+     "pBP": 0.2556,
+     "pBP_riv": 0.2156,
+     "FTr": 0.2258,
+     "t3r": 0.2097,
+     "pT2": 0.4082,
+     "pT3": 0.1538,
+     "pTL": 0.5714,
+     "pAS": 0.6364,
+     "RO": 7,
+     "BP": 21,
+     "BR": 12,
+     "AS": 14,
+     "net": -0.361
+    }
+   ]
+  },
+  {
+   "id": 2524734,
+   "equips": [
+    "HIERROS DÍAZ EXTREMADURA MIRALVALLE",
+    "ACEITES ABRIL ADBA SANFER"
+   ],
+   "marcador": [
+    76,
+    72
+   ],
+   "data": "07/11/2026",
+   "parcials": [
+    "21/16",
+    "25/21",
+    "10/15",
+    "20/20"
+   ],
+   "metriques": [
+    {
+     "PF": 76,
+     "PR": 72,
+     "poss": 84.36,
+     "ritme": 81.42,
+     "OER": 0.9009,
+     "DER": 0.9174,
+     "eFG": 0.4384,
+     "eFG_riv": 0.5081,
+     "pRO": 0.1538,
+     "pRD": 0.7714,
+     "pBP": 0.1067,
+     "pBP_riv": 0.2166,
+     "FTr": 0.2603,
+     "t3r": 0.2466,
+     "pT2": 0.5273,
+     "pT3": 0.1111,
+     "pTL": 0.6316,
+     "pAS": 0.2581,
+     "RO": 6,
+     "BP": 9,
+     "BR": 8,
+     "AS": 8,
+     "net": -0.0165
+    },
+    {
+     "PF": 72,
+     "PR": 76,
+     "poss": 78.48,
+     "ritme": 81.42,
+     "OER": 0.9174,
+     "DER": 0.9009,
+     "eFG": 0.5081,
+     "eFG_riv": 0.4384,
+     "pRO": 0.2286,
+     "pRD": 0.8462,
+     "pBP": 0.2166,
+     "pBP_riv": 0.1067,
+     "FTr": 0.2742,
+     "t3r": 0.3871,
+     "pT2": 0.4737,
+     "pT3": 0.375,
+     "pTL": 0.5294,
+     "pAS": 0.4815,
+     "RO": 8,
+     "BP": 17,
+     "BR": 3,
+     "AS": 13,
+     "net": 0.0165
+    }
+   ]
+  },
+  {
+   "id": 2524735,
+   "equips": [
+    "EL COCHINILLO SEGOVIANO SL",
+    "CB POZUELO"
+   ],
+   "marcador": [
+    78,
+    47
+   ],
+   "data": "07/11/2026",
+   "parcials": [
+    "19/7",
+    "19/14",
+    "25/12",
+    "15/14"
+   ],
+   "metriques": [
+    {
+     "PF": 78,
+     "PR": 47,
+     "poss": 75.36,
+     "ritme": 71.76,
+     "OER": 1.035,
+     "DER": 0.6896,
+     "eFG": 0.4925,
+     "eFG_riv": 0.322,
+     "pRO": 0.4516,
+     "pRD": 0.6667,
+     "pBP": 0.1858,
+     "pBP_riv": 0.2347,
+     "FTr": 0.2836,
+     "t3r": 0.4627,
+     "pT2": 0.5,
+     "pT3": 0.3226,
+     "pTL": 0.6316,
+     "pAS": 0.3571,
+     "RO": 14,
+     "BP": 14,
+     "BR": 8,
+     "AS": 10,
+     "net": 0.3455
+    },
+    {
+     "PF": 47,
+     "PR": 78,
+     "poss": 68.16,
+     "ritme": 71.76,
+     "OER": 0.6896,
+     "DER": 1.035,
+     "eFG": 0.322,
+     "eFG_riv": 0.4925,
+     "pRO": 0.3333,
+     "pRD": 0.5484,
+     "pBP": 0.2347,
+     "pBP_riv": 0.1858,
+     "FTr": 0.2373,
+     "t3r": 0.4407,
+     "pT2": 0.303,
+     "pT3": 0.2308,
+     "pTL": 0.6429,
+     "pAS": 0.5625,
+     "RO": 13,
+     "BP": 16,
+     "BR": 8,
+     "AS": 9,
+     "net": -0.3455
+    }
+   ]
+  },
+  {
+   "id": 2524736,
+   "equips": [
+    "GRUPO INTERBUS ALCOBENDAS",
+    "MAGEC TÍAS LANZAROTE CONTRA LA VIOLENCIA DE GÉNERO"
+   ],
+   "marcador": [
+    87,
+    53
+   ],
+   "data": "07/11/2026",
+   "parcials": [
+    "19/13",
+    "28/12",
+    "24/8",
+    "16/20"
+   ],
+   "metriques": [
+    {
+     "PF": 87,
+     "PR": 53,
+     "poss": 73.6,
+     "ritme": 72.66,
+     "OER": 1.1821,
+     "DER": 0.739,
+     "eFG": 0.4813,
+     "eFG_riv": 0.386,
+     "pRO": 0.5333,
+     "pRD": 0.6129,
+     "pBP": 0.1495,
+     "pBP_riv": 0.2928,
+     "FTr": 0.1875,
+     "t3r": 0.325,
+     "pT2": 0.5185,
+     "pT3": 0.2692,
+     "pTL": 0.6667,
+     "pAS": 0.5429,
+     "RO": 24,
+     "BP": 11,
+     "BR": 16,
+     "AS": 19,
+     "net": 0.4431
+    },
+    {
+     "PF": 53,
+     "PR": 87,
+     "poss": 71.72,
+     "ritme": 72.66,
+     "OER": 0.739,
+     "DER": 1.1821,
+     "eFG": 0.386,
+     "eFG_riv": 0.4813,
+     "pRO": 0.3871,
+     "pRD": 0.4667,
+     "pBP": 0.2928,
+     "pBP_riv": 0.1495,
+     "FTr": 0.2281,
+     "t3r": 0.4912,
+     "pT2": 0.5517,
+     "pT3": 0.1429,
+     "pTL": 0.6923,
+     "pAS": 0.45,
+     "RO": 12,
+     "BP": 21,
+     "BR": 10,
+     "AS": 9,
+     "net": -0.4431
+    }
+   ]
+  },
+  {
+   "id": 2524737,
+   "equips": [
+    "SERNOVA RENOVABLES REAL CANOE",
+    "C.B. LAS ROZAS"
+   ],
+   "marcador": [
+    71,
+    62
+   ],
+   "data": "07/11/2026",
+   "parcials": [
+    "15/14",
+    "22/18",
+    "22/12",
+    "12/18"
+   ],
+   "metriques": [
+    {
+     "PF": 71,
+     "PR": 62,
+     "poss": 74.92,
+     "ritme": 77.28,
+     "OER": 0.9477,
+     "DER": 0.7785,
+     "eFG": 0.4762,
+     "eFG_riv": 0.339,
+     "pRO": 0.375,
+     "pRD": 0.7941,
+     "pBP": 0.2136,
+     "pBP_riv": 0.1758,
+     "FTr": 0.2857,
+     "t3r": 0.2857,
+     "pT2": 0.4667,
+     "pT3": 0.3333,
+     "pTL": 0.6111,
+     "pAS": 0.6296,
+     "RO": 12,
+     "BP": 16,
+     "BR": 9,
+     "AS": 17,
+     "net": 0.1692
+    },
+    {
+     "PF": 62,
+     "PR": 71,
+     "poss": 79.64,
+     "ritme": 77.28,
+     "OER": 0.7785,
+     "DER": 0.9477,
+     "eFG": 0.339,
+     "eFG_riv": 0.4762,
+     "pRO": 0.2059,
+     "pRD": 0.625,
+     "pBP": 0.1758,
+     "pBP_riv": 0.2136,
+     "FTr": 0.5254,
+     "t3r": 0.3051,
+     "pT2": 0.3415,
+     "pT3": 0.2222,
+     "pTL": 0.7097,
+     "pAS": 0.6667,
+     "RO": 7,
+     "BP": 14,
+     "BR": 10,
+     "AS": 12,
+     "net": -0.1692
+    }
+   ]
+  },
+  {
+   "id": 2524738,
+   "equips": [
+    "SIROKO GIJON BASKETBALL",
+    "MARISCOS ANTÓN CORTEGADA"
+   ],
+   "marcador": [
+    45,
+    94
+   ],
+   "data": "07/11/2026",
+   "parcials": [
+    "8/31",
+    "14/23",
+    "8/24",
+    "15/16"
+   ],
+   "metriques": [
+    {
+     "PF": 45,
+     "PR": 94,
+     "poss": 75.8,
+     "ritme": 78.52,
+     "OER": 0.5937,
+     "DER": 1.1571,
+     "eFG": 0.3,
+     "eFG_riv": 0.5062,
+     "pRO": 0.1667,
+     "pRD": 0.6154,
+     "pBP": 0.2902,
+     "pBP_riv": 0.0862,
+     "FTr": 0.4,
+     "t3r": 0.6,
+     "pT2": 0.3,
+     "pT3": 0.2,
+     "pTL": 0.75,
+     "pAS": 0.75,
+     "RO": 5,
+     "BP": 22,
+     "BR": 6,
+     "AS": 9,
+     "net": -0.5634
+    },
+    {
+     "PF": 94,
+     "PR": 45,
+     "poss": 81.24,
+     "ritme": 78.52,
+     "OER": 1.1571,
+     "DER": 0.5937,
+     "eFG": 0.5062,
+     "eFG_riv": 0.3,
+     "pRO": 0.3846,
+     "pRD": 0.8333,
+     "pBP": 0.0862,
+     "pBP_riv": 0.2902,
+     "FTr": 0.2625,
+     "t3r": 0.25,
+     "pT2": 0.5,
+     "pT3": 0.35,
+     "pTL": 0.619,
+     "pAS": 0.5676,
+     "RO": 15,
+     "BP": 7,
+     "BR": 16,
+     "AS": 21,
+     "net": 0.5634
+    }
+   ]
+  }
+ ],
+ "desviacions": [
+  {
+   "equip": "DPES-SUMIALKI CB CIUDAD DE MOSTOLES",
+   "rival": "CB ISLA BONITA SANO SANO CATERING",
+   "metrica": "% rebot ofensiu",
+   "valor": 0.1944,
+   "mitjana": 0.3409,
+   "z": -1.52
+  },
+  {
+   "equip": "DPES-SUMIALKI CB CIUDAD DE MOSTOLES",
+   "rival": "CB ISLA BONITA SANO SANO CATERING",
+   "metrica": "ritme",
+   "valor": 73.34,
+   "mitjana": 78.996,
+   "z": -1.69
+  },
+  {
+   "equip": "CB ISLA BONITA SANO SANO CATERING",
+   "rival": "DPES-SUMIALKI CB CIUDAD DE MOSTOLES",
+   "metrica": "punts rebuts per possessió",
+   "valor": 0.7046,
+   "mitjana": 0.8443,
+   "z": -1.5
+  },
+  {
+   "equip": "CB ISLA BONITA SANO SANO CATERING",
+   "rival": "DPES-SUMIALKI CB CIUDAD DE MOSTOLES",
+   "metrica": "% pèrdues",
+   "valor": 0.3156,
+   "mitjana": 0.196,
+   "z": 2.17
+  },
+  {
+   "equip": "CB ISLA BONITA SANO SANO CATERING",
+   "rival": "DPES-SUMIALKI CB CIUDAD DE MOSTOLES",
+   "metrica": "ràtio de TL",
+   "valor": 0.5,
+   "mitjana": 0.202,
+   "z": 4.93
+  },
+  {
+   "equip": "CESUR DISTRITO OLIMPICO",
+   "rival": "SPAR GRAN CANARIA",
+   "metrica": "punts per possessió",
+   "valor": 1.0182,
+   "mitjana": 0.7795,
+   "z": 2.48
+  },
+  {
+   "equip": "CESUR DISTRITO OLIMPICO",
+   "rival": "SPAR GRAN CANARIA",
+   "metrica": "% rebot ofensiu",
+   "valor": 0.5814,
+   "mitjana": 0.2778,
+   "z": 3.1
+  },
+  {
+   "equip": "SPAR GRAN CANARIA",
+   "rival": "CESUR DISTRITO OLIMPICO",
+   "metrica": "punts per possessió",
+   "valor": 0.6573,
+   "mitjana": 0.9239,
+   "z": -2.35
+  },
+  {
+   "equip": "SPAR GRAN CANARIA",
+   "rival": "CESUR DISTRITO OLIMPICO",
+   "metrica": "%eFG",
+   "valor": 0.371,
+   "mitjana": 0.4841,
+   "z": -1.61
+  },
+  {
+   "equip": "SPAR GRAN CANARIA",
+   "rival": "CESUR DISTRITO OLIMPICO",
+   "metrica": "ritme",
+   "valor": 82.82,
+   "mitjana": 71.968,
+   "z": 3.97
+  },
+  {
+   "equip": "HIERROS DÍAZ EXTREMADURA MIRALVALLE",
+   "rival": "ACEITES ABRIL ADBA SANFER",
+   "metrica": "% rebot ofensiu",
+   "valor": 0.1538,
+   "mitjana": 0.2877,
+   "z": -1.85
+  },
+  {
+   "equip": "HIERROS DÍAZ EXTREMADURA MIRALVALLE",
+   "rival": "ACEITES ABRIL ADBA SANFER",
+   "metrica": "% pèrdues",
+   "valor": 0.1067,
+   "mitjana": 0.2007,
+   "z": -4.87
+  },
+  {
+   "equip": "ACEITES ABRIL ADBA SANFER",
+   "rival": "HIERROS DÍAZ EXTREMADURA MIRALVALLE",
+   "metrica": "%eFG",
+   "valor": 0.5081,
+   "mitjana": 0.4088,
+   "z": 1.52
+  },
+  {
+   "equip": "ACEITES ABRIL ADBA SANFER",
+   "rival": "HIERROS DÍAZ EXTREMADURA MIRALVALLE",
+   "metrica": "ràtio de TL",
+   "valor": 0.2742,
+   "mitjana": 0.3852,
+   "z": -1.55
+  },
+  {
+   "equip": "EL COCHINILLO SEGOVIANO SL",
+   "rival": "CB POZUELO",
+   "metrica": "punts rebuts per possessió",
+   "valor": 0.6896,
+   "mitjana": 0.9022,
+   "z": -4.93
+  },
+  {
+   "equip": "EL COCHINILLO SEGOVIANO SL",
+   "rival": "CB POZUELO",
+   "metrica": "% rebot ofensiu",
+   "valor": 0.4516,
+   "mitjana": 0.2759,
+   "z": 2.66
+  },
+  {
+   "equip": "EL COCHINILLO SEGOVIANO SL",
+   "rival": "CB POZUELO",
+   "metrica": "ritme",
+   "valor": 71.76,
+   "mitjana": 79.656,
+   "z": -10.76
+  },
+  {
+   "equip": "CB POZUELO",
+   "rival": "EL COCHINILLO SEGOVIANO SL",
+   "metrica": "punts rebuts per possessió",
+   "valor": 1.035,
+   "mitjana": 0.7536,
+   "z": 1.87
+  },
+  {
+   "equip": "CB POZUELO",
+   "rival": "EL COCHINILLO SEGOVIANO SL",
+   "metrica": "ritme",
+   "valor": 71.76,
+   "mitjana": 81.716,
+   "z": -1.81
+  },
+  {
+   "equip": "GRUPO INTERBUS ALCOBENDAS",
+   "rival": "MAGEC TÍAS LANZAROTE CONTRA LA VIOLENCIA DE GÉNERO",
+   "metrica": "punts per possessió",
+   "valor": 1.1821,
+   "mitjana": 0.9879,
+   "z": 1.54
+  },
+  {
+   "equip": "GRUPO INTERBUS ALCOBENDAS",
+   "rival": "MAGEC TÍAS LANZAROTE CONTRA LA VIOLENCIA DE GÉNERO",
+   "metrica": "punts rebuts per possessió",
+   "valor": 0.739,
+   "mitjana": 0.8877,
+   "z": -1.61
+  },
+  {
+   "equip": "GRUPO INTERBUS ALCOBENDAS",
+   "rival": "MAGEC TÍAS LANZAROTE CONTRA LA VIOLENCIA DE GÉNERO",
+   "metrica": "% rebot ofensiu",
+   "valor": 0.5333,
+   "mitjana": 0.2663,
+   "z": 3.42
+  },
+  {
+   "equip": "GRUPO INTERBUS ALCOBENDAS",
+   "rival": "MAGEC TÍAS LANZAROTE CONTRA LA VIOLENCIA DE GÉNERO",
+   "metrica": "ràtio de TL",
+   "valor": 0.1875,
+   "mitjana": 0.3969,
+   "z": -2.16
+  },
+  {
+   "equip": "MAGEC TÍAS LANZAROTE CONTRA LA VIOLENCIA DE GÉNERO",
+   "rival": "GRUPO INTERBUS ALCOBENDAS",
+   "metrica": "% pèrdues",
+   "valor": 0.2928,
+   "mitjana": 0.1622,
+   "z": 3.45
+  },
+  {
+   "equip": "C.B. LAS ROZAS",
+   "rival": "SERNOVA RENOVABLES REAL CANOE",
+   "metrica": "punts rebuts per possessió",
+   "valor": 0.9477,
+   "mitjana": 0.7612,
+   "z": 1.77
+  },
+  {
+   "equip": "C.B. LAS ROZAS",
+   "rival": "SERNOVA RENOVABLES REAL CANOE",
+   "metrica": "% rebot ofensiu",
+   "valor": 0.2059,
+   "mitjana": 0.3366,
+   "z": -3.95
+  },
+  {
+   "equip": "C.B. LAS ROZAS",
+   "rival": "SERNOVA RENOVABLES REAL CANOE",
+   "metrica": "ràtio de TL",
+   "valor": 0.5254,
+   "mitjana": 0.3269,
+   "z": 1.79
+  },
+  {
+   "equip": "SIROKO GIJON BASKETBALL",
+   "rival": "MARISCOS ANTÓN CORTEGADA",
+   "metrica": "punts per possessió",
+   "valor": 0.5937,
+   "mitjana": 0.8562,
+   "z": -2.0
+  },
+  {
+   "equip": "SIROKO GIJON BASKETBALL",
+   "rival": "MARISCOS ANTÓN CORTEGADA",
+   "metrica": "%eFG",
+   "valor": 0.3,
+   "mitjana": 0.464,
+   "z": -1.88
+  },
+  {
+   "equip": "SIROKO GIJON BASKETBALL",
+   "rival": "MARISCOS ANTÓN CORTEGADA",
+   "metrica": "ràtio de TL",
+   "valor": 0.4,
+   "mitjana": 0.2205,
+   "z": 2.89
+  },
+  {
+   "equip": "MARISCOS ANTÓN CORTEGADA",
+   "rival": "SIROKO GIJON BASKETBALL",
+   "metrica": "punts per possessió",
+   "valor": 1.1571,
+   "mitjana": 0.8331,
+   "z": 2.01
+  },
+  {
+   "equip": "MARISCOS ANTÓN CORTEGADA",
+   "rival": "SIROKO GIJON BASKETBALL",
+   "metrica": "punts rebuts per possessió",
+   "valor": 0.5937,
+   "mitjana": 0.9228,
+   "z": -2.8
+  },
+  {
+   "equip": "MARISCOS ANTÓN CORTEGADA",
+   "rival": "SIROKO GIJON BASKETBALL",
+   "metrica": "% pèrdues",
+   "valor": 0.0862,
+   "mitjana": 0.1966,
+   "z": -3.95
+  }
+ ],
+ "sorpreses": [
+  {
+   "id": 2524732,
+   "guanyador": "CB ISLA BONITA SANO SANO CATERING",
+   "tipus": "guanya tirant pitjor",
+   "eFG": [
+    0.402,
+    0.352
+   ]
+  },
+  {
+   "id": 2524734,
+   "guanyador": "HIERROS DÍAZ EXTREMADURA MIRALVALLE",
+   "tipus": "guanya amb menys punts per possessió",
+   "OER": [
+    0.901,
+    0.917
+   ]
+  }
+ ],
+ "ratxes": [
+  {
+   "id": 2524732,
+   "equip": "DPES-SUMIALKI CB CIUDAD DE MOSTOLES",
+   "punts": 16,
+   "de": "Q3 09:12",
+   "a": "Q3 05:22",
+   "marcador": "20-28 → 36-28",
+   "quintet": "B.RODRÍGUEZ / E.ABUBAKAR / L.FLORES / M.GOMEZ / N.GOMEZ",
+   "quintet_rival": "B.MANIVESA / E.SEVILLA / G.JORGE / I.BAUTISTA / O.BETANCOURT",
+   "temps_mort": [
+    "Q3 06:58"
+   ]
+  },
+  {
+   "id": 2524736,
+   "equip": "GRUPO INTERBUS ALCOBENDAS",
+   "punts": 15,
+   "de": "Q2 00:12",
+   "a": "Q3 05:22",
+   "marcador": "45-25 → 60-25",
+   "quintet": "C.RODRIGUEZ / M.AYUSO / M.BLANCO / P.GONZALEZ / S.TORRES",
+   "quintet_rival": "A.HERNANDEZ / E.DAVLAKOU / M.HOFSCHILD / N.LAGO / R.MARRERO",
+   "temps_mort": [
+    "Q3 08:24"
+   ]
+  },
+  {
+   "id": 2524735,
+   "equip": "EL COCHINILLO SEGOVIANO SL",
+   "punts": 14,
+   "de": "Q3 05:06",
+   "a": "Q3 02:02",
+   "marcador": "47-31 → 61-31",
+   "quintet": "C.RAMIREZ / L.GARCIA / M.SANROMA / N.MURUGARREN / P.HOYUELOS",
+   "quintet_rival": "A.ARDANZA / A.LOZANO / C.DE / L.MARTIN / S.ALONSO",
+   "temps_mort": []
+  },
+  {
+   "id": 2524736,
+   "equip": "GRUPO INTERBUS ALCOBENDAS",
+   "punts": 14,
+   "de": "Q2 08:08",
+   "a": "Q2 05:25",
+   "marcador": "21-15 → 35-15",
+   "quintet": "I.CAMIÑA / L.TOGORES / M.BLANCO / N.FIGUEROA / N.KALAYDJIEV",
+   "quintet_rival": "A.HERNANDEZ / A.MOYANO / E.DAVLAKOU / M.HOFSCHILD / T.BURKE",
+   "temps_mort": [
+    "Q2 06:20"
+   ]
+  },
+  {
+   "id": 2524738,
+   "equip": "MARISCOS ANTÓN CORTEGADA",
+   "punts": 13,
+   "de": "Q1 06:50",
+   "a": "Q1 04:00",
+   "marcador": "2-8 → 2-21",
+   "quintet": "C.LOUREIRO / L.TESSON / M.ANGULO / M.SANCHEZ / S.ANNE",
+   "quintet_rival": "L.GARCIA / L.OROSZ / M.GARCIA / P.NDIAYE / S.LLANOS",
+   "temps_mort": []
+  },
+  {
+   "id": 2524736,
+   "equip": "GRUPO INTERBUS ALCOBENDAS",
+   "punts": 12,
+   "de": "Q1 09:46",
+   "a": "Q1 06:28",
+   "marcador": "0-0 → 12-0",
+   "quintet": "C.DEL / C.RODRIGUEZ / L.TOGORES / N.FIGUEROA / P.GONZALEZ",
+   "quintet_rival": "A.HERNANDEZ / A.MOYANO / M.HOFSCHILD / N.LAGO / T.BURKE",
+   "temps_mort": [
+    "Q1 07:50"
+   ]
+  },
+  {
+   "id": 2524738,
+   "equip": "MARISCOS ANTÓN CORTEGADA",
+   "punts": 12,
+   "de": "Q3 01:55",
+   "a": "Q4 08:56",
+   "marcador": "30-72 → 30-84",
+   "quintet": "M.MAESTRO / M.SANMARTÍN / N.ZABALA / S.ANNE / T.CABELLO",
+   "quintet_rival": "A.MENENDEZ / L.MERA / L.OROSZ / M.GARCIA / S.LLANOS",
+   "temps_mort": []
+  },
+  {
+   "id": 2524733,
+   "equip": "CESUR DISTRITO OLIMPICO",
+   "punts": 11,
+   "de": "Q1 00:43",
+   "a": "Q2 05:49",
+   "marcador": "14-13 → 25-13",
+   "quintet": "A.MARTÍNEZ / M.MARTINEZ / M.RASINES / M.TSONEVA / P.SERRANO",
+   "quintet_rival": "G.EZEANATOGU / I.TRUJILLO / L.PEREZ / M.OCURTO / T.EZEANATOGU",
+   "temps_mort": [
+    "Q1 00:13",
+    "Q2 06:50"
+   ]
+  },
+  {
+   "id": 2524734,
+   "equip": "HIERROS DÍAZ EXTREMADURA MIRALVALLE",
+   "punts": 11,
+   "de": "Q4 08:54",
+   "a": "Q4 06:55",
+   "marcador": "56-54 → 67-54",
+   "quintet": "A.MORALES / I.SERRANO / N.MARTÍNEZ / P.VALDERRABANO / S.TORRUELLA",
+   "quintet_rival": "A.TORNE / E.LARSEN / H.PRATS / L.KIEFER / L.ROZING",
+   "temps_mort": [
+    "Q4 07:21"
+   ]
+  },
+  {
+   "id": 2524738,
+   "equip": "MARISCOS ANTÓN CORTEGADA",
+   "punts": 11,
+   "de": "Q2 04:57",
+   "a": "Q2 03:35",
+   "marcador": "16-40 → 16-51",
+   "quintet": "C.LOUREIRO / L.TESSON / M.ANGULO / M.MAESTRO / M.SANCHEZ",
+   "quintet_rival": "C.ALLER / L.GARCIA / N.MARTINEZ / P.NDIAYE / S.LLANOS",
+   "temps_mort": []
+  },
+  {
+   "id": 2524732,
+   "equip": "CB ISLA BONITA SANO SANO CATERING",
+   "punts": 10,
+   "de": "Q3 03:02",
+   "a": "Q4 08:52",
+   "marcador": "38-31 → 38-41",
+   "quintet": "A.DÉNES / M.COLOM / N.CUNILL / P.GARCIA / P.LAURENSON",
+   "quintet_rival": "A.PEREDO / B.MORENO / B.RODRÍGUEZ / L.FLORES / M.GOMEZ",
+   "temps_mort": []
+  },
+  {
+   "id": 2524734,
+   "equip": "HIERROS DÍAZ EXTREMADURA MIRALVALLE",
+   "punts": 10,
+   "de": "Q2 02:19",
+   "a": "Q2 00:02",
+   "marcador": "36-37 → 46-37",
+   "quintet": "E.CASTRO / L.NAVAS / N.MARTÍNEZ / P.VALDERRABANO / S.TORRUELLA",
+   "quintet_rival": "A.TORNE / E.LARSEN / G.FUENTES / L.KIEFER / S.FRAILE",
+   "temps_mort": [
+    "Q2 00:50"
+   ]
+  },
+  {
+   "id": 2524735,
+   "equip": "CB POZUELO",
+   "punts": 9,
+   "de": "Q4 09:13",
+   "a": "Q4 08:02",
+   "marcador": "63-33 → 63-42",
+   "quintet": "A.JIMENEZ / B.PEREZ / I.UGARTE / R.GARCIA / S.ALONSO",
+   "quintet_rival": "A.MILIES / C.YUSTE / L.GARCIA / M.CORREA / N.HERNANDEZ",
+   "temps_mort": [
+    "Q4 08:43"
+   ]
+  },
+  {
+   "id": 2524737,
+   "equip": "SERNOVA RENOVABLES REAL CANOE",
+   "punts": 9,
+   "de": "Q3 04:11",
+   "a": "Q3 02:42",
+   "marcador": "42-37 → 51-37",
+   "quintet": "C.MATO / M.LLORENTE / N.PADROSA / P.REAL / V.LOPEZ",
+   "quintet_rival": "C.CASO / E.FLOREZ / I.BAEZA / M.ARANDA / M.GONZÁLEZ",
+   "temps_mort": [
+    "Q3 03:37"
+   ]
+  },
+  {
+   "id": 2524738,
+   "equip": "MARISCOS ANTÓN CORTEGADA",
+   "punts": 9,
+   "de": "Q2 07:28",
+   "a": "Q2 05:47",
+   "marcador": "13-31 → 13-40",
+   "quintet": "C.LOUREIRO / L.TESSON / M.CABELLO / S.ANNE / T.CABELLO",
+   "quintet_rival": "L.GARCIA / L.OROSZ / M.GARCIA / N.MARTINEZ / S.LLANOS",
+   "temps_mort": [
+    "Q2 06:05"
+   ]
+  },
+  {
+   "id": 2524734,
+   "equip": "ACEITES ABRIL ADBA SANFER",
+   "punts": 8,
+   "de": "Q2 05:34",
+   "a": "Q2 03:40",
+   "marcador": "30-24 → 30-32",
+   "quintet": "A.TORNE / E.LARSEN / G.FUENTES / L.KIEFER / S.FRAILE",
+   "quintet_rival": "A.MORALES / E.CASTRO / N.MARTÍNEZ / P.VALDERRABANO / S.TORRUELLA",
+   "temps_mort": [
+    "Q2 04:51"
+   ]
+  },
+  {
+   "id": 2524735,
+   "equip": "EL COCHINILLO SEGOVIANO SL",
+   "punts": 8,
+   "de": "Q1 03:52",
+   "a": "Q1 00:39",
+   "marcador": "11-7 → 19-7",
+   "quintet": "L.GARCIA / M.SANROMA / N.HERNANDEZ / N.MURUGARREN / P.HOYUELOS",
+   "quintet_rival": "A.ARDANZA / A.JIMENEZ / C.DE / L.MARTIN / R.GARCIA",
+   "temps_mort": [
+    "Q1 03:03"
+   ]
+  }
+ ],
+ "individuals": [
+  {
+   "id": 2524734,
+   "equip": "ACEITES ABRIL ADBA SANFER",
+   "jugadora": "L. KIEFER",
+   "min": 34.77,
+   "PT": 15,
+   "REB": 23,
+   "AS": 3,
+   "BP": 3,
+   "T2": "6/11",
+   "T3": "0/0",
+   "TL": "3/4",
+   "VAL": 41,
+   "pm": -2,
+   "doble_doble": true,
+   "TS": 0.588,
+   "VAL_mitjana": 26.4,
+   "z": 1.25,
+   "partits_previs": 5
+  },
+  {
+   "id": 2524738,
+   "equip": "MARISCOS ANTÓN CORTEGADA",
+   "jugadora": "M. ANGULO QUINTANA",
+   "min": 15.93,
+   "PT": 21,
+   "REB": 5,
+   "AS": 1,
+   "BP": 1,
+   "T2": "7/9",
+   "T3": "1/2",
+   "TL": "4/5",
+   "VAL": 26,
+   "pm": 36,
+   "doble_doble": false,
+   "TS": 0.795,
+   "VAL_mitjana": 14.8,
+   "z": 0.78,
+   "partits_previs": 5
+  },
+  {
+   "id": 2524732,
+   "equip": "CB ISLA BONITA SANO SANO CATERING",
+   "jugadora": "O. BETANCOURT LABRADOR",
+   "min": 28.13,
+   "PT": 15,
+   "REB": 13,
+   "AS": 1,
+   "BP": 2,
+   "T2": "5/7",
+   "T3": "0/1",
+   "TL": "5/5",
+   "VAL": 24,
+   "pm": -7,
+   "doble_doble": true,
+   "TS": 0.735,
+   "VAL_mitjana": 11.4,
+   "z": 1.6,
+   "partits_previs": 5
+  },
+  {
+   "id": 2524738,
+   "equip": "MARISCOS ANTÓN CORTEGADA",
+   "jugadora": "C. LOUREIRO CURRAS",
+   "min": 17.88,
+   "PT": 15,
+   "REB": 10,
+   "AS": 0,
+   "BP": 0,
+   "T2": "4/8",
+   "T3": "2/2",
+   "TL": "1/1",
+   "VAL": 23,
+   "pm": 38,
+   "doble_doble": true,
+   "TS": 0.718,
+   "VAL_mitjana": 13.8,
+   "z": 1.46,
+   "partits_previs": 5
+  },
+  {
+   "id": 2524733,
+   "equip": "CESUR DISTRITO OLIMPICO",
+   "jugadora": "M. TSONEVA",
+   "min": 18.9,
+   "PT": 13,
+   "REB": 12,
+   "AS": 0,
+   "BP": 2,
+   "T2": "6/10",
+   "T3": "0/0",
+   "TL": "1/2",
+   "VAL": 21,
+   "pm": 12,
+   "doble_doble": true,
+   "TS": 0.597,
+   "VAL_mitjana": 6.2,
+   "z": 4.75,
+   "partits_previs": 5
+  },
+  {
+   "id": 2524736,
+   "equip": "GRUPO INTERBUS ALCOBENDAS",
+   "jugadora": "C. RODRIGUEZ NUÑEZ",
+   "min": 27.88,
+   "PT": 14,
+   "REB": 8,
+   "AS": 1,
+   "BP": 4,
+   "T2": "7/8",
+   "T3": "0/0",
+   "TL": "0/0",
+   "VAL": 21,
+   "pm": 22,
+   "doble_doble": false,
+   "TS": 0.875,
+   "VAL_mitjana": 18.6,
+   "z": 0.24,
+   "partits_previs": 5
+  },
+  {
+   "id": 2524735,
+   "equip": "EL COCHINILLO SEGOVIANO SL",
+   "jugadora": "L. GARCIA BLANCO",
+   "min": 26.2,
+   "PT": 13,
+   "REB": 8,
+   "AS": 4,
+   "BP": 1,
+   "T2": "5/7",
+   "T3": "1/5",
+   "TL": "0/2",
+   "VAL": 20,
+   "pm": 24,
+   "doble_doble": false,
+   "TS": 0.505,
+   "VAL_mitjana": 16.2,
+   "z": 0.72,
+   "partits_previs": 5
+  },
+  {
+   "id": 2524736,
+   "equip": "GRUPO INTERBUS ALCOBENDAS",
+   "jugadora": "N. FIGUEROA ALVAREZ",
+   "min": 22.18,
+   "PT": 20,
+   "REB": 4,
+   "AS": 1,
+   "BP": 0,
+   "T2": "4/7",
+   "T3": "4/8",
+   "TL": "0/0",
+   "VAL": 20,
+   "pm": 38,
+   "doble_doble": false,
+   "TS": 0.667,
+   "VAL_mitjana": 8.6,
+   "z": 1.32,
+   "partits_previs": 5
+  },
+  {
+   "id": 2524737,
+   "equip": "C.B. LAS ROZAS",
+   "jugadora": "I. BAEZA DIEZ",
+   "min": 22.65,
+   "PT": 14,
+   "REB": 6,
+   "AS": 0,
+   "BP": 1,
+   "T2": "4/7",
+   "T3": "0/0",
+   "TL": "6/7",
+   "VAL": 20,
+   "pm": -8,
+   "doble_doble": false,
+   "TS": 0.694,
+   "VAL_mitjana": 14.6,
+   "z": 0.97,
+   "partits_previs": 5
+  },
+  {
+   "id": 2524735,
+   "equip": "CB POZUELO",
+   "jugadora": "A. JIMENEZ AREVALO",
+   "min": 25.87,
+   "PT": 18,
+   "REB": 5,
+   "AS": 1,
+   "BP": 4,
+   "T2": "5/6",
+   "T3": "2/4",
+   "TL": "2/2",
+   "VAL": 19,
+   "pm": -12,
+   "doble_doble": false,
+   "TS": 0.827,
+   "VAL_mitjana": 3,
+   "z": 2.39,
+   "partits_previs": 4
+  },
+  {
+   "id": 2524734,
+   "equip": "HIERROS DÍAZ EXTREMADURA MIRALVALLE",
+   "jugadora": "P. VALDERRABANO MARTIN",
+   "min": 32.87,
+   "PT": 23,
+   "REB": 2,
+   "AS": 1,
+   "BP": 1,
+   "T2": "8/15",
+   "T3": "0/4",
+   "TL": "7/9",
+   "VAL": 18,
+   "pm": 9,
+   "doble_doble": false,
+   "TS": 0.501,
+   "VAL_mitjana": 12.8,
+   "z": 0.51,
+   "partits_previs": 5
+  },
+  {
+   "id": 2524735,
+   "equip": "EL COCHINILLO SEGOVIANO SL",
+   "jugadora": "C. RAMIREZ MORALES",
+   "min": 21.28,
+   "PT": 14,
+   "REB": 8,
+   "AS": 0,
+   "BP": 2,
+   "T2": "2/3",
+   "T3": "2/3",
+   "TL": "4/6",
+   "VAL": 18,
+   "pm": 21,
+   "doble_doble": false,
+   "TS": 0.81,
+   "VAL_mitjana": 7,
+   "z": 3.77,
+   "partits_previs": 5
+  },
+  {
+   "id": 2524733,
+   "equip": "CESUR DISTRITO OLIMPICO",
+   "jugadora": "A. EMUSI ADENIRAN",
+   "min": 22.97,
+   "PT": 9,
+   "REB": 9,
+   "AS": 3,
+   "BP": 1,
+   "T2": "2/6",
+   "T3": "1/1",
+   "TL": "2/4",
+   "VAL": 16,
+   "pm": 22,
+   "doble_doble": false,
+   "TS": 0.514,
+   "VAL_mitjana": 5.4,
+   "z": 1.89,
+   "partits_previs": 5
+  },
+  {
+   "id": 2524737,
+   "equip": "SERNOVA RENOVABLES REAL CANOE",
+   "jugadora": "D. MILIAUSKAITE",
+   "min": 20.22,
+   "PT": 11,
+   "REB": 12,
+   "AS": 1,
+   "BP": 2,
+   "T2": "3/7",
+   "T3": "1/2",
+   "TL": "2/4",
+   "VAL": 15,
+   "pm": 8,
+   "doble_doble": true,
+   "TS": 0.511,
+   "VAL_mitjana": 16.33,
+   "z": -0.33,
+   "partits_previs": 3
+  },
+  {
+   "id": 2524733,
+   "equip": "CESUR DISTRITO OLIMPICO",
+   "jugadora": "A. MARTÍNEZ MORA",
+   "min": 21.28,
+   "PT": 15,
+   "REB": 2,
+   "AS": 3,
+   "BP": 3,
+   "T2": "5/10",
+   "T3": "1/3",
+   "TL": "2/3",
+   "VAL": 13,
+   "pm": 20,
+   "doble_doble": false,
+   "TS": 0.524,
+   "VAL_mitjana": -4.4,
+   "z": 3.96,
+   "partits_previs": 5
+  },
+  {
+   "id": 2524736,
+   "equip": "GRUPO INTERBUS ALCOBENDAS",
+   "jugadora": "I. CAMIÑA RODRIGUEZ",
+   "min": 22.78,
+   "PT": 12,
+   "REB": 5,
+   "AS": 1,
+   "BP": 1,
+   "T2": "3/6",
+   "T3": "1/5",
+   "TL": "3/3",
+   "VAL": 12,
+   "pm": 14,
+   "doble_doble": false,
+   "TS": 0.487,
+   "VAL_mitjana": 2.6,
+   "z": 2.04,
+   "partits_previs": 5
+  },
+  {
+   "id": 2524732,
+   "equip": "CB ISLA BONITA SANO SANO CATERING",
+   "jugadora": "B. MANIVESA DOPICO",
+   "min": 22.7,
+   "PT": 12,
+   "REB": 3,
+   "AS": 1,
+   "BP": 7,
+   "T2": "3/4",
+   "T3": "2/4",
+   "TL": "0/0",
+   "VAL": 8,
+   "pm": -5,
+   "doble_doble": false,
+   "TS": 0.75,
+   "VAL_mitjana": 1.2,
+   "z": 2.63,
+   "partits_previs": 5
+  },
+  {
+   "id": 2524737,
+   "equip": "C.B. LAS ROZAS",
+   "jugadora": "F. BALDÉ",
+   "min": 24.8,
+   "PT": 12,
+   "REB": 6,
+   "AS": 1,
+   "BP": 5,
+   "T2": "3/8",
+   "T3": "1/5",
+   "TL": "3/5",
+   "VAL": 8,
+   "pm": 8,
+   "doble_doble": false,
+   "TS": 0.395,
+   "VAL_mitjana": 5.6,
+   "z": 4.38,
+   "partits_previs": 5
+  },
+  {
+   "id": 2524734,
+   "equip": "ACEITES ABRIL ADBA SANFER",
+   "jugadora": "E. LARSEN",
+   "min": 27.15,
+   "PT": 9,
+   "REB": 3,
+   "AS": 3,
+   "BP": 3,
+   "T2": "2/4",
+   "T3": "1/2",
+   "TL": "2/3",
+   "VAL": 7,
+   "pm": -3,
+   "doble_doble": false,
+   "TS": 0.615,
+   "VAL_mitjana": 22.8,
+   "z": -2.38,
+   "partits_previs": 5
+  },
+  {
+   "id": 2524738,
+   "equip": "MARISCOS ANTÓN CORTEGADA",
+   "jugadora": ". RAIDA DOS SANTOS",
+   "min": 18.57,
+   "PT": 8,
+   "REB": 3,
+   "AS": 0,
+   "BP": 1,
+   "T2": "3/5",
+   "T3": "0/0",
+   "TL": "2/4",
+   "VAL": 7,
+   "pm": 7,
+   "doble_doble": false,
+   "TS": 0.592,
+   "VAL_mitjana": 2.6,
+   "z": 1.83,
+   "partits_previs": 5
+  },
+  {
+   "id": 2524732,
+   "equip": "DPES-SUMIALKI CB CIUDAD DE MOSTOLES",
+   "jugadora": "E. ABUBAKAR ARREY",
+   "min": 28.42,
+   "PT": 7,
+   "REB": 6,
+   "AS": 2,
+   "BP": 3,
+   "T2": "3/5",
+   "T3": "0/1",
+   "TL": "1/4",
+   "VAL": 6,
+   "pm": 12,
+   "doble_doble": false,
+   "TS": 0.451,
+   "VAL_mitjana": 20.4,
+   "z": -5.0,
+   "partits_previs": 5
+  },
+  {
+   "id": 2524732,
+   "equip": "DPES-SUMIALKI CB CIUDAD DE MOSTOLES",
+   "jugadora": "M. GOMEZ HERNANDEZ",
+   "min": 21.65,
+   "PT": 2,
+   "REB": 4,
+   "AS": 3,
+   "BP": 4,
+   "T2": "0/1",
+   "T3": "0/2",
+   "TL": "2/2",
+   "VAL": 0,
+   "pm": 19,
+   "doble_doble": false,
+   "TS": 0.258,
+   "VAL_mitjana": 8,
+   "z": -1.81,
+   "partits_previs": 5
+  },
+  {
+   "id": 2524735,
+   "equip": "CB POZUELO",
+   "jugadora": "S. ALONSO FELIPE",
+   "min": 23.13,
+   "PT": 4,
+   "REB": 1,
+   "AS": 0,
+   "BP": 2,
+   "T2": "0/3",
+   "T3": "1/3",
+   "TL": "1/2",
+   "VAL": -2,
+   "pm": -5,
+   "doble_doble": false,
+   "TS": 0.291,
+   "VAL_mitjana": 3.6,
+   "z": -2.01,
+   "partits_previs": 5
+  },
+  {
+   "id": 2524737,
+   "equip": "C.B. LAS ROZAS",
+   "jugadora": "M. ARANDA FRAILE",
+   "min": 18.73,
+   "PT": 0,
+   "REB": 1,
+   "AS": 1,
+   "BP": 2,
+   "T2": "0/0",
+   "T3": "0/1",
+   "TL": "0/0",
+   "VAL": -2,
+   "pm": -17,
+   "doble_doble": false,
+   "TS": 0.0,
+   "VAL_mitjana": 4.2,
+   "z": -1.99,
+   "partits_previs": 5
+  },
+  {
+   "id": 2524736,
+   "equip": "MAGEC TÍAS LANZAROTE CONTRA LA VIOLENCIA DE GÉNERO",
+   "jugadora": "A. MOYANO MEDINA",
+   "min": 29.08,
+   "PT": 3,
+   "REB": 3,
+   "AS": 3,
+   "BP": 6,
+   "T2": "1/2",
+   "T3": "0/5",
+   "TL": "1/2",
+   "VAL": -4,
+   "pm": -40,
+   "doble_doble": false,
+   "TS": 0.19,
+   "VAL_mitjana": 10,
+   "z": -3.3,
+   "partits_previs": 5
+  }
+ ],
+ "finals_ajustats": [
+  {
+   "id": 2524732,
+   "equips": [
+    "DPES-SUMIALKI CB CIUDAD DE MOSTOLES",
+    "CB ISLA BONITA SANO SANO CATERING"
+   ],
+   "marcador": [
+    52,
+    57
+   ],
+   "marge_a_5_min": -4,
+   "marge_minim": 1,
+   "clutch": {
+    "minuts": 4.3,
+    "parcial": "DPES-SUMIALKI CB CIUDAD DE MOSTOLES 6-9 CB ISLA BONITA SANO SANO CATERING",
+    "destacada": "O. BETANCOURT LABRADOR"
+   }
+  },
+  {
+   "id": 2524734,
+   "equips": [
+    "HIERROS DÍAZ EXTREMADURA MIRALVALLE",
+    "ACEITES ABRIL ADBA SANFER"
+   ],
+   "marcador": [
+    76,
+    72
+   ],
+   "marge_a_5_min": 12,
+   "marge_minim": 4,
+   "clutch": {
+    "minuts": 0.4,
+    "parcial": "HIERROS DÍAZ EXTREMADURA MIRALVALLE 1-1 ACEITES ABRIL ADBA SANFER",
+    "destacada": "P. VALDERRABANO MARTIN"
+   }
+  }
+ ],
+ "quintets": [
+  {
+   "id": 2524732,
+   "equip": "DPES-SUMIALKI CB CIUDAD DE MOSTOLES",
+   "mes_usat": {
+    "quintet": "B.RODRÍGUEZ / E.ABUBAKAR / L.FLORES / M.GOMEZ / N.GOMEZ",
+    "minuts": 6.1,
+    "dif": 10
+   },
+   "millor": {
+    "quintet": "B.RODRÍGUEZ / E.ABUBAKAR / L.FLORES / M.GOMEZ / N.GOMEZ",
+    "minuts": 6.1,
+    "dif": 10
+   },
+   "pitjor": {
+    "quintet": "A.QUESADA / E.ABUBAKAR / L.FLORES / M.GOMEZ / N.GOMEZ",
+    "minuts": 5.4,
+    "dif": 1
+   }
+  },
+  {
+   "id": 2524732,
+   "equip": "CB ISLA BONITA SANO SANO CATERING",
+   "mes_usat": {
+    "quintet": "M.COLOM / N.CUNILL / O.BETANCOURT / P.GARCIA / P.LAURENSON",
+    "minuts": 5.1,
+    "dif": 7
+   },
+   "millor": {
+    "quintet": "M.COLOM / N.CUNILL / O.BETANCOURT / P.GARCIA / P.LAURENSON",
+    "minuts": 5.1,
+    "dif": 7
+   },
+   "pitjor": {
+    "quintet": "B.MANIVESA / E.SEVILLA / G.JORGE / O.BETANCOURT / P.LAURENSON",
+    "minuts": 4.6,
+    "dif": -1
+   }
+  },
+  {
+   "id": 2524733,
+   "equip": "CESUR DISTRITO OLIMPICO",
+   "mes_usat": {
+    "quintet": "A.EMUSI / A.MARTÍNEZ / C.LEAL / M.TSONEVA / S.FRANCISCO",
+    "minuts": 5.2,
+    "dif": 4
+   },
+   "millor": {
+    "quintet": "A.EMUSI / A.MARTÍNEZ / C.LEAL / M.TSONEVA / S.FRANCISCO",
+    "minuts": 5.2,
+    "dif": 4
+   },
+   "pitjor": {
+    "quintet": "A.EMUSI / B.ARMENGOL / C.LEAL / N.MITCHELL / S.FRANCISCO",
+    "minuts": 4.6,
+    "dif": 2
+   }
+  },
+  {
+   "id": 2524733,
+   "equip": "SPAR GRAN CANARIA",
+   "mes_usat": {
+    "quintet": "A.MBENGUE / G.EZEANATOGU / L.PEREZ / M.OCURTO / T.EZEANATOGU",
+    "minuts": 9.2,
+    "dif": -5
+   },
+   "millor": {
+    "quintet": "G.EZEANATOGU / I.TRUJILLO / L.PEREZ / M.OCURTO / T.EZEANATOGU",
+    "minuts": 6.2,
+    "dif": 2
+   },
+   "pitjor": {
+    "quintet": "A.MBENGUE / G.EZEANATOGU / L.PEREZ / M.OCURTO / T.EZEANATOGU",
+    "minuts": 9.2,
+    "dif": -5
+   }
+  },
+  {
+   "id": 2524734,
+   "equip": "HIERROS DÍAZ EXTREMADURA MIRALVALLE",
+   "mes_usat": {
+    "quintet": "L.NAVAS / M.ROMERO / N.MARTÍNEZ / P.VALDERRABANO / S.TORRUELLA",
+    "minuts": 7.7,
+    "dif": -7
+   },
+   "millor": {
+    "quintet": "I.SERRANO / L.NAVAS / M.ROMERO / P.VALDERRABANO / S.TORRUELLA",
+    "minuts": 4.7,
+    "dif": 3
+   },
+   "pitjor": {
+    "quintet": "L.NAVAS / M.ROMERO / N.MARTÍNEZ / P.VALDERRABANO / S.TORRUELLA",
+    "minuts": 7.7,
+    "dif": -7
+   }
+  },
+  {
+   "id": 2524734,
+   "equip": "ACEITES ABRIL ADBA SANFER",
+   "mes_usat": {
+    "quintet": "A.TORNE / E.LARSEN / L.KIEFER / L.ROZING / S.FRAILE",
+    "minuts": 8.0,
+    "dif": 7
+   },
+   "millor": {
+    "quintet": "A.TORNE / E.LARSEN / L.KIEFER / L.ROZING / S.FRAILE",
+    "minuts": 8.0,
+    "dif": 7
+   },
+   "pitjor": {
+    "quintet": "A.TORNE / E.LARSEN / G.FUENTES / L.KIEFER / S.FRAILE",
+    "minuts": 4.4,
+    "dif": 5
+   }
+  },
+  {
+   "id": 2524735,
+   "equip": "EL COCHINILLO SEGOVIANO SL",
+   "mes_usat": {
+    "quintet": "L.GARCIA / M.SANROMA / N.HERNANDEZ / N.MURUGARREN / P.HOYUELOS",
+    "minuts": 6.7,
+    "dif": 9
+   },
+   "millor": {
+    "quintet": "L.GARCIA / M.SANROMA / N.HERNANDEZ / N.MURUGARREN / P.HOYUELOS",
+    "minuts": 6.7,
+    "dif": 9
+   },
+   "pitjor": {
+    "quintet": "A.MILIES / C.YUSTE / L.GARCIA / M.CORREA / N.HERNANDEZ",
+    "minuts": 5.2,
+    "dif": -5
+   }
+  },
+  {
+   "id": 2524735,
+   "equip": "CB POZUELO",
+   "mes_usat": {
+    "quintet": "A.ARDANZA / A.JIMENEZ / C.DE / L.MARTIN / R.GARCIA",
+    "minuts": 6.5,
+    "dif": -10
+   },
+   "millor": {
+    "quintet": "A.BALLESTEROS / A.LOZANO / H.DIAGNE / I.UGARTE / S.ALONSO",
+    "minuts": 4.8,
+    "dif": 1
+   },
+   "pitjor": {
+    "quintet": "A.ARDANZA / A.JIMENEZ / C.DE / L.MARTIN / R.GARCIA",
+    "minuts": 6.5,
+    "dif": -10
+   }
+  },
+  {
+   "id": 2524736,
+   "equip": "GRUPO INTERBUS ALCOBENDAS",
+   "mes_usat": {
+    "quintet": "C.DEL / C.RODRIGUEZ / L.TOGORES / N.FIGUEROA / P.GONZALEZ",
+    "minuts": 5.2,
+    "dif": 6
+   },
+   "millor": {
+    "quintet": "C.RODRIGUEZ / I.CAMIÑA / L.TOGORES / N.FIGUEROA / N.KALAYDJIEV",
+    "minuts": 4.3,
+    "dif": 11
+   },
+   "pitjor": {
+    "quintet": "C.RODRIGUEZ / I.CAMIÑA / M.BLANCO / N.KALAYDJIEV / S.TORRES",
+    "minuts": 4.2,
+    "dif": -3
+   }
+  },
+  {
+   "id": 2524736,
+   "equip": "MAGEC TÍAS LANZAROTE CONTRA LA VIOLENCIA DE GÉNERO",
+   "mes_usat": {
+    "quintet": "A.MOYANO / E.DAVLAKOU / M.HOFSCHILD / N.LAGO / T.BURKE",
+    "minuts": 11.6,
+    "dif": -12
+   },
+   "millor": {
+    "quintet": "A.HERNANDEZ / E.DAVLAKOU / M.HOFSCHILD / N.LAGO / T.BURKE",
+    "minuts": 4.6,
+    "dif": 4
+   },
+   "pitjor": {
+    "quintet": "A.HERNANDEZ / A.MOYANO / M.HOFSCHILD / N.LAGO / T.BURKE",
+    "minuts": 7.8,
+    "dif": -14
+   }
+  },
+  {
+   "id": 2524737,
+   "equip": "SERNOVA RENOVABLES REAL CANOE",
+   "mes_usat": {
+    "quintet": "C.MATO / M.LLORENTE / N.PADROSA / P.REAL / V.LOPEZ",
+    "minuts": 9.1,
+    "dif": 3
+   },
+   "millor": {
+    "quintet": "C.MATO / M.LLORENTE / N.PADROSA / P.REAL / V.LOPEZ",
+    "minuts": 9.1,
+    "dif": 3
+   },
+   "pitjor": {
+    "quintet": "C.MATO / M.LLORENTE / N.PADROSA / P.REAL / V.LOPEZ",
+    "minuts": 9.1,
+    "dif": 3
+   }
+  },
+  {
+   "id": 2524737,
+   "equip": "C.B. LAS ROZAS",
+   "mes_usat": {
+    "quintet": "C.UGOCHUKWU / E.FLOREZ / F.BALDÉ / I.BAEZA / M.GONZÁLEZ",
+    "minuts": 6.0,
+    "dif": 4
+   },
+   "millor": {
+    "quintet": "C.UGOCHUKWU / E.FLOREZ / F.BALDÉ / I.BAEZA / M.GONZÁLEZ",
+    "minuts": 6.0,
+    "dif": 4
+   },
+   "pitjor": {
+    "quintet": "C.CASO / F.BALDÉ / J.FORD / M.ARANDA / M.PÉREZ",
+    "minuts": 5.3,
+    "dif": -3
+   }
+  },
+  {
+   "id": 2524738,
+   "equip": "SIROKO GIJON BASKETBALL",
+   "mes_usat": {
+    "quintet": "C.ALLER / L.GARCIA / M.GARCIA / P.NDIAYE / S.LLANOS",
+    "minuts": 6.0,
+    "dif": -8
+   },
+   "millor": {
+    "quintet": "A.MENENDEZ / L.GARCIA / L.OROSZ / P.NDIAYE / S.LLANOS",
+    "minuts": 4.4,
+    "dif": -3
+   },
+   "pitjor": {
+    "quintet": "L.GARCIA / L.OROSZ / M.GARCIA / P.NDIAYE / S.LLANOS",
+    "minuts": 5.1,
+    "dif": -15
+   }
+  },
+  {
+   "id": 2524738,
+   "equip": "MARISCOS ANTÓN CORTEGADA",
+   "mes_usat": {
+    "quintet": "C.LOUREIRO / L.TESSON / M.ANGULO / M.SANCHEZ / S.ANNE",
+    "minuts": 5.1,
+    "dif": 15
+   },
+   "millor": {
+    "quintet": "C.LOUREIRO / L.TESSON / M.ANGULO / M.SANCHEZ / S.ANNE",
+    "minuts": 5.1,
+    "dif": 15
+   },
+   "pitjor": {
+    "quintet": "L.TESSON / M.CABELLO / M.MAESTRO / N.ZABALA / S.ANNE",
+    "minuts": 4.0,
+    "dif": 4
+   }
+  }
+ ],
+ "classificacio": [
+  {
+   "equip": "CB ISLA BONITA SANO SANO CATERING",
+   "V": 6,
+   "D": 0
+  },
+  {
+   "equip": "GRUPO INTERBUS ALCOBENDAS",
+   "V": 5,
+   "D": 1
+  },
+  {
+   "equip": "ACEITES ABRIL ADBA SANFER",
+   "V": 4,
+   "D": 2
+  },
+  {
+   "equip": "HIERROS DÍAZ EXTREMADURA MIRALVALLE",
+   "V": 4,
+   "D": 2
+  },
+  {
+   "equip": "MARISCOS ANTÓN CORTEGADA",
+   "V": 4,
+   "D": 2
+  },
+  {
+   "equip": "SERNOVA RENOVABLES REAL CANOE",
+   "V": 4,
+   "D": 2
+  },
+  {
+   "equip": "CESUR DISTRITO OLIMPICO",
+   "V": 3,
+   "D": 3
+  },
+  {
+   "equip": "DPES-SUMIALKI CB CIUDAD DE MOSTOLES",
+   "V": 3,
+   "D": 3
+  },
+  {
+   "equip": "EL COCHINILLO SEGOVIANO SL",
+   "V": 3,
+   "D": 3
+  },
+  {
+   "equip": "C.B. LAS ROZAS",
+   "V": 2,
+   "D": 4
+  },
+  {
+   "equip": "SPAR GRAN CANARIA",
+   "V": 2,
+   "D": 4
+  },
+  {
+   "equip": "CB POZUELO",
+   "V": 1,
+   "D": 5
+  },
+  {
+   "equip": "MAGEC TÍAS LANZAROTE CONTRA LA VIOLENCIA DE GÉNERO",
+   "V": 1,
+   "D": 5
+  },
+  {
+   "equip": "SIROKO GIJON BASKETBALL",
+   "V": 0,
+   "D": 6
+  }
+ ],
+ "avis": []
+}

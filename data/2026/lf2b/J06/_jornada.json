@@ -52,84 +52,130 @@
   2524920
  ],
  "ids_method": 2,
- "generated": "2026-11-05T12:58:59.769288+00:00",
+ "generated": "2026-11-09T13:43:38.894419+00:00",
  "games": [
   {
    "id": 2524914,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
+   "teams": [
+    "HORBISA SPIRIT AUSARTA BARAKALDO",
+    "KINES IBAIZABAL GDKO"
+   ],
+   "score": [
+    72,
+    70
+   ],
+   "error": null,
    "date": "07/11/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   },
   {
    "id": 2524915,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
+   "teams": [
+    "TGN BASQUET A",
+    "STADIUM CASABLANCA-PATATAS GÓMEZ"
+   ],
+   "score": [
+    63,
+    65
+   ],
+   "error": null,
    "date": "07/11/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [
+    "S. VILLA PEREZ 9/8"
+   ],
+   "shot_orphans": []
   },
   {
    "id": 2524916,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
+   "teams": [
+    "GEIEG PACISA",
+    "SMARTLOG OINTXE"
+   ],
+   "score": [
+    58,
+    72
+   ],
+   "error": null,
    "date": "07/11/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "pbp_ok": false,
+   "shots_ok": false,
+   "shot_mismatch": [
+    "J. ANTÓNIO 10/11"
+   ],
+   "shot_orphans": []
   },
   {
    "id": 2524917,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
+   "teams": [
+    "ROMAKURUMA U.E.MATARÓ",
+    "XEREZ CLUB DEPORTIVO"
+   ],
+   "score": [
+    54,
+    60
+   ],
+   "error": null,
    "date": "07/11/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   },
   {
    "id": 2524918,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
+   "teams": [
+    "SEGLE XXI",
+    "BASKET ALMEDA"
+   ],
+   "score": [
+    68,
+    54
+   ],
+   "error": null,
    "date": "07/11/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   },
   {
    "id": 2524919,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
+   "teams": [
+    "BALONCESTO CLARET BENIMACLET",
+    "LUCENTUM ALICANTE"
+   ],
+   "score": [
+    65,
+    61
+   ],
+   "error": null,
    "date": "07/11/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   },
   {
    "id": 2524920,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
+   "teams": [
+    "MANRESA CBF A",
+    "DISHELEC 65 VILADECANS"
+   ],
+   "score": [
+    61,
+    76
+   ],
+   "error": null,
    "date": "08/11/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   }
  ]
 }
