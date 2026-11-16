@@ -52,51 +52,75 @@
   2524745
  ],
  "ids_method": 2,
- "generated": "2026-11-12T13:34:02.090486+00:00",
+ "generated": "2026-11-16T13:23:17.533196+00:00",
  "games": [
   {
    "id": 2524740,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
+   "teams": [
+    "C.B. LAS ROZAS",
+    "SIROKO GIJON BASKETBALL"
+   ],
+   "score": [
+    87,
+    68
+   ],
+   "error": null,
    "date": "14/11/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   },
   {
    "id": 2524741,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
+   "teams": [
+    "MAGEC TÍAS LANZAROTE CONTRA LA VIOLENCIA DE GÉNERO",
+    "SERNOVA RENOVABLES REAL CANOE"
+   ],
+   "score": [
+    72,
+    74
+   ],
+   "error": null,
    "date": "14/11/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   },
   {
    "id": 2524744,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
+   "teams": [
+    "SPAR GRAN CANARIA",
+    "HIERROS DÍAZ EXTREMADURA MIRALVALLE"
+   ],
+   "score": [
+    80,
+    53
+   ],
+   "error": null,
    "date": "14/11/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   },
   {
    "id": 2524745,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
+   "teams": [
+    "DPES-SUMIALKI CB CIUDAD DE MOSTOLES",
+    "CESUR DISTRITO OLIMPICO"
+   ],
+   "score": [
+    63,
+    68
+   ],
+   "error": null,
    "date": "14/11/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   }
  ]
 }

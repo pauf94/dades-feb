@@ -1,0 +1,1098 @@
+{
+ "jornada": 7,
+ "partits": [
+  {
+   "id": 2524740,
+   "equips": [
+    "C.B. LAS ROZAS",
+    "SIROKO GIJON BASKETBALL"
+   ],
+   "marcador": [
+    87,
+    68
+   ],
+   "data": "14/11/2026",
+   "parcials": [
+    "22/23",
+    "25/14",
+    "20/17",
+    "20/14"
+   ],
+   "metriques": [
+    {
+     "PF": 87,
+     "PR": 68,
+     "poss": 80.64,
+     "ritme": 81.52,
+     "OER": 1.0789,
+     "DER": 0.8252,
+     "eFG": 0.5227,
+     "eFG_riv": 0.4571,
+     "pRO": 0.2857,
+     "pRD": 0.7692,
+     "pBP": 0.1364,
+     "pBP_riv": 0.2063,
+     "FTr": 0.4697,
+     "t3r": 0.3485,
+     "pT2": 0.4884,
+     "pT3": 0.3913,
+     "pTL": 0.5806,
+     "pAS": 0.4667,
+     "RO": 10,
+     "BP": 11,
+     "BR": 7,
+     "AS": 14,
+     "net": 0.2536
+    },
+    {
+     "PF": 68,
+     "PR": 87,
+     "poss": 82.4,
+     "ritme": 81.52,
+     "OER": 0.8252,
+     "DER": 1.0789,
+     "eFG": 0.4571,
+     "eFG_riv": 0.5227,
+     "pRO": 0.2308,
+     "pRD": 0.7143,
+     "pBP": 0.2063,
+     "pBP_riv": 0.1364,
+     "FTr": 0.1429,
+     "t3r": 0.4286,
+     "pT2": 0.5,
+     "pT3": 0.2667,
+     "pTL": 0.4,
+     "pAS": 0.5714,
+     "RO": 9,
+     "BP": 17,
+     "BR": 3,
+     "AS": 16,
+     "net": -0.2536
+    }
+   ]
+  },
+  {
+   "id": 2524741,
+   "equips": [
+    "MAGEC TÍAS LANZAROTE CONTRA LA VIOLENCIA DE GÉNERO",
+    "SERNOVA RENOVABLES REAL CANOE"
+   ],
+   "marcador": [
+    72,
+    74
+   ],
+   "data": "14/11/2026",
+   "parcials": [
+    "15/11",
+    "20/15",
+    "14/25",
+    "23/23"
+   ],
+   "metriques": [
+    {
+     "PF": 72,
+     "PR": 74,
+     "poss": 70.72,
+     "ritme": 71.96,
+     "OER": 1.0181,
+     "DER": 1.0109,
+     "eFG": 0.4632,
+     "eFG_riv": 0.5278,
+     "pRO": 0.2632,
+     "pRD": 0.7778,
+     "pBP": 0.099,
+     "pBP_riv": 0.1913,
+     "FTr": 0.1912,
+     "t3r": 0.3235,
+     "pT2": 0.5217,
+     "pT3": 0.2273,
+     "pTL": 0.6923,
+     "pAS": 0.4138,
+     "RO": 10,
+     "BP": 7,
+     "BR": 8,
+     "AS": 12,
+     "net": 0.0072
+    },
+    {
+     "PF": 74,
+     "PR": 72,
+     "poss": 73.2,
+     "ritme": 71.96,
+     "OER": 1.0109,
+     "DER": 1.0181,
+     "eFG": 0.5278,
+     "eFG_riv": 0.4632,
+     "pRO": 0.2222,
+     "pRD": 0.7368,
+     "pBP": 0.1913,
+     "pBP_riv": 0.099,
+     "FTr": 0.5556,
+     "t3r": 0.2963,
+     "pT2": 0.5526,
+     "pT3": 0.3125,
+     "pTL": 0.5667,
+     "pAS": 0.4615,
+     "RO": 8,
+     "BP": 14,
+     "BR": 5,
+     "AS": 12,
+     "net": -0.0072
+    }
+   ]
+  },
+  {
+   "id": 2524744,
+   "equips": [
+    "SPAR GRAN CANARIA",
+    "HIERROS DÍAZ EXTREMADURA MIRALVALLE"
+   ],
+   "marcador": [
+    80,
+    53
+   ],
+   "data": "14/11/2026",
+   "parcials": [
+    "17/16",
+    "29/15",
+    "17/12",
+    "17/10"
+   ],
+   "metriques": [
+    {
+     "PF": 80,
+     "PR": 53,
+     "poss": 84.8,
+     "ritme": 83.48,
+     "OER": 0.9434,
+     "DER": 0.6451,
+     "eFG": 0.4571,
+     "eFG_riv": 0.3308,
+     "pRO": 0.4375,
+     "pRD": 0.7143,
+     "pBP": 0.2358,
+     "pBP_riv": 0.2799,
+     "FTr": 0.2857,
+     "t3r": 0.2857,
+     "pT2": 0.46,
+     "pT3": 0.3,
+     "pTL": 0.8,
+     "pAS": 0.6897,
+     "RO": 14,
+     "BP": 20,
+     "BR": 20,
+     "AS": 20,
+     "net": 0.2983
+    },
+    {
+     "PF": 53,
+     "PR": 80,
+     "poss": 82.16,
+     "ritme": 83.48,
+     "OER": 0.6451,
+     "DER": 0.9434,
+     "eFG": 0.3308,
+     "eFG_riv": 0.4571,
+     "pRO": 0.2857,
+     "pRD": 0.5625,
+     "pBP": 0.2799,
+     "pBP_riv": 0.2358,
+     "FTr": 0.2154,
+     "t3r": 0.3846,
+     "pT2": 0.425,
+     "pT3": 0.12,
+     "pTL": 0.7143,
+     "pAS": 0.85,
+     "RO": 12,
+     "BP": 23,
+     "BR": 14,
+     "AS": 17,
+     "net": -0.2983
+    }
+   ]
+  },
+  {
+   "id": 2524745,
+   "equips": [
+    "DPES-SUMIALKI CB CIUDAD DE MOSTOLES",
+    "CESUR DISTRITO OLIMPICO"
+   ],
+   "marcador": [
+    63,
+    68
+   ],
+   "data": "14/11/2026",
+   "parcials": [
+    "17/22",
+    "17/17",
+    "16/14",
+    "13/15"
+   ],
+   "metriques": [
+    {
+     "PF": 63,
+     "PR": 68,
+     "poss": 80.32,
+     "ritme": 80.06,
+     "OER": 0.7844,
+     "DER": 0.8521,
+     "eFG": 0.3917,
+     "eFG_riv": 0.4154,
+     "pRO": 0.2051,
+     "pRD": 0.6774,
+     "pBP": 0.1992,
+     "pBP_riv": 0.2005,
+     "FTr": 0.4667,
+     "t3r": 0.45,
+     "pT2": 0.4848,
+     "pT3": 0.1852,
+     "pTL": 0.5714,
+     "pAS": 0.619,
+     "RO": 8,
+     "BP": 16,
+     "BR": 11,
+     "AS": 13,
+     "net": -0.0678
+    },
+    {
+     "PF": 68,
+     "PR": 63,
+     "poss": 79.8,
+     "ritme": 80.06,
+     "OER": 0.8521,
+     "DER": 0.7844,
+     "eFG": 0.4154,
+     "eFG_riv": 0.3917,
+     "pRO": 0.3226,
+     "pRD": 0.7949,
+     "pBP": 0.2005,
+     "pBP_riv": 0.1992,
+     "FTr": 0.3077,
+     "t3r": 0.2923,
+     "pT2": 0.3913,
+     "pT3": 0.3158,
+     "pTL": 0.7,
+     "pAS": 0.7083,
+     "RO": 10,
+     "BP": 16,
+     "BR": 10,
+     "AS": 17,
+     "net": 0.0678
+    }
+   ]
+  }
+ ],
+ "desviacions": [
+  {
+   "equip": "C.B. LAS ROZAS",
+   "rival": "SIROKO GIJON BASKETBALL",
+   "metrica": "punts per possessió",
+   "valor": 1.0789,
+   "mitjana": 0.7706,
+   "z": 3.16
+  },
+  {
+   "equip": "C.B. LAS ROZAS",
+   "rival": "SIROKO GIJON BASKETBALL",
+   "metrica": "%eFG",
+   "valor": 0.5227,
+   "mitjana": 0.3781,
+   "z": 3.3
+  },
+  {
+   "equip": "C.B. LAS ROZAS",
+   "rival": "SIROKO GIJON BASKETBALL",
+   "metrica": "% pèrdues",
+   "valor": 0.1364,
+   "mitjana": 0.2381,
+   "z": -1.88
+  },
+  {
+   "equip": "SERNOVA RENOVABLES REAL CANOE",
+   "rival": "MAGEC TÍAS LANZAROTE CONTRA LA VIOLENCIA DE GÉNERO",
+   "metrica": "%eFG",
+   "valor": 0.5278,
+   "mitjana": 0.4693,
+   "z": 1.76
+  },
+  {
+   "equip": "SERNOVA RENOVABLES REAL CANOE",
+   "rival": "MAGEC TÍAS LANZAROTE CONTRA LA VIOLENCIA DE GÉNERO",
+   "metrica": "ràtio de TL",
+   "valor": 0.5556,
+   "mitjana": 0.3231,
+   "z": 2.45
+  },
+  {
+   "equip": "SPAR GRAN CANARIA",
+   "rival": "HIERROS DÍAZ EXTREMADURA MIRALVALLE",
+   "metrica": "punts rebuts per possessió",
+   "valor": 0.6451,
+   "mitjana": 0.9413,
+   "z": -2.09
+  },
+  {
+   "equip": "SPAR GRAN CANARIA",
+   "rival": "HIERROS DÍAZ EXTREMADURA MIRALVALLE",
+   "metrica": "% rebot ofensiu",
+   "valor": 0.4375,
+   "mitjana": 0.2608,
+   "z": 2.09
+  },
+  {
+   "equip": "SPAR GRAN CANARIA",
+   "rival": "HIERROS DÍAZ EXTREMADURA MIRALVALLE",
+   "metrica": "ritme",
+   "valor": 83.48,
+   "mitjana": 73.7767,
+   "z": 1.92
+  },
+  {
+   "equip": "HIERROS DÍAZ EXTREMADURA MIRALVALLE",
+   "rival": "SPAR GRAN CANARIA",
+   "metrica": "% pèrdues",
+   "valor": 0.2799,
+   "mitjana": 0.185,
+   "z": 2.25
+  }
+ ],
+ "sorpreses": [
+  {
+   "id": 2524741,
+   "guanyador": "SERNOVA RENOVABLES REAL CANOE",
+   "tipus": "guanya amb menys punts per possessió",
+   "OER": [
+    1.018,
+    1.011
+   ]
+  }
+ ],
+ "ratxes": [
+  {
+   "id": 2524744,
+   "equip": "SPAR GRAN CANARIA",
+   "punts": 16,
+   "de": "Q2 08:03",
+   "a": "Q2 05:13",
+   "marcador": "20-18 → 36-18",
+   "quintet": "A.MBENGUE / E.EZEANATOGU / L.PEREZ / M.OCURTO / T.EZEANATOGU",
+   "quintet_rival": "A.MORALES / I.SERRANO / M.ROMERO / N.MARTÍNEZ / P.VALDERRABANO",
+   "temps_mort": [
+    "Q2 08:01",
+    "Q2 06:36"
+   ]
+  },
+  {
+   "id": 2524745,
+   "equip": "CESUR DISTRITO OLIMPICO",
+   "punts": 14,
+   "de": "Q1 06:43",
+   "a": "Q1 03:48",
+   "marcador": "4-0 → 4-14",
+   "quintet": "B.ARMENGOL / C.LEAL / M.TSONEVA / N.MITCHELL / S.FRANCISCO",
+   "quintet_rival": "A.PEREDO / B.RODRÍGUEZ / E.ABUBAKAR / L.FLORES / M.GOMEZ",
+   "temps_mort": [
+    "Q1 03:48"
+   ]
+  },
+  {
+   "id": 2524744,
+   "equip": "SPAR GRAN CANARIA",
+   "punts": 12,
+   "de": "Q4 08:09",
+   "a": "Q4 04:04",
+   "marcador": "63-45 → 75-45",
+   "quintet": "A.GARCIA / A.MATEJKOVA / A.MBENGUE / I.TRUJILLO / T.EZEANATOGU",
+   "quintet_rival": "E.CASTRO / L.NAVAS / M.ROMERO / N.MARTÍNEZ / P.VALDERRABANO",
+   "temps_mort": [
+    "Q4 04:44"
+   ]
+  },
+  {
+   "id": 2524740,
+   "equip": "C.B. LAS ROZAS",
+   "punts": 10,
+   "de": "Q3 00:09",
+   "a": "Q4 06:27",
+   "marcador": "65-54 → 75-54",
+   "quintet": "C.CASO / C.UGOCHUKWU / F.BALDÉ / M.PÉREZ / R.CRUZ",
+   "quintet_rival": "A.MENENDEZ / C.LOPEZ / L.GARCIA / M.GARCIA / P.NDIAYE",
+   "temps_mort": [
+    "Q4 08:19"
+   ]
+  },
+  {
+   "id": 2524741,
+   "equip": "SERNOVA RENOVABLES REAL CANOE",
+   "punts": 9,
+   "de": "Q4 02:16",
+   "a": "Q4 00:30",
+   "marcador": "69-65 → 69-74",
+   "quintet": "C.MATO / M.LLORENTE / N.PADROSA / P.REAL / V.LOPEZ",
+   "quintet_rival": "A.MOYANO / M.HOFSCHILD / P.ASUMU / T.BURKE / Y.GARCIA",
+   "temps_mort": [
+    "Q4 00:30"
+   ]
+  },
+  {
+   "id": 2524745,
+   "equip": "DPES-SUMIALKI CB CIUDAD DE MOSTOLES",
+   "punts": 8,
+   "de": "Q2 01:27",
+   "a": "Q3 09:26",
+   "marcador": "29-39 → 37-39",
+   "quintet": "D.VAQUERO / E.ABUBAKAR / M.GOMEZ / N.CAMARERO / N.GOMEZ",
+   "quintet_rival": "A.MARTÍNEZ / M.MARTINEZ / N.LESKOVA / N.MITCHELL / S.FRANCISCO",
+   "temps_mort": [
+    "Q2 01:06"
+   ]
+  }
+ ],
+ "individuals": [
+  {
+   "id": 2524744,
+   "equip": "SPAR GRAN CANARIA",
+   "jugadora": "T. EZEANATOGU EZEONU",
+   "min": 35.58,
+   "PT": 14,
+   "REB": 12,
+   "AS": 6,
+   "BP": 3,
+   "T2": "5/13",
+   "T3": "0/0",
+   "TL": "4/4",
+   "VAL": 30,
+   "pm": 28,
+   "doble_doble": true,
+   "TS": 0.474,
+   "VAL_mitjana": 23.67,
+   "z": 0.42,
+   "partits_previs": 3
+  },
+  {
+   "id": 2524744,
+   "equip": "SPAR GRAN CANARIA",
+   "jugadora": "A. MBENGUE SÁNCHEZ",
+   "min": 37.57,
+   "PT": 16,
+   "REB": 11,
+   "AS": 5,
+   "BP": 5,
+   "T2": "7/11",
+   "T3": "0/0",
+   "TL": "2/4",
+   "VAL": 24,
+   "pm": 27,
+   "doble_doble": true,
+   "TS": 0.627,
+   "VAL_mitjana": 14,
+   "z": 0.62,
+   "partits_previs": 3
+  },
+  {
+   "id": 2524745,
+   "equip": "CESUR DISTRITO OLIMPICO",
+   "jugadora": "S. FRANCISCO ABOS",
+   "min": 26.6,
+   "PT": 18,
+   "REB": 5,
+   "AS": 4,
+   "BP": 0,
+   "T2": "4/9",
+   "T3": "1/5",
+   "TL": "7/8",
+   "VAL": 24,
+   "pm": 15,
+   "doble_doble": false,
+   "TS": 0.514,
+   "VAL_mitjana": 6.2,
+   "z": 2.29,
+   "partits_previs": 5
+  },
+  {
+   "id": 2524740,
+   "equip": "SIROKO GIJON BASKETBALL",
+   "jugadora": "L. GARCIA PECES",
+   "min": 33.3,
+   "PT": 23,
+   "REB": 1,
+   "AS": 6,
+   "BP": 4,
+   "T2": "6/8",
+   "T3": "3/6",
+   "TL": "2/2",
+   "VAL": 23,
+   "pm": -14,
+   "doble_doble": false,
+   "TS": 0.773,
+   "VAL_mitjana": 9.67,
+   "z": 1.34,
+   "partits_previs": 6
+  },
+  {
+   "id": 2524741,
+   "equip": "MAGEC TÍAS LANZAROTE CONTRA LA VIOLENCIA DE GÉNERO",
+   "jugadora": "A. MOYANO MEDINA",
+   "min": 35.0,
+   "PT": 16,
+   "REB": 6,
+   "AS": 3,
+   "BP": 3,
+   "T2": "5/7",
+   "T3": "1/3",
+   "TL": "3/3",
+   "VAL": 23,
+   "pm": 0,
+   "doble_doble": false,
+   "TS": 0.707,
+   "VAL_mitjana": 7.67,
+   "z": 2.24,
+   "partits_previs": 6
+  },
+  {
+   "id": 2524745,
+   "equip": "CESUR DISTRITO OLIMPICO",
+   "jugadora": "N. MITCHELL",
+   "min": 30.97,
+   "PT": 13,
+   "REB": 17,
+   "AS": 2,
+   "BP": 2,
+   "T2": "3/8",
+   "T3": "1/3",
+   "TL": "4/4",
+   "VAL": 23,
+   "pm": 12,
+   "doble_doble": true,
+   "TS": 0.509,
+   "VAL_mitjana": 10,
+   "z": 3.61,
+   "partits_previs": 3
+  },
+  {
+   "id": 2524740,
+   "equip": "C.B. LAS ROZAS",
+   "jugadora": "F. BALDÉ",
+   "min": 20.02,
+   "PT": 18,
+   "REB": 7,
+   "AS": 2,
+   "BP": 1,
+   "T2": "4/7",
+   "T3": "1/1",
+   "TL": "7/13",
+   "VAL": 21,
+   "pm": 20,
+   "doble_doble": false,
+   "TS": 0.656,
+   "VAL_mitjana": 6,
+   "z": 13.69,
+   "partits_previs": 6
+  },
+  {
+   "id": 2524740,
+   "equip": "SIROKO GIJON BASKETBALL",
+   "jugadora": "P. NDIAYE",
+   "min": 36.43,
+   "PT": 14,
+   "REB": 7,
+   "AS": 4,
+   "BP": 3,
+   "T2": "5/10",
+   "T3": "1/1",
+   "TL": "1/4",
+   "VAL": 21,
+   "pm": -17,
+   "doble_doble": false,
+   "TS": 0.549,
+   "VAL_mitjana": 9.4,
+   "z": 1.7,
+   "partits_previs": 5
+  },
+  {
+   "id": 2524740,
+   "equip": "C.B. LAS ROZAS",
+   "jugadora": "M. GONZÁLEZ ALBADALEJO",
+   "min": 25.9,
+   "PT": 12,
+   "REB": 4,
+   "AS": 4,
+   "BP": 1,
+   "T2": "2/3",
+   "T3": "2/4",
+   "TL": "2/2",
+   "VAL": 20,
+   "pm": 13,
+   "doble_doble": false,
+   "TS": 0.761,
+   "VAL_mitjana": 4,
+   "z": 11.31,
+   "partits_previs": 2
+  },
+  {
+   "id": 2524740,
+   "equip": "C.B. LAS ROZAS",
+   "jugadora": "C. UGOCHUKWU UGOCHUKWU",
+   "min": 18.62,
+   "PT": 9,
+   "REB": 10,
+   "AS": 2,
+   "BP": 1,
+   "T2": "2/5",
+   "T3": "0/0",
+   "TL": "5/10",
+   "VAL": 18,
+   "pm": 1,
+   "doble_doble": false,
+   "TS": 0.479,
+   "VAL_mitjana": 4.25,
+   "z": 3.06,
+   "partits_previs": 4
+  },
+  {
+   "id": 2524741,
+   "equip": "SERNOVA RENOVABLES REAL CANOE",
+   "jugadora": "M. LLORENTE RUIZ",
+   "min": 26.5,
+   "PT": 15,
+   "REB": 6,
+   "AS": 4,
+   "BP": 2,
+   "T2": "2/8",
+   "T3": "3/5",
+   "TL": "2/3",
+   "VAL": 18,
+   "pm": -1,
+   "doble_doble": false,
+   "TS": 0.524,
+   "VAL_mitjana": 6.2,
+   "z": 1.58,
+   "partits_previs": 5
+  },
+  {
+   "id": 2524744,
+   "equip": "SPAR GRAN CANARIA",
+   "jugadora": "E. EZEANATOGU EZEONU",
+   "min": 25.93,
+   "PT": 12,
+   "REB": 7,
+   "AS": 2,
+   "BP": 3,
+   "T2": "4/8",
+   "T3": "0/0",
+   "TL": "4/6",
+   "VAL": 18,
+   "pm": 18,
+   "doble_doble": false,
+   "TS": 0.564,
+   "VAL_mitjana": 10.67,
+   "z": 1.63,
+   "partits_previs": 3
+  },
+  {
+   "id": 2524744,
+   "equip": "HIERROS DÍAZ EXTREMADURA MIRALVALLE",
+   "jugadora": "S. TORRUELLA BRETÓN",
+   "min": 30.97,
+   "PT": 16,
+   "REB": 8,
+   "AS": 0,
+   "BP": 3,
+   "T2": "5/9",
+   "T3": "1/4",
+   "TL": "3/4",
+   "VAL": 18,
+   "pm": -21,
+   "doble_doble": false,
+   "TS": 0.542,
+   "VAL_mitjana": 9.67,
+   "z": 1.1,
+   "partits_previs": 6
+  },
+  {
+   "id": 2524745,
+   "equip": "CESUR DISTRITO OLIMPICO",
+   "jugadora": "B. ARMENGOL VALL",
+   "min": 34.1,
+   "PT": 11,
+   "REB": 8,
+   "AS": 5,
+   "BP": 5,
+   "T2": "2/5",
+   "T3": "2/4",
+   "TL": "1/4",
+   "VAL": 18,
+   "pm": 13,
+   "doble_doble": false,
+   "TS": 0.511,
+   "VAL_mitjana": 7,
+   "z": 1.89,
+   "partits_previs": 6
+  },
+  {
+   "id": 2524741,
+   "equip": "MAGEC TÍAS LANZAROTE CONTRA LA VIOLENCIA DE GÉNERO",
+   "jugadora": "M. HOFSCHILD",
+   "min": 33.28,
+   "PT": 19,
+   "REB": 4,
+   "AS": 4,
+   "BP": 1,
+   "T2": "5/7",
+   "T3": "2/8",
+   "TL": "3/3",
+   "VAL": 17,
+   "pm": 5,
+   "doble_doble": false,
+   "TS": 0.582,
+   "VAL_mitjana": 12.83,
+   "z": 0.5,
+   "partits_previs": 6
+  },
+  {
+   "id": 2524740,
+   "equip": "SIROKO GIJON BASKETBALL",
+   "jugadora": "S. LLANOS GASULLA",
+   "min": 34.37,
+   "PT": 17,
+   "REB": 10,
+   "AS": 3,
+   "BP": 1,
+   "T2": "4/10",
+   "T3": "3/9",
+   "TL": "0/0",
+   "VAL": 15,
+   "pm": -11,
+   "doble_doble": true,
+   "TS": 0.447,
+   "VAL_mitjana": 10.17,
+   "z": 0.5,
+   "partits_previs": 6
+  },
+  {
+   "id": 2524740,
+   "equip": "C.B. LAS ROZAS",
+   "jugadora": "C. CASO MARTIN",
+   "min": 24.83,
+   "PT": 11,
+   "REB": 0,
+   "AS": 2,
+   "BP": 0,
+   "T2": "3/6",
+   "T3": "1/2",
+   "TL": "2/4",
+   "VAL": 11,
+   "pm": 10,
+   "doble_doble": false,
+   "TS": 0.564,
+   "VAL_mitjana": 3,
+   "z": 2.2,
+   "partits_previs": 6
+  },
+  {
+   "id": 2524744,
+   "equip": "HIERROS DÍAZ EXTREMADURA MIRALVALLE",
+   "jugadora": "I. SERRANO ALVAREZ",
+   "min": 27.05,
+   "PT": 3,
+   "REB": 5,
+   "AS": 3,
+   "BP": 6,
+   "T2": "1/3",
+   "T3": "0/3",
+   "TL": "1/2",
+   "VAL": -1,
+   "pm": -26,
+   "doble_doble": false,
+   "TS": 0.218,
+   "VAL_mitjana": 6.83,
+   "z": -2.51,
+   "partits_previs": 6
+  },
+  {
+   "id": 2524745,
+   "equip": "CESUR DISTRITO OLIMPICO",
+   "jugadora": "M. TSONEVA",
+   "min": 18.57,
+   "PT": 3,
+   "REB": 1,
+   "AS": 0,
+   "BP": 1,
+   "T2": "1/5",
+   "T3": "0/0",
+   "TL": "1/2",
+   "VAL": -4,
+   "pm": 1,
+   "doble_doble": false,
+   "TS": 0.255,
+   "VAL_mitjana": 8.67,
+   "z": -1.9,
+   "partits_previs": 6
+  }
+ ],
+ "finals_ajustats": [
+  {
+   "id": 2524741,
+   "equips": [
+    "MAGEC TÍAS LANZAROTE CONTRA LA VIOLENCIA DE GÉNERO",
+    "SERNOVA RENOVABLES REAL CANOE"
+   ],
+   "marcador": [
+    72,
+    74
+   ],
+   "marge_a_5_min": 1,
+   "marge_minim": 0,
+   "clutch": {
+    "minuts": 5.3,
+    "parcial": "MAGEC TÍAS LANZAROTE CONTRA LA VIOLENCIA DE GÉNERO 10-13 SERNOVA RENOVABLES REAL CANOE",
+    "destacada": "M. LLORENTE RUIZ"
+   }
+  },
+  {
+   "id": 2524745,
+   "equips": [
+    "DPES-SUMIALKI CB CIUDAD DE MOSTOLES",
+    "CESUR DISTRITO OLIMPICO"
+   ],
+   "marcador": [
+    63,
+    68
+   ],
+   "marge_a_5_min": -6,
+   "marge_minim": 1,
+   "clutch": {
+    "minuts": 2.0,
+    "parcial": "DPES-SUMIALKI CB CIUDAD DE MOSTOLES 6-7 CESUR DISTRITO OLIMPICO",
+    "destacada": "S. FRANCISCO ABOS"
+   }
+  }
+ ],
+ "quintets": [
+  {
+   "id": 2524740,
+   "equip": "C.B. LAS ROZAS",
+   "mes_usat": {
+    "quintet": "C.CASO / C.UGOCHUKWU / E.FLOREZ / J.FORD / M.GONZÁLEZ",
+    "minuts": 4.5,
+    "dif": -1
+   },
+   "millor": {
+    "quintet": "F.BALDÉ / L.RIESTRA / M.ARANDA / M.GONZÁLEZ / M.PÉREZ",
+    "minuts": 4.0,
+    "dif": 6
+   },
+   "pitjor": {
+    "quintet": "C.CASO / C.UGOCHUKWU / E.FLOREZ / J.FORD / M.GONZÁLEZ",
+    "minuts": 4.5,
+    "dif": -1
+   }
+  },
+  {
+   "id": 2524740,
+   "equip": "SIROKO GIJON BASKETBALL",
+   "mes_usat": {
+    "quintet": "C.LOPEZ / L.GARCIA / M.GARCIA / P.NDIAYE / S.LLANOS",
+    "minuts": 11.3,
+    "dif": -2
+   },
+   "millor": {
+    "quintet": "C.ALLER / C.LOPEZ / L.GARCIA / P.NDIAYE / S.LLANOS",
+    "minuts": 6.6,
+    "dif": 5
+   },
+   "pitjor": {
+    "quintet": "C.ALLER / L.GARCIA / M.GARCIA / P.NDIAYE / S.LLANOS",
+    "minuts": 4.5,
+    "dif": -4
+   }
+  },
+  {
+   "id": 2524741,
+   "equip": "MAGEC TÍAS LANZAROTE CONTRA LA VIOLENCIA DE GÉNERO",
+   "mes_usat": {
+    "quintet": "A.MOYANO / M.HOFSCHILD / P.ASUMU / T.BURKE / Y.GARCIA",
+    "minuts": 10.7,
+    "dif": -5
+   },
+   "millor": {
+    "quintet": "A.HERNANDEZ / A.MOYANO / M.HOFSCHILD / N.LAGO / T.BURKE",
+    "minuts": 4.0,
+    "dif": 1
+   },
+   "pitjor": {
+    "quintet": "A.MOYANO / M.HOFSCHILD / P.ASUMU / T.BURKE / Y.GARCIA",
+    "minuts": 10.7,
+    "dif": -5
+   }
+  },
+  {
+   "id": 2524741,
+   "equip": "SERNOVA RENOVABLES REAL CANOE",
+   "mes_usat": {
+    "quintet": "C.MATO / M.LLORENTE / N.PADROSA / P.REAL / V.LOPEZ",
+    "minuts": 7.9,
+    "dif": 13
+   },
+   "millor": {
+    "quintet": "C.MATO / M.LLORENTE / N.PADROSA / P.REAL / V.LOPEZ",
+    "minuts": 7.9,
+    "dif": 13
+   },
+   "pitjor": {
+    "quintet": "A.PICOS / C.MATO / M.LLORENTE / N.PADROSA / P.REAL",
+    "minuts": 6.1,
+    "dif": -10
+   }
+  },
+  {
+   "id": 2524744,
+   "equip": "SPAR GRAN CANARIA",
+   "mes_usat": {
+    "quintet": "A.MBENGUE / E.EZEANATOGU / L.PEREZ / M.OCURTO / T.EZEANATOGU",
+    "minuts": 16.5,
+    "dif": 19
+   },
+   "millor": {
+    "quintet": "A.MBENGUE / E.EZEANATOGU / L.PEREZ / M.OCURTO / T.EZEANATOGU",
+    "minuts": 16.5,
+    "dif": 19
+   },
+   "pitjor": {
+    "quintet": "A.GARCIA / A.MBENGUE / E.EZEANATOGU / I.TRUJILLO / T.EZEANATOGU",
+    "minuts": 5.6,
+    "dif": -1
+   }
+  },
+  {
+   "id": 2524744,
+   "equip": "HIERROS DÍAZ EXTREMADURA MIRALVALLE",
+   "mes_usat": {
+    "quintet": "I.SERRANO / L.NAVAS / M.ROMERO / N.MARTÍNEZ / S.TORRUELLA",
+    "minuts": 6.8,
+    "dif": 2
+   },
+   "millor": {
+    "quintet": "I.SERRANO / L.NAVAS / M.ROMERO / N.MARTÍNEZ / S.TORRUELLA",
+    "minuts": 6.8,
+    "dif": 2
+   },
+   "pitjor": {
+    "quintet": "I.SERRANO / L.NAVAS / N.MARTÍNEZ / P.VALDERRABANO / S.TORRUELLA",
+    "minuts": 5.2,
+    "dif": -6
+   }
+  },
+  {
+   "id": 2524745,
+   "equip": "DPES-SUMIALKI CB CIUDAD DE MOSTOLES",
+   "mes_usat": {
+    "quintet": "B.RODRÍGUEZ / D.VAQUERO / E.ABUBAKAR / M.GOMEZ / N.GOMEZ",
+    "minuts": 9.8,
+    "dif": -1
+   },
+   "millor": {
+    "quintet": "A.QUESADA / B.MORENO / D.VAQUERO / N.GOMEZ / R.FLORES",
+    "minuts": 4.7,
+    "dif": 2
+   },
+   "pitjor": {
+    "quintet": "A.PEREDO / B.RODRÍGUEZ / E.ABUBAKAR / L.FLORES / M.GOMEZ",
+    "minuts": 5.6,
+    "dif": -6
+   }
+  },
+  {
+   "id": 2524745,
+   "equip": "CESUR DISTRITO OLIMPICO",
+   "mes_usat": {
+    "quintet": "B.ARMENGOL / C.LEAL / M.TSONEVA / N.MITCHELL / S.FRANCISCO",
+    "minuts": 11.6,
+    "dif": 8
+   },
+   "millor": {
+    "quintet": "B.ARMENGOL / C.LEAL / M.TSONEVA / N.MITCHELL / S.FRANCISCO",
+    "minuts": 11.6,
+    "dif": 8
+   },
+   "pitjor": {
+    "quintet": "A.EMUSI / A.MARTÍNEZ / B.ARMENGOL / M.MARTINEZ / M.TSONEVA",
+    "minuts": 4.0,
+    "dif": -6
+   }
+  }
+ ],
+ "classificacio": [
+  {
+   "equip": "CB ISLA BONITA SANO SANO CATERING",
+   "V": 6,
+   "D": 0
+  },
+  {
+   "equip": "GRUPO INTERBUS ALCOBENDAS",
+   "V": 5,
+   "D": 1
+  },
+  {
+   "equip": "SERNOVA RENOVABLES REAL CANOE",
+   "V": 5,
+   "D": 2
+  },
+  {
+   "equip": "ACEITES ABRIL ADBA SANFER",
+   "V": 4,
+   "D": 2
+  },
+  {
+   "equip": "CESUR DISTRITO OLIMPICO",
+   "V": 4,
+   "D": 3
+  },
+  {
+   "equip": "HIERROS DÍAZ EXTREMADURA MIRALVALLE",
+   "V": 4,
+   "D": 3
+  },
+  {
+   "equip": "MARISCOS ANTÓN CORTEGADA",
+   "V": 4,
+   "D": 2
+  },
+  {
+   "equip": "C.B. LAS ROZAS",
+   "V": 3,
+   "D": 4
+  },
+  {
+   "equip": "DPES-SUMIALKI CB CIUDAD DE MOSTOLES",
+   "V": 3,
+   "D": 4
+  },
+  {
+   "equip": "EL COCHINILLO SEGOVIANO SL",
+   "V": 3,
+   "D": 3
+  },
+  {
+   "equip": "SPAR GRAN CANARIA",
+   "V": 3,
+   "D": 4
+  },
+  {
+   "equip": "CB POZUELO",
+   "V": 1,
+   "D": 5
+  },
+  {
+   "equip": "MAGEC TÍAS LANZAROTE CONTRA LA VIOLENCIA DE GÉNERO",
+   "V": 1,
+   "D": 6
+  },
+  {
+   "equip": "SIROKO GIJON BASKETBALL",
+   "V": 0,
+   "D": 7
+  }
+ ],
+ "avis": []
+}
