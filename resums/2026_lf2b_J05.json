@@ -352,6 +352,76 @@
    ]
   },
   {
+   "id": 2524912,
+   "equips": [
+    "SMARTLOG OINTXE",
+    "TGN BASQUET A"
+   ],
+   "marcador": [
+    89,
+    64
+   ],
+   "data": "15/11/2026",
+   "parcials": [
+    "22/20",
+    "18/13",
+    "26/20",
+    "23/11"
+   ],
+   "metriques": [
+    {
+     "PF": 89,
+     "PR": 64,
+     "poss": 79.88,
+     "ritme": 76.4,
+     "OER": 1.1142,
+     "DER": 0.8777,
+     "eFG": 0.5379,
+     "eFG_riv": 0.4474,
+     "pRO": 0.3333,
+     "pRD": 0.8462,
+     "pBP": 0.1502,
+     "pBP_riv": 0.192,
+     "FTr": 0.4091,
+     "t3r": 0.4242,
+     "pT2": 0.5789,
+     "pT3": 0.3214,
+     "pTL": 0.6667,
+     "pAS": 0.6774,
+     "RO": 10,
+     "BP": 12,
+     "BR": 10,
+     "AS": 21,
+     "net": 0.2365
+    },
+    {
+     "PF": 64,
+     "PR": 89,
+     "poss": 72.92,
+     "ritme": 76.4,
+     "OER": 0.8777,
+     "DER": 1.1142,
+     "eFG": 0.4474,
+     "eFG_riv": 0.5379,
+     "pRO": 0.1538,
+     "pRD": 0.6667,
+     "pBP": 0.192,
+     "pBP_riv": 0.1502,
+     "FTr": 0.3158,
+     "t3r": 0.4035,
+     "pT2": 0.3529,
+     "pT3": 0.3913,
+     "pTL": 0.7222,
+     "pAS": 0.6667,
+     "RO": 6,
+     "BP": 14,
+     "BR": 7,
+     "AS": 14,
+     "net": -0.2365
+    }
+   ]
+  },
+  {
    "id": 2524913,
    "equips": [
     "STADIUM CASABLANCA-PATATAS GÓMEZ",
@@ -438,6 +508,46 @@
    "valor": 0.5072,
    "mitjana": 0.4241,
    "z": 1.68
+  },
+  {
+   "equip": "SMARTLOG OINTXE",
+   "rival": "TGN BASQUET A",
+   "metrica": "punts per possessió",
+   "valor": 1.1142,
+   "mitjana": 0.8112,
+   "z": 3.07
+  },
+  {
+   "equip": "SMARTLOG OINTXE",
+   "rival": "TGN BASQUET A",
+   "metrica": "punts rebuts per possessió",
+   "valor": 0.8777,
+   "mitjana": 0.7819,
+   "z": 1.54
+  },
+  {
+   "equip": "SMARTLOG OINTXE",
+   "rival": "TGN BASQUET A",
+   "metrica": "%eFG",
+   "valor": 0.5379,
+   "mitjana": 0.3833,
+   "z": 1.75
+  },
+  {
+   "equip": "SMARTLOG OINTXE",
+   "rival": "TGN BASQUET A",
+   "metrica": "% rebot ofensiu",
+   "valor": 0.3333,
+   "mitjana": 0.441,
+   "z": -1.68
+  },
+  {
+   "equip": "SMARTLOG OINTXE",
+   "rival": "TGN BASQUET A",
+   "metrica": "% pèrdues",
+   "valor": 0.1502,
+   "mitjana": 0.2648,
+   "z": -1.73
   },
   {
    "equip": "HORBISA SPIRIT AUSARTA BARAKALDO",
@@ -588,6 +698,19 @@
    "temps_mort": [
     "Q3 08:15"
    ]
+  },
+  {
+   "id": 2524912,
+   "equip": "SMARTLOG OINTXE",
+   "punts": 9,
+   "de": "Q3 05:54",
+   "a": "Q3 04:14",
+   "marcador": "47-41 → 56-41",
+   "quintet": "A.FLORES / I.BEDIA / I.PEREZ / J.ANTÓNIO / V.BAUTISTA",
+   "quintet_rival": "A.FARELL / A.MAGRIÑA / A.SISNIEGA / E.GUILERA / L.LORENZO",
+   "temps_mort": [
+    "Q3 04:37"
+   ]
   }
  ],
  "individuals": [
@@ -629,6 +752,26 @@
    "TS": 0.726,
    "VAL_mitjana": 10,
    "z": 1.62,
+   "partits_previs": 4
+  },
+  {
+   "id": 2524912,
+   "equip": "SMARTLOG OINTXE",
+   "jugadora": "I. BEDIA DELGADO",
+   "min": 20.18,
+   "PT": 13,
+   "REB": 10,
+   "AS": 0,
+   "BP": 2,
+   "T2": "5/6",
+   "T3": "0/2",
+   "TL": "3/4",
+   "VAL": 23,
+   "pm": 7,
+   "doble_doble": true,
+   "TS": 0.666,
+   "VAL_mitjana": 8,
+   "z": 3.06,
    "partits_previs": 4
   },
   {
@@ -770,6 +913,26 @@
    "VAL_mitjana": 9.67,
    "z": 0.47,
    "partits_previs": 3
+  },
+  {
+   "id": 2524912,
+   "equip": "SMARTLOG OINTXE",
+   "jugadora": "A. FLORES REAL",
+   "min": 26.72,
+   "PT": 15,
+   "REB": 4,
+   "AS": 4,
+   "BP": 2,
+   "T2": "2/3",
+   "T3": "3/6",
+   "TL": "2/4",
+   "VAL": 18,
+   "pm": 21,
+   "doble_doble": false,
+   "TS": 0.697,
+   "VAL_mitjana": 3.75,
+   "z": 4.6,
+   "partits_previs": 4
   },
   {
    "id": 2524911,
@@ -1004,6 +1167,44 @@
    }
   },
   {
+   "id": 2524912,
+   "equip": "SMARTLOG OINTXE",
+   "mes_usat": {
+    "quintet": "A.FLORES / D.ZAFRA / I.PEREZ / J.ANTÓNIO / S.MOLINA",
+    "minuts": 9.5,
+    "dif": 10
+   },
+   "millor": {
+    "quintet": "A.FLORES / D.ZAFRA / I.PEREZ / J.ANTÓNIO / S.MOLINA",
+    "minuts": 9.5,
+    "dif": 10
+   },
+   "pitjor": {
+    "quintet": "A.FLORES / I.PEREZ / M.CASTELLANO / N.CABUE / N.GARAI",
+    "minuts": 4.2,
+    "dif": 4
+   }
+  },
+  {
+   "id": 2524912,
+   "equip": "TGN BASQUET A",
+   "mes_usat": {
+    "quintet": "A.DOMINGUEZ / A.MAGRIÑA / A.SISNIEGA / L.LORENZO / N.LEMONGANG",
+    "minuts": 6.9,
+    "dif": -7
+   },
+   "millor": {
+    "quintet": "A.FARELL / A.MAGRIÑA / E.GUILERA / M.DIAZ / M.PICO",
+    "minuts": 4.5,
+    "dif": 1
+   },
+   "pitjor": {
+    "quintet": "A.DOMINGUEZ / A.MAGRIÑA / A.SISNIEGA / L.LORENZO / N.LEMONGANG",
+    "minuts": 6.9,
+    "dif": -7
+   }
+  },
+  {
    "id": 2524913,
    "equip": "STADIUM CASABLANCA-PATATAS GÓMEZ",
    "mes_usat": {
@@ -1054,17 +1255,17 @@
    "D": 1
   },
   {
+   "equip": "SMARTLOG OINTXE",
+   "V": 4,
+   "D": 1
+  },
+  {
    "equip": "XEREZ CLUB DEPORTIVO",
    "V": 4,
    "D": 1
   },
   {
    "equip": "ROMAKURUMA U.E.MATARÓ",
-   "V": 3,
-   "D": 1
-  },
-  {
-   "equip": "SMARTLOG OINTXE",
    "V": 3,
    "D": 1
   },
@@ -1111,7 +1312,7 @@
   {
    "equip": "TGN BASQUET A",
    "V": 0,
-   "D": 3
+   "D": 4
   }
  ],
  "avis": []

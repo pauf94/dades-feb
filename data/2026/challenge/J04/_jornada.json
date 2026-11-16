@@ -37,18 +37,18 @@
   "30": "2027-04-24"
  },
  "altres_jornades": [
-  2524479,
+  2524487,
   2524488,
-  2524494,
+  2524489,
+  2524490,
+  2524491,
   2524492,
   2524493,
-  2524490,
-  2524487,
-  2524491,
-  2524489
+  2524494
  ],
  "data": "24/10/2026",
  "ids": [
+  2524479,
   2524480,
   2524481,
   2524482,
@@ -57,9 +57,24 @@
   2524485,
   2524486
  ],
- "ids_method": 2,
- "generated": "2026-10-26T09:46:51.237357+00:00",
+ "desplacats": [
+  2524479
+ ],
+ "ids_method": 3,
+ "generated": "2026-11-16T19:15:24.285606+00:00",
  "games": [
+  {
+   "id": 2524479,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "date": "21/12/2026",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null,
+   "fila": "MCR LIMA-HORTA BARCELONA - DOMUSA TEKNIK ISB *-* 21/12/2026 20:45"
+  },
   {
    "id": 2524480,
    "teams": [
@@ -70,12 +85,9 @@
     56,
     88
    ],
-   "error": null,
    "date": "24/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524481,
@@ -87,12 +99,9 @@
     70,
     72
    ],
-   "error": null,
    "date": "24/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524482,
@@ -104,12 +113,9 @@
     81,
     82
    ],
-   "error": null,
    "date": "24/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524483,
@@ -121,12 +127,9 @@
     79,
     72
    ],
-   "error": null,
    "date": "25/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524484,
@@ -138,14 +141,9 @@
     73,
     53
    ],
-   "error": null,
    "date": "24/10/2026",
    "pbp_ok": true,
-   "shots_ok": false,
-   "shot_mismatch": [
-    "T. SIDBERRY 10/11"
-   ],
-   "shot_orphans": []
+   "shots_ok": false
   },
   {
    "id": 2524485,
@@ -157,12 +155,9 @@
     75,
     78
    ],
-   "error": null,
    "date": "24/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524486,
@@ -174,14 +169,17 @@
     65,
     37
    ],
-   "error": null,
    "date": "24/10/2026",
    "pbp_ok": true,
-   "shots_ok": false,
-   "shot_mismatch": [
-    "B. JACKSON 10/11"
-   ],
-   "shot_orphans": []
+   "shots_ok": false
   }
- ]
+ ],
+ "pendents": [
+  {
+   "id": 2524479,
+   "date": "21/12/2026",
+   "fila": "MCR LIMA-HORTA BARCELONA - DOMUSA TEKNIK ISB *-* 21/12/2026 20:45"
+  }
+ ],
+ "completa": false
 }

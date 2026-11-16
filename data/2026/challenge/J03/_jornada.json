@@ -37,14 +37,13 @@
   "30": "2027-04-24"
  },
  "altres_jornades": [
-  2524482,
   2524480,
-  2524485,
-  2524484,
   2524481,
-  2524486,
+  2524482,
   2524483,
-  2524479
+  2524484,
+  2524485,
+  2524486
  ],
  "data": "17/10/2026",
  "ids": [
@@ -55,10 +54,14 @@
   2524475,
   2524476,
   2524477,
-  2524478
+  2524478,
+  2524479
  ],
- "ids_method": 2,
- "generated": "2026-10-19T15:24:27.860526+00:00",
+ "desplacats": [
+  2524479
+ ],
+ "ids_method": 3,
+ "generated": "2026-11-16T19:15:12.726942+00:00",
  "games": [
   {
    "id": 2524471,
@@ -70,12 +73,9 @@
     84,
     69
    ],
-   "error": null,
    "date": "18/10/2026",
    "pbp_ok": false,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524472,
@@ -87,12 +87,9 @@
     69,
     76
    ],
-   "error": null,
    "date": "17/10/2026",
    "pbp_ok": false,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524473,
@@ -104,12 +101,9 @@
     47,
     80
    ],
-   "error": null,
    "date": "17/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524474,
@@ -121,12 +115,9 @@
     74,
     51
    ],
-   "error": null,
    "date": "16/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524475,
@@ -138,12 +129,9 @@
     69,
     60
    ],
-   "error": null,
    "date": "17/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524476,
@@ -155,12 +143,9 @@
     54,
     67
    ],
-   "error": null,
    "date": "17/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524477,
@@ -172,12 +157,9 @@
     53,
     63
    ],
-   "error": null,
    "date": "18/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524478,
@@ -189,12 +171,29 @@
     64,
     68
    ],
-   "error": null,
    "date": "18/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
+  },
+  {
+   "id": 2524479,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "date": "21/12/2026",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null,
+   "fila": "MCR LIMA-HORTA BARCELONA - DOMUSA TEKNIK ISB *-* 21/12/2026 20:45"
   }
- ]
+ ],
+ "pendents": [
+  {
+   "id": 2524479,
+   "date": "21/12/2026",
+   "fila": "MCR LIMA-HORTA BARCELONA - DOMUSA TEKNIK ISB *-* 21/12/2026 20:45"
+  }
+ ],
+ "completa": false
 }

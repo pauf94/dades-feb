@@ -33,13 +33,12 @@
   "26": "2027-04-17"
  },
  "altres_jornades": [
-  2524912,
   2524914,
+  2524915,
   2524916,
+  2524917,
   2524918,
   2524919,
-  2524915,
-  2524917,
   2524920
  ],
  "data": "31/10/2026",
@@ -49,10 +48,14 @@
   2524909,
   2524910,
   2524911,
+  2524912,
   2524913
  ],
- "ids_method": 2,
- "generated": "2026-11-02T09:26:20.525900+00:00",
+ "desplacats": [
+  2524912
+ ],
+ "ids_method": 3,
+ "generated": "2026-11-16T19:17:00.208351+00:00",
  "games": [
   {
    "id": 2524907,
@@ -64,12 +67,9 @@
     63,
     57
    ],
-   "error": null,
    "date": "01/11/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524908,
@@ -81,12 +81,9 @@
     56,
     64
    ],
-   "error": null,
    "date": "31/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524909,
@@ -98,12 +95,9 @@
     58,
     49
    ],
-   "error": null,
    "date": "31/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524910,
@@ -115,14 +109,9 @@
     43,
     70
    ],
-   "error": null,
    "date": "01/11/2026",
    "pbp_ok": true,
-   "shots_ok": false,
-   "shot_mismatch": [
-    "P. DITS GARCIA 6/7"
-   ],
-   "shot_orphans": []
+   "shots_ok": false
   },
   {
    "id": 2524911,
@@ -134,8 +123,22 @@
     93,
     71
    ],
-   "error": null,
    "date": "01/11/2026",
+   "pbp_ok": true,
+   "shots_ok": true
+  },
+  {
+   "id": 2524912,
+   "teams": [
+    "SMARTLOG OINTXE",
+    "TGN BASQUET A"
+   ],
+   "score": [
+    89,
+    64
+   ],
+   "error": null,
+   "date": "15/11/2026",
    "pbp_ok": true,
    "shots_ok": true,
    "shot_mismatch": [],
@@ -151,14 +154,11 @@
     74,
     82
    ],
-   "error": null,
    "date": "01/11/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [
-    "S. VILLA PEREZ 6/4"
-   ],
-   "shot_orphans": []
+   "shots_ok": true
   }
- ]
+ ],
+ "pendents": [],
+ "completa": true
 }

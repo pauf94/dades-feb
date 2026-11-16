@@ -33,13 +33,13 @@
   "26": "2027-04-17"
  },
  "altres_jornades": [
+  2524732,
   2524733,
-  2524736,
   2524734,
   2524735,
+  2524736,
   2524737,
-  2524738,
-  2524732
+  2524738
  ],
  "data": "31/10/2026",
  "ids": [
@@ -51,8 +51,9 @@
   2524730,
   2524731
  ],
- "ids_method": 2,
- "generated": "2026-11-02T09:24:56.556519+00:00",
+ "desplacats": [],
+ "ids_method": 3,
+ "generated": "2026-11-16T19:15:38.700644+00:00",
  "games": [
   {
    "id": 2524725,
@@ -64,12 +65,9 @@
     102,
     76
    ],
-   "error": null,
    "date": "31/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524726,
@@ -81,12 +79,9 @@
     43,
     73
    ],
-   "error": null,
    "date": "31/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524727,
@@ -98,12 +93,9 @@
     54,
     65
    ],
-   "error": null,
    "date": "31/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524728,
@@ -115,12 +107,9 @@
     67,
     81
    ],
-   "error": null,
    "date": "31/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524729,
@@ -132,12 +121,9 @@
     55,
     75
    ],
-   "error": null,
    "date": "31/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524730,
@@ -149,12 +135,9 @@
     83,
     54
    ],
-   "error": null,
    "date": "31/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524731,
@@ -166,12 +149,11 @@
     83,
     73
    ],
-   "error": null,
    "date": "31/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   }
- ]
+ ],
+ "pendents": [],
+ "completa": true
 }

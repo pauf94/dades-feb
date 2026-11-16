@@ -33,13 +33,13 @@
   "26": "2027-04-17"
  },
  "altres_jornades": [
-  2524895,
-  2524899,
-  2524897,
   2524893,
   2524894,
+  2524895,
   2524896,
-  2524898
+  2524897,
+  2524898,
+  2524899
  ],
  "data": "10/10/2026",
  "ids": [
@@ -51,8 +51,9 @@
   2524891,
   2524892
  ],
- "ids_method": 2,
- "generated": "2026-10-19T15:12:34.238773+00:00",
+ "desplacats": [],
+ "ids_method": 3,
+ "generated": "2026-11-16T19:16:58.262588+00:00",
  "games": [
   {
    "id": 2524886,
@@ -64,12 +65,9 @@
     73,
     66
    ],
-   "error": null,
    "date": "10/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524887,
@@ -81,14 +79,9 @@
     66,
     72
    ],
-   "error": null,
    "date": "11/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [
-    "S. VILLA PEREZ 12/10"
-   ],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524888,
@@ -100,12 +93,9 @@
     60,
     43
    ],
-   "error": null,
    "date": "10/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524889,
@@ -117,12 +107,9 @@
     59,
     67
    ],
-   "error": null,
    "date": "12/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524890,
@@ -134,12 +121,9 @@
     83,
     57
    ],
-   "error": null,
    "date": "11/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524891,
@@ -151,12 +135,9 @@
     64,
     39
    ],
-   "error": null,
    "date": "10/10/2026",
    "pbp_ok": false,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524892,
@@ -168,14 +149,11 @@
     72,
     69
    ],
-   "error": null,
    "date": "10/10/2026",
    "pbp_ok": false,
-   "shots_ok": false,
-   "shot_mismatch": [
-    "B. ASENSIO SENOSIÁIN 6/7"
-   ],
-   "shot_orphans": []
+   "shots_ok": false
   }
- ]
+ ],
+ "pendents": [],
+ "completa": true
 }

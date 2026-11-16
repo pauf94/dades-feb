@@ -34,26 +34,41 @@
  },
  "altres_jornades": [
   2524742,
-  2524739,
   2524743,
-  2524749,
-  2524752,
+  2524744,
+  2524745,
+  2524746,
   2524747,
   2524748,
+  2524749,
   2524750,
   2524751,
-  2524746
+  2524752
  ],
  "data": "14/11/2026",
  "ids": [
+  2524739,
   2524740,
-  2524741,
-  2524744,
-  2524745
+  2524741
  ],
- "ids_method": 2,
- "generated": "2026-11-16T13:23:17.533196+00:00",
+ "desplacats": [
+  2524739
+ ],
+ "ids_method": 3,
+ "generated": "2026-11-16T19:15:50.168505+00:00",
  "games": [
+  {
+   "id": 2524739,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "date": "29/11/2026",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null,
+   "fila": "CB ISLA BONITA SANO SANO CATERING - MARISCOS ANTÓN CORTEGADA *-* 29/11/2026 16:00"
+  },
   {
    "id": 2524740,
    "teams": [
@@ -64,12 +79,9 @@
     87,
     68
    ],
-   "error": null,
    "date": "14/11/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524741,
@@ -81,46 +93,17 @@
     72,
     74
    ],
-   "error": null,
    "date": "14/11/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
-  },
-  {
-   "id": 2524744,
-   "teams": [
-    "SPAR GRAN CANARIA",
-    "HIERROS DÍAZ EXTREMADURA MIRALVALLE"
-   ],
-   "score": [
-    80,
-    53
-   ],
-   "error": null,
-   "date": "14/11/2026",
-   "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
-  },
-  {
-   "id": 2524745,
-   "teams": [
-    "DPES-SUMIALKI CB CIUDAD DE MOSTOLES",
-    "CESUR DISTRITO OLIMPICO"
-   ],
-   "score": [
-    63,
-    68
-   ],
-   "error": null,
-   "date": "14/11/2026",
-   "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   }
- ]
+ ],
+ "pendents": [
+  {
+   "id": 2524739,
+   "date": "29/11/2026",
+   "fila": "CB ISLA BONITA SANO SANO CATERING - MARISCOS ANTÓN CORTEGADA *-* 29/11/2026 16:00"
+  }
+ ],
+ "completa": false
 }

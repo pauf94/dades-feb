@@ -33,27 +33,82 @@
   "26": "2027-04-17"
  },
  "altres_jornades": [
-  2524882,
-  2524884,
-  2524881,
-  2524879,
-  2524880,
-  2524891,
-  2524892,
-  2524888,
   2524886,
-  2524890,
   2524887,
-  2524889
+  2524888,
+  2524889,
+  2524890,
+  2524891,
+  2524892
  ],
  "data": "03/10/2026",
  "ids": [
+  2524879,
+  2524880,
+  2524881,
+  2524882,
   2524883,
+  2524884,
   2524885
  ],
- "ids_method": 2,
- "generated": "2026-10-19T15:01:43.416917+00:00",
+ "desplacats": [
+  2524879,
+  2524880,
+  2524881,
+  2524882,
+  2524884
+ ],
+ "ids_method": 3,
+ "generated": "2026-11-16T19:16:02.914440+00:00",
  "games": [
+  {
+   "id": 2524879,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "date": "16/12/2026",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null,
+   "fila": "KINES IBAIZABAL GDKO - SEGLE XXI *-* 16/12/2026 19:30"
+  },
+  {
+   "id": 2524880,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "date": "16/12/2026",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null,
+   "fila": "BALONCESTO CLARET BENIMACLET - ROMAKURUMA U.E.MATARÓ *-* 16/12/2026 17:30"
+  },
+  {
+   "id": 2524881,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "date": "16/12/2026",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null,
+   "fila": "MANRESA CBF A - GEIEG PACISA *-* 16/12/2026 21:00"
+  },
+  {
+   "id": 2524882,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "date": "08/12/2026",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null,
+   "fila": "DISHELEC 65 VILADECANS - TGN BASQUET A *-* 08/12/2026 12:30"
+  },
   {
    "id": 2524883,
    "teams": [
@@ -64,12 +119,21 @@
     46,
     63
    ],
-   "error": null,
    "date": "04/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
+  },
+  {
+   "id": 2524884,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "date": "08/12/2026",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null,
+   "fila": "BASKET ALMEDA - STADIUM CASABLANCA-PATATAS GÓMEZ *-* 08/12/2026 13:00"
   },
   {
    "id": 2524885,
@@ -81,12 +145,37 @@
     63,
     73
    ],
-   "error": null,
    "date": "04/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   }
- ]
+ ],
+ "pendents": [
+  {
+   "id": 2524879,
+   "date": "16/12/2026",
+   "fila": "KINES IBAIZABAL GDKO - SEGLE XXI *-* 16/12/2026 19:30"
+  },
+  {
+   "id": 2524880,
+   "date": "16/12/2026",
+   "fila": "BALONCESTO CLARET BENIMACLET - ROMAKURUMA U.E.MATARÓ *-* 16/12/2026 17:30"
+  },
+  {
+   "id": 2524881,
+   "date": "16/12/2026",
+   "fila": "MANRESA CBF A - GEIEG PACISA *-* 16/12/2026 21:00"
+  },
+  {
+   "id": 2524882,
+   "date": "08/12/2026",
+   "fila": "DISHELEC 65 VILADECANS - TGN BASQUET A *-* 08/12/2026 12:30"
+  },
+  {
+   "id": 2524884,
+   "date": "08/12/2026",
+   "fila": "BASKET ALMEDA - STADIUM CASABLANCA-PATATAS GÓMEZ *-* 08/12/2026 13:00"
+  }
+ ],
+ "completa": false
 }

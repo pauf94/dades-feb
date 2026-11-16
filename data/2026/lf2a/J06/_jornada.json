@@ -34,12 +34,11 @@
  },
  "altres_jornades": [
   2524740,
-  2524745,
-  2524744,
   2524741,
   2524742,
-  2524739,
-  2524743
+  2524743,
+  2524744,
+  2524745
  ],
  "data": "07/11/2026",
  "ids": [
@@ -49,10 +48,14 @@
   2524735,
   2524736,
   2524737,
-  2524738
+  2524738,
+  2524739
  ],
- "ids_method": 2,
- "generated": "2026-11-09T13:42:07.986727+00:00",
+ "desplacats": [
+  2524739
+ ],
+ "ids_method": 3,
+ "generated": "2026-11-16T19:15:39.161897+00:00",
  "games": [
   {
    "id": 2524732,
@@ -64,12 +67,9 @@
     52,
     57
    ],
-   "error": null,
    "date": "08/11/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524733,
@@ -81,12 +81,9 @@
     85,
     54
    ],
-   "error": null,
    "date": "07/11/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524734,
@@ -98,12 +95,9 @@
     76,
     72
    ],
-   "error": null,
    "date": "07/11/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524735,
@@ -115,12 +109,9 @@
     78,
     47
    ],
-   "error": null,
    "date": "07/11/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524736,
@@ -132,12 +123,9 @@
     87,
     53
    ],
-   "error": null,
    "date": "07/11/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524737,
@@ -149,12 +137,9 @@
     71,
     62
    ],
-   "error": null,
    "date": "07/11/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524738,
@@ -166,12 +151,29 @@
     45,
     94
    ],
-   "error": null,
    "date": "07/11/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
+  },
+  {
+   "id": 2524739,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "date": "29/11/2026",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null,
+   "fila": "CB ISLA BONITA SANO SANO CATERING - MARISCOS ANTÓN CORTEGADA *-* 29/11/2026 16:00"
   }
- ]
+ ],
+ "pendents": [
+  {
+   "id": 2524739,
+   "date": "29/11/2026",
+   "fila": "CB ISLA BONITA SANO SANO CATERING - MARISCOS ANTÓN CORTEGADA *-* 29/11/2026 16:00"
+  }
+ ],
+ "completa": false
 }

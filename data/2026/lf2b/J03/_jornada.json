@@ -33,13 +33,13 @@
   "26": "2027-04-17"
  },
  "altres_jornades": [
-  2524903,
-  2524905,
-  2524906,
-  2524902,
-  2524904,
   2524900,
-  2524901
+  2524901,
+  2524902,
+  2524903,
+  2524904,
+  2524905,
+  2524906
  ],
  "data": "17/10/2026",
  "ids": [
@@ -51,8 +51,9 @@
   2524898,
   2524899
  ],
- "ids_method": 2,
- "generated": "2026-10-19T15:28:46.788455+00:00",
+ "desplacats": [],
+ "ids_method": 3,
+ "generated": "2026-11-16T19:16:58.924341+00:00",
  "games": [
   {
    "id": 2524893,
@@ -64,12 +65,9 @@
     62,
     70
    ],
-   "error": null,
    "date": "18/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524894,
@@ -81,12 +79,9 @@
     62,
     60
    ],
-   "error": null,
    "date": "18/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524895,
@@ -98,12 +93,9 @@
     49,
     65
    ],
-   "error": null,
    "date": "17/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524896,
@@ -115,12 +107,9 @@
     69,
     54
    ],
-   "error": null,
    "date": "18/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524897,
@@ -132,12 +121,9 @@
     63,
     59
    ],
-   "error": null,
    "date": "17/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524898,
@@ -149,12 +135,9 @@
     74,
     71
    ],
-   "error": null,
    "date": "18/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524899,
@@ -166,14 +149,11 @@
     64,
     58
    ],
-   "error": null,
    "date": "17/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [
-    "S. VILLA PEREZ 3/1"
-   ],
-   "shot_orphans": []
+   "shots_ok": true
   }
- ]
+ ],
+ "pendents": [],
+ "completa": true
 }

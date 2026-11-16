@@ -33,13 +33,13 @@
   "26": "2027-04-17"
  },
  "altres_jornades": [
+  2524907,
   2524908,
   2524909,
-  2524907,
-  2524913,
   2524910,
   2524911,
-  2524912
+  2524912,
+  2524913
  ],
  "data": "24/10/2026",
  "ids": [
@@ -51,8 +51,9 @@
   2524905,
   2524906
  ],
- "ids_method": 2,
- "generated": "2026-10-26T10:03:00.677171+00:00",
+ "desplacats": [],
+ "ids_method": 3,
+ "generated": "2026-11-16T19:16:59.568554+00:00",
  "games": [
   {
    "id": 2524900,
@@ -64,14 +65,9 @@
     63,
     58
    ],
-   "error": null,
    "date": "25/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [
-    "S. VILLA PEREZ 9/7"
-   ],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524901,
@@ -83,12 +79,9 @@
     60,
     52
    ],
-   "error": null,
    "date": "25/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524902,
@@ -100,12 +93,9 @@
     46,
     73
    ],
-   "error": null,
    "date": "24/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524903,
@@ -117,12 +107,9 @@
     69,
     42
    ],
-   "error": null,
    "date": "24/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524904,
@@ -134,12 +121,9 @@
     64,
     67
    ],
-   "error": null,
    "date": "24/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524905,
@@ -151,12 +135,9 @@
     71,
     52
    ],
-   "error": null,
    "date": "24/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524906,
@@ -168,12 +149,11 @@
     69,
     73
    ],
-   "error": null,
    "date": "24/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   }
- ]
+ ],
+ "pendents": [],
+ "completa": true
 }

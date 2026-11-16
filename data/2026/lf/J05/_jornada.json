@@ -37,13 +37,13 @@
   "30": "2027-04-21"
  },
  "altres_jornades": [
-  2522821,
+  2522815,
   2522816,
   2522817,
   2522818,
-  2522815,
   2522819,
   2522820,
+  2522821,
   2522822
  ],
  "data": "24/10/2026",
@@ -57,8 +57,9 @@
   2522813,
   2522814
  ],
- "ids_method": 2,
- "generated": "2026-10-26T09:28:45.123690+00:00",
+ "desplacats": [],
+ "ids_method": 3,
+ "generated": "2026-11-16T19:15:09.601218+00:00",
  "games": [
   {
    "id": 2522807,
@@ -70,12 +71,9 @@
     67,
     69
    ],
-   "error": null,
    "date": "24/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2522808,
@@ -87,12 +85,9 @@
     76,
     71
    ],
-   "error": null,
    "date": "24/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2522809,
@@ -104,12 +99,9 @@
     53,
     56
    ],
-   "error": null,
    "date": "25/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2522810,
@@ -121,12 +113,9 @@
     59,
     75
    ],
-   "error": null,
    "date": "25/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2522811,
@@ -138,12 +127,9 @@
     52,
     70
    ],
-   "error": null,
    "date": "24/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2522812,
@@ -155,12 +141,9 @@
     63,
     58
    ],
-   "error": null,
    "date": "24/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2522813,
@@ -172,12 +155,9 @@
     80,
     86
    ],
-   "error": null,
    "date": "24/10/2026",
    "pbp_ok": false,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2522814,
@@ -189,12 +169,11 @@
     71,
     83
    ],
-   "error": null,
    "date": "25/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   }
- ]
+ ],
+ "pendents": [],
+ "completa": true
 }

@@ -56,8 +56,9 @@
   2522797,
   2522798
  ],
- "ids_method": 2,
- "generated": "2026-10-19T15:05:12.128037+00:00",
+ "desplacats": [],
+ "ids_method": 3,
+ "generated": "2026-11-16T19:15:08.278692+00:00",
  "games": [
   {
    "id": 2522783,
@@ -69,14 +70,9 @@
     45,
     76
    ],
-   "error": null,
    "date": "08/10/2026",
    "pbp_ok": true,
-   "shots_ok": false,
-   "shot_mismatch": [
-    "P. STRAUTMANE 6/7"
-   ],
-   "shot_orphans": []
+   "shots_ok": false
   },
   {
    "id": 2522784,
@@ -88,12 +84,9 @@
     83,
     89
    ],
-   "error": null,
    "date": "08/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2522785,
@@ -105,12 +98,9 @@
     75,
     65
    ],
-   "error": null,
    "date": "08/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2522786,
@@ -122,12 +112,9 @@
     70,
     60
    ],
-   "error": null,
    "date": "08/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2522787,
@@ -139,12 +126,9 @@
     82,
     55
    ],
-   "error": null,
    "date": "08/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2522788,
@@ -156,12 +140,9 @@
     74,
     61
    ],
-   "error": null,
    "date": "08/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2522789,
@@ -173,12 +154,9 @@
     82,
     57
    ],
-   "error": null,
    "date": "07/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2522790,
@@ -190,12 +168,9 @@
     72,
     108
    ],
-   "error": null,
    "date": "07/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2522791,
@@ -207,12 +182,9 @@
     72,
     50
    ],
-   "error": null,
    "date": "11/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2522792,
@@ -224,12 +196,9 @@
     84,
     72
    ],
-   "error": null,
    "date": "11/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2522793,
@@ -241,12 +210,9 @@
     48,
     64
    ],
-   "error": null,
    "date": "11/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2522794,
@@ -258,12 +224,9 @@
     76,
     63
    ],
-   "error": null,
    "date": "11/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2522795,
@@ -275,12 +238,9 @@
     70,
     99
    ],
-   "error": null,
    "date": "11/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2522796,
@@ -292,12 +252,9 @@
     49,
     70
    ],
-   "error": null,
    "date": "11/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2522797,
@@ -309,12 +266,9 @@
     52,
     83
    ],
-   "error": null,
    "date": "11/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2522798,
@@ -326,12 +280,11 @@
     86,
     58
    ],
-   "error": null,
    "date": "11/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   }
- ]
+ ],
+ "pendents": [],
+ "completa": true
 }

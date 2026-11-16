@@ -33,14 +33,13 @@
   "26": "2027-04-17"
  },
  "altres_jornades": [
-  2524927,
-  2524931,
   2524928,
-  2524932,
-  2524934,
-  2524930,
   2524929,
-  2524933
+  2524930,
+  2524931,
+  2524932,
+  2524933,
+  2524934
  ],
  "data": "14/11/2026",
  "ids": [
@@ -49,10 +48,14 @@
   2524923,
   2524924,
   2524925,
-  2524926
+  2524926,
+  2524927
  ],
- "ids_method": 2,
- "generated": "2026-11-16T13:24:08.012947+00:00",
+ "desplacats": [
+  2524927
+ ],
+ "ids_method": 3,
+ "generated": "2026-11-16T19:17:12.136649+00:00",
  "games": [
   {
    "id": 2524921,
@@ -64,12 +67,9 @@
     74,
     59
    ],
-   "error": null,
    "date": "15/11/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524922,
@@ -81,12 +81,9 @@
     55,
     68
    ],
-   "error": null,
    "date": "15/11/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524923,
@@ -98,12 +95,9 @@
     52,
     71
    ],
-   "error": null,
    "date": "14/11/2026",
    "pbp_ok": false,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524924,
@@ -115,12 +109,9 @@
     69,
     84
    ],
-   "error": null,
    "date": "15/11/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524925,
@@ -132,12 +123,9 @@
     80,
     66
    ],
-   "error": null,
    "date": "14/11/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524926,
@@ -149,14 +137,29 @@
     69,
     53
    ],
-   "error": null,
    "date": "15/11/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [
-    "N. FERNANDEZ AZNAR 8/0"
-   ],
-   "shot_orphans": []
+   "shots_ok": true
+  },
+  {
+   "id": 2524927,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "date": "16/12/2026",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null,
+   "fila": "HORBISA SPIRIT AUSARTA BARAKALDO - TGN BASQUET A *-* 16/12/2026 20:00"
   }
- ]
+ ],
+ "pendents": [
+  {
+   "id": 2524927,
+   "date": "16/12/2026",
+   "fila": "HORBISA SPIRIT AUSARTA BARAKALDO - TGN BASQUET A *-* 16/12/2026 20:00"
+  }
+ ],
+ "completa": false
 }

@@ -33,13 +33,13 @@
   "26": "2027-04-17"
  },
  "altres_jornades": [
-  2524714,
-  2524717,
-  2524716,
-  2524713,
   2524711,
   2524712,
-  2524715
+  2524713,
+  2524714,
+  2524715,
+  2524716,
+  2524717
  ],
  "data": "10/10/2026",
  "ids": [
@@ -51,8 +51,9 @@
   2524709,
   2524710
  ],
- "ids_method": 2,
- "generated": "2026-10-19T15:10:39.653482+00:00",
+ "desplacats": [],
+ "ids_method": 3,
+ "generated": "2026-11-16T19:15:37.381786+00:00",
  "games": [
   {
    "id": 2524704,
@@ -64,12 +65,9 @@
     56,
     69
    ],
-   "error": null,
    "date": "10/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524705,
@@ -81,12 +79,9 @@
     71,
     48
    ],
-   "error": null,
    "date": "10/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524706,
@@ -98,14 +93,9 @@
     94,
     60
    ],
-   "error": null,
    "date": "11/10/2026",
    "pbp_ok": true,
-   "shots_ok": false,
-   "shot_mismatch": [
-    "N. GOMEZ COBO 5/6"
-   ],
-   "shot_orphans": []
+   "shots_ok": false
   },
   {
    "id": 2524707,
@@ -117,12 +107,9 @@
     75,
     71
    ],
-   "error": null,
    "date": "10/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524708,
@@ -134,12 +121,9 @@
     67,
     77
    ],
-   "error": null,
    "date": "10/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524709,
@@ -151,12 +135,9 @@
     76,
     72
    ],
-   "error": null,
    "date": "10/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524710,
@@ -168,12 +149,11 @@
     86,
     79
    ],
-   "error": null,
    "date": "10/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   }
- ]
+ ],
+ "pendents": [],
+ "completa": true
 }

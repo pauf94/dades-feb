@@ -34,12 +34,12 @@
  },
  "altres_jornades": [
   2524718,
-  2524721,
   2524719,
   2524720,
+  2524721,
   2524722,
-  2524724,
-  2524723
+  2524723,
+  2524724
  ],
  "data": "17/10/2026",
  "ids": [
@@ -51,8 +51,9 @@
   2524716,
   2524717
  ],
- "ids_method": 2,
- "generated": "2026-10-19T15:26:49.885826+00:00",
+ "desplacats": [],
+ "ids_method": 3,
+ "generated": "2026-11-16T19:15:37.799364+00:00",
  "games": [
   {
    "id": 2524711,
@@ -64,12 +65,9 @@
     57,
     56
    ],
-   "error": null,
    "date": "17/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524712,
@@ -81,12 +79,9 @@
     78,
     97
    ],
-   "error": null,
    "date": "17/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524713,
@@ -98,12 +93,9 @@
     77,
     75
    ],
-   "error": null,
    "date": "17/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524714,
@@ -115,14 +107,9 @@
     59,
     53
    ],
-   "error": null,
    "date": "17/10/2026",
    "pbp_ok": true,
-   "shots_ok": false,
-   "shot_mismatch": [
-    "I. BAEZA DIEZ 9/10"
-   ],
-   "shot_orphans": []
+   "shots_ok": false
   },
   {
    "id": 2524715,
@@ -134,12 +121,9 @@
     50,
     71
    ],
-   "error": null,
    "date": "17/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524716,
@@ -151,12 +135,9 @@
     45,
     47
    ],
-   "error": null,
    "date": "17/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   },
   {
    "id": 2524717,
@@ -168,12 +149,11 @@
     68,
     72
    ],
-   "error": null,
    "date": "17/10/2026",
    "pbp_ok": true,
-   "shots_ok": true,
-   "shot_mismatch": [],
-   "shot_orphans": []
+   "shots_ok": true
   }
- ]
+ ],
+ "pendents": [],
+ "completa": true
 }
