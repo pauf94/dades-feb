@@ -76,6 +76,29 @@ def parse_date(txt):
     try: return datetime(y, int(m.group(2)), int(m.group(1))).date()
     except ValueError: return None
 
+def split_jornada(rows, jdate, ndate):
+    """Separa les files de la taula de resultats entre la jornada triada i la següent.
+
+    rows: [(id, text de la fila)]; jdate / ndate: data oficial de la jornada triada i de la següent.
+    La FEB numera els partits de cada jornada de manera consecutiva, i la jornada següent té ids més alts.
+    1) Les files amb data a ±3 dies de la jornada següent marquen on comença la següent (tall = id mínim).
+    2) Tot el que té un id per sota del tall és de la jornada triada, encara que la fila no tingui data
+       (ajornat, «Fecha Por Determinar») o en tingui una de desplaçada (avançat o aplaçat).
+    3) Si no hi ha cap fila de la jornada següent, la data decideix i les files sense data o amb data
+       desplaçada es queden a la jornada triada (és l'única jornada de la taula).
+    Retorna (ids de la jornada, ids d'una altra jornada, ids de la jornada amb data desplaçada o sense data)."""
+    dated = {gid: parse_date(txt) for gid, txt in rows}
+    near = lambda d, ref: bool(d and ref and abs((d - ref).days) <= 3)
+    nxt_ids = [gid for gid, d in dated.items() if near(d, ndate) and not near(d, jdate)]
+    if nxt_ids:
+        cut = min(nxt_ids)
+        mine = sorted(gid for gid in dated if gid < cut)
+    else:
+        mine = sorted(gid for gid, d in dated.items() if near(d, jdate) or not d or not near(d, ndate))
+    others = sorted(gid for gid in dated if gid not in mine)
+    off = sorted(gid for gid in mine if not near(dated[gid], jdate))
+    return mine, others, off
+
 JS_IDS = """()=>{
   const WS=[' ',String.fromCharCode(160),String.fromCharCode(9),String.fromCharCode(10),String.fromCharCode(13)];
   const clean=s=>{s=(s||''); for(const w of WS) s=s.split(w).join(' '); return s.split(' ').filter(Boolean).join(' ');};
@@ -131,36 +154,27 @@ def list_games(page, comp, season, jornada):
     target = next((o for o in jopts if re.search(rf"Jornada\s+{jn}\b", o[1])), None)
     if not target:
         raise RuntimeError(f"No existeix la jornada {jn}")
-    # La pàgina, a més dels partits de la jornada triada, enllaça sempre els d'una altra jornada
-    # (la propera). Per separar-los, carreguem també una jornada veïna: el que surt a totes dues
-    # no és de la jornada triada. Si tot és comú, és que la triada és justament aquella altra jornada.
+    # La pàgina, a més dels partits de la jornada triada, enllaça sempre els de la jornada següent.
+    # Els separem amb split_jornada (ids consecutius per jornada + data de cada fila).
     if not target[2]:
         select_and_wait(page, selects()[2], target[0])
     rows = page.evaluate(JS_IDS)
     ids_all = [r[0] for r in rows]
-    # La taula mostra els partits de la jornada triada i també els de la següent (amb "*-*").
-    # Els separem per la data de cada partit, que surt a la mateixa fila.
-    jdate = parse_date(target[1])
-    ids, dates_fila = [], {}
-    for gid, txt in rows:
-        d = parse_date(txt)
-        if d: dates_fila[gid] = d
-        if jdate and d and abs((d - jdate).days) <= 3:
-            ids.append(gid)
-    if not ids:
-        if jdate and not any(dates_fila.values()):
-            log(f"  jornada {jn}: cap partit amb data; encara no s'ha jugat")
-        else:
-            log(f"  jornada {jn}: no puc separar els partits per data; agafo tota la taula")
-            ids = ids_all
-    others = [i for i in ids_all if i not in ids]
     date_txt = re.search(r"\((.*?)\)", target[1])
     dates = {}
     for o in jopts:
         mj, md2 = re.search(r"Jornada\s+(\d+)", o[1]), parse_date(o[1])
         if mj and md2: dates[int(mj.group(1))] = md2.isoformat()
+    jdate = parse_date(target[1])
+    ndate = datetime.fromisoformat(dates[jn + 1]).date() if jn + 1 in dates else None
+    if not any(parse_date(txt) for _, txt in rows):
+        log(f"  jornada {jn}: cap partit amb data; encara no s'ha jugat")
+    ids, others, off = split_jornada(rows, jdate, ndate)
+    if off:
+        log(f"  jornada {jn}: {len(off)} partit(s) sense data o amb data desplaçada (ajornats o avançats): {off}")
+    files = {gid: txt for gid, txt in rows if gid in ids}
     return {"fase": fase[1], "jornada": jn, "jornada_text": target[1], "dates": dates, "altres_jornades": others,
-            "data": date_txt.group(1) if date_txt else None, "ids": sorted(ids)}
+            "data": date_txt.group(1) if date_txt else None, "ids": ids, "desplacats": off, "files": files}
 
 # ---------------------------------------------------------------- extracció d'un partit
 JS_BOX = """()=>{
@@ -393,8 +407,8 @@ def extract_jornada(page, comp, season, info, outdir):
             log(f"  {old['id']}: no és de la J{jn} i ja és a la seva jornada; elimino el duplicat"); f.unlink()
         else:
             log(f"  avís: {old['id']} té acta però no és de la J{jn}; el deixo fins que s'extregui la seva jornada")
-    report = {"comp": comp, "season": season, **info, "ids_method": IDS_METHOD,
-              "generated": datetime.now(timezone.utc).isoformat(), "games": []}
+    report = {"comp": comp, "season": season, **{k: v for k, v in info.items() if k != "files"},
+              "ids_method": IDS_METHOD, "generated": datetime.now(timezone.utc).isoformat(), "games": []}
     today = datetime.now(timezone.utc).date()
     for gid in info["ids"]:
         f = folder / f"{gid}.json"
@@ -406,13 +420,31 @@ def extract_jornada(page, comp, season, info, outdir):
                 continue
             d = game_date(old)
             if d and d >= today:
+                # Encara no s'ha jugat: no tornem a obrir la fitxa fins al dia després de la data anotada.
                 log(f"  {gid}: pendent, es juga el {old.get('date')}")
-                report["games"].append({"id": gid, "error": old.get("error"), "date": old.get("date")}); continue
-        save_game(folder, extract_game(page, gid), report)
+                report["games"].append({"id": gid, "error": old.get("error"), "date": old.get("date"),
+                                        "fila": old.get("fila")}); continue
+        g = extract_game(page, gid)
+        if g.get("error"):
+            # Partit sense acta (ajornat, «Fecha Por Determinar» o acta no publicada): el desem com a pendent
+            # amb la data que doni la FEB (fitxa del partit o, si no n'hi ha, la fila de la taula).
+            g["fila"] = info.get("files", {}).get(gid, "")
+            if not g.get("date"):
+                d = parse_date(g["fila"])
+                if d and abs((d - (parse_date(info.get("data") or "") or d)).days) > 3:
+                    g["date"] = d.strftime("%d/%m/%Y")
+        save_game(folder, g, report)
+        if g.get("error"): report["games"][-1]["fila"] = g.get("fila")
+    report["pendents"] = [{"id": x["id"], "date": x.get("date") or "", "fila": x.get("fila") or ""}
+                          for x in report["games"] if x.get("error")]
+    report["completa"] = not report["pendents"] and len(report["games"]) == len(info["ids"])
+    if report["pendents"]:
+        log(f"  J{jn}: {len(report['pendents'])} partit(s) pendent(s): "
+            + ", ".join(f"{p['id']} ({p['date'] or 'sense data'})" for p in report["pendents"]))
     (folder / "_jornada.json").write_text(json.dumps(report, ensure_ascii=False, indent=1), encoding="utf-8")
     return report
 
-IDS_METHOD = 2   # versió del mètode per separar els partits de cada jornada
+IDS_METHOD = 3   # versió del mètode per separar els partits de cada jornada (3: ids consecutius + pendents)
 
 def complete(folder):
     """Una jornada està completa si s'ha processat amb el mètode actual, a la carpeta hi ha

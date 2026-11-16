@@ -37,6 +37,13 @@ que ja coneixem, i comprova que els resultats quadren.
 
 - S'executa sol **els dilluns i els dimecres a les 5:00 (UTC)**. El dimecres
   recull els partits ajornats.
+- **Partits ajornats o sense data** («Fecha Por Determinar», aplaçats per
+  finestres de seleccions...): es desen a la carpeta de la seva jornada com a
+  pendents, amb la data que doni la FEB (camp `date` i la fila de la taula a
+  `fila`). El `_jornada.json` els llista a `pendents` i marca `completa: false`,
+  de manera que la jornada es revisa a cada execució. Si el partit té data, no
+  se'n torna a obrir la fitxa fins al dia després; si no en té, es mira cada
+  execució. Quan té acta, se'n baixen les dades i la jornada passa a completa.
 - Les dades queden a `data/<temporada>/<competició>/J<jornada>/`: un fitxer
   per partit i un `_jornada.json` amb el control de qualitat.
 - Per a una execució manual: Run workflow → mode `run`, i tria competició,
