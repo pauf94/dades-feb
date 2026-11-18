@@ -55,7 +55,7 @@
   2524927
  ],
  "ids_method": 3,
- "generated": "2026-11-16T19:17:12.136649+00:00",
+ "generated": "2026-11-18T13:38:43.484788+00:00",
  "games": [
   {
    "id": 2524921,
@@ -143,14 +143,8 @@
   },
   {
    "id": 2524927,
-   "teams": null,
-   "score": null,
    "error": "sense_acta",
    "date": "16/12/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null,
    "fila": "HORBISA SPIRIT AUSARTA BARAKALDO - TGN BASQUET A *-* 16/12/2026 20:00"
   }
  ],

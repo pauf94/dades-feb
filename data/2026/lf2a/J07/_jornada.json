@@ -55,18 +55,12 @@
   2524739
  ],
  "ids_method": 3,
- "generated": "2026-11-16T19:15:50.168505+00:00",
+ "generated": "2026-11-18T13:38:40.166614+00:00",
  "games": [
   {
    "id": 2524739,
-   "teams": null,
-   "score": null,
    "error": "sense_acta",
    "date": "29/11/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null,
    "fila": "CB ISLA BONITA SANO SANO CATERING - MARISCOS ANTÓN CORTEGADA *-* 29/11/2026 16:00"
   },
   {
