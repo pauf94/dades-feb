@@ -1,0 +1,290 @@
+{
+ "jornada": 8,
+ "partits": [
+  {
+   "id": 2524931,
+   "equips": [
+    "SEGLE XXI",
+    "SMARTLOG OINTXE"
+   ],
+   "marcador": [
+    65,
+    67
+   ],
+   "data": "08/11/2026",
+   "parcials": [
+    "10/12",
+    "16/19",
+    "14/16",
+    "25/20"
+   ],
+   "metriques": [
+    {
+     "PF": 65,
+     "PR": 67,
+     "poss": 79.96,
+     "ritme": 79.28,
+     "OER": 0.8129,
+     "DER": 0.8524,
+     "eFG": 0.4028,
+     "eFG_riv": 0.4071,
+     "pRO": 0.3,
+     "pRD": 0.4634,
+     "pBP": 0.2001,
+     "pBP_riv": 0.3053,
+     "FTr": 0.125,
+     "t3r": 0.4028,
+     "pT2": 0.3953,
+     "pT3": 0.2759,
+     "pTL": 0.7778,
+     "pAS": 0.44,
+     "RO": 12,
+     "BP": 16,
+     "BR": 13,
+     "AS": 11,
+     "net": -0.0395
+    },
+    {
+     "PF": 67,
+     "PR": 65,
+     "poss": 78.6,
+     "ritme": 79.28,
+     "OER": 0.8524,
+     "DER": 0.8129,
+     "eFG": 0.4071,
+     "eFG_riv": 0.4028,
+     "pRO": 0.5366,
+     "pRD": 0.7,
+     "pBP": 0.3053,
+     "pBP_riv": 0.2001,
+     "FTr": 0.2143,
+     "t3r": 0.1714,
+     "pT2": 0.3621,
+     "pT3": 0.4167,
+     "pTL": 0.6667,
+     "pAS": 0.3077,
+     "RO": 22,
+     "BP": 24,
+     "BR": 6,
+     "AS": 8,
+     "net": 0.0395
+    }
+   ]
+  }
+ ],
+ "desviacions": [
+  {
+   "equip": "SEGLE XXI",
+   "rival": "SMARTLOG OINTXE",
+   "metrica": "% rebot ofensiu",
+   "valor": 0.3,
+   "mitjana": 0.4233,
+   "z": -1.74
+  },
+  {
+   "equip": "SMARTLOG OINTXE",
+   "rival": "SEGLE XXI",
+   "metrica": "% rebot ofensiu",
+   "valor": 0.5366,
+   "mitjana": 0.4211,
+   "z": 1.81
+  }
+ ],
+ "sorpreses": [],
+ "ratxes": [],
+ "individuals": [
+  {
+   "id": 2524931,
+   "equip": "SMARTLOG OINTXE",
+   "jugadora": "S. GUTIERREZ IBAÑEZ",
+   "min": 28.25,
+   "PT": 8,
+   "REB": 10,
+   "AS": 2,
+   "BP": 1,
+   "T2": "4/4",
+   "T3": "0/1",
+   "TL": "0/0",
+   "VAL": 22,
+   "pm": 8,
+   "doble_doble": false,
+   "TS": 0.8,
+   "VAL_mitjana": 5,
+   "z": 2.85,
+   "partits_previs": 7
+  },
+  {
+   "id": 2524931,
+   "equip": "SMARTLOG OINTXE",
+   "jugadora": "J. ANTÓNIO",
+   "min": 22.5,
+   "PT": 8,
+   "REB": 11,
+   "AS": 0,
+   "BP": 3,
+   "T2": "3/14",
+   "T3": "0/0",
+   "TL": "2/4",
+   "VAL": 2,
+   "pm": -3,
+   "doble_doble": false,
+   "TS": 0.254,
+   "VAL_mitjana": 14.86,
+   "z": -1.81,
+   "partits_previs": 7
+  },
+  {
+   "id": 2524931,
+   "equip": "SEGLE XXI",
+   "jugadora": "M. CARBÓ MEDINA",
+   "min": 18.78,
+   "PT": 5,
+   "REB": 0,
+   "AS": 0,
+   "BP": 1,
+   "T2": "1/1",
+   "T3": "1/4",
+   "TL": "0/0",
+   "VAL": -3,
+   "pm": -1,
+   "doble_doble": false,
+   "TS": 0.5,
+   "VAL_mitjana": 6,
+   "z": -2.22,
+   "partits_previs": 5
+  }
+ ],
+ "finals_ajustats": [
+  {
+   "id": 2524931,
+   "equips": [
+    "SEGLE XXI",
+    "SMARTLOG OINTXE"
+   ],
+   "marcador": [
+    65,
+    67
+   ],
+   "marge_a_5_min": -1,
+   "marge_minim": 1,
+   "clutch": {
+    "minuts": 5.2,
+    "parcial": "SEGLE XXI 8-9 SMARTLOG OINTXE",
+    "destacada": "O. BALLESTÉ SOLER"
+   }
+  }
+ ],
+ "quintets": [
+  {
+   "id": 2524931,
+   "equip": "SEGLE XXI",
+   "mes_usat": {
+    "quintet": "A.SMYKOVSKAIA / B.ASENSIO / D.GARCIA / M.CARBÓ / S.FERNANDEZ",
+    "minuts": 6.0,
+    "dif": 5
+   },
+   "millor": {
+    "quintet": "A.SMYKOVSKAIA / B.ASENSIO / D.GARCIA / M.CARBÓ / S.FERNANDEZ",
+    "minuts": 6.0,
+    "dif": 5
+   },
+   "pitjor": {
+    "quintet": "B.AJISEBUTU / L.NIÑO / M.TERMENS / N.CORDÓN / O.BALLESTÉ",
+    "minuts": 4.1,
+    "dif": 0
+   }
+  },
+  {
+   "id": 2524931,
+   "equip": "SMARTLOG OINTXE",
+   "mes_usat": {
+    "quintet": "D.ZAFRA / I.BEDIA / J.ANTÓNIO / S.GUTIERREZ / S.MOLINA",
+    "minuts": 10.0,
+    "dif": -2
+   },
+   "millor": {
+    "quintet": "D.ZAFRA / J.ANTÓNIO / S.GUTIERREZ / S.MOLINA / V.BAUTISTA",
+    "minuts": 4.8,
+    "dif": 2
+   },
+   "pitjor": {
+    "quintet": "A.FLORES / I.PEREZ / M.CASTELLANO / N.GARAI / V.BAUTISTA",
+    "minuts": 8.0,
+    "dif": -4
+   }
+  }
+ ],
+ "classificacio": [
+  {
+   "equip": "SMARTLOG OINTXE",
+   "V": 7,
+   "D": 1
+  },
+  {
+   "equip": "HORBISA SPIRIT AUSARTA BARAKALDO",
+   "V": 5,
+   "D": 1
+  },
+  {
+   "equip": "XEREZ CLUB DEPORTIVO",
+   "V": 5,
+   "D": 2
+  },
+  {
+   "equip": "BALONCESTO CLARET BENIMACLET",
+   "V": 4,
+   "D": 2
+  },
+  {
+   "equip": "LUCENTUM ALICANTE",
+   "V": 4,
+   "D": 3
+  },
+  {
+   "equip": "SEGLE XXI",
+   "V": 4,
+   "D": 3
+  },
+  {
+   "equip": "MANRESA CBF A",
+   "V": 3,
+   "D": 3
+  },
+  {
+   "equip": "ROMAKURUMA U.E.MATARÓ",
+   "V": 3,
+   "D": 3
+  },
+  {
+   "equip": "STADIUM CASABLANCA-PATATAS GÓMEZ",
+   "V": 3,
+   "D": 3
+  },
+  {
+   "equip": "GEIEG PACISA",
+   "V": 2,
+   "D": 4
+  },
+  {
+   "equip": "KINES IBAIZABAL GDKO",
+   "V": 2,
+   "D": 4
+  },
+  {
+   "equip": "BASKET ALMEDA",
+   "V": 1,
+   "D": 5
+  },
+  {
+   "equip": "DISHELEC 65 VILADECANS",
+   "V": 1,
+   "D": 5
+  },
+  {
+   "equip": "TGN BASQUET A",
+   "V": 0,
+   "D": 5
+  }
+ ],
+ "avis": []
+}

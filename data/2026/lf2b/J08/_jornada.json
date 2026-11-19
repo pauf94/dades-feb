@@ -1,0 +1,183 @@
+{
+ "comp": "lf2b",
+ "season": 2026,
+ "fase": "Liga Regular \"B\"",
+ "jornada": 8,
+ "jornada_text": "Jornada 8(21/11/2026)",
+ "dates": {
+  "1": "2026-10-03",
+  "2": "2026-10-10",
+  "3": "2026-10-17",
+  "4": "2026-10-24",
+  "5": "2026-10-31",
+  "6": "2026-11-07",
+  "7": "2026-11-14",
+  "8": "2026-11-21",
+  "9": "2026-11-28",
+  "10": "2026-12-05",
+  "11": "2026-12-12",
+  "12": "2026-12-19",
+  "13": "2027-01-09",
+  "14": "2027-01-16",
+  "15": "2027-01-23",
+  "16": "2027-01-30",
+  "17": "2027-02-06",
+  "18": "2027-02-13",
+  "19": "2027-02-20",
+  "20": "2027-02-27",
+  "21": "2027-03-06",
+  "22": "2027-03-13",
+  "23": "2027-03-20",
+  "24": "2027-04-03",
+  "25": "2027-04-10",
+  "26": "2027-04-17"
+ },
+ "altres_jornades": [
+  2524935,
+  2524936,
+  2524937,
+  2524938,
+  2524939,
+  2524940,
+  2524941
+ ],
+ "data": "21/11/2026",
+ "ids": [
+  2524928,
+  2524929,
+  2524930,
+  2524931,
+  2524932,
+  2524933,
+  2524934
+ ],
+ "desplacats": [
+  2524931
+ ],
+ "ids_method": 3,
+ "generated": "2026-11-19T14:12:25.673702+00:00",
+ "games": [
+  {
+   "id": 2524928,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "date": "21/11/2026",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null,
+   "fila": "TGN BASQUET A - KINES IBAIZABAL GDKO *-* 21/11/2026 17:00"
+  },
+  {
+   "id": 2524929,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "date": "22/11/2026",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null,
+   "fila": "GEIEG PACISA - HORBISA SPIRIT AUSARTA BARAKALDO *-* 22/11/2026 11:00"
+  },
+  {
+   "id": 2524930,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "date": "21/11/2026",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null,
+   "fila": "ROMAKURUMA U.E.MATARÓ - STADIUM CASABLANCA-PATATAS GÓMEZ *-* 21/11/2026 18:10"
+  },
+  {
+   "id": 2524931,
+   "teams": [
+    "SEGLE XXI",
+    "SMARTLOG OINTXE"
+   ],
+   "score": [
+    65,
+    67
+   ],
+   "error": null,
+   "date": "08/11/2026",
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
+  },
+  {
+   "id": 2524932,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "date": "21/11/2026",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null,
+   "fila": "BALONCESTO CLARET BENIMACLET - XEREZ CLUB DEPORTIVO *-* 21/11/2026 17:30"
+  },
+  {
+   "id": 2524933,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "date": "22/11/2026",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null,
+   "fila": "MANRESA CBF A - BASKET ALMEDA *-* 22/11/2026 12:15"
+  },
+  {
+   "id": 2524934,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "date": "21/11/2026",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null,
+   "fila": "DISHELEC 65 VILADECANS - LUCENTUM ALICANTE *-* 21/11/2026 18:00"
+  }
+ ],
+ "pendents": [
+  {
+   "id": 2524928,
+   "date": "21/11/2026",
+   "fila": "TGN BASQUET A - KINES IBAIZABAL GDKO *-* 21/11/2026 17:00"
+  },
+  {
+   "id": 2524929,
+   "date": "22/11/2026",
+   "fila": "GEIEG PACISA - HORBISA SPIRIT AUSARTA BARAKALDO *-* 22/11/2026 11:00"
+  },
+  {
+   "id": 2524930,
+   "date": "21/11/2026",
+   "fila": "ROMAKURUMA U.E.MATARÓ - STADIUM CASABLANCA-PATATAS GÓMEZ *-* 21/11/2026 18:10"
+  },
+  {
+   "id": 2524932,
+   "date": "21/11/2026",
+   "fila": "BALONCESTO CLARET BENIMACLET - XEREZ CLUB DEPORTIVO *-* 21/11/2026 17:30"
+  },
+  {
+   "id": 2524933,
+   "date": "22/11/2026",
+   "fila": "MANRESA CBF A - BASKET ALMEDA *-* 22/11/2026 12:15"
+  },
+  {
+   "id": 2524934,
+   "date": "21/11/2026",
+   "fila": "DISHELEC 65 VILADECANS - LUCENTUM ALICANTE *-* 21/11/2026 18:00"
+  }
+ ],
+ "completa": false
+}
