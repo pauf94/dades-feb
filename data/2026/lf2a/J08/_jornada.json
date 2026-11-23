@@ -53,129 +53,128 @@
  ],
  "desplacats": [],
  "ids_method": 3,
- "generated": "2026-11-19T14:11:04.116520+00:00",
+ "generated": "2026-11-23T15:46:44.845243+00:00",
  "games": [
   {
    "id": 2524746,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
+   "teams": [
+    "CESUR DISTRITO OLIMPICO",
+    "CB ISLA BONITA SANO SANO CATERING"
+   ],
+   "score": [
+    56,
+    58
+   ],
+   "error": null,
    "date": "22/11/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null,
-   "fila": "CESUR DISTRITO OLIMPICO - CB ISLA BONITA SANO SANO CATERING *-* 22/11/2026 12:00"
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   },
   {
    "id": 2524747,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
+   "teams": [
+    "HIERROS DÍAZ EXTREMADURA MIRALVALLE",
+    "DPES-SUMIALKI CB CIUDAD DE MOSTOLES"
+   ],
+   "score": [
+    66,
+    57
+   ],
+   "error": null,
    "date": "21/11/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null,
-   "fila": "HIERROS DÍAZ EXTREMADURA MIRALVALLE - DPES-SUMIALKI CB CIUDAD DE MOSTOLES *-* 21/11/2026 17:30"
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   },
   {
    "id": 2524748,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
+   "teams": [
+    "EL COCHINILLO SEGOVIANO SL",
+    "SPAR GRAN CANARIA"
+   ],
+   "score": [
+    65,
+    70
+   ],
+   "error": null,
    "date": "21/11/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null,
-   "fila": "EL COCHINILLO SEGOVIANO SL - SPAR GRAN CANARIA *-* 21/11/2026 19:30"
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   },
   {
    "id": 2524749,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
+   "teams": [
+    "GRUPO INTERBUS ALCOBENDAS",
+    "ACEITES ABRIL ADBA SANFER"
+   ],
+   "score": [
+    70,
+    68
+   ],
+   "error": null,
    "date": "21/11/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null,
-   "fila": "GRUPO INTERBUS ALCOBENDAS - ACEITES ABRIL ADBA SANFER *-* 21/11/2026 17:00"
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   },
   {
    "id": 2524750,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
+   "teams": [
+    "SERNOVA RENOVABLES REAL CANOE",
+    "CB POZUELO"
+   ],
+   "score": [
+    78,
+    33
+   ],
+   "error": null,
    "date": "21/11/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null,
-   "fila": "SERNOVA RENOVABLES REAL CANOE - CB POZUELO *-* 21/11/2026 19:30"
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   },
   {
    "id": 2524751,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
+   "teams": [
+    "SIROKO GIJON BASKETBALL",
+    "MAGEC TÍAS LANZAROTE CONTRA LA VIOLENCIA DE GÉNERO"
+   ],
+   "score": [
+    71,
+    86
+   ],
+   "error": null,
    "date": "21/11/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null,
-   "fila": "SIROKO GIJON BASKETBALL - MAGEC TÍAS LANZAROTE CONTRA LA VIOLENCIA DE GÉNERO *-* 21/11/2026 20:00"
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   },
   {
    "id": 2524752,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
+   "teams": [
+    "MARISCOS ANTÓN CORTEGADA",
+    "C.B. LAS ROZAS"
+   ],
+   "score": [
+    97,
+    75
+   ],
+   "error": null,
    "date": "21/11/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null,
-   "fila": "MARISCOS ANTÓN CORTEGADA - C.B. LAS ROZAS *-* 21/11/2026 17:00"
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   }
  ],
- "pendents": [
-  {
-   "id": 2524746,
-   "date": "22/11/2026",
-   "fila": "CESUR DISTRITO OLIMPICO - CB ISLA BONITA SANO SANO CATERING *-* 22/11/2026 12:00"
-  },
-  {
-   "id": 2524747,
-   "date": "21/11/2026",
-   "fila": "HIERROS DÍAZ EXTREMADURA MIRALVALLE - DPES-SUMIALKI CB CIUDAD DE MOSTOLES *-* 21/11/2026 17:30"
-  },
-  {
-   "id": 2524748,
-   "date": "21/11/2026",
-   "fila": "EL COCHINILLO SEGOVIANO SL - SPAR GRAN CANARIA *-* 21/11/2026 19:30"
-  },
-  {
-   "id": 2524749,
-   "date": "21/11/2026",
-   "fila": "GRUPO INTERBUS ALCOBENDAS - ACEITES ABRIL ADBA SANFER *-* 21/11/2026 17:00"
-  },
-  {
-   "id": 2524750,
-   "date": "21/11/2026",
-   "fila": "SERNOVA RENOVABLES REAL CANOE - CB POZUELO *-* 21/11/2026 19:30"
-  },
-  {
-   "id": 2524751,
-   "date": "21/11/2026",
-   "fila": "SIROKO GIJON BASKETBALL - MAGEC TÍAS LANZAROTE CONTRA LA VIOLENCIA DE GÉNERO *-* 21/11/2026 20:00"
-  },
-  {
-   "id": 2524752,
-   "date": "21/11/2026",
-   "fila": "MARISCOS ANTÓN CORTEGADA - C.B. LAS ROZAS *-* 21/11/2026 17:00"
-  }
- ],
- "completa": false
+ "pendents": [],
+ "completa": true
 }

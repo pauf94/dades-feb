@@ -59,146 +59,145 @@
  ],
  "desplacats": [],
  "ids_method": 3,
- "generated": "2026-11-19T14:09:31.949766+00:00",
+ "generated": "2026-11-23T15:44:49.297800+00:00",
  "games": [
   {
    "id": 2524503,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
+   "teams": [
+    "CLUB JOVENTUT BADALONA",
+    "FUSTECMA NBF CASTELLÓ"
+   ],
+   "score": [
+    73,
+    53
+   ],
+   "error": null,
    "date": "22/11/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null,
-   "fila": "CLUB JOVENTUT BADALONA - FUSTECMA NBF CASTELLÓ *-* 22/11/2026 12:30"
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   },
   {
    "id": 2524504,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
+   "teams": [
+    "DOMUSA TEKNIK ISB",
+    "C.B. AL-QAZERES EXTREMADURA"
+   ],
+   "score": [
+    64,
+    71
+   ],
+   "error": null,
    "date": "22/11/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null,
-   "fila": "DOMUSA TEKNIK ISB - C.B. AL-QAZERES EXTREMADURA *-* 22/11/2026 17:00"
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   },
   {
    "id": 2524505,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
+   "teams": [
+    "MIPELLETYMAS B.F. LEON",
+    "MCR LIMA-HORTA BARCELONA"
+   ],
+   "score": [
+    52,
+    69
+   ],
+   "error": null,
    "date": "21/11/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null,
-   "fila": "MIPELLETYMAS B.F. LEON - MCR LIMA-HORTA BARCELONA *-* 21/11/2026 20:30"
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   },
   {
    "id": 2524506,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
+   "teams": [
+    "BOSONIT UNIBASKET",
+    "SPARKING TRUTH MARISTAS"
+   ],
+   "score": [
+    63,
+    59
+   ],
+   "error": null,
    "date": "21/11/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null,
-   "fila": "BOSONIT UNIBASKET - SPARKING TRUTH MARISTAS *-* 21/11/2026 19:00"
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   },
   {
    "id": 2524507,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
+   "teams": [
+    "SPAR GRAN CANARIA",
+    "RECOLETAS ZAMORA"
+   ],
+   "score": [
+    65,
+    54
+   ],
+   "error": null,
    "date": "22/11/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null,
-   "fila": "SPAR GRAN CANARIA - RECOLETAS ZAMORA *-* 22/11/2026 12:00"
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   },
   {
    "id": 2524508,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
+   "teams": [
+    "LA LAGUNA TOYOTA ADAREVA",
+    "UNICAJA MIJAS"
+   ],
+   "score": [
+    70,
+    81
+   ],
+   "error": null,
    "date": "21/11/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null,
-   "fila": "LA LAGUNA TOYOTA ADAREVA - UNICAJA MIJAS *-* 21/11/2026 20:00"
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   },
   {
    "id": 2524509,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
+   "teams": [
+    "SEVILLA CAJASOL GARDENSTORE BALONCESTO",
+    "VALENCIA BASKET"
+   ],
+   "score": [
+    92,
+    68
+   ],
+   "error": null,
    "date": "21/11/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null,
-   "fila": "SEVILLA CAJASOL GARDENSTORE BALONCESTO - VALENCIA BASKET *-* 21/11/2026 19:00"
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   },
   {
    "id": 2524510,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
+   "teams": [
+    "MELILLA CIUDAD DEL DEPORTE LA SALLE",
+    "OSES CONSTRUCCION"
+   ],
+   "score": [
+    67,
+    62
+   ],
+   "error": null,
    "date": "22/11/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null,
-   "fila": "MELILLA CIUDAD DEL DEPORTE LA SALLE - OSES CONSTRUCCION *-* 22/11/2026 11:00"
+   "pbp_ok": false,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   }
  ],
- "pendents": [
-  {
-   "id": 2524503,
-   "date": "22/11/2026",
-   "fila": "CLUB JOVENTUT BADALONA - FUSTECMA NBF CASTELLÓ *-* 22/11/2026 12:30"
-  },
-  {
-   "id": 2524504,
-   "date": "22/11/2026",
-   "fila": "DOMUSA TEKNIK ISB - C.B. AL-QAZERES EXTREMADURA *-* 22/11/2026 17:00"
-  },
-  {
-   "id": 2524505,
-   "date": "21/11/2026",
-   "fila": "MIPELLETYMAS B.F. LEON - MCR LIMA-HORTA BARCELONA *-* 21/11/2026 20:30"
-  },
-  {
-   "id": 2524506,
-   "date": "21/11/2026",
-   "fila": "BOSONIT UNIBASKET - SPARKING TRUTH MARISTAS *-* 21/11/2026 19:00"
-  },
-  {
-   "id": 2524507,
-   "date": "22/11/2026",
-   "fila": "SPAR GRAN CANARIA - RECOLETAS ZAMORA *-* 22/11/2026 12:00"
-  },
-  {
-   "id": 2524508,
-   "date": "21/11/2026",
-   "fila": "LA LAGUNA TOYOTA ADAREVA - UNICAJA MIJAS *-* 21/11/2026 20:00"
-  },
-  {
-   "id": 2524509,
-   "date": "21/11/2026",
-   "fila": "SEVILLA CAJASOL GARDENSTORE BALONCESTO - VALENCIA BASKET *-* 21/11/2026 19:00"
-  },
-  {
-   "id": 2524510,
-   "date": "22/11/2026",
-   "fila": "MELILLA CIUDAD DEL DEPORTE LA SALLE - OSES CONSTRUCCION *-* 22/11/2026 11:00"
-  }
- ],
- "completa": false
+ "pendents": [],
+ "completa": true
 }

@@ -2,6 +2,216 @@
  "jornada": 8,
  "partits": [
   {
+   "id": 2524928,
+   "equips": [
+    "TGN BASQUET A",
+    "KINES IBAIZABAL GDKO"
+   ],
+   "marcador": [
+    55,
+    67
+   ],
+   "data": "21/11/2026",
+   "parcials": [
+    "8/14",
+    "22/14",
+    "8/24",
+    "17/15"
+   ],
+   "metriques": [
+    {
+     "PF": 55,
+     "PR": 67,
+     "poss": 68.52,
+     "ritme": 68.94,
+     "OER": 0.8027,
+     "DER": 0.966,
+     "eFG": 0.4286,
+     "eFG_riv": 0.4355,
+     "pRO": 0.3667,
+     "pRD": 0.6471,
+     "pBP": 0.2919,
+     "pBP_riv": 0.1586,
+     "FTr": 0.1429,
+     "t3r": 0.4107,
+     "pT2": 0.4545,
+     "pT3": 0.2609,
+     "pTL": 0.875,
+     "pAS": 0.4762,
+     "RO": 11,
+     "BP": 20,
+     "BR": 4,
+     "AS": 10,
+     "net": -0.1633
+    },
+    {
+     "PF": 67,
+     "PR": 55,
+     "poss": 69.36,
+     "ritme": 68.94,
+     "OER": 0.966,
+     "DER": 0.8027,
+     "eFG": 0.4355,
+     "eFG_riv": 0.4286,
+     "pRO": 0.3529,
+     "pRD": 0.6333,
+     "pBP": 0.1586,
+     "pBP_riv": 0.2919,
+     "FTr": 0.3065,
+     "t3r": 0.4677,
+     "pT2": 0.4545,
+     "pT3": 0.2759,
+     "pTL": 0.6842,
+     "pAS": 0.7391,
+     "RO": 12,
+     "BP": 11,
+     "BR": 11,
+     "AS": 17,
+     "net": 0.1633
+    }
+   ]
+  },
+  {
+   "id": 2524929,
+   "equips": [
+    "GEIEG PACISA",
+    "HORBISA SPIRIT AUSARTA BARAKALDO"
+   ],
+   "marcador": [
+    63,
+    74
+   ],
+   "data": "22/11/2026",
+   "parcials": [
+    "15/18",
+    "17/20",
+    "20/25",
+    "11/11"
+   ],
+   "metriques": [
+    {
+     "PF": 63,
+     "PR": 74,
+     "poss": 76.48,
+     "ritme": 75.94,
+     "OER": 0.8237,
+     "DER": 0.9814,
+     "eFG": 0.3662,
+     "eFG_riv": 0.3984,
+     "pRO": 0.3171,
+     "pRD": 0.5909,
+     "pBP": 0.1438,
+     "pBP_riv": 0.1857,
+     "FTr": 0.2394,
+     "t3r": 0.3662,
+     "pT2": 0.4444,
+     "pT3": 0.1538,
+     "pTL": 0.6471,
+     "pAS": 0.5,
+     "RO": 13,
+     "BP": 11,
+     "BR": 7,
+     "AS": 12,
+     "net": -0.1577
+    },
+    {
+     "PF": 74,
+     "PR": 63,
+     "poss": 75.4,
+     "ritme": 75.94,
+     "OER": 0.9814,
+     "DER": 0.8237,
+     "eFG": 0.3984,
+     "eFG_riv": 0.3662,
+     "pRO": 0.4091,
+     "pRD": 0.6829,
+     "pBP": 0.1857,
+     "pBP_riv": 0.1438,
+     "FTr": 0.5469,
+     "t3r": 0.2031,
+     "pT2": 0.4118,
+     "pT3": 0.2308,
+     "pTL": 0.6571,
+     "pAS": 0.4583,
+     "RO": 18,
+     "BP": 14,
+     "BR": 8,
+     "AS": 11,
+     "net": 0.1577
+    }
+   ]
+  },
+  {
+   "id": 2524930,
+   "equips": [
+    "ROMAKURUMA U.E.MATARÓ",
+    "STADIUM CASABLANCA-PATATAS GÓMEZ"
+   ],
+   "marcador": [
+    59,
+    67
+   ],
+   "data": "21/11/2026",
+   "parcials": [
+    "11/23",
+    "14/10",
+    "14/18",
+    "20/16"
+   ],
+   "metriques": [
+    {
+     "PF": 59,
+     "PR": 67,
+     "poss": 73.68,
+     "ritme": 72.98,
+     "OER": 0.8008,
+     "DER": 0.927,
+     "eFG": 0.3475,
+     "eFG_riv": 0.459,
+     "pRO": 0.4545,
+     "pRD": 0.7879,
+     "pBP": 0.2714,
+     "pBP_riv": 0.1799,
+     "FTr": 0.3729,
+     "t3r": 0.3729,
+     "pT2": 0.4324,
+     "pT3": 0.1364,
+     "pTL": 0.8182,
+     "pAS": 0.6316,
+     "RO": 15,
+     "BP": 20,
+     "BR": 8,
+     "AS": 12,
+     "net": -0.1262
+    },
+    {
+     "PF": 67,
+     "PR": 59,
+     "poss": 72.28,
+     "ritme": 72.98,
+     "OER": 0.927,
+     "DER": 0.8008,
+     "eFG": 0.459,
+     "eFG_riv": 0.3475,
+     "pRO": 0.2121,
+     "pRD": 0.5455,
+     "pBP": 0.1799,
+     "pBP_riv": 0.2714,
+     "FTr": 0.1967,
+     "t3r": 0.377,
+     "pT2": 0.4211,
+     "pT3": 0.3478,
+     "pTL": 0.9167,
+     "pAS": 0.875,
+     "RO": 7,
+     "BP": 13,
+     "BR": 11,
+     "AS": 21,
+     "net": 0.1262
+    }
+   ]
+  },
+  {
    "id": 2524931,
    "equips": [
     "SEGLE XXI",
@@ -70,9 +280,275 @@
      "net": 0.0395
     }
    ]
+  },
+  {
+   "id": 2524932,
+   "equips": [
+    "BALONCESTO CLARET BENIMACLET",
+    "XEREZ CLUB DEPORTIVO"
+   ],
+   "marcador": [
+    79,
+    63
+   ],
+   "data": "21/11/2026",
+   "parcials": [
+    "27/16",
+    "10/20",
+    "22/16",
+    "20/11"
+   ],
+   "metriques": [
+    {
+     "PF": 79,
+     "PR": 63,
+     "poss": 82.48,
+     "ritme": 80.26,
+     "OER": 0.9578,
+     "DER": 0.8073,
+     "eFG": 0.4932,
+     "eFG_riv": 0.4375,
+     "pRO": 0.2439,
+     "pRD": 0.6757,
+     "pBP": 0.1455,
+     "pBP_riv": 0.2435,
+     "FTr": 0.2329,
+     "t3r": 0.4658,
+     "pT2": 0.4615,
+     "pT3": 0.3529,
+     "pTL": 0.4118,
+     "pAS": 0.5,
+     "RO": 10,
+     "BP": 12,
+     "BR": 10,
+     "AS": 15,
+     "net": 0.1505
+    },
+    {
+     "PF": 63,
+     "PR": 79,
+     "poss": 78.04,
+     "ritme": 80.26,
+     "OER": 0.8073,
+     "DER": 0.9578,
+     "eFG": 0.4375,
+     "eFG_riv": 0.4932,
+     "pRO": 0.3243,
+     "pRD": 0.7561,
+     "pBP": 0.2435,
+     "pBP_riv": 0.1455,
+     "FTr": 0.25,
+     "t3r": 0.3281,
+     "pT2": 0.5116,
+     "pT3": 0.1905,
+     "pTL": 0.4375,
+     "pAS": 0.5769,
+     "RO": 12,
+     "BP": 19,
+     "BR": 3,
+     "AS": 15,
+     "net": -0.1505
+    }
+   ]
+  },
+  {
+   "id": 2524933,
+   "equips": [
+    "MANRESA CBF A",
+    "BASKET ALMEDA"
+   ],
+   "marcador": [
+    63,
+    68
+   ],
+   "data": "22/11/2026",
+   "parcials": [
+    "14/14",
+    "15/18",
+    "19/16",
+    "15/20"
+   ],
+   "metriques": [
+    {
+     "PF": 63,
+     "PR": 68,
+     "poss": 75.04,
+     "ritme": 74.8,
+     "OER": 0.8396,
+     "DER": 0.912,
+     "eFG": 0.3542,
+     "eFG_riv": 0.4732,
+     "pRO": 0.2647,
+     "pRD": 0.7097,
+     "pBP": 0.2399,
+     "pBP_riv": 0.228,
+     "FTr": 0.8542,
+     "t3r": 0.5417,
+     "pT2": 0.3636,
+     "pT3": 0.2308,
+     "pTL": 0.7073,
+     "pAS": 1.0714,
+     "RO": 9,
+     "BP": 18,
+     "BR": 10,
+     "AS": 15,
+     "net": -0.0725
+    },
+    {
+     "PF": 68,
+     "PR": 63,
+     "poss": 74.56,
+     "ritme": 74.8,
+     "OER": 0.912,
+     "DER": 0.8396,
+     "eFG": 0.4732,
+     "eFG_riv": 0.3542,
+     "pRO": 0.2903,
+     "pRD": 0.7353,
+     "pBP": 0.228,
+     "pBP_riv": 0.2399,
+     "FTr": 0.4286,
+     "t3r": 0.2857,
+     "pT2": 0.4,
+     "pT3": 0.4375,
+     "pTL": 0.625,
+     "pAS": 0.8261,
+     "RO": 9,
+     "BP": 17,
+     "BR": 9,
+     "AS": 19,
+     "net": 0.0725
+    }
+   ]
+  },
+  {
+   "id": 2524934,
+   "equips": [
+    "DISHELEC 65 VILADECANS",
+    "LUCENTUM ALICANTE"
+   ],
+   "marcador": [
+    49,
+    69
+   ],
+   "data": "21/11/2026",
+   "parcials": [
+    "1/18",
+    "19/21",
+    "18/13",
+    "11/17"
+   ],
+   "metriques": [
+    {
+     "PF": 49,
+     "PR": 69,
+     "poss": 71.36,
+     "ritme": 70.48,
+     "OER": 0.6867,
+     "DER": 0.9914,
+     "eFG": 0.3017,
+     "eFG_riv": 0.4915,
+     "pRO": 0.2778,
+     "pRD": 0.5938,
+     "pBP": 0.2102,
+     "pBP_riv": 0.2443,
+     "FTr": 0.3276,
+     "t3r": 0.4138,
+     "pT2": 0.3824,
+     "pT3": 0.125,
+     "pTL": 0.7368,
+     "pAS": 0.375,
+     "RO": 10,
+     "BP": 15,
+     "BR": 8,
+     "AS": 6,
+     "net": -0.3047
+    },
+    {
+     "PF": 69,
+     "PR": 49,
+     "poss": 69.6,
+     "ritme": 70.48,
+     "OER": 0.9914,
+     "DER": 0.6867,
+     "eFG": 0.4915,
+     "eFG_riv": 0.3017,
+     "pRO": 0.4062,
+     "pRD": 0.7222,
+     "pBP": 0.2443,
+     "pBP_riv": 0.2102,
+     "FTr": 0.2542,
+     "t3r": 0.3559,
+     "pT2": 0.3684,
+     "pT3": 0.4762,
+     "pTL": 0.7333,
+     "pAS": 0.5833,
+     "RO": 13,
+     "BP": 17,
+     "BR": 9,
+     "AS": 14,
+     "net": 0.3047
+    }
+   ]
   }
  ],
  "desviacions": [
+  {
+   "equip": "TGN BASQUET A",
+   "rival": "KINES IBAIZABAL GDKO",
+   "metrica": "ritme",
+   "valor": 68.94,
+   "mitjana": 76.336,
+   "z": -2.33
+  },
+  {
+   "equip": "KINES IBAIZABAL GDKO",
+   "rival": "TGN BASQUET A",
+   "metrica": "ritme",
+   "valor": 68.94,
+   "mitjana": 77.6333,
+   "z": -3.67
+  },
+  {
+   "equip": "GEIEG PACISA",
+   "rival": "HORBISA SPIRIT AUSARTA BARAKALDO",
+   "metrica": "% pèrdues",
+   "valor": 0.1438,
+   "mitjana": 0.2586,
+   "z": -2.02
+  },
+  {
+   "equip": "GEIEG PACISA",
+   "rival": "HORBISA SPIRIT AUSARTA BARAKALDO",
+   "metrica": "ritme",
+   "valor": 75.94,
+   "mitjana": 83.41,
+   "z": -2.55
+  },
+  {
+   "equip": "HORBISA SPIRIT AUSARTA BARAKALDO",
+   "rival": "GEIEG PACISA",
+   "metrica": "% rebot ofensiu",
+   "valor": 0.4091,
+   "mitjana": 0.2998,
+   "z": 2.64
+  },
+  {
+   "equip": "HORBISA SPIRIT AUSARTA BARAKALDO",
+   "rival": "GEIEG PACISA",
+   "metrica": "ràtio de TL",
+   "valor": 0.5469,
+   "mitjana": 0.3512,
+   "z": 2.11
+  },
+  {
+   "equip": "ROMAKURUMA U.E.MATARÓ",
+   "rival": "STADIUM CASABLANCA-PATATAS GÓMEZ",
+   "metrica": "% pèrdues",
+   "valor": 0.2714,
+   "mitjana": 0.1671,
+   "z": 6.78
+  },
   {
    "equip": "SEGLE XXI",
    "rival": "SMARTLOG OINTXE",
@@ -88,11 +564,298 @@
    "valor": 0.5366,
    "mitjana": 0.4211,
    "z": 1.81
+  },
+  {
+   "equip": "BALONCESTO CLARET BENIMACLET",
+   "rival": "XEREZ CLUB DEPORTIVO",
+   "metrica": "% pèrdues",
+   "valor": 0.1455,
+   "mitjana": 0.2423,
+   "z": -2.33
+  },
+  {
+   "equip": "BALONCESTO CLARET BENIMACLET",
+   "rival": "XEREZ CLUB DEPORTIVO",
+   "metrica": "ràtio de TL",
+   "valor": 0.2329,
+   "mitjana": 0.3808,
+   "z": -1.61
+  },
+  {
+   "equip": "XEREZ CLUB DEPORTIVO",
+   "rival": "BALONCESTO CLARET BENIMACLET",
+   "metrica": "% pèrdues",
+   "valor": 0.2435,
+   "mitjana": 0.1949,
+   "z": 1.86
+  },
+  {
+   "equip": "MANRESA CBF A",
+   "rival": "BASKET ALMEDA",
+   "metrica": "ràtio de TL",
+   "valor": 0.8542,
+   "mitjana": 0.3786,
+   "z": 4.4
+  },
+  {
+   "equip": "BASKET ALMEDA",
+   "rival": "MANRESA CBF A",
+   "metrica": "punts per possessió",
+   "valor": 0.912,
+   "mitjana": 0.6462,
+   "z": 2.65
+  },
+  {
+   "equip": "BASKET ALMEDA",
+   "rival": "MANRESA CBF A",
+   "metrica": "%eFG",
+   "valor": 0.4732,
+   "mitjana": 0.3254,
+   "z": 4.13
+  },
+  {
+   "equip": "LUCENTUM ALICANTE",
+   "rival": "DISHELEC 65 VILADECANS",
+   "metrica": "punts per possessió",
+   "valor": 0.9914,
+   "mitjana": 0.8137,
+   "z": 1.55
+  },
+  {
+   "equip": "LUCENTUM ALICANTE",
+   "rival": "DISHELEC 65 VILADECANS",
+   "metrica": "%eFG",
+   "valor": 0.4915,
+   "mitjana": 0.3754,
+   "z": 2.04
   }
  ],
  "sorpreses": [],
- "ratxes": [],
+ "ratxes": [
+  {
+   "id": 2524928,
+   "equip": "KINES IBAIZABAL GDKO",
+   "punts": 13,
+   "de": "Q3 04:03",
+   "a": "Q4 09:32",
+   "marcador": "38-41 → 38-54",
+   "quintet": "J.LEGARRETA / J.ROYALE / L.VALLEJO / M.PEREIRA / N.SARASUA",
+   "quintet_rival": "A.FARELL / A.MAGRIÑA / A.SISNIEGA / L.LORENZO / N.LEMONGANG",
+   "temps_mort": []
+  },
+  {
+   "id": 2524930,
+   "equip": "ROMAKURUMA U.E.MATARÓ",
+   "punts": 13,
+   "de": "Q2 03:25",
+   "a": "Q3 06:48",
+   "marcador": "17-33 → 30-33",
+   "quintet": "A.GARCÍA / B.MOMBLONA / H.LOPEZ / M.CARRILLO / P.CASADEVALL",
+   "quintet_rival": "A.JIMENEZ / A.NDABUKIYE / C.MARCO / I.RUBIO / S.CILLEROS",
+   "temps_mort": [
+    "Q2 02:23"
+   ]
+  },
+  {
+   "id": 2524932,
+   "equip": "XEREZ CLUB DEPORTIVO",
+   "punts": 13,
+   "de": "Q2 08:46",
+   "a": "Q2 02:38",
+   "marcador": "33-17 → 33-30",
+   "quintet": "A.BOURGAREL / A.LINARES / J.MEJIAS / L.CRUZADO / S.VALENCIA",
+   "quintet_rival": "M.GEHLHAAR / M.VULOVIC / N.MACIAS / R.REVUELTAS / T.TOLEDO",
+   "temps_mort": [
+    "Q2 07:42",
+    "Q2 03:06"
+   ]
+  },
+  {
+   "id": 2524934,
+   "equip": "LUCENTUM ALICANTE",
+   "punts": 12,
+   "de": "Q1 09:20",
+   "a": "Q1 04:36",
+   "marcador": "0-0 → 0-12",
+   "quintet": "A.DUDA / A.SANCHEZ / L.MORO / M.LOPEZ / S.OSORIO",
+   "quintet_rival": "J.TORREÑO / M.URBANO / M.VILAFRANCA / N.SOLER / Q.UBIA",
+   "temps_mort": [
+    "Q1 05:22"
+   ]
+  },
+  {
+   "id": 2524934,
+   "equip": "DISHELEC 65 VILADECANS",
+   "punts": 12,
+   "de": "Q3 06:14",
+   "a": "Q3 00:01",
+   "marcador": "26-50 → 38-50",
+   "quintet": "C.FERNANDEZ / J.TORREÑO / M.CHOCRON / M.MUÑOZ / N.SOLER",
+   "quintet_rival": "A.DUDA / J.FARRANDO / L.MORO / M.ROMEO / S.OSORIO",
+   "temps_mort": [
+    "Q3 03:03"
+   ]
+  },
+  {
+   "id": 2524928,
+   "equip": "TGN BASQUET A",
+   "punts": 10,
+   "de": "Q2 02:41",
+   "a": "Q2 00:15",
+   "marcador": "20-28 → 30-28",
+   "quintet": "A.CURIESES / A.FARELL / A.MAGRIÑA / L.LORENZO / N.LEMONGANG",
+   "quintet_rival": "A.COULIBALY / J.ROYALE / M.CUESTA / M.PEREIRA / N.SARASUA",
+   "temps_mort": [
+    "Q2 01:50"
+   ]
+  },
+  {
+   "id": 2524933,
+   "equip": "BASKET ALMEDA",
+   "punts": 10,
+   "de": "Q2 07:29",
+   "a": "Q2 05:10",
+   "marcador": "18-16 → 18-26",
+   "quintet": "C.ORTAS / I.TRIBO / J.AVIÑOA / L.TIERNO / N.BERNAL",
+   "quintet_rival": "A.MAGASSA / E.ALMASQUE / M.MARTÍ / M.MELERO / M.RIBERA",
+   "temps_mort": [
+    "Q2 06:22"
+   ]
+  },
+  {
+   "id": 2524928,
+   "equip": "KINES IBAIZABAL GDKO",
+   "punts": 8,
+   "de": "Q1 01:44",
+   "a": "Q2 09:51",
+   "marcador": "8-8 → 8-16",
+   "quintet": "J.LEGARRETA / J.ROYALE / M.CUESTA / M.PEREIRA / N.SARASUA",
+   "quintet_rival": "A.FARELL / A.SISNIEGA / A.TERRÓN / E.GUILERA / L.LORENZO",
+   "temps_mort": [
+    "Q1 00:55"
+   ]
+  },
+  {
+   "id": 2524929,
+   "equip": "HORBISA SPIRIT AUSARTA BARAKALDO",
+   "punts": 8,
+   "de": "Q2 06:01",
+   "a": "Q2 04:30",
+   "marcador": "19-21 → 19-29",
+   "quintet": "E.RAVN / I.TOMAS / L.BERNARDO / N.SOW / S.CARLI",
+   "quintet_rival": "A.COMA / C.CALVET / C.MORENTE / H.CONDOM / R.CALVET",
+   "temps_mort": [
+    "Q2 05:18"
+   ]
+  },
+  {
+   "id": 2524932,
+   "equip": "BALONCESTO CLARET BENIMACLET",
+   "punts": 8,
+   "de": "Q1 02:33",
+   "a": "Q1 01:29",
+   "marcador": "17-11 → 25-11",
+   "quintet": "E.CASES / J.SARRIO / L.LIERN / N.MACIAS / T.TOLEDO",
+   "quintet_rival": "A.BOURGAREL / E.DE / E.KUBALA / J.MEJIAS / L.FLETA",
+   "temps_mort": [
+    "Q1 01:56"
+   ]
+  },
+  {
+   "id": 2524934,
+   "equip": "DISHELEC 65 VILADECANS",
+   "punts": 8,
+   "de": "Q2 04:36",
+   "a": "Q2 02:45",
+   "marcador": "12-33 → 20-33",
+   "quintet": "B.COLLADO / M.CHOCRON / M.MUÑOZ / M.VILAFRANCA / N.SOLER",
+   "quintet_rival": "A.SANCHEZ / C.GARCIA / M.BAUTISTA / M.LOPEZ / S.OSORIO",
+   "temps_mort": [
+    "Q2 02:45"
+   ]
+  }
+ ],
  "individuals": [
+  {
+   "id": 2524929,
+   "equip": "HORBISA SPIRIT AUSARTA BARAKALDO",
+   "jugadora": "N. SOW",
+   "min": 25.77,
+   "PT": 20,
+   "REB": 10,
+   "AS": 0,
+   "BP": 5,
+   "T2": "9/11",
+   "T3": "0/0",
+   "TL": "2/5",
+   "VAL": 26,
+   "pm": 19,
+   "doble_doble": true,
+   "TS": 0.758,
+   "VAL_mitjana": 20.33,
+   "z": 0.59,
+   "partits_previs": 6
+  },
+  {
+   "id": 2524928,
+   "equip": "KINES IBAIZABAL GDKO",
+   "jugadora": "J. ROYALE SACRISTAN",
+   "min": 29.17,
+   "PT": 15,
+   "REB": 8,
+   "AS": 3,
+   "BP": 1,
+   "T2": "3/6",
+   "T3": "2/7",
+   "TL": "3/3",
+   "VAL": 24,
+   "pm": 23,
+   "doble_doble": false,
+   "TS": 0.524,
+   "VAL_mitjana": 15.67,
+   "z": 1.72,
+   "partits_previs": 6
+  },
+  {
+   "id": 2524928,
+   "equip": "KINES IBAIZABAL GDKO",
+   "jugadora": "N. SARASUA BLANCO",
+   "min": 29.38,
+   "PT": 16,
+   "REB": 4,
+   "AS": 5,
+   "BP": 1,
+   "T2": "5/6",
+   "T3": "2/4",
+   "TL": "0/0",
+   "VAL": 23,
+   "pm": 11,
+   "doble_doble": false,
+   "TS": 0.8,
+   "VAL_mitjana": 7,
+   "z": 3.07,
+   "partits_previs": 6
+  },
+  {
+   "id": 2524930,
+   "equip": "STADIUM CASABLANCA-PATATAS GÓMEZ",
+   "jugadora": "I. RUBIO ALEJANDRE",
+   "min": 33.37,
+   "PT": 9,
+   "REB": 7,
+   "AS": 9,
+   "BP": 4,
+   "T2": "2/2",
+   "T3": "0/2",
+   "TL": "5/6",
+   "VAL": 22,
+   "pm": 8,
+   "doble_doble": false,
+   "TS": 0.678,
+   "VAL_mitjana": 18.83,
+   "z": 0.57,
+   "partits_previs": 6
+  },
   {
    "id": 2524931,
    "equip": "SMARTLOG OINTXE",
@@ -112,6 +875,226 @@
    "VAL_mitjana": 5,
    "z": 2.85,
    "partits_previs": 7
+  },
+  {
+   "id": 2524934,
+   "equip": "LUCENTUM ALICANTE",
+   "jugadora": "A. SANCHEZ QUILES",
+   "min": 23.68,
+   "PT": 21,
+   "REB": 4,
+   "AS": 0,
+   "BP": 2,
+   "T2": "2/5",
+   "T3": "5/6",
+   "TL": "2/2",
+   "VAL": 20,
+   "pm": 27,
+   "doble_doble": false,
+   "TS": 0.884,
+   "VAL_mitjana": 4.57,
+   "z": 1.74,
+   "partits_previs": 7
+  },
+  {
+   "id": 2524928,
+   "equip": "TGN BASQUET A",
+   "jugadora": "A. MAGRIÑA GARCIA",
+   "min": 35.88,
+   "PT": 17,
+   "REB": 5,
+   "AS": 2,
+   "BP": 9,
+   "T2": "3/5",
+   "T3": "3/3",
+   "TL": "2/2",
+   "VAL": 18,
+   "pm": -13,
+   "doble_doble": false,
+   "TS": 0.957,
+   "VAL_mitjana": 11.8,
+   "z": 1.47,
+   "partits_previs": 5
+  },
+  {
+   "id": 2524930,
+   "equip": "ROMAKURUMA U.E.MATARÓ",
+   "jugadora": "M. CARRILLO PEREZ",
+   "min": 26.38,
+   "PT": 9,
+   "REB": 9,
+   "AS": 0,
+   "BP": 2,
+   "T2": "4/4",
+   "T3": "0/1",
+   "TL": "1/2",
+   "VAL": 18,
+   "pm": 8,
+   "doble_doble": false,
+   "TS": 0.765,
+   "VAL_mitjana": 10.67,
+   "z": 0.99,
+   "partits_previs": 6
+  },
+  {
+   "id": 2524932,
+   "equip": "BALONCESTO CLARET BENIMACLET",
+   "jugadora": "E. CASES REY",
+   "min": 35.9,
+   "PT": 16,
+   "REB": 8,
+   "AS": 2,
+   "BP": 3,
+   "T2": "4/7",
+   "T3": "2/7",
+   "TL": "2/7",
+   "VAL": 18,
+   "pm": 20,
+   "doble_doble": false,
+   "TS": 0.468,
+   "VAL_mitjana": 9,
+   "z": 2.08,
+   "partits_previs": 6
+  },
+  {
+   "id": 2524933,
+   "equip": "MANRESA CBF A",
+   "jugadora": "A. COJOCARIU",
+   "min": 32.6,
+   "PT": 15,
+   "REB": 4,
+   "AS": 3,
+   "BP": 1,
+   "T2": "0/4",
+   "T3": "3/4",
+   "TL": "6/8",
+   "VAL": 18,
+   "pm": 2,
+   "doble_doble": false,
+   "TS": 0.651,
+   "VAL_mitjana": 4.17,
+   "z": 2.13,
+   "partits_previs": 6
+  },
+  {
+   "id": 2524934,
+   "equip": "LUCENTUM ALICANTE",
+   "jugadora": "A. DUDA",
+   "min": 21.2,
+   "PT": 10,
+   "REB": 5,
+   "AS": 0,
+   "BP": 0,
+   "T2": "4/5",
+   "T3": "0/0",
+   "TL": "2/4",
+   "VAL": 17,
+   "pm": 15,
+   "doble_doble": false,
+   "TS": 0.74,
+   "VAL_mitjana": 4.86,
+   "z": 2.13,
+   "partits_previs": 7
+  },
+  {
+   "id": 2524930,
+   "equip": "ROMAKURUMA U.E.MATARÓ",
+   "jugadora": "B. MOMBLONA MONRABAL",
+   "min": 33.0,
+   "PT": 19,
+   "REB": 4,
+   "AS": 0,
+   "BP": 2,
+   "T2": "4/10",
+   "T3": "1/3",
+   "TL": "8/10",
+   "VAL": 16,
+   "pm": -8,
+   "doble_doble": false,
+   "TS": 0.546,
+   "VAL_mitjana": 8.5,
+   "z": 1.19,
+   "partits_previs": 6
+  },
+  {
+   "id": 2524932,
+   "equip": "XEREZ CLUB DEPORTIVO",
+   "jugadora": "L. CRUZADO ARAZOLA",
+   "min": 25.93,
+   "PT": 14,
+   "REB": 4,
+   "AS": 0,
+   "BP": 2,
+   "T2": "1/3",
+   "T3": "3/5",
+   "TL": "3/4",
+   "VAL": 15,
+   "pm": -6,
+   "doble_doble": false,
+   "TS": 0.717,
+   "VAL_mitjana": 4.14,
+   "z": 3.73,
+   "partits_previs": 7
+  },
+  {
+   "id": 2524929,
+   "equip": "GEIEG PACISA",
+   "jugadora": "C. MORENTE LOPEZ",
+   "min": 22.9,
+   "PT": 13,
+   "REB": 3,
+   "AS": 0,
+   "BP": 1,
+   "T2": "2/4",
+   "T3": "3/5",
+   "TL": "0/0",
+   "VAL": 13,
+   "pm": -2,
+   "doble_doble": false,
+   "TS": 0.722,
+   "VAL_mitjana": -0.6,
+   "z": 5.91,
+   "partits_previs": 5
+  },
+  {
+   "id": 2524932,
+   "equip": "BALONCESTO CLARET BENIMACLET",
+   "jugadora": "T. TOLEDO NAVARRO",
+   "min": 17.27,
+   "PT": 7,
+   "REB": 4,
+   "AS": 2,
+   "BP": 0,
+   "T2": "0/0",
+   "T3": "2/3",
+   "TL": "1/2",
+   "VAL": 12,
+   "pm": 15,
+   "doble_doble": false,
+   "TS": 0.902,
+   "VAL_mitjana": 3,
+   "z": 2.69,
+   "partits_previs": 6
+  },
+  {
+   "id": 2524932,
+   "equip": "BALONCESTO CLARET BENIMACLET",
+   "jugadora": "L. LIERN RUIZ",
+   "min": 17.2,
+   "PT": 10,
+   "REB": 0,
+   "AS": 3,
+   "BP": 0,
+   "T2": "2/3",
+   "T3": "2/3",
+   "TL": "0/1",
+   "VAL": 11,
+   "pm": 20,
+   "doble_doble": false,
+   "TS": 0.776,
+   "VAL_mitjana": 3.33,
+   "z": 2.44,
+   "partits_previs": 6
   },
   {
    "id": 2524931,
@@ -134,6 +1117,86 @@
    "partits_previs": 7
   },
   {
+   "id": 2524934,
+   "equip": "DISHELEC 65 VILADECANS",
+   "jugadora": "M. MUÑOZ MOYANO",
+   "min": 23.32,
+   "PT": 7,
+   "REB": 2,
+   "AS": 1,
+   "BP": 5,
+   "T2": "3/6",
+   "T3": "0/2",
+   "TL": "1/2",
+   "VAL": 2,
+   "pm": -8,
+   "doble_doble": false,
+   "TS": 0.394,
+   "VAL_mitjana": 9.17,
+   "z": -2.16,
+   "partits_previs": 6
+  },
+  {
+   "id": 2524934,
+   "equip": "LUCENTUM ALICANTE",
+   "jugadora": "J. FARRANDO PEREZ",
+   "min": 14.92,
+   "PT": 0,
+   "REB": 4,
+   "AS": 0,
+   "BP": 3,
+   "T2": "0/1",
+   "T3": "0/1",
+   "TL": "0/0",
+   "VAL": 0,
+   "pm": -11,
+   "doble_doble": false,
+   "TS": 0.0,
+   "VAL_mitjana": 15.71,
+   "z": -3.9,
+   "partits_previs": 7
+  },
+  {
+   "id": 2524932,
+   "equip": "XEREZ CLUB DEPORTIVO",
+   "jugadora": "L. FLETA ROBLES",
+   "min": 31.1,
+   "PT": 1,
+   "REB": 2,
+   "AS": 3,
+   "BP": 2,
+   "T2": "0/2",
+   "T3": "0/4",
+   "TL": "1/2",
+   "VAL": -2,
+   "pm": -15,
+   "doble_doble": false,
+   "TS": 0.073,
+   "VAL_mitjana": 14,
+   "z": -1.99,
+   "partits_previs": 7
+  },
+  {
+   "id": 2524929,
+   "equip": "GEIEG PACISA",
+   "jugadora": "C. CALVET SANDEZ",
+   "min": 14.7,
+   "PT": 0,
+   "REB": 2,
+   "AS": 1,
+   "BP": 1,
+   "T2": "0/2",
+   "T3": "0/0",
+   "TL": "0/0",
+   "VAL": -3,
+   "pm": -1,
+   "doble_doble": false,
+   "TS": 0.0,
+   "VAL_mitjana": 6.67,
+   "z": -1.86,
+   "partits_previs": 6
+  },
+  {
    "id": 2524931,
    "equip": "SEGLE XXI",
    "jugadora": "M. CARBÓ MEDINA",
@@ -151,6 +1214,26 @@
    "TS": 0.5,
    "VAL_mitjana": 6,
    "z": -2.22,
+   "partits_previs": 5
+  },
+  {
+   "id": 2524928,
+   "equip": "TGN BASQUET A",
+   "jugadora": "M. DIAZ VENDRELL",
+   "min": 11.13,
+   "PT": 0,
+   "REB": 0,
+   "AS": 0,
+   "BP": 1,
+   "T2": "0/1",
+   "T3": "0/1",
+   "TL": "0/0",
+   "VAL": -6,
+   "pm": -11,
+   "doble_doble": false,
+   "TS": 0.0,
+   "VAL_mitjana": -1.2,
+   "z": -2.5,
    "partits_previs": 5
   }
  ],
@@ -172,9 +1255,141 @@
     "parcial": "SEGLE XXI 8-9 SMARTLOG OINTXE",
     "destacada": "O. BALLESTÉ SOLER"
    }
+  },
+  {
+   "id": 2524933,
+   "equips": [
+    "MANRESA CBF A",
+    "BASKET ALMEDA"
+   ],
+   "marcador": [
+    63,
+    68
+   ],
+   "marge_a_5_min": 1,
+   "marge_minim": 0,
+   "clutch": {
+    "minuts": 5.0,
+    "parcial": "MANRESA CBF A 7-13 BASKET ALMEDA",
+    "destacada": "L. TIERNO MARTÍ"
+   }
   }
  ],
  "quintets": [
+  {
+   "id": 2524928,
+   "equip": "TGN BASQUET A",
+   "mes_usat": {
+    "quintet": "A.FARELL / A.MAGRIÑA / M.DIAZ / M.PICO / N.LEMONGANG",
+    "minuts": 6.7,
+    "dif": -2
+   },
+   "millor": {
+    "quintet": "A.FARELL / A.MAGRIÑA / M.DIAZ / M.PICO / N.LEMONGANG",
+    "minuts": 6.7,
+    "dif": -2
+   },
+   "pitjor": {
+    "quintet": "A.FARELL / A.MAGRIÑA / A.SISNIEGA / L.LORENZO / N.LEMONGANG",
+    "minuts": 4.3,
+    "dif": -4
+   }
+  },
+  {
+   "id": 2524928,
+   "equip": "KINES IBAIZABAL GDKO",
+   "mes_usat": {
+    "quintet": "A.COULIBALY / J.ROYALE / M.CUESTA / M.PEREIRA / N.SARASUA",
+    "minuts": 7.3,
+    "dif": 12
+   },
+   "millor": {
+    "quintet": "A.COULIBALY / J.ROYALE / M.CUESTA / M.PEREIRA / N.SARASUA",
+    "minuts": 7.3,
+    "dif": 12
+   },
+   "pitjor": {
+    "quintet": "A.COULIBALY / J.LEGARRETA / L.VALLEJO / M.PEREIRA / N.SARASUA",
+    "minuts": 6.5,
+    "dif": -9
+   }
+  },
+  {
+   "id": 2524929,
+   "equip": "GEIEG PACISA",
+   "mes_usat": {
+    "quintet": "A.COMA / C.CALVET / H.CONDOM / J.FERNANDEZ / R.CALVET",
+    "minuts": 5.0,
+    "dif": -4
+   },
+   "millor": {
+    "quintet": "A.COMA / C.CALVET / H.CONDOM / J.FERNANDEZ / R.CALVET",
+    "minuts": 5.0,
+    "dif": -4
+   },
+   "pitjor": {
+    "quintet": "A.COMA / C.CALVET / H.CONDOM / J.FERNANDEZ / R.CALVET",
+    "minuts": 5.0,
+    "dif": -4
+   }
+  },
+  {
+   "id": 2524929,
+   "equip": "HORBISA SPIRIT AUSARTA BARAKALDO",
+   "mes_usat": {
+    "quintet": "C.CARRAL / E.RAVN / N.SOW / R.KALAYDJIEV / S.CARLI",
+    "minuts": 7.5,
+    "dif": 2
+   },
+   "millor": {
+    "quintet": "C.CARRAL / J.RAZO / L.BERNARDO / N.SOW / R.KALAYDJIEV",
+    "minuts": 5.0,
+    "dif": 4
+   },
+   "pitjor": {
+    "quintet": "C.CARRAL / E.RAVN / N.SOW / R.KALAYDJIEV / S.CARLI",
+    "minuts": 7.5,
+    "dif": 2
+   }
+  },
+  {
+   "id": 2524930,
+   "equip": "ROMAKURUMA U.E.MATARÓ",
+   "mes_usat": {
+    "quintet": "A.TALAVERON / B.MOMBLONA / H.LOPEZ / L.ARIAS / P.CASADEVALL",
+    "minuts": 10.5,
+    "dif": -8
+   },
+   "millor": {
+    "quintet": "B.MOMBLONA / H.LOPEZ / L.ARIAS / M.CARRILLO / P.CASADEVALL",
+    "minuts": 5.4,
+    "dif": 9
+   },
+   "pitjor": {
+    "quintet": "A.TALAVERON / B.MOMBLONA / H.LOPEZ / L.ARIAS / P.CASADEVALL",
+    "minuts": 10.5,
+    "dif": -8
+   }
+  },
+  {
+   "id": 2524930,
+   "equip": "STADIUM CASABLANCA-PATATAS GÓMEZ",
+   "mes_usat": {
+    "quintet": "A.NDABUKIYE / I.RUBIO / I.RUIZ / S.CILLEROS / S.VILLA",
+    "minuts": 14.6,
+    "dif": 8
+   },
+   "millor": {
+    "quintet": "A.NDABUKIYE / I.RUBIO / I.RUIZ / S.CILLEROS / S.VILLA",
+    "minuts": 14.6,
+    "dif": 8
+   },
+   "pitjor": {
+    "quintet": "A.NDABUKIYE / E.LAGUNAS / I.RAMOS / I.RUBIO / S.VILLA",
+    "minuts": 4.8,
+    "dif": 2
+   }
+  },
   {
    "id": 2524931,
    "equip": "SEGLE XXI",
@@ -212,6 +1427,120 @@
     "minuts": 8.0,
     "dif": -4
    }
+  },
+  {
+   "id": 2524932,
+   "equip": "BALONCESTO CLARET BENIMACLET",
+   "mes_usat": {
+    "quintet": "C.SANCHO / E.CASES / I.GARRIDO / M.VULOVIC / R.REVUELTAS",
+    "minuts": 12.3,
+    "dif": 1
+   },
+   "millor": {
+    "quintet": "E.CASES / J.SARRIO / L.LIERN / N.MACIAS / T.TOLEDO",
+    "minuts": 8.9,
+    "dif": 13
+   },
+   "pitjor": {
+    "quintet": "C.SANCHO / E.CASES / I.GARRIDO / M.VULOVIC / R.REVUELTAS",
+    "minuts": 12.3,
+    "dif": 1
+   }
+  },
+  {
+   "id": 2524932,
+   "equip": "XEREZ CLUB DEPORTIVO",
+   "mes_usat": {
+    "quintet": "A.BOURGAREL / A.LINARES / J.DE / L.CRUZADO / L.FLETA",
+    "minuts": 5.0,
+    "dif": 0
+   },
+   "millor": {
+    "quintet": "A.BOURGAREL / A.LINARES / J.DE / L.CRUZADO / L.FLETA",
+    "minuts": 5.0,
+    "dif": 0
+   },
+   "pitjor": {
+    "quintet": "A.BOURGAREL / E.LIJÓ / J.MEJIAS / L.CRUZADO / L.FLETA",
+    "minuts": 4.3,
+    "dif": -4
+   }
+  },
+  {
+   "id": 2524933,
+   "equip": "MANRESA CBF A",
+   "mes_usat": {
+    "quintet": "A.COJOCARIU / A.MAGASSA / C.MORROS / M.MELERO / M.RIBERA",
+    "minuts": 6.6,
+    "dif": 0
+   },
+   "millor": {
+    "quintet": "A.COJOCARIU / A.MAGASSA / C.MORROS / M.MELERO / M.RIBERA",
+    "minuts": 6.6,
+    "dif": 0
+   },
+   "pitjor": {
+    "quintet": "A.COJOCARIU / A.FORNELLS / E.PEY / M.MELERO / Q.RIBERA",
+    "minuts": 4.3,
+    "dif": -5
+   }
+  },
+  {
+   "id": 2524933,
+   "equip": "BASKET ALMEDA",
+   "mes_usat": {
+    "quintet": "C.GARCIA / C.ORTAS / I.TRIBO / J.AVIÑOA / N.BERNAL",
+    "minuts": 4.4,
+    "dif": -3
+   },
+   "millor": {
+    "quintet": "C.GARCIA / J.AVIÑOA / L.PEREZ / M.COLL-VINENT / N.BERNAL",
+    "minuts": 4.4,
+    "dif": 2
+   },
+   "pitjor": {
+    "quintet": "C.GARCIA / C.ORTAS / I.TRIBO / J.AVIÑOA / N.BERNAL",
+    "minuts": 4.4,
+    "dif": -3
+   }
+  },
+  {
+   "id": 2524934,
+   "equip": "DISHELEC 65 VILADECANS",
+   "mes_usat": {
+    "quintet": "J.TORREÑO / M.URBANO / M.VILAFRANCA / N.SOLER / Q.UBIA",
+    "minuts": 4.6,
+    "dif": -8
+   },
+   "millor": {
+    "quintet": "C.FERNANDEZ / J.TORREÑO / M.MUÑOZ / N.SOLER / Q.UBIA",
+    "minuts": 4.2,
+    "dif": -1
+   },
+   "pitjor": {
+    "quintet": "J.TORREÑO / M.URBANO / M.VILAFRANCA / N.SOLER / Q.UBIA",
+    "minuts": 4.6,
+    "dif": -8
+   }
+  },
+  {
+   "id": 2524934,
+   "equip": "LUCENTUM ALICANTE",
+   "mes_usat": {
+    "quintet": "A.DUDA / A.SANCHEZ / L.MORO / M.LOPEZ / S.OSORIO",
+    "minuts": 11.5,
+    "dif": 14
+   },
+   "millor": {
+    "quintet": "A.DUDA / A.SANCHEZ / L.MORO / M.LOPEZ / S.OSORIO",
+    "minuts": 11.5,
+    "dif": 14
+   },
+   "pitjor": {
+    "quintet": "A.ALGUACIL / C.GARCIA / J.FARRANDO / M.ROMEO / T.BALAGUN",
+    "minuts": 4.9,
+    "dif": -1
+   }
   }
  ],
  "classificacio": [
@@ -222,22 +1551,22 @@
   },
   {
    "equip": "HORBISA SPIRIT AUSARTA BARAKALDO",
-   "V": 5,
+   "V": 6,
    "D": 1
   },
   {
-   "equip": "XEREZ CLUB DEPORTIVO",
-   "V": 5,
-   "D": 2
-  },
-  {
    "equip": "BALONCESTO CLARET BENIMACLET",
-   "V": 4,
+   "V": 5,
    "D": 2
   },
   {
    "equip": "LUCENTUM ALICANTE",
-   "V": 4,
+   "V": 5,
+   "D": 3
+  },
+  {
+   "equip": "XEREZ CLUB DEPORTIVO",
+   "V": 5,
    "D": 3
   },
   {
@@ -246,45 +1575,48 @@
    "D": 3
   },
   {
+   "equip": "STADIUM CASABLANCA-PATATAS GÓMEZ",
+   "V": 4,
+   "D": 3
+  },
+  {
+   "equip": "KINES IBAIZABAL GDKO",
+   "V": 3,
+   "D": 4
+  },
+  {
    "equip": "MANRESA CBF A",
    "V": 3,
-   "D": 3
+   "D": 4
   },
   {
    "equip": "ROMAKURUMA U.E.MATARÓ",
    "V": 3,
-   "D": 3
-  },
-  {
-   "equip": "STADIUM CASABLANCA-PATATAS GÓMEZ",
-   "V": 3,
-   "D": 3
-  },
-  {
-   "equip": "GEIEG PACISA",
-   "V": 2,
-   "D": 4
-  },
-  {
-   "equip": "KINES IBAIZABAL GDKO",
-   "V": 2,
    "D": 4
   },
   {
    "equip": "BASKET ALMEDA",
-   "V": 1,
+   "V": 2,
+   "D": 5
+  },
+  {
+   "equip": "GEIEG PACISA",
+   "V": 2,
    "D": 5
   },
   {
    "equip": "DISHELEC 65 VILADECANS",
    "V": 1,
-   "D": 5
+   "D": 6
   },
   {
    "equip": "TGN BASQUET A",
    "V": 0,
-   "D": 5
+   "D": 6
   }
  ],
- "avis": []
+ "avis": [
+  "2524929: el play-by-play no quadra amb l'acta; ratxes i quintets no s'han calculat",
+  "2524934: el play-by-play no quadra amb l'acta; ratxes i quintets no s'han calculat"
+ ]
 }

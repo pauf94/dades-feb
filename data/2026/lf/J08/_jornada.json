@@ -1,0 +1,203 @@
+{
+ "comp": "lf",
+ "season": 2026,
+ "fase": "Liga Regular Único",
+ "jornada": 8,
+ "jornada_text": "Jornada 8(22/11/2026)",
+ "dates": {
+  "1": "2026-10-03",
+  "2": "2026-10-09",
+  "3": "2026-10-11",
+  "4": "2026-10-17",
+  "5": "2026-10-24",
+  "6": "2026-10-31",
+  "7": "2026-11-06",
+  "8": "2026-11-22",
+  "9": "2026-11-28",
+  "10": "2026-12-05",
+  "11": "2026-12-09",
+  "12": "2026-12-13",
+  "13": "2026-12-19",
+  "14": "2026-12-22",
+  "15": "2026-12-29",
+  "16": "2027-01-03",
+  "17": "2027-01-09",
+  "18": "2027-01-16",
+  "19": "2027-01-23",
+  "20": "2027-01-30",
+  "21": "2027-02-05",
+  "22": "2027-02-21",
+  "23": "2027-02-27",
+  "24": "2027-03-06",
+  "25": "2027-03-13",
+  "26": "2027-03-17",
+  "27": "2027-03-20",
+  "28": "2027-04-03",
+  "29": "2027-04-11",
+  "30": "2027-04-21"
+ },
+ "altres_jornades": [
+  2522839,
+  2522840,
+  2522841,
+  2522842,
+  2522843,
+  2522844,
+  2522845,
+  2522846
+ ],
+ "data": "22/11/2026",
+ "ids": [
+  2522831,
+  2522832,
+  2522833,
+  2522834,
+  2522835,
+  2522836,
+  2522837,
+  2522838
+ ],
+ "desplacats": [],
+ "ids_method": 3,
+ "generated": "2026-11-23T15:43:15.944741+00:00",
+ "games": [
+  {
+   "id": 2522831,
+   "teams": [
+    "KUTXABANK ARASKI",
+    "MEINS AVENIDA"
+   ],
+   "score": [
+    54,
+    69
+   ],
+   "error": null,
+   "date": "22/11/2026",
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
+  },
+  {
+   "id": 2522832,
+   "teams": [
+    "BAXI FERROL",
+    "AZULMARINO MALLORCA PALMA"
+   ],
+   "score": [
+    58,
+    83
+   ],
+   "error": null,
+   "date": "22/11/2026",
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
+  },
+  {
+   "id": 2522833,
+   "teams": [
+    "MIRAI EUSKOTREN",
+    "CASADEMONT ZARAGOZA"
+   ],
+   "score": [
+    68,
+    70
+   ],
+   "error": null,
+   "date": "22/11/2026",
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
+  },
+  {
+   "id": 2522834,
+   "teams": [
+    "DURÁN MAQUINARIA ENSINO",
+    "SPAR GIRONA"
+   ],
+   "score": [
+    65,
+    107
+   ],
+   "error": null,
+   "date": "22/11/2026",
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
+  },
+  {
+   "id": 2522835,
+   "teams": [
+    "IMPULSO 360 ESTEPONA",
+    "CELTA FEMXA ZORKA"
+   ],
+   "score": [
+    79,
+    74
+   ],
+   "error": null,
+   "date": "22/11/2026",
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
+  },
+  {
+   "id": 2522836,
+   "teams": [
+    "HOZONO GLOBAL JAIRIS",
+    "MOVISTAR ESTUDIANTES"
+   ],
+   "score": [
+    84,
+    70
+   ],
+   "error": null,
+   "date": "22/11/2026",
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
+  },
+  {
+   "id": 2522837,
+   "teams": [
+    "VALENCIA B.C.",
+    "INNOVA-TSN LEGANÉS"
+   ],
+   "score": [
+    91,
+    59
+   ],
+   "error": null,
+   "date": "22/11/2026",
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
+  },
+  {
+   "id": 2522838,
+   "teams": [
+    "INVERSUS GERNIKA BIZKAIA",
+    "CADI LA SEU"
+   ],
+   "score": [
+    81,
+    49
+   ],
+   "error": null,
+   "date": "22/11/2026",
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
+  }
+ ],
+ "pendents": [],
+ "completa": true
+}

@@ -55,43 +55,60 @@
   2524931
  ],
  "ids_method": 3,
- "generated": "2026-11-19T14:12:25.673702+00:00",
+ "generated": "2026-11-23T15:48:07.138055+00:00",
  "games": [
   {
    "id": 2524928,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
+   "teams": [
+    "TGN BASQUET A",
+    "KINES IBAIZABAL GDKO"
+   ],
+   "score": [
+    55,
+    67
+   ],
+   "error": null,
    "date": "21/11/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null,
-   "fila": "TGN BASQUET A - KINES IBAIZABAL GDKO *-* 21/11/2026 17:00"
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   },
   {
    "id": 2524929,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
+   "teams": [
+    "GEIEG PACISA",
+    "HORBISA SPIRIT AUSARTA BARAKALDO"
+   ],
+   "score": [
+    63,
+    74
+   ],
+   "error": null,
    "date": "22/11/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null,
-   "fila": "GEIEG PACISA - HORBISA SPIRIT AUSARTA BARAKALDO *-* 22/11/2026 11:00"
+   "pbp_ok": false,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   },
   {
    "id": 2524930,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
+   "teams": [
+    "ROMAKURUMA U.E.MATARÓ",
+    "STADIUM CASABLANCA-PATATAS GÓMEZ"
+   ],
+   "score": [
+    59,
+    67
+   ],
+   "error": null,
    "date": "21/11/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null,
-   "fila": "ROMAKURUMA U.E.MATARÓ - STADIUM CASABLANCA-PATATAS GÓMEZ *-* 21/11/2026 18:10"
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [
+    "N. FERNANDEZ AZNAR 12/1"
+   ],
+   "shot_orphans": []
   },
   {
    "id": 2524931,
@@ -103,81 +120,62 @@
     65,
     67
    ],
-   "error": null,
    "date": "08/11/2026",
+   "pbp_ok": true,
+   "shots_ok": true
+  },
+  {
+   "id": 2524932,
+   "teams": [
+    "BALONCESTO CLARET BENIMACLET",
+    "XEREZ CLUB DEPORTIVO"
+   ],
+   "score": [
+    79,
+    63
+   ],
+   "error": null,
+   "date": "21/11/2026",
    "pbp_ok": true,
    "shots_ok": true,
    "shot_mismatch": [],
    "shot_orphans": []
   },
   {
-   "id": 2524932,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
-   "date": "21/11/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null,
-   "fila": "BALONCESTO CLARET BENIMACLET - XEREZ CLUB DEPORTIVO *-* 21/11/2026 17:30"
-  },
-  {
    "id": 2524933,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
+   "teams": [
+    "MANRESA CBF A",
+    "BASKET ALMEDA"
+   ],
+   "score": [
+    63,
+    68
+   ],
+   "error": null,
    "date": "22/11/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null,
-   "fila": "MANRESA CBF A - BASKET ALMEDA *-* 22/11/2026 12:15"
+   "pbp_ok": true,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   },
   {
    "id": 2524934,
-   "teams": null,
-   "score": null,
-   "error": "sense_acta",
+   "teams": [
+    "DISHELEC 65 VILADECANS",
+    "LUCENTUM ALICANTE"
+   ],
+   "score": [
+    49,
+    69
+   ],
+   "error": null,
    "date": "21/11/2026",
-   "pbp_ok": null,
-   "shots_ok": null,
-   "shot_mismatch": null,
-   "shot_orphans": null,
-   "fila": "DISHELEC 65 VILADECANS - LUCENTUM ALICANTE *-* 21/11/2026 18:00"
+   "pbp_ok": false,
+   "shots_ok": true,
+   "shot_mismatch": [],
+   "shot_orphans": []
   }
  ],
- "pendents": [
-  {
-   "id": 2524928,
-   "date": "21/11/2026",
-   "fila": "TGN BASQUET A - KINES IBAIZABAL GDKO *-* 21/11/2026 17:00"
-  },
-  {
-   "id": 2524929,
-   "date": "22/11/2026",
-   "fila": "GEIEG PACISA - HORBISA SPIRIT AUSARTA BARAKALDO *-* 22/11/2026 11:00"
-  },
-  {
-   "id": 2524930,
-   "date": "21/11/2026",
-   "fila": "ROMAKURUMA U.E.MATARÓ - STADIUM CASABLANCA-PATATAS GÓMEZ *-* 21/11/2026 18:10"
-  },
-  {
-   "id": 2524932,
-   "date": "21/11/2026",
-   "fila": "BALONCESTO CLARET BENIMACLET - XEREZ CLUB DEPORTIVO *-* 21/11/2026 17:30"
-  },
-  {
-   "id": 2524933,
-   "date": "22/11/2026",
-   "fila": "MANRESA CBF A - BASKET ALMEDA *-* 22/11/2026 12:15"
-  },
-  {
-   "id": 2524934,
-   "date": "21/11/2026",
-   "fila": "DISHELEC 65 VILADECANS - LUCENTUM ALICANTE *-* 21/11/2026 18:00"
-  }
- ],
- "completa": false
+ "pendents": [],
+ "completa": true
 }
