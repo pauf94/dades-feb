@@ -1,0 +1,204 @@
+{
+ "comp": "lf",
+ "season": 2026,
+ "fase": "Liga Regular Único",
+ "jornada": 9,
+ "jornada_text": "Jornada 9(28/11/2026)",
+ "dates": {
+  "1": "2026-10-03",
+  "2": "2026-10-09",
+  "3": "2026-10-11",
+  "4": "2026-10-17",
+  "5": "2026-10-24",
+  "6": "2026-10-31",
+  "7": "2026-11-06",
+  "8": "2026-11-22",
+  "9": "2026-11-28",
+  "10": "2026-12-05",
+  "11": "2026-12-09",
+  "12": "2026-12-13",
+  "13": "2026-12-19",
+  "14": "2026-12-22",
+  "15": "2026-12-29",
+  "16": "2027-01-03",
+  "17": "2027-01-09",
+  "18": "2027-01-16",
+  "19": "2027-01-23",
+  "20": "2027-01-30",
+  "21": "2027-02-05",
+  "22": "2027-02-21",
+  "23": "2027-02-27",
+  "24": "2027-03-06",
+  "25": "2027-03-13",
+  "26": "2027-03-17",
+  "27": "2027-03-20",
+  "28": "2027-04-03",
+  "29": "2027-04-11",
+  "30": "2027-04-21"
+ },
+ "altres_jornades": [
+  2522847,
+  2522848,
+  2522849,
+  2522850,
+  2522851,
+  2522852,
+  2522853,
+  2522854
+ ],
+ "data": "28/11/2026",
+ "ids": [
+  2522839,
+  2522840,
+  2522841,
+  2522842,
+  2522843,
+  2522844,
+  2522845,
+  2522846
+ ],
+ "desplacats": [],
+ "ids_method": 3,
+ "generated": "2026-11-26T14:46:15.238755+00:00",
+ "games": [
+  {
+   "id": 2522839,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "date": "28/11/2026",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null,
+   "fila": "AZULMARINO MALLORCA PALMA - DURÁN MAQUINARIA ENSINO *-* 28/11/2026 20:00"
+  },
+  {
+   "id": 2522840,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "date": "28/11/2026",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null,
+   "fila": "SPAR GIRONA - INVERSUS GERNIKA BIZKAIA *-* 28/11/2026 17:00"
+  },
+  {
+   "id": 2522841,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "date": "28/11/2026",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null,
+   "fila": "CADI LA SEU - KUTXABANK ARASKI *-* 28/11/2026 19:30"
+  },
+  {
+   "id": 2522842,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "date": "28/11/2026",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null,
+   "fila": "MOVISTAR ESTUDIANTES - MIRAI EUSKOTREN *-* 28/11/2026 19:30"
+  },
+  {
+   "id": 2522843,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "date": "28/11/2026",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null,
+   "fila": "INNOVA-TSN LEGANÉS - CELTA FEMXA ZORKA *-* 28/11/2026 16:45"
+  },
+  {
+   "id": 2522844,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "date": "28/11/2026",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null,
+   "fila": "MEINS AVENIDA - BAXI FERROL *-* 28/11/2026 18:00"
+  },
+  {
+   "id": 2522845,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "date": "29/11/2026",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null,
+   "fila": "VALENCIA B.C. - IMPULSO 360 ESTEPONA *-* 29/11/2026 12:15"
+  },
+  {
+   "id": 2522846,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "date": "29/11/2026",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null,
+   "fila": "CASADEMONT ZARAGOZA - HOZONO GLOBAL JAIRIS *-* 29/11/2026 12:15"
+  }
+ ],
+ "pendents": [
+  {
+   "id": 2522839,
+   "date": "28/11/2026",
+   "fila": "AZULMARINO MALLORCA PALMA - DURÁN MAQUINARIA ENSINO *-* 28/11/2026 20:00"
+  },
+  {
+   "id": 2522840,
+   "date": "28/11/2026",
+   "fila": "SPAR GIRONA - INVERSUS GERNIKA BIZKAIA *-* 28/11/2026 17:00"
+  },
+  {
+   "id": 2522841,
+   "date": "28/11/2026",
+   "fila": "CADI LA SEU - KUTXABANK ARASKI *-* 28/11/2026 19:30"
+  },
+  {
+   "id": 2522842,
+   "date": "28/11/2026",
+   "fila": "MOVISTAR ESTUDIANTES - MIRAI EUSKOTREN *-* 28/11/2026 19:30"
+  },
+  {
+   "id": 2522843,
+   "date": "28/11/2026",
+   "fila": "INNOVA-TSN LEGANÉS - CELTA FEMXA ZORKA *-* 28/11/2026 16:45"
+  },
+  {
+   "id": 2522844,
+   "date": "28/11/2026",
+   "fila": "MEINS AVENIDA - BAXI FERROL *-* 28/11/2026 18:00"
+  },
+  {
+   "id": 2522845,
+   "date": "29/11/2026",
+   "fila": "VALENCIA B.C. - IMPULSO 360 ESTEPONA *-* 29/11/2026 12:15"
+  },
+  {
+   "id": 2522846,
+   "date": "29/11/2026",
+   "fila": "CASADEMONT ZARAGOZA - HOZONO GLOBAL JAIRIS *-* 29/11/2026 12:15"
+  }
+ ],
+ "completa": false
+}

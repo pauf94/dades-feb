@@ -1,0 +1,181 @@
+{
+ "comp": "lf2a",
+ "season": 2026,
+ "fase": "Liga Regular \"A\"",
+ "jornada": 9,
+ "jornada_text": "Jornada 9(28/11/2026)",
+ "dates": {
+  "1": "2026-10-03",
+  "2": "2026-10-10",
+  "3": "2026-10-17",
+  "4": "2026-10-24",
+  "5": "2026-10-31",
+  "6": "2026-11-07",
+  "7": "2026-11-14",
+  "8": "2026-11-21",
+  "9": "2026-11-28",
+  "10": "2026-12-05",
+  "11": "2026-12-12",
+  "12": "2026-12-19",
+  "13": "2027-01-09",
+  "14": "2027-01-16",
+  "15": "2027-01-23",
+  "16": "2027-01-30",
+  "17": "2027-02-06",
+  "18": "2027-02-13",
+  "19": "2027-02-20",
+  "20": "2027-02-27",
+  "21": "2027-03-06",
+  "22": "2027-03-13",
+  "23": "2027-03-20",
+  "24": "2027-04-03",
+  "25": "2027-04-10",
+  "26": "2027-04-17"
+ },
+ "altres_jornades": [
+  2524760,
+  2524761,
+  2524762,
+  2524763,
+  2524764,
+  2524765,
+  2524766
+ ],
+ "data": "28/11/2026",
+ "ids": [
+  2524753,
+  2524754,
+  2524755,
+  2524756,
+  2524757,
+  2524758,
+  2524759
+ ],
+ "desplacats": [],
+ "ids_method": 3,
+ "generated": "2026-11-26T14:49:22.393199+00:00",
+ "games": [
+  {
+   "id": 2524753,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "date": "28/11/2026",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null,
+   "fila": "CB ISLA BONITA SANO SANO CATERING - C.B. LAS ROZAS *-* 28/11/2026 17:00"
+  },
+  {
+   "id": 2524754,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "date": "28/11/2026",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null,
+   "fila": "MAGEC TÍAS LANZAROTE CONTRA LA VIOLENCIA DE GÉNERO - MARISCOS ANTÓN CORTEGADA *-* 28/11/2026 20:00"
+  },
+  {
+   "id": 2524755,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "date": "28/11/2026",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null,
+   "fila": "CB POZUELO - SIROKO GIJON BASKETBALL *-* 28/11/2026 18:30"
+  },
+  {
+   "id": 2524756,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "date": "28/11/2026",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null,
+   "fila": "ACEITES ABRIL ADBA SANFER - SERNOVA RENOVABLES REAL CANOE *-* 28/11/2026 18:00"
+  },
+  {
+   "id": 2524757,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "date": "28/11/2026",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null,
+   "fila": "SPAR GRAN CANARIA - GRUPO INTERBUS ALCOBENDAS *-* 28/11/2026 18:00"
+  },
+  {
+   "id": 2524758,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "date": "28/11/2026",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null,
+   "fila": "DPES-SUMIALKI CB CIUDAD DE MOSTOLES - EL COCHINILLO SEGOVIANO SL *-* 28/11/2026 18:30"
+  },
+  {
+   "id": 2524759,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "date": "28/11/2026",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null,
+   "fila": "CESUR DISTRITO OLIMPICO - HIERROS DÍAZ EXTREMADURA MIRALVALLE *-* 28/11/2026 17:00"
+  }
+ ],
+ "pendents": [
+  {
+   "id": 2524753,
+   "date": "28/11/2026",
+   "fila": "CB ISLA BONITA SANO SANO CATERING - C.B. LAS ROZAS *-* 28/11/2026 17:00"
+  },
+  {
+   "id": 2524754,
+   "date": "28/11/2026",
+   "fila": "MAGEC TÍAS LANZAROTE CONTRA LA VIOLENCIA DE GÉNERO - MARISCOS ANTÓN CORTEGADA *-* 28/11/2026 20:00"
+  },
+  {
+   "id": 2524755,
+   "date": "28/11/2026",
+   "fila": "CB POZUELO - SIROKO GIJON BASKETBALL *-* 28/11/2026 18:30"
+  },
+  {
+   "id": 2524756,
+   "date": "28/11/2026",
+   "fila": "ACEITES ABRIL ADBA SANFER - SERNOVA RENOVABLES REAL CANOE *-* 28/11/2026 18:00"
+  },
+  {
+   "id": 2524757,
+   "date": "28/11/2026",
+   "fila": "SPAR GRAN CANARIA - GRUPO INTERBUS ALCOBENDAS *-* 28/11/2026 18:00"
+  },
+  {
+   "id": 2524758,
+   "date": "28/11/2026",
+   "fila": "DPES-SUMIALKI CB CIUDAD DE MOSTOLES - EL COCHINILLO SEGOVIANO SL *-* 28/11/2026 18:30"
+  },
+  {
+   "id": 2524759,
+   "date": "28/11/2026",
+   "fila": "CESUR DISTRITO OLIMPICO - HIERROS DÍAZ EXTREMADURA MIRALVALLE *-* 28/11/2026 17:00"
+  }
+ ],
+ "completa": false
+}

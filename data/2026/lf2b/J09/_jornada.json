@@ -1,0 +1,181 @@
+{
+ "comp": "lf2b",
+ "season": 2026,
+ "fase": "Liga Regular \"B\"",
+ "jornada": 9,
+ "jornada_text": "Jornada 9(28/11/2026)",
+ "dates": {
+  "1": "2026-10-03",
+  "2": "2026-10-10",
+  "3": "2026-10-17",
+  "4": "2026-10-24",
+  "5": "2026-10-31",
+  "6": "2026-11-07",
+  "7": "2026-11-14",
+  "8": "2026-11-21",
+  "9": "2026-11-28",
+  "10": "2026-12-05",
+  "11": "2026-12-12",
+  "12": "2026-12-19",
+  "13": "2027-01-09",
+  "14": "2027-01-16",
+  "15": "2027-01-23",
+  "16": "2027-01-30",
+  "17": "2027-02-06",
+  "18": "2027-02-13",
+  "19": "2027-02-20",
+  "20": "2027-02-27",
+  "21": "2027-03-06",
+  "22": "2027-03-13",
+  "23": "2027-03-20",
+  "24": "2027-04-03",
+  "25": "2027-04-10",
+  "26": "2027-04-17"
+ },
+ "altres_jornades": [
+  2524942,
+  2524943,
+  2524944,
+  2524945,
+  2524946,
+  2524947,
+  2524948
+ ],
+ "data": "28/11/2026",
+ "ids": [
+  2524935,
+  2524936,
+  2524937,
+  2524938,
+  2524939,
+  2524940,
+  2524941
+ ],
+ "desplacats": [],
+ "ids_method": 3,
+ "generated": "2026-11-26T14:50:45.919015+00:00",
+ "games": [
+  {
+   "id": 2524935,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "date": "29/11/2026",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null,
+   "fila": "KINES IBAIZABAL GDKO - LUCENTUM ALICANTE *-* 29/11/2026 12:30"
+  },
+  {
+   "id": 2524936,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "date": "28/11/2026",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null,
+   "fila": "BASKET ALMEDA - DISHELEC 65 VILADECANS *-* 28/11/2026 18:30"
+  },
+  {
+   "id": 2524937,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "date": "29/11/2026",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null,
+   "fila": "XEREZ CLUB DEPORTIVO - MANRESA CBF A *-* 29/11/2026 13:30"
+  },
+  {
+   "id": 2524938,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "date": "28/11/2026",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null,
+   "fila": "SMARTLOG OINTXE - BALONCESTO CLARET BENIMACLET *-* 28/11/2026 18:30"
+  },
+  {
+   "id": 2524939,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "date": "29/11/2026",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null,
+   "fila": "STADIUM CASABLANCA-PATATAS GÓMEZ - SEGLE XXI *-* 29/11/2026 12:45"
+  },
+  {
+   "id": 2524940,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "date": "28/11/2026",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null,
+   "fila": "HORBISA SPIRIT AUSARTA BARAKALDO - ROMAKURUMA U.E.MATARÓ *-* 28/11/2026 16:00"
+  },
+  {
+   "id": 2524941,
+   "teams": null,
+   "score": null,
+   "error": "sense_acta",
+   "date": "28/11/2026",
+   "pbp_ok": null,
+   "shots_ok": null,
+   "shot_mismatch": null,
+   "shot_orphans": null,
+   "fila": "TGN BASQUET A - GEIEG PACISA *-* 28/11/2026 18:00"
+  }
+ ],
+ "pendents": [
+  {
+   "id": 2524935,
+   "date": "29/11/2026",
+   "fila": "KINES IBAIZABAL GDKO - LUCENTUM ALICANTE *-* 29/11/2026 12:30"
+  },
+  {
+   "id": 2524936,
+   "date": "28/11/2026",
+   "fila": "BASKET ALMEDA - DISHELEC 65 VILADECANS *-* 28/11/2026 18:30"
+  },
+  {
+   "id": 2524937,
+   "date": "29/11/2026",
+   "fila": "XEREZ CLUB DEPORTIVO - MANRESA CBF A *-* 29/11/2026 13:30"
+  },
+  {
+   "id": 2524938,
+   "date": "28/11/2026",
+   "fila": "SMARTLOG OINTXE - BALONCESTO CLARET BENIMACLET *-* 28/11/2026 18:30"
+  },
+  {
+   "id": 2524939,
+   "date": "29/11/2026",
+   "fila": "STADIUM CASABLANCA-PATATAS GÓMEZ - SEGLE XXI *-* 29/11/2026 12:45"
+  },
+  {
+   "id": 2524940,
+   "date": "28/11/2026",
+   "fila": "HORBISA SPIRIT AUSARTA BARAKALDO - ROMAKURUMA U.E.MATARÓ *-* 28/11/2026 16:00"
+  },
+  {
+   "id": 2524941,
+   "date": "28/11/2026",
+   "fila": "TGN BASQUET A - GEIEG PACISA *-* 28/11/2026 18:00"
+  }
+ ],
+ "completa": false
+}
